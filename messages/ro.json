@@ -1,0 +1,189 @@
+{
+  "COMMON":
+  {
+    "DONATE": "Donează",
+    "DONATE_NOW": "Donează Acum",
+    "ASSOCIATION": "Bucurie în Dar",
+    "ASSOCIATION_FULL": "Asociația Bucurie în Dar",
+    "NECESSARY_AMOUNT": "Suma necesară"
+  },
+  
+  "HOME_HERO":
+  {
+    "MOTTO_FIRST_PART": "Din această lume plecăm doar cu",
+    "MOTTO_SECOND_PART": "faptele noastre",
+    "DESCRIPTION": "Suntem sprijin cu tot ce ne stă în putere, pentru cei care nu mai au pe cine să se sprijine. Misiunea noastră este să aducem bucurie acolo unde nu mai este, în inimile cât mai multor oameni, mari și mici, tineri și bătrâni, împreună cu voi."
+  },
+  
+  "HOME_ACTIVITY": {
+    "TITLE": "Activitatea noastră",
+    "DESCRIPTION": "Acesta este ajutorul oferit de voi prin noi, de la înființarea Asociației Bucurie în Dar. Suntem oameni care trăiesc și pentru alții, oameni cu rațiune, cu sentimente și cu dorințe, iar dorința noastră cea mare este să nu trăim doar pentru noi înșine.",
+    "ACTIVITIES": {
+      "FIRST": {
+        "TITLE": "Ceva1",
+        "DESCRIPTION": "Descrierea primei statistici se va scrie aici."
+      },
+      "SECOND": {
+        "TITLE": "Ceva2",
+        "DESCRIPTION": "Descrierea celei de-a doua statistici se va scrie aici."
+      },
+      "THIRD": {
+        "TITLE": "Ceva3",
+        "DESCRIPTION": "Descrierea celei de-a treia statistici se va scrie aici."
+      },
+      "FOURTH": {
+        "TITLE": "Ceva4",
+        "DESCRIPTION": "Descrierea celei de-a patra statistici se va scrie aici."
+      }
+    }
+  },
+  
+  "SAINT_JOHN": {
+    "TITLE": "Centrul Sf. Ioan Cel Milostiv",
+    "DESCRIPTION": "Împreună salvăm vieți, schimbăm destine, vindecăm suflete. Fiecare dintre noi am trecut cel puțin o dată în viață printr-o perioadă neagră din care nu mai știam cum să ieșim sau când se va termina. I-am văzut pe cei din familie, pe prieteni, pe oamenii dragi din viața nostră suferind și nu aveam cum să-i ajutăm. Cât de mult contează ajutorul oferit cu empatie, cu drag și dragoste. În acele momente ai nevoie de un sprijin și cred cu tărie că echipa Centrului Sf. Ioan Cel Milostiv se va strădui să aducă alinare, vindecare și să fie sprijin celor care ne vor spune, ajutați-ne.",
+    "IMAGE_ALT": "Icoana Sfântul Ioan cel Milostiv"
+  },
+  
+  "HOME_POTENTIAL": {
+    "TITLE": "Potențialul copiilor",
+    "DESCRIPTION": "Donația ta pentru cauza noastră creează un viitor mai strălucitor, oferind educație, sănătate și hrănire esențiale copiilor nevoiași. Fiecare contribuție aduce speranță și deschide uși către un univers de posibilități. Să construim împreună un viitor mai strălucitor. Donează acum și fă o diferență! Sprijinul tău este vital în misiunea noastră de a debloca potențialul unui copil. Cu fiecare donație, putem oferi mai mult decât nevoile de bază; oferim o bază pentru învățare și creștere pe tot parcursul vieții. Programele noastre se concentrează pe educație, îngrijire medicală și împuternicirea comunităților pentru a-și ridica cei mai tineri membri.",
+    "IMAGE_ALT": "Portretul unui copil"
+  },
+
+  "HOME_HELP": {
+    "BADGE": "Ajută altfel",
+    "TITLE": "Alte moduri de a ajuta",
+    "DESCRIPTION": "Există multe moduri de a ajuta, nu doar prin donații. Fiecare gest contează. Iată câteva din modalitățile prin care poți contribui.",
+    "FIRST": {
+      "TITLE": "Bunuri materiale",
+      "DESCRIPTION": "Donează haine, jucării, cărți, mobilă, obiecte de igiena sau alte bunuri materiale pe care nu le mai folosești."
+    },
+    "SECOND": {
+      "TITLE": "Formulare",
+      "DESCRIPTION": "Completează formularul 220 pentru a ne redirecționa din impozitul pe venit sau contractul de sponsorizare."
+    },
+    "THIRD": {
+      "TITLE": "Voluntariat",
+      "DESCRIPTION": "Fii voluntar și implică-te în activitățile noastre. Fiecare ajutor contează."
+    }
+  },
+  
+  "HOME_BLOG": {
+    "TITLE": "Blog",
+    "DESCRIPTION": ""
+  },
+
+  "OUR_TEAM": {
+    "TITLE": "Our Team",
+    "DESCRIPTION": "Meet our team! We are passionate people when it comes to our work and we wish to bring a positive impact in the world.",
+    "TEAM_MEMBERS": {
+      "FIRST": { "NAME": "Alexandru Ionescu", "ROLE": "Președinte" },
+      "SECOND": { "NAME": "Andreea Constantinescu", "ROLE": "VP & Coordonator marketing" },
+      "THIRD": { "NAME": "Cioltan Marius", "ROLE": "VP & Coordonator logistică" },
+      "FOURTH": { "NAME": "Teodor Nemțeanu", "ROLE": "Coordonator principal situații de urgență" },
+      "FIFTH": { "NAME": "Alina Cernea", "ROLE": "Asistent & coordonator principal" },
+      "SIXTH": { "NAME": "Cristian Simionescu", "ROLE": "Specialist comunicare & relații publice" },
+      "SEVENTH": { "NAME": "Evelin", "ROLE": "Asistent social principal" },
+      "EIGHTH": { "NAME": "Ovidiu Horațiu", "ROLE": "Doctor arhitect" }
+    }
+  },
+
+  "FAQ": {
+    "TITLE": "Răspunsuri",
+    "QUESTIONS": {
+      "FIRST": {
+        "QUESTION": "Prima întrebare?",
+        "ANSWER": "Primul răspuns."
+      },
+      "SECOND": {
+        "QUESTION": "A doua întrebare?",
+        "ANSWER": "Al doilea răspuns."
+      },
+      "THIRD": {
+        "QUESTION": "A treia întrebare?",
+        "ANSWER": "Al treilea răspuns."
+      },
+      "FOURTH": {
+        "QUESTION": "A patra întrebare?",
+        "ANSWER": "Al patrulea răspuns."
+      }
+    }
+  },
+
+  "PROJECTS": {
+    "TITLE": "Proiecte",
+    "DESCRIPTION": "Descoperă câteva din proiectele noastre și află cum poți să-i ajuți pe cei care au nevoie de tine.",
+    "TABLE_OF_JOY": {
+      "TITLE": "Masa bucuriei",
+      "DESCRIPTION": "Ați fost în situația de a nu avea ce să mâncați, cel puțin o zi? Prin acest program, Masa bucuriei, oferim mâncare la mii de persoane. Oferă și tu o porție de mâncare unui om sărman și vei primi în schimb cel mai onest MULȚUMESC din viața ta. Pe cine ajutăm? Familii cu mulți copii, persoane fără venit, femei văduve, bolnave și care își cresc singure copiii, persoane nedeplasabile, adulți sau copii, copii asistați social, bătrâni singuri, oameni ai străzii. Ei postesc și când nu este post."
+    },
+    "LOVE_AND_MEDICINE": {
+      "TITLE": "Dragoste & medicamente",
+      "DESCRIPTION": "Vrei sa fim prieteni? Acești copii se hrănesc cu dragostea noastră și trăiesc cu medicamente. Ce nevoi au acești copii? Unii tratament, alții proteze, alții cărucior mobil sau operație. Ajută-i să nu mai aibe nevoie de tratament și să rămână doar cu dragostea și bucuria că s-au vindecat cu ajutorul oferit de tine. NOTĂ - banii obținuți din donații vor fi redirecționați în contul spitalului sau clinicii, și postarea facturilor/costurilor aferente."
+    },
+    "SCHOOL_OF_JOY": {
+      "TITLE": "Şcoala bucuriei",
+      "DESCRIPTION": "Copiii ajutați azi sunt adulții educați de maine. Educația este fundamentală. Iar prin susținerea și accesul acestor copii la educație, ajutați și comunitatea, dar si aportul pe care ei îl vor aduce la rândul lor comunității și acestei țări. Prin ajutorul dumneavoastră acești copii vor descoperi lumea, o lume diferită de cea în care trăiesc acum. Prin ei te vei bucura și tu! Deasemenea, cu toții știm că în România fenomenul bullying-ului a luat amploare, iar foarte mulți copii sunt victime. Noi credem că este mai ușor să previi decât să combați un fenomen și că împreună îi putem ajuta pe cei mici să aibă relații sănătoase cu semenii lor. Vă împărtășim proiectul de atelier „Școala bucuriei”, care pornește de la o poveste – „Inima ariciului. O aventură în căutarea prietenilor adevărați” (autor: Mariana Buric).Atelierul conține jocuri și activități care pot fi realizate cu copiii atât de cadre didactice, în grădinițe și în școli, dar și de părinți, acasă. Ne-am bucura dacă printre dumneavoastră sunt cadre didactice și părinți care vor să ni se alăture în acest proiect.Haideți să-i ajutăm pe cei mici să meargă cu drag la grădiniță sau la școală și să se bucure de prietenia semenilor lor. Pentru detalii despre proiect, vă rugăm să ne contactați. Vă mulțumim!"
+    },
+    "CAMPS_TRIPS_WORKSHOPS": {
+      "TITLE": "Tabere, excursii, ateliere",
+      "DESCRIPTION": "Avem o țară tare frumoasă și ar fi minunat ca acești copii să își cunoască propria țară și să se bucure de frumusețile ei."
+    },
+    "ADOPT_A_FAMILY": {
+      "TITLE": "Adoptă o familie",
+      "DESCRIPTION": "Ajută pe cel puțin unul dintre prietenii noștri mici și mari, tineri sau bătrâni. Oameni dragi, aveți posibilitatea să adoptați o familie de care să aveți grijă, ajutându-i în nevoile și neputințele lor. Orice ajutor, cât de puțin este binevenit. Sunați-ne pentru a vă oferi datele lor de contact. Asigură ce poți din nevoile unei familii defavorizate: un medicament sau o cutie de lapte praf, alimente de primă necesitate, un caiet sau un creion pentru un elev, sunt lucruri pe care, din păcate, unii nu și le pot permite în mod constant. Noi îți facem cunoscute cazurile, voi alegeți familia pe care doriți să o vizitați și să o ajutați pe termen mediu sau lung."
+    },
+    "HELP_A_COMMUNITY": {
+      "TITLE": "Ajută o comunitate",
+      "DESCRIPTION": "Suntem implicați în ajutorarea multor comunități, prieteni ai noștri spunem acum cu bucurie, sunt sute de familii, oameni minunați și mulți copii frumoși. Orice lucru bun aveți de oferit, cum ar fi alimente, medicamente (siropuri impotriva tusei, antifebrile, pamperși, etc), încălțăminte, îmbrăcăminte, produse de igienă și igienă intimă, jucării, electrocasnice, mobilier și alte bunuri, vă așteptăm în fiecare zi la cele două puncte de colectă situate la următoarele adrese: Supermarket La Cocoș, în interiorul magazinului. Adresa Sos. Vitan Bârzești 7A. Program luni - sâmbătă 07.30 – 20.30, duminică 07.30 – 18-30. Sau Str. Poteraș nr. 14, în intervalul orar 09.00 – 16.00. Pentru cantități mai mari de produse și bunuri, vă rugăm să ne contactați la telefon."
+    }
+  },
+  
+  "PROJECTS_MORE": {
+    "DONATE": "Donează",
+    "CARD_OPTION": "Card / Google Pay / Apple Pay",
+    "BANK_TRANSFER_OPTION": "Transfer bancar",
+    "DESIRED_AMOUNT": "Suma dorită",
+    "CONTINUE": "Continuare",
+    "DONATE_FOR": "Donează pentru"
+  },
+
+  "SHARE": {
+    "MAIN": "Ajută distribuind!"
+  },
+  
+  "ABOUT": {
+    "TITLE": "Despre noi",
+    "DESCRIPTION": "Cine suntem, ce facem și de ce să ajutăm.",
+    "WHO_ARE_WE": {
+      "TITLE": "Cine suntem",
+      "DESCRIPTION": "Suntem voluntari care, după câțiva ani de activități umanitare, am înființat Asociația Bucurie în Dar, pentru a ajuta la o scară mai mare. Suntem oameni care trăiesc și pentru alții, nu doar pentru noi înșine. Cu ajutorul Bunului Dumnezeu și cu sprijinul vostru, într-o împreună lucrare, vrem să aducem bucurie în inimile multor oameni, mari și mici, tineri și bătrâni. Avem libertatea de a alege ce facem în această viață, iar noi am ales să ajutăm și o facem cu toata bucuria și cu toată dragostea. Dăruiește și tu bucurie, împreună cu noi."
+    },
+    "WHAT_WE_DO": {
+      "TITLE": "Ce facem",
+      "DESCRIPTION": "Ascultăm poveștile de viață ale celor care sunt mai puțin importanți pentru o parte a societății. Suntem sprijin, cu tot ce ne stă în putere, pentru cei care nu mai au pe cine să se sprijine. Îi ajutăm pe cei care strigă: ajutați-ne! Alege să ajuți împreună cu noi! Este atât de simplu. Doar alege."
+    },
+    "WHY_WE_HELP": {
+      "TITLE": "De ce să ajutăm",
+      "DESCRIPTION": "Pentru că avem puterea să alegem ce facem cu timpul nostru, cu viața noastră. Moștenirea pe care o lăsăm copiilor noștri sunt faptele noastre, pe care le transmit și ei mai departe. Oameni buni, din această viață, plecăm doar cu faptele noastre. Voi, cei care veniți și ajutați, sacrificați din timpul vostru, din confortul și banii voștri unor oameni pe care nu-i cunoașteți. Ați ales să dăruiți din viața voastră aproapelui vostru. Aceasta este darul și el vine din iubire."
+    }
+  },
+
+  "CONTACT": {
+    "TITLE": "Contact",
+    "DESCRIPTION": "Contact us for any questions or suggestions.",
+    "FORM": {
+      "TITLE": "Contactează-ne",
+      "DISCLAIMER": "Vă rugăm să sunați inainte de a veni la sediul nostru. Vă mulțumim!",
+      "NAME": "Nume",
+      "EMAIL": "Email",
+      "PHONE": "Telefon",
+      "ADDRESS": "Adresa",
+      "WORKING_HOURS": "Ore lucru",
+      "YOUR_MESSAGE": "Mesajul tău",
+      "SEND": "Trimite",
+      "SUCCESS": "Mesajul tău a fost trimis cu succes!",
+      "ERROR": "A apărut o eroare. Te rugăm să încerci din nou."
+    }
+  }
+}

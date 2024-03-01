@@ -1,0 +1,10 @@
+.card {
+    position: relative;
+    padding-top: 0px;
+}
+
+.title {
+    display: block;
+    margin-top: var(--mantine-spacing-md);
+    margin-bottom: rem(5px);
+}

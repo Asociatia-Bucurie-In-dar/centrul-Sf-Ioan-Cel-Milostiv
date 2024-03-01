@@ -1,0 +1,27 @@
+.container {
+  padding-top: rem(120px);
+}
+
+.darkerBackground
+{
+    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+}
+
+.titleBig {
+    font-size: rem(34px);
+    font-weight: 900;
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        font-size: rem(24px);
+    }
+}
+
+.titleBigLight {
+    font-size: rem(32px);
+    font-weight: var(--mantine-h1-font-weight);
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        font-size: rem(24px);
+    }
+}
+

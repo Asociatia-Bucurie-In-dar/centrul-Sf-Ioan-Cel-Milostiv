@@ -1,0 +1,23 @@
+.background{
+    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+}
+
+.wrapper {
+    padding-top: calc(var(--mantine-spacing-md) * 2.7);
+    padding-bottom: calc(var(--mantine-spacing-md) * 2.5);
+}
+
+.title {
+    margin-bottom: var(--mantine-spacing-md);
+    padding-left: var(--mantine-spacing-md);
+    color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+}
+
+.question {
+    color: light-dark(var(--mantine-color-gray-9), var(--mantine-color-dark-1));
+}
+
+.item {
+    font-size: var(--mantine-font-size-sm);
+    color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-1));
+}
