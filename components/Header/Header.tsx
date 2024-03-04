@@ -8,7 +8,7 @@ import {ConfettiButton} from "@/components/ConfettiButton/ConfettiButton";
 import { Image } from '@mantine/core';
 import classes from './Header.module.css';
 import {MyZIndexes} from "@/utils/my-constants";
-import logo from '@/public/logoPng.png';
+import logo from '@/public/sfIoan.png';
 //const contactParent = { link: contact.link, label: contact.label, links: [contact, dash] };
 
 

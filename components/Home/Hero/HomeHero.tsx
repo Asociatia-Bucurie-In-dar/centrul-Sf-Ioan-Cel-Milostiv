@@ -11,7 +11,7 @@ export function HomeHero() {
         <div className={classes.root}>
             <div className={classes.background}>
                 <Image
-                    src="/hero3.png"
+                    src="/center.png"
                     alt={"Background"}
                     style={{ objectFit: 'cover', objectPosition: 'center', width: '100%', height: '100%', position: 'absolute'}}
                     fetchPriority="auto" />
@@ -33,8 +33,7 @@ export function HomeHero() {
                         </Title>
 
                         <Text className={classes.description} mt={30}>
-                            <b>{commonT('ASSOCIATION_FULL')}</b> - {heroT('DESCRIPTION')} <br/>
-
+                            {heroT('DESCRIPTION')} <br/>
                         </Text>
                         <ConfettiButton size={"lg"} mt="xl" text={commonT('DONATE_NOW')}/>
                     </div>
