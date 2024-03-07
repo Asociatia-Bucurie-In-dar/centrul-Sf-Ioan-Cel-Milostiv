@@ -2,7 +2,6 @@ export type ProjectType = {
     id: string; //Primary Key
     slug: string;
     
-    translation_key: string;
     image_path: string;
     currentAmount: number;
     goalAmount: number;

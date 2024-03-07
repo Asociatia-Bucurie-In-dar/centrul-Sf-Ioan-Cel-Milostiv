@@ -15,26 +15,14 @@
     "DESCRIPTION": "În acele momente când ești căzut ai nevoie de un sprijin, cât de mult contează ajutorul oferit cu drag, din inimă, din credință. Avem toată nădejdea și cred cu tărie că echipa Centrului Sf. Ioan Cel Milostiv se va strădui să aducă alinare, vindecare și să fie sprijin celor care nu mai au pe cine să se sprijine."
   },
   
-  "HOME_ACTIVITY": {
-    "TITLE": "Activitatea noastră",
-    "DESCRIPTION": "Acesta este ajutorul oferit de voi prin noi, de la înființarea Asociației Bucurie în Dar. Suntem oameni care trăiesc și pentru alții, oameni cu rațiune, cu sentimente și cu dorințe, iar dorința noastră cea mare este să nu trăim doar pentru noi înșine.",
-    "ACTIVITIES": {
-      "FIRST": {
-        "TITLE": "Ceva1",
-        "DESCRIPTION": "Descrierea primei statistici se va scrie aici."
-      },
-      "SECOND": {
-        "TITLE": "Ceva2",
-        "DESCRIPTION": "Descrierea celei de-a doua statistici se va scrie aici."
-      },
-      "THIRD": {
-        "TITLE": "Ceva3",
-        "DESCRIPTION": "Descrierea celei de-a treia statistici se va scrie aici."
-      },
-      "FOURTH": {
-        "TITLE": "Ceva4",
-        "DESCRIPTION": "Descrierea celei de-a patra statistici se va scrie aici."
-      }
+  "DONATION_PROGRESS": {
+    "TITLE": "Progres",
+    "DESCRIPTION": "Suma necesară pentru a finaliza proiectul şi suma strânsă până acum. Fiecare donaţie contează!",
+    "STEPS": {
+      "1": "Teren",
+      "2": "Clădire",
+      "3": "Grădină",
+      "4": "Personal"
     }
   },
   
@@ -51,20 +39,20 @@
   },
 
   "HOME_HELP": {
-    "BADGE": "Ajută altfel",
-    "TITLE": "Alte moduri de a ajuta",
+    "BADGE": "",
+    "TITLE": "",
     "DESCRIPTION": "Există multe moduri de a ajuta, nu doar prin donații. Fiecare gest contează. Iată câteva din modalitățile prin care poți contribui.",
     "FIRST": {
-      "TITLE": "Bunuri materiale",
-      "DESCRIPTION": "Donează haine, jucării, cărți, mobilă, obiecte de igiena sau alte bunuri materiale pe care nu le mai folosești."
+      "TITLE": "Cine suntem?",
+      "DESCRIPTION": "Suntem voluntari care după câțiva ani de activități umanitare, am înființat Asociatia „Bucurie în Dar”, pentru a ajuta la o scară mai mare. Suntem oameni care trăiesc și pentru alții, nu doar pentru noi înșine."
     },
     "SECOND": {
-      "TITLE": "Formulare",
-      "DESCRIPTION": "Completează formularul 220 pentru a ne redirecționa din impozitul pe venit sau contractul de sponsorizare."
+      "TITLE": "Ce facem?",
+      "DESCRIPTION": "Suntem sprijin cu tot ce ne stă în putere, pentru cei care nu mai au pe cine să se sprijine. Ne străduim să prevenim suferința celor dragi nouă. Suntem și vom fi alături de cei care au nevoie de ajutor, de înțelegere și de iubire."
     },
     "THIRD": {
-      "TITLE": "Voluntariat",
-      "DESCRIPTION": "Fii voluntar și implică-te în activitățile noastre. Fiecare ajutor contează."
+      "TITLE": "Care este misiunea?",
+      "DESCRIPTION": "Misiunea nostră este să aducem bucurie acolo unde nu mai este, in inimile cât mai multor oameni, mari și mici, tineri și bătrâni, împreună cu voi."
     }
   },
   
@@ -107,35 +95,6 @@
         "QUESTION": "A patra întrebare?",
         "ANSWER": "Al patrulea răspuns."
       }
-    }
-  },
-
-  "PROJECTS": {
-    "TITLE": "Proiecte",
-    "DESCRIPTION": "Descoperă câteva din proiectele noastre și află cum poți să-i ajuți pe cei care au nevoie de tine.",
-    "TABLE_OF_JOY": {
-      "TITLE": "Masa bucuriei",
-      "DESCRIPTION": "Ați fost în situația de a nu avea ce să mâncați, cel puțin o zi? Prin acest program, Masa bucuriei, oferim mâncare la mii de persoane. Oferă și tu o porție de mâncare unui om sărman și vei primi în schimb cel mai onest MULȚUMESC din viața ta. Pe cine ajutăm? Familii cu mulți copii, persoane fără venit, femei văduve, bolnave și care își cresc singure copiii, persoane nedeplasabile, adulți sau copii, copii asistați social, bătrâni singuri, oameni ai străzii. Ei postesc și când nu este post."
-    },
-    "LOVE_AND_MEDICINE": {
-      "TITLE": "Dragoste & medicamente",
-      "DESCRIPTION": "Vrei sa fim prieteni? Acești copii se hrănesc cu dragostea noastră și trăiesc cu medicamente. Ce nevoi au acești copii? Unii tratament, alții proteze, alții cărucior mobil sau operație. Ajută-i să nu mai aibe nevoie de tratament și să rămână doar cu dragostea și bucuria că s-au vindecat cu ajutorul oferit de tine. NOTĂ - banii obținuți din donații vor fi redirecționați în contul spitalului sau clinicii, și postarea facturilor/costurilor aferente."
-    },
-    "SCHOOL_OF_JOY": {
-      "TITLE": "Şcoala bucuriei",
-      "DESCRIPTION": "Copiii ajutați azi sunt adulții educați de maine. Educația este fundamentală. Iar prin susținerea și accesul acestor copii la educație, ajutați și comunitatea, dar si aportul pe care ei îl vor aduce la rândul lor comunității și acestei țări. Prin ajutorul dumneavoastră acești copii vor descoperi lumea, o lume diferită de cea în care trăiesc acum. Prin ei te vei bucura și tu! Deasemenea, cu toții știm că în România fenomenul bullying-ului a luat amploare, iar foarte mulți copii sunt victime. Noi credem că este mai ușor să previi decât să combați un fenomen și că împreună îi putem ajuta pe cei mici să aibă relații sănătoase cu semenii lor. Vă împărtășim proiectul de atelier „Școala bucuriei”, care pornește de la o poveste – „Inima ariciului. O aventură în căutarea prietenilor adevărați” (autor: Mariana Buric).Atelierul conține jocuri și activități care pot fi realizate cu copiii atât de cadre didactice, în grădinițe și în școli, dar și de părinți, acasă. Ne-am bucura dacă printre dumneavoastră sunt cadre didactice și părinți care vor să ni se alăture în acest proiect.Haideți să-i ajutăm pe cei mici să meargă cu drag la grădiniță sau la școală și să se bucure de prietenia semenilor lor. Pentru detalii despre proiect, vă rugăm să ne contactați. Vă mulțumim!"
-    },
-    "CAMPS_TRIPS_WORKSHOPS": {
-      "TITLE": "Tabere, excursii, ateliere",
-      "DESCRIPTION": "Avem o țară tare frumoasă și ar fi minunat ca acești copii să își cunoască propria țară și să se bucure de frumusețile ei."
-    },
-    "ADOPT_A_FAMILY": {
-      "TITLE": "Adoptă o familie",
-      "DESCRIPTION": "Ajută pe cel puțin unul dintre prietenii noștri mici și mari, tineri sau bătrâni. Oameni dragi, aveți posibilitatea să adoptați o familie de care să aveți grijă, ajutându-i în nevoile și neputințele lor. Orice ajutor, cât de puțin este binevenit. Sunați-ne pentru a vă oferi datele lor de contact. Asigură ce poți din nevoile unei familii defavorizate: un medicament sau o cutie de lapte praf, alimente de primă necesitate, un caiet sau un creion pentru un elev, sunt lucruri pe care, din păcate, unii nu și le pot permite în mod constant. Noi îți facem cunoscute cazurile, voi alegeți familia pe care doriți să o vizitați și să o ajutați pe termen mediu sau lung."
-    },
-    "HELP_A_COMMUNITY": {
-      "TITLE": "Ajută o comunitate",
-      "DESCRIPTION": "Suntem implicați în ajutorarea multor comunități, prieteni ai noștri spunem acum cu bucurie, sunt sute de familii, oameni minunați și mulți copii frumoși. Orice lucru bun aveți de oferit, cum ar fi alimente, medicamente (siropuri impotriva tusei, antifebrile, pamperși, etc), încălțăminte, îmbrăcăminte, produse de igienă și igienă intimă, jucării, electrocasnice, mobilier și alte bunuri, vă așteptăm în fiecare zi la cele două puncte de colectă situate la următoarele adrese: Supermarket La Cocoș, în interiorul magazinului. Adresa Sos. Vitan Bârzești 7A. Program luni - sâmbătă 07.30 – 20.30, duminică 07.30 – 18-30. Sau Str. Poteraș nr. 14, în intervalul orar 09.00 – 16.00. Pentru cantități mai mari de produse și bunuri, vă rugăm să ne contactați la telefon."
     }
   },
   
@@ -185,5 +144,14 @@
       "SUCCESS": "Mesajul tău a fost trimis cu succes!",
       "ERROR": "A apărut o eroare. Te rugăm să încerci din nou."
     }
+  },
+
+  "HEADER": {
+    "HOME": { "LABEL": "Acasă", "LINK": "/" },
+    "PROJECTS": { "LABEL": "Proiecte", "LINK": "/projects" },
+    "ABOUT": { "LABEL": "Despre", "LINK": "/about" },
+    "GALLERY": { "LABEL": "Galerie", "LINK": "/gallery"},
+    "BLOG": { "LABEL": "Blog", "LINK": "/blog" },
+    "CONTACT": { "LABEL": "Contact", "LINK": "/contact" }
   }
 }

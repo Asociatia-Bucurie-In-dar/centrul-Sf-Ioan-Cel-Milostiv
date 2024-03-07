@@ -10,6 +10,8 @@ import FirstTimeConfetti from "@/components/CoolEffects/FirstTimeConfetti";
 import {locales} from "@/middleware";
 import {unstable_setRequestLocale} from 'next-intl/server';
 import {useTranslations} from "next-intl";
+import {ProjectTranslationsType} from "@/utils/my-types";
+import {GetAllProjectsStaticContent} from "@/content/projects/projects-content";
 
 export function generateStaticParams() {
     return locales.map((locale:string) => ({locale}));
@@ -17,18 +19,43 @@ export function generateStaticParams() {
 
 export const metadata = {
   title: {
-      default: 'Asociația Bucurie in Dar',
-      template: '%s | Asociația Bucurie in Dar',
+      default: 'Centrul Sfântul Ioan Cel Milostiv',
+      template: '%s | Centrul Sfântul Ioan Cel Milostiv',
   },
-  description: 'Cu ajutorul Bunului Dumnezeu și a sprijinului vostru, într-un efort comun, vrem să aducem bucurie în inimile multor oameni, tineri și bătrâni. Avem libertatea să alegem ce facem în această viață, și am ales să ajutăm, și o facem cu toată bucuria și tot dragostea noastră. Imparte și tu bucurie, împreună cu noi.',
+  description: 'Avem toată nădejdea și cred cu tărie că echipa Centrului Sf. Ioan Cel Milostiv se va strădui să aducă alinare, vindecare și să fie sprijin celor care nu mai au pe cine să se sprijine.',
 };
 
-export default function RootLayout({children, params: {locale}}: { children: React.ReactNode; params: {locale: string}; }) {
+export default function RootLayout({children, params: { locale }}: { children: React.ReactNode; params: { locale: string }; }) {
     unstable_setRequestLocale(locale);
-    
-    const commonT = useTranslations('COMMON');
 
-    const headerTranslations = {
+    const headerT = useTranslations('HEADER');
+    const commonT = useTranslations('COMMON');
+    const donateT = useTranslations('PROJECTS_MORE');
+    const donatePopupTranslations : ProjectTranslationsType = {
+        Donate: donateT('DONATE'),
+        CardOption: donateT('CARD_OPTION'),
+        BankTransferOption: donateT('BANK_TRANSFER_OPTION'),
+        DesiredAmount: donateT('DESIRED_AMOUNT'),
+        Continue: donateT('CONTINUE'),
+        DonateFor: donateT('DONATE_FOR')
+    };
+
+    const proj = GetAllProjectsStaticContent(1)[0];
+    const projT = useTranslations('SAINT_JOHN');
+
+    const headerProps = {
+        home: { label: headerT('HOME.LABEL'), link: headerT('HOME.LINK') },
+        // projects: { label: headerT('PROJECTS.LABEL'), link: headerT('PROJECTS.LINK') },
+        // about: { label: headerT('ABOUT.LABEL'), link: headerT('ABOUT.LINK') },
+        // gallery: { label: headerT('GALLERY.LABEL'), link: headerT('GALLERY.LINK') },
+        // blog: { label: headerT('BLOG.LABEL'), link: headerT('BLOG.LINK') },
+        contact: { label: headerT('CONTACT.LABEL'), link: headerT('CONTACT.LINK') },
+        donatePopupTranslations: donatePopupTranslations,
+        project: {
+            title: projT('TITLE'),
+            description: projT('DESCRIPTION'),
+            image_alt: projT('IMAGE_ALT'),
+        }
     };
     
   return (
@@ -40,7 +67,7 @@ export default function RootLayout({children, params: {locale}}: { children: Rea
     </head>
     <body>
     <MantineProvider theme={theme} defaultColorScheme="light">
-        <Header headerTranslations={headerTranslations} locale={locale}/>
+        <Header headerProps={headerProps} locale={locale}/>
         {children}
         <ChatButton />
         <Footer/>

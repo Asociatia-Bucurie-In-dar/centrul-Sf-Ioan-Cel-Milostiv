@@ -32,7 +32,8 @@ import {ProjectTranslationsType} from "@/utils/my-types";
 export function DonatePopupButton(props: {projectId: string,
     projectTile: string,
     translations: ProjectTranslationsType,
-    fullWidth?: boolean}) {
+    fullWidth?: boolean,
+    debug?: boolean}) {
 
     const payOption1 = props.translations.CardOption;
     const payOption2 = props.translations.BankTransferOption;
@@ -58,7 +59,7 @@ export function DonatePopupButton(props: {projectId: string,
         setLoading(false);
         
         setRedirectTo(url as string);
-    }
+    };
     
     const [input, setInput] = useState<{ customDonation: string }> ({ customDonation: '' } );
     const handleInputChange: React.ChangeEventHandler<HTMLInputElement> = (
@@ -164,12 +165,12 @@ export function DonatePopupButton(props: {projectId: string,
                 </Form>
             </Modal>
 
-            <Button style={{width: props.fullWidth ? 'auto' : 'max-content', minWidth: rem(100)}}
+            <Button style={{ width: props.fullWidth ? 'auto' : 'max-content' }}
                     variant="gradient"
                     gradient={{from: 'pink', to: 'yellow', deg: 90}}
                     size="sm"
-                    mt="md" onClick={open}>
-                <b>{props.translations.Donate}</b>
+                    onClick={open}>
+                {props.translations.Donate}
             </Button>
         </>;
 }

@@ -1,6 +1,5 @@
 import { Container, Title, Text, Button, Image } from '@mantine/core';
 import classes from './HomeHero.module.css';
-import { ConfettiButton } from '@/components/ConfettiButton/ConfettiButton';
 import {useTranslations} from "next-intl";
 
 export function HomeHero() {
@@ -35,7 +34,7 @@ export function HomeHero() {
                         <Text className={classes.description} mt={30}>
                             {heroT('DESCRIPTION')} <br/>
                         </Text>
-                        <ConfettiButton size={"lg"} mt="xl" text={commonT('DONATE_NOW')}/>
+                        {/*<ConfettiButton size={"lg"} mt="xl" text={commonT('DONATE_NOW')}/>*/}
                     </div>
                 </div>
             </Container>

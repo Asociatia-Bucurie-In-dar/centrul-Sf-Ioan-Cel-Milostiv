@@ -9,6 +9,6 @@ export default function robots() {
                 disallow: ["/admin", "/result"],
             }
         ],
-        sitemap: "https://bucurieindar.org/sitemap.xml"
+        sitemap: "https://centrulsfantulioancelmilostiv.org/sitemap.xml"
     }
 }

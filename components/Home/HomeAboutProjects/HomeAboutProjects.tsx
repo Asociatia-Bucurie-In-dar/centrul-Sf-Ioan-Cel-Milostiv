@@ -5,7 +5,7 @@ import { Badge, Group, Title,
     Container,
     rem, DEFAULT_THEME, Divider,
 } from '@mantine/core';
-import {IconBasketHeart, IconUsersGroup, IconScript} from '@tabler/icons-react';
+import {IconBasketHeart, IconUsersGroup, IconSword, IconHeart} from '@tabler/icons-react';
 import classes from './HomeAboutProjects.module.css';
 import commonClasses from '@/utils/commonClasses.module.css';
 import Link from "next/link";
@@ -13,32 +13,29 @@ import {MyRoutePaths} from "@/utils/route-paths";
 import {useTranslations} from "next-intl";
 
 export function HomeAboutProjects() {
-    const t = useTranslations('HOME_HELP')
+    const t = useTranslations('HOME_HELP');
+    const commonT = useTranslations('COMMON');
 
     const data = [
         {
             title: t('FIRST.TITLE'),
             description: t('FIRST.DESCRIPTION'),
-            icon: IconBasketHeart,
+            icon: IconUsersGroup,
         },
         {
             title: t('SECOND.TITLE'),
             description: t('SECOND.DESCRIPTION'),
-            icon: IconScript,
+            icon: IconHeart,
         },
         {
             title: t('THIRD.TITLE'),
             description: t('THIRD.DESCRIPTION'),
-            icon: IconUsersGroup,
+            icon: IconSword,
         },
     ];
     
-    const iconColor = DEFAULT_THEME.colors.orange[6];
-    const badgeColor = DEFAULT_THEME.colors.orange[6];
-    const gradient = `linear-gradient(
-            -60deg,
-            var(--mantine-color-orange-4) 0%,
-            var(--mantine-color-orange-7) 100%`;
+    const iconColor = DEFAULT_THEME.colors.green[6];
+    const badgeColor = DEFAULT_THEME.colors.green[6];
     
     const features = data.map((feature) => (
         <Card key={feature.title} shadow="md" radius="md" className={classes.card} padding="xl">
@@ -59,14 +56,10 @@ export function HomeAboutProjects() {
     return (
 <Container size="full" py="xl" className={commonClasses.darkerBackground}>
         <Container size="lg" mt="md">
-            <Group justify="center">
-                <Badge variant="gradient" size="lg" gradient={{ from: 'yellow', to: 'orange', deg: -60 }}>
-                    {t('BADGE')}
-                </Badge>
-            </Group>
+            
 
             <Title order={2} className={classes.title} ta="center" mt="sm">
-                {t('TITLE')}
+                {commonT('ASSOCIATION_FULL')}
             </Title>
 
             <Text c="dimmed" className={classes.description} ta="center" mt="md">

@@ -1,7 +1,6 @@
 import { MetadataRoute } from "next";
 import { MyRoutePaths } from "@/utils/route-paths";
 import { GetAllProjectsStaticContent } from "@/content/projects/projects-content";
-import { GetAllArticlesStaticContent } from "@/content/blog/blog-content";
 import { locales, defaultLocale } from "@/middleware";
 
 function getUrlsOfLocale(localeAsString: string): { url: string, alternates: { hreflang: string, href: string }[] }[] {
@@ -13,31 +12,9 @@ function getUrlsOfLocale(localeAsString: string): { url: string, alternates: { h
         const url = baseUrl + link;
         const alternates = locales.map((loc) => {
             const locPrefix = loc === defaultLocale ? "" : "/" + loc;
-            return { hreflang: loc, href: `https://bucurieindar.org${locPrefix}${link}` };
+            return { hreflang: loc, href: `https://centrulsfantulioancelmilostiv.org${locPrefix}${link}` };
         });
         return { url, alternates };
-    });
-
-    // Add projects
-    const projects = GetAllProjectsStaticContent(99);
-    projects.forEach(x => {
-        const projectUrl = baseUrl + MyRoutePaths.Projects + "/" + x.slug;
-        const alternates = locales.map((loc) => {
-            const locPrefix = loc === defaultLocale ? "" : "/" + loc;
-            return { hreflang: loc, href: `https://bucurieindar.org${locPrefix}${MyRoutePaths.Projects}/${x.slug}` };
-        });
-        urls.push({ url: projectUrl, alternates });
-    });
-
-    // Add articles
-    const articles = GetAllArticlesStaticContent(99);
-    articles.forEach(x => {
-        const articleUrl = baseUrl + MyRoutePaths.Blog + "/" + x.slug;
-        const alternates = locales.map((loc) => {
-            const locPrefix = loc === defaultLocale ? "" : "/" + loc;
-            return { hreflang: loc, href: `https://bucurieindar.org${locPrefix}${MyRoutePaths.Blog }/${x.slug}` };
-        });
-        urls.push({ url: articleUrl, alternates });
     });
 
     return urls;

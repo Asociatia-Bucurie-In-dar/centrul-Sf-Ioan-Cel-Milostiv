@@ -1,4 +1,5 @@
 
 export const MyRoutePaths = {
-    Home: "/"
+    Home: '/',
+    Contact: '/contact'
 }
