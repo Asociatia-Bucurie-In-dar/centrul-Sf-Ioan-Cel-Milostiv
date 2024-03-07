@@ -19,31 +19,26 @@ export function ProjectPreviewCard(props: { project: ProjectType, title: string,
         Continue: donateT('CONTINUE'),
         DonateFor: donateT('DONATE_FOR')
     };
-    
-    const linkProps = {
-        href: MyRoutePaths.Projects + '/' + props.project.slug
-    };
+
     
     return (
             <Card withBorder radius="md" className={classes.card}>
                 <CardSection>
-                    <Link {...linkProps}>
                         <Image src={props.project.image_path} 
                                height={200}
                                loading={"lazy"}
                             placeholder="blur"/>
-                    </Link>
                 </CardSection>
 
                 {/*<Badge className={classes.rating} variant="gradient" gradient={{ from: 'yellow', to: 'red' }}>*/}
                 {/*    outstanding*/}
                 {/*</Badge>*/}
 
-                <Text className={classes.title} fw={500} component={Link} {...linkProps}>
+                <Text className={classes.title} fw={500}>
                     {props.title}
                 </Text>
 
-                <Text fz="sm" c="dimmed" lineClamp={4} component={Link} {...linkProps}>
+                <Text fz="sm" c="dimmed" lineClamp={4}>
                     {props.description}
                 </Text>
 

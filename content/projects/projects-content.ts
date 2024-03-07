@@ -6,7 +6,6 @@ const projectsData : ProjectType[] = [
         id: '99', 
         slug: 'centrul-Sf-Ioan-Cel-Milostiv', 
         image_path: imagesPath + 'SfIoan.png',
-        translation_key: 'SF_IOAN_CEL_MILOSTIV',
         goalAmount: 800000, 
         currentAmount: 0,
     },
@@ -14,8 +13,4 @@ const projectsData : ProjectType[] = [
 
 export function GetAllProjectsStaticContent(amount: number): ProjectType[] {
     return projectsData.slice(0, amount);
-}
-
-export function GetProjectStaticContentWithSlug(slug: string): ProjectType {
-    return projectsData.find((project) => project.slug === slug) as ProjectType;
 }
