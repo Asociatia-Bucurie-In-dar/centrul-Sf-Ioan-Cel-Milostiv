@@ -8,7 +8,7 @@ import {DonatePopupButton} from "@/components/Popups/DonatePopup/DonatePopupButt
 import {ProjectDonationProgress} from "@/components/Projects/ProjectDonationProgress";
 import {useTranslations} from "next-intl";
 
-export function ProjectPreviewCard(props: { project: ProjectType, title: string, description: string} ) {
+export function ProjectPreviewCard(props: { title: string, imgPath: string, texts: string[] } ) {
     const t = useTranslations('COMMON');
     const donateT = useTranslations('PROJECTS_MORE');
     const donatePopupTranslations : ProjectTranslationsType = {
@@ -24,7 +24,7 @@ export function ProjectPreviewCard(props: { project: ProjectType, title: string,
     return (
             <Card withBorder radius="md" className={classes.card}>
                 <CardSection>
-                        <Image src={props.project.image_path} 
+                        <Image src={props.imgPath} 
                                height={200}
                                loading={"lazy"}
                             placeholder="blur"/>
@@ -39,16 +39,12 @@ export function ProjectPreviewCard(props: { project: ProjectType, title: string,
                 </Text>
 
                 <Text fz="sm" c="dimmed" lineClamp={4}>
-                    {props.description}
+                    {props.texts}
                 </Text>
 
-                <Card padding={0} mt="sm" key={props.project.id}>
+                <Card padding={0} mt="sm" key={props.title}>
                     
-                    <ProjectDonationProgress id={props.project.id} goalAmount={props.project.goalAmount}
-                        sumTranslation={t('NECESSARY_AMOUNT')}/> 
-
-                    <DonatePopupButton projectId={props.project.id} projectTile={props.title} 
-                                       translations={donatePopupTranslations}/>
+                    
                 </Card>
             </Card>
     );
