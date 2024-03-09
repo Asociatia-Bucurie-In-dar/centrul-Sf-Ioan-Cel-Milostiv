@@ -1,7 +1,6 @@
 import commonClasses from "@/utils/commonClasses.module.css";
 import {TitleWithDescription} from "@/components/Common/TitleWithDescription";
 import {Center, Container, Divider, Image, SimpleGrid, Stack, Text, Title} from "@mantine/core";
-import {AnimatedThing} from "@/components/CoolEffects/AnimatedNumber/AnimatedThing";
 import {useTranslations} from "next-intl";
 
 const spacing = "xl";
@@ -21,11 +20,10 @@ export function HomeWhy() {
 
     return (
         <>
-            <Container size="full" pt={45}>
-                <Container size="lg">
+                <Container size="lg" pt={45} pb={50}>
                     <TitleWithDescription title={"De ce înființăm Centrul?"} />
                     
-                    <Divider mb={45} color="transparent" />
+                    <Divider mb="xl" color="transparent" />
 
                     {/* FIRST */}
                     <SimpleGrid cols={cols} spacing={spacing}>
@@ -35,7 +33,7 @@ export function HomeWhy() {
 
                         <Center>
                             <Stack>
-                                <Title>Primul motiv</Title>
+                                <Title fz={30} ta="center">Ajutor</Title>
                                 <Text c="dimmed">
                                     Fiecare dintre noi avem nevoie de ajutor într-un fel sau altul. Fiecare dintre noi am
                                     trecut cel puțin o dată în viață printr-o perioadă neagră din care nu mai știam cum să ieșim sau când se va termina. I-am
@@ -48,13 +46,13 @@ export function HomeWhy() {
                         </Center>
                     </SimpleGrid>
 
-                    <Divider color="transparent" mb={division}/>
+                    <Divider color="transparent" mb="lg"/>
 
                     {/* SECOND */}
                     <SimpleGrid cols={cols} spacing={spacing}>
                         <Center>
                             <Stack>
-                                <Title>Al doilea</Title>
+                                <Title fz={30} ta="center">România</Title>
                                 <Text c="dimmed">
                                     Centrele din Romania sunt insuficiente, iar numărul celor afectati crește, în special copii și
                                     adolescenți. Așa că nu putrm și nu vrem să stăm indifereți la ce se întâmplă, mai ales că împreună putem ajuta aceste
@@ -70,11 +68,8 @@ export function HomeWhy() {
                             {roundedImage("/faq.svg")}
                         </Center>
                     </SimpleGrid>
-
-                    <Divider color="transparent" mb={division} />
                     
                 </Container>
-            </Container>
         </>
     );
 }
