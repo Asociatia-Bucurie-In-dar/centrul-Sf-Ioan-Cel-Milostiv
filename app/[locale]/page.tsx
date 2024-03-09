@@ -5,6 +5,7 @@ import {HomeAboutProjects} from '@/components/Home/HomeAboutProjects/HomeAboutPr
 import {OurTeam} from '@/components/OurTeam/OurTeam';
 import {Divider} from "@mantine/core";
 import {unstable_setRequestLocale} from "next-intl/server";
+import {HomeWhy} from "@/components/Home/HomeWhy/HomeWhy";
 
 export default function HomePage({params: {locale}}:{ params: { locale: string } }) {
     unstable_setRequestLocale(locale);
@@ -14,6 +15,7 @@ export default function HomePage({params: {locale}}:{ params: { locale: string }
           <HomeHero/>
           <DonationProgress/>
           <HomeProjects/>
+          <HomeWhy />
           <HomeAboutProjects/>
           <OurTeam/>
           

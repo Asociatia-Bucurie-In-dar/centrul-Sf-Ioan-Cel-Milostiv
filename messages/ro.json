@@ -68,9 +68,9 @@
       {
         "TITLE": "Găzduire & Tratament",
         "TEXTS": [
+          "Construirea Centrului Sf. Ioan cel Milostiv",
           "Acest al doilea pas este imperios necesar de implementat",
-          "Important pentru adulți, dar capital pentru copii și adolescenți",
-          "Construirea Centrului Sf. Ioan cel Milostiv"
+          "Important pentru adulți, dar capital pentru copii și adolescenți"
         ]
       }
     ]
@@ -79,7 +79,7 @@
   "HOME_HELP": {
     "BADGE": "",
     "TITLE": "",
-    "DESCRIPTION": "Descriere asdas",
+    "DESCRIPTION": "",
     "FIRST": {
       "TITLE": "Cine suntem?",
       "DESCRIPTION": "Suntem voluntari care după câțiva ani de activități umanitare, am înființat Asociatia „Bucurie în Dar”, pentru a ajuta la o scară mai mare. Suntem oameni care trăiesc și pentru alții, nu doar pentru noi înșine."
@@ -120,23 +120,6 @@
 
   "SHARE": {
     "MAIN": "Ajută distribuind!"
-  },
-  
-  "ABOUT": {
-    "TITLE": "Despre noi",
-    "DESCRIPTION": "Cine suntem, ce facem și de ce să ajutăm.",
-    "WHO_ARE_WE": {
-      "TITLE": "Cine suntem",
-      "DESCRIPTION": "Suntem voluntari care, după câțiva ani de activități umanitare, am înființat Asociația Bucurie în Dar, pentru a ajuta la o scară mai mare. Suntem oameni care trăiesc și pentru alții, nu doar pentru noi înșine. Cu ajutorul Bunului Dumnezeu și cu sprijinul vostru, într-o împreună lucrare, vrem să aducem bucurie în inimile multor oameni, mari și mici, tineri și bătrâni. Avem libertatea de a alege ce facem în această viață, iar noi am ales să ajutăm și o facem cu toata bucuria și cu toată dragostea. Dăruiește și tu bucurie, împreună cu noi."
-    },
-    "WHAT_WE_DO": {
-      "TITLE": "Ce facem",
-      "DESCRIPTION": "Ascultăm poveștile de viață ale celor care sunt mai puțin importanți pentru o parte a societății. Suntem sprijin, cu tot ce ne stă în putere, pentru cei care nu mai au pe cine să se sprijine. Îi ajutăm pe cei care strigă: ajutați-ne! Alege să ajuți împreună cu noi! Este atât de simplu. Doar alege."
-    },
-    "WHY_WE_HELP": {
-      "TITLE": "De ce să ajutăm",
-      "DESCRIPTION": "Pentru că avem puterea să alegem ce facem cu timpul nostru, cu viața noastră. Moștenirea pe care o lăsăm copiilor noștri sunt faptele noastre, pe care le transmit și ei mai departe. Oameni buni, din această viață, plecăm doar cu faptele noastre. Voi, cei care veniți și ajutați, sacrificați din timpul vostru, din confortul și banii voștri unor oameni pe care nu-i cunoașteți. Ați ales să dăruiți din viața voastră aproapelui vostru. Aceasta este darul și el vine din iubire."
-    }
   },
 
   "CONTACT": {

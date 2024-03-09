@@ -68,9 +68,9 @@
       {
         "TITLE": "Accommodation & Treatment",
         "TEXTS": [
+          "Construction of the Saint John the Merciful Center",
           "This second step is imperative to implement",
-          "Important for adults, but capital for children and adolescents",
-          "Construction of the Saint John the Merciful Center"
+          "Important for adults, but capital for children and adolescents"
         ]
       }
     ]
@@ -79,18 +79,18 @@
   "HOME_HELP": {
     "BADGE": "",
     "TITLE": "",
-    "DESCRIPTION": "Description asdasds",
+    "DESCRIPTION": "",
     "FIRST": {
-      "TITLE": "Material goods",
-      "DESCRIPTION": "Donate clothes, toys, books, furniture, hygiene items, or other material goods that you no longer use."
+      "TITLE": "Who are we?",
+      "DESCRIPTION": "We are volunteers who, after several years of humanitarian activities, founded the Bucurie în Dar (Gift of Joy) Association to help on a larger scale. We are people who live for others, not just for ourselves."
     },
     "SECOND": {
-      "TITLE": "Forms",
-      "DESCRIPTION": "Form 220, sponsorship contract, etc."
+      "TITLE": "What do we do?",
+      "DESCRIPTION": "We are support with everything in our power, for those who no longer have anyone to support. We strive to prevent the suffering of our loved ones. We are and will be with those who need help, understanding and love."
     },
     "THIRD": {
-      "TITLE": "Volunteering",
-      "DESCRIPTION": "We are always looking for volunteers to help us. We'll help you find a way to volunteer that best suits you."
+      "TITLE": "What is the mission?",
+      "DESCRIPTION": "Our mission is to bring joy where there is none, in the hearts of as many people as possible, big and small, young and old, together with you."
     }
   },
   
@@ -120,23 +120,6 @@
   
   "SHARE": {
     "MAIN": "Help by sharing!"
-  },
-
-  "ABOUT": {
-    "TITLE": "About us",
-    "DESCRIPTION": "Who we are, what we do, and why we do it.",
-    "WHO_ARE_WE": {
-      "TITLE": "Who are we?",
-      "DESCRIPTION": "We are volunteers who, after several years of humanitarian activities, founded the Bucurie în Dar (Gift of Joy) Association to help on a larger scale. We are people who live for others, not just for ourselves. With the help of The Good Lord and with your support, in a joint work, we want to bring joy to the hearts of many people, big and small, young and old. We have the freedom to choose what we do in this life, and we chose to help, and we do it with all the joy and love. Give joy too, together with us."
-    },
-    "WHAT_WE_DO": {
-      "TITLE": "What we do",
-      "DESCRIPTION": "We listen to the life stories of those who are less important to a part of society. We are support, with everything in our power, for those who have no one left to lean on. We help those who shout: help us! Choose to help with us! It's that simple. Just choose."
-    },
-    "WHY_WE_HELP": {
-      "TITLE": "Why we help",
-      "DESCRIPTION": "Because we have the power to choose what we do with our time, with our lives. The legacy we leave to our children are our deeds, which they also pass on. Dear people, from this life, we only leave with our deeds. You who come and help, sacrifice your time, your comfort and your money for people you don't know. You chose to give your life to your neighbor. This is the gift and it comes from love."
-    }
   },
   
   "CONTACT": {

@@ -1,4 +1,4 @@
-import {Avatar, Container, Divider, Group, SimpleGrid, Text, Title} from '@mantine/core';
+import {Avatar, Center, Container, Divider, Group, SimpleGrid, Text, Title} from '@mantine/core';
 import classes from './OurTeam.module.css';
 import {TitleWithDescription} from "@/components/Common/TitleWithDescription";
 import {useTranslations} from "next-intl";
@@ -65,7 +65,7 @@ export function OurTeam() {
     });
     
     return (
-        <Container mt="lg" mb={55} size="lg">
+        <Container pt={45} mb={55} size="lg">
             <Container className={classes.wrapper}>
                 
                 <TitleWithDescription title={t('TITLE')} 
@@ -76,7 +76,7 @@ export function OurTeam() {
                 <SimpleGrid
                     cols={{ base: 2, sm: 4, md: 4 }}
                     spacing={{ base: 'xl', md: 50 }}
-                    verticalSpacing={{ base: 'xl', md: 50 }}
+                    verticalSpacing={{ base: 'xl', md: 50 }} className={classes.grid}
                 >
                     {items}
                 </SimpleGrid>

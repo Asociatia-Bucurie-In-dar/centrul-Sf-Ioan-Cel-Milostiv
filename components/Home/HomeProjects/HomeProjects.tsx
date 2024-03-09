@@ -43,7 +43,7 @@ export function HomeProjects() {
         },
         {
             title: t('CATEGORIES.3.TITLE'),
-            imgPath: '/base/build.jpeg',
+            imgPath: '/base/build.png',
             texts: [
                 t('CATEGORIES.3.TEXTS.0'),
                 t('CATEGORIES.3.TEXTS.1'),
@@ -57,7 +57,7 @@ export function HomeProjects() {
     ));
     
     return (
-        <Container size="full" className={commonClasses.darkerBackground} pt="sm" pb="sm">
+        <Container size="full" className={commonClasses.darkerBackground} pt={10} pb="sm">
             
             <Divider mt="xl" color="transparent" />
             
@@ -66,9 +66,17 @@ export function HomeProjects() {
 
             <Divider mb={45} color="transparent" />
 
-            <Container size="xl">
-            <SimpleGrid cols={{ base: 1, sm: 2, md: 4 }} spacing="xl" mt={50}>
-                {cards}
+            <Container size="lg">
+            <SimpleGrid cols={{ base: 1, sm: 1, md: 3 }} spacing="xl" mt={50}>
+                {cards[0]}
+                {cards[1]}
+                {cards[2]}
+            </SimpleGrid>
+            </Container>
+
+            <Container size="md">
+            <SimpleGrid cols={{ base: 1, sm: 1, md: 1 }} spacing="xl" mt={50}>
+                {cards[3]}
             </SimpleGrid>
             </Container>
             
