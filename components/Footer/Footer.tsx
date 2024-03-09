@@ -2,10 +2,20 @@ import {Text, Container, ActionIcon, Group, rem, Title, Center, SimpleGrid, Divi
 import classes from './Footer.module.css';
 import Link from "next/link";
 import {useTranslations} from "next-intl";
+import {MyRoutePaths} from "@/utils/route-paths";
 
 export function Footer() {
+    const t = useTranslations('HEADER');
     const commonT = useTranslations('COMMON');
     const heroT = useTranslations('HOME_HERO');
+
+    function link(link: string, label: string) {
+        return (
+            <Text component={Link} href={link} c="dimmed" size="sm">
+                <Center>{label}</Center>
+            </Text>
+        );
+    }
     
     return (
         <footer className={classes.footer}>
@@ -24,7 +34,14 @@ export function Footer() {
                 </div>
             </Container>
             <Divider color="transparent" mb="lg" />
-            
+            <Container size="md">
+                <Center>
+                    <SimpleGrid cols={2}>
+                        {link(MyRoutePaths.Home, t('HOME.LABEL'))}
+                        {link(MyRoutePaths.Contact, t('CONTACT.LABEL'))}
+                    </SimpleGrid>
+                </Center>
+            </Container>
             <Container className={classes.afterFooter}>
                 <Text c="dimmed" size="sm">
                     © {new Date().getFullYear()} {commonT('ASSOCIATION_FULL')}

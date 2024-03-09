@@ -54,7 +54,7 @@ export function HomeWhy() {
                     <SimpleGrid cols={cols} spacing={spacing}>
                         <Center>
                             <Stack>
-                                <Title>Al doilea motiv</Title>
+                                <Title>Al doilea</Title>
                                 <Text c="dimmed">
                                     Centrele din Romania sunt insuficiente, iar numărul celor afectati crește, în special copii și
                                     adolescenți. Așa că nu putrm și nu vrem să stăm indifereți la ce se întâmplă, mai ales că împreună putem ajuta aceste
