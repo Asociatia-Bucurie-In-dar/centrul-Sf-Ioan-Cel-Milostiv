@@ -25,23 +25,61 @@
       "4": "Staff"
     }
   },
-  
+
   "SAINT_JOHN": {
     "TITLE": "Saint John The Merciful Center",
     "DESCRIPTION": "Together we save lives, change destinies, heal souls. Each of us has gone through a dark period at least once in our life from which we no longer knew how to get out or when it would end. We saw our family, friends, loved ones in our lives suffering and we had no way to help them. How much help is given with empathy, with affection and love. In those moments you need support and I strongly believe that the team of the St. John The Merciful Center will strive to bring relief, healing and be a support to those who will tell us, help us.",
     "IMAGE_ALT": "Icon of Saint John the Merciful Center"
   },
-  
-  "HOME_POTENTIAL": {
-    "TITLE": "Children's potential",
-    "DESCRIPTION": "Your donation to our cause can create a brighter future, providing essential education, health, and nourishment to children in need. Each contribution brings hope and opens doors to a universe of possibilities. Let's build a brighter future together. Donate now and make a difference! Your support is vital in our mission to unlock a child's potential. With every donation, we can offer more than just basic needs; we provide a foundation for lifelong learning and growth. Our programs focus on education, healthcare, and empowering communities to uplift their youngest members.",
-    "IMAGE_ALT": "Portrait of a child"
+
+  "ADDICTIONS": {
+    "TITLE": "Organization and Conduct",
+    "DESCRIPTION": "General description here",
+    "CATEGORIES": [
+      {
+        "TITLE": "Call Center",
+        "TEXTS": [
+          "On the verge of suicide",
+          "Women who want to have an abortion, especially minors",
+          "Abused Children",
+          "Elderly lonely people"
+        ]
+      },
+      {
+        "TITLE": "24/24 Ambulance Support",
+        "TEXTS": [
+          "Premature birth as a result of violence",
+          "Violent cases",
+          "Frostbite due to negative temperatures (for street people) and medical support",
+          "Various situations requiring transport to hospital"
+        ]
+      },
+      {
+        "TITLE": "Psychological Support",
+        "TEXTS": [
+          "Women with pregnancy crises",
+          "Drug addicts",
+          "Alcohol addicts",
+          "Gambling addicts",
+          "Video game addicts (especially children)",
+          "Other addictions"
+        ]
+      },
+      {
+        "TITLE": "Accommodation & Treatment",
+        "TEXTS": [
+          "This second step is imperative to implement",
+          "Important for adults, but capital for children and adolescents",
+          "Construction of the Saint John the Merciful Center"
+        ]
+      }
+    ]
   },
 
   "HOME_HELP": {
     "BADGE": "",
     "TITLE": "",
-    "DESCRIPTION": "There are many ways you can help, not only by donating. Every gesture matters. Here are a few of the ways you contribute.",
+    "DESCRIPTION": "Description asdasds",
     "FIRST": {
       "TITLE": "Material goods",
       "DESCRIPTION": "Donate clothes, toys, books, furniture, hygiene items, or other material goods that you no longer use."
@@ -54,11 +92,6 @@
       "TITLE": "Volunteering",
       "DESCRIPTION": "We are always looking for volunteers to help us. We'll help you find a way to volunteer that best suits you."
     }
-  },
-
-  "HOME_BLOG": {
-    "TITLE": "Blog",
-    "DESCRIPTION": "Here you can find some articles about various topics. We hope you will find them interesting and useful."
   },
   
   "OUR_TEAM": {
@@ -73,28 +106,6 @@
         "SIXTH": { "NAME": "Cristian Simionescu", "ROLE": "Communications & Public relations specialist" },
         "SEVENTH": { "NAME": "Evelin", "ROLE": "Principal social assistant" },
         "EIGHTH": { "NAME": "Ovidiu Horațiu", "ROLE": "Doctor architect" }
-    }
-  },
-  
-  "FAQ": {
-    "TITLE": "FAQ",
-    "QUESTIONS": {
-      "FIRST": {
-        "QUESTION": "First question?",
-        "ANSWER": "First answer."
-      },
-      "SECOND": {
-        "QUESTION": "Second question?",
-        "ANSWER": "Second answer."
-      },
-      "THIRD": {
-        "QUESTION": "Third question?",
-        "ANSWER": "Third answer."
-      },
-      "FOURTH": {
-        "QUESTION": "Fourth question?",
-        "ANSWER": "Fourth answer."
-      }
     }
   },
 

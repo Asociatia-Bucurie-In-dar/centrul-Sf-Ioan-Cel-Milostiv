@@ -65,7 +65,7 @@ export function OurTeam() {
     });
     
     return (
-        <Container mt="xl" mb={55} size="lg">
+        <Container mt="lg" mb={55} size="lg">
             <Container className={classes.wrapper}>
                 
                 <TitleWithDescription title={t('TITLE')} 

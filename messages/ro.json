@@ -25,23 +25,61 @@
       "4": "Personal"
     }
   },
-  
+
   "SAINT_JOHN": {
-    "TITLE": "Centrul Sf. Ioan Cel Milostiv",
+    "TITLE": "Centrul Sfântul Ioan Cel Milostiv",
     "DESCRIPTION": "Împreună salvăm vieți, schimbăm destine, vindecăm suflete. Fiecare dintre noi am trecut cel puțin o dată în viață printr-o perioadă neagră din care nu mai știam cum să ieșim sau când se va termina. I-am văzut pe cei din familie, pe prieteni, pe oamenii dragi din viața nostră suferind și nu aveam cum să-i ajutăm. Cât de mult contează ajutorul oferit cu empatie, cu drag și dragoste. În acele momente ai nevoie de un sprijin și cred cu tărie că echipa Centrului Sf. Ioan Cel Milostiv se va strădui să aducă alinare, vindecare și să fie sprijin celor care ne vor spune, ajutați-ne.",
     "IMAGE_ALT": "Icoana Sfântul Ioan cel Milostiv"
   },
   
-  "HOME_POTENTIAL": {
-    "TITLE": "Potențialul copiilor",
-    "DESCRIPTION": "Donația ta pentru cauza noastră creează un viitor mai strălucitor, oferind educație, sănătate și hrănire esențiale copiilor nevoiași. Fiecare contribuție aduce speranță și deschide uși către un univers de posibilități. Să construim împreună un viitor mai strălucitor. Donează acum și fă o diferență! Sprijinul tău este vital în misiunea noastră de a debloca potențialul unui copil. Cu fiecare donație, putem oferi mai mult decât nevoile de bază; oferim o bază pentru învățare și creștere pe tot parcursul vieții. Programele noastre se concentrează pe educație, îngrijire medicală și împuternicirea comunităților pentru a-și ridica cei mai tineri membri.",
-    "IMAGE_ALT": "Portretul unui copil"
+  "ADDICTIONS": {
+    "TITLE": "Organizare și desfășurare",
+    "DESCRIPTION": "Descriere generala aici",
+    "CATEGORIES": [
+      {
+        "TITLE": "Call Center",
+        "TEXTS": [
+          "In prag de suicid",
+          "Femei care vor să avorteze, în special minore",
+          "Copii abuzați",
+          "Bătrâni singuri"
+        ]
+      },
+      {
+        "TITLE": "Suport Ambulanță 24/24",
+        "TEXTS": [
+          "Naștere prematură, ca urmare a violenței",
+          "În cazuri de violență",
+          "Degerături în urma temperaturilor negative (pentru oameni ai străzii) și suport medical",
+          "Diverse situații care necesită transport la spital"
+        ]
+      },
+      {
+        "TITLE": "Suport Psihologic",
+        "TEXTS": [
+          "Femei în criză de sarcină",
+          "Dependenți de droguri",
+          "Dependenți de alcool",
+          "Dependenți de jocuri de noroc",
+          "Dependenți de jocuri video (în special copii)",
+          "Alte adicții"
+        ]
+      },
+      {
+        "TITLE": "Găzduire & Tratament",
+        "TEXTS": [
+          "Acest al doilea pas este imperios necesar de implementat",
+          "Important pentru adulți, dar capital pentru copii și adolescenți",
+          "Construirea Centrului Sf. Ioan cel Milostiv"
+        ]
+      }
+    ]
   },
 
   "HOME_HELP": {
     "BADGE": "",
     "TITLE": "",
-    "DESCRIPTION": "Există multe moduri de a ajuta, nu doar prin donații. Fiecare gest contează. Iată câteva din modalitățile prin care poți contribui.",
+    "DESCRIPTION": "Descriere asdas",
     "FIRST": {
       "TITLE": "Cine suntem?",
       "DESCRIPTION": "Suntem voluntari care după câțiva ani de activități umanitare, am înființat Asociatia „Bucurie în Dar”, pentru a ajuta la o scară mai mare. Suntem oameni care trăiesc și pentru alții, nu doar pentru noi înșine."
@@ -54,11 +92,6 @@
       "TITLE": "Care este misiunea?",
       "DESCRIPTION": "Misiunea nostră este să aducem bucurie acolo unde nu mai este, in inimile cât mai multor oameni, mari și mici, tineri și bătrâni, împreună cu voi."
     }
-  },
-  
-  "HOME_BLOG": {
-    "TITLE": "Blog",
-    "DESCRIPTION": ""
   },
 
   "OUR_TEAM": {
@@ -73,28 +106,6 @@
       "SIXTH": { "NAME": "Cristian Simionescu", "ROLE": "Specialist comunicare & relații publice" },
       "SEVENTH": { "NAME": "Evelin", "ROLE": "Asistent social principal" },
       "EIGHTH": { "NAME": "Ovidiu Horațiu", "ROLE": "Doctor arhitect" }
-    }
-  },
-
-  "FAQ": {
-    "TITLE": "Răspunsuri",
-    "QUESTIONS": {
-      "FIRST": {
-        "QUESTION": "Prima întrebare?",
-        "ANSWER": "Primul răspuns."
-      },
-      "SECOND": {
-        "QUESTION": "A doua întrebare?",
-        "ANSWER": "Al doilea răspuns."
-      },
-      "THIRD": {
-        "QUESTION": "A treia întrebare?",
-        "ANSWER": "Al treilea răspuns."
-      },
-      "FOURTH": {
-        "QUESTION": "A patra întrebare?",
-        "ANSWER": "Al patrulea răspuns."
-      }
     }
   },
   

@@ -54,7 +54,7 @@ export function HomeAboutProjects() {
     ));
 
     return (
-<Container size="full" py="xl" className={commonClasses.darkerBackground}>
+<Container size="full" py="xl" >
         <Container size="lg" mt="md">
             
 
