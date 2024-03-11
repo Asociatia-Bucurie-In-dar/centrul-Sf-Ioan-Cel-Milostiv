@@ -127,11 +127,11 @@ export function DonatePopupButton(props: {projectId: string,
     const forBank = <>
         <Paper withBorder p="lg" radius="md" shadow="md">
             <Center>
-                <Text size="lg"><b>RON</b> - RO89BTRLEURCRT0610749701</Text>
+                <Text size="lg"><b>RON</b> - RO31BTRLRONCRT0610749705</Text>
             </Center>
             <br></br>
             <Center>
-                <Text size ="lg"><b>EUR</b> - RO42BTRLRONCRT0610749701</Text>
+                <Text size ="lg"><b>EUR</b> - RO62BTRLEURCRT0610749702</Text>
             </Center>
         </Paper>
     </>;

@@ -32,7 +32,7 @@
     "IMAGE_ALT": "Icon of Saint John the Merciful Center"
   },
 
-  "ADDICTIONS": {
+  "ORGANIZATON": {
     "TITLE": "Organization and Conduct",
     "DESCRIPTION": "This is how we plan on organizing and conducting the Saint John the Merciful Center.",
     "CATEGORIES": [
@@ -42,7 +42,8 @@
           "On the verge of suicide",
           "Women who want to have an abortion, especially minors",
           "Abused Children",
-          "Elderly lonely people"
+          "Elderly lonely people",
+          "Domestic violence"
         ]
       },
       {

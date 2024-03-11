@@ -32,7 +32,7 @@
     "IMAGE_ALT": "Icoana Sfântul Ioan cel Milostiv"
   },
   
-  "ADDICTIONS": {
+  "ORGANIZATON": {
     "TITLE": "Organizare și desfășurare",
     "DESCRIPTION": "Iată cum ne propunem să organizăm și să desfășurăm activitățile în cadrul Centrului Sfântul Ioan Cel Milostiv.",
     "CATEGORIES": [
@@ -42,7 +42,8 @@
           "In prag de suicid",
           "Femei care vor să avorteze, în special minore",
           "Copii abuzați",
-          "Bătrâni singuri"
+          "Bătrâni singuri",
+          "Violență domestică"
         ]
       },
       {

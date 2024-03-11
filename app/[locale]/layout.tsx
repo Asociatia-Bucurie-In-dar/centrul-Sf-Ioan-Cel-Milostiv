@@ -12,6 +12,7 @@ import {unstable_setRequestLocale} from 'next-intl/server';
 import {useTranslations} from "next-intl";
 import {ProjectTranslationsType} from "@/utils/my-types";
 import {GetAllProjectsStaticContent} from "@/content/projects/projects-content";
+import '@mantine/carousel/styles.css';
 
 export function generateStaticParams() {
     return locales.map((locale:string) => ({locale}));

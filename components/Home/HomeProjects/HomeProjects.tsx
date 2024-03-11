@@ -6,17 +6,18 @@ import {useTranslations} from "next-intl";
 import {ProjectPreviewCard} from "@/components/Projects/ProjectPreviewCard";
 
 export function HomeProjects() {
-    const t = useTranslations('ADDICTIONS');
+    const t = useTranslations('ORGANIZATON');
 
     const data = [
         {
             title: t('CATEGORIES.0.TITLE'),
-            imgPath: '/base/call.jpg',
+            imgPath: '/base/call.jpeg',
             texts: [
                 t('CATEGORIES.0.TEXTS.0'),
                 t('CATEGORIES.0.TEXTS.1'),
                 t('CATEGORIES.0.TEXTS.2'),
-                t('CATEGORIES.0.TEXTS.3')
+                t('CATEGORIES.0.TEXTS.3'),
+                t('CATEGORIES.0.TEXTS.4'),
             ]
         },
         {
@@ -26,12 +27,12 @@ export function HomeProjects() {
                 t('CATEGORIES.1.TEXTS.0'),
                 t('CATEGORIES.1.TEXTS.1'),
                 t('CATEGORIES.1.TEXTS.2'),
-                t('CATEGORIES.1.TEXTS.3')
+                t('CATEGORIES.1.TEXTS.3'),
             ]
         },
         {
             title: t('CATEGORIES.2.TITLE'),
-            imgPath: '/base/psych.jpg',
+            imgPath: '/base/psych.jpeg',
             texts: [
                 t('CATEGORIES.2.TEXTS.0'),
                 t('CATEGORIES.2.TEXTS.1'),

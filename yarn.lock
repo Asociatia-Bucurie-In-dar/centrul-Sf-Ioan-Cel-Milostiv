@@ -2376,16 +2376,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/carousel@npm:^7.5.2":
-  version: 7.5.3
-  resolution: "@mantine/carousel@npm:7.5.3"
+"@mantine/carousel@npm:^7.6.1":
+  version: 7.6.1
+  resolution: "@mantine/carousel@npm:7.6.1"
   peerDependencies:
-    "@mantine/core": 7.5.3
-    "@mantine/hooks": 7.5.3
+    "@mantine/core": 7.6.1
+    "@mantine/hooks": 7.6.1
     embla-carousel-react: ">=7.0.0"
     react: ^18.2.0
     react-dom: ^18.2.0
-  checksum: 34322675ddaffba13632c3f1eb44e511f027f549491ab6f899913c4630d44fc94e1f5806ee5bce6b2c982dd2ce243b7125704da694ff474ccd97d1613aaa5f6d
+  checksum: 342817d60f1b28057416b763d0e026c008be0834ec785338ada3a5098ae2e372bbf4c2c489f96a98ceb8f8a4d6fd035377cdd237cdbc8d93f3e3549ba3adc278
   languageName: node
   linkType: hard
 
@@ -12491,7 +12491,7 @@ __metadata:
   resolution: "mantine-next-template@workspace:."
   dependencies:
     "@babel/core": "npm:^7.23.2"
-    "@mantine/carousel": "npm:^7.5.2"
+    "@mantine/carousel": "npm:^7.6.1"
     "@mantine/core": "npm:^7.5.2"
     "@mantine/hooks": "npm:^7.5.2"
     "@next/bundle-analyzer": "npm:^14.0.1"

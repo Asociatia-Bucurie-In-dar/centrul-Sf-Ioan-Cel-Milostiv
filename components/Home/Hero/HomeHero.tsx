@@ -10,10 +10,10 @@ export function HomeHero() {
         <div className={classes.root}>
             <div className={classes.background}>
                 <Image
-                    src="/center.png"
+                    src="/hero.png"
                     alt={"Background"}
                     style={{ objectFit: 'cover', objectPosition: 'center', width: '100%', height: '100%', position: 'absolute'}}
-                    fetchPriority="auto" />
+                    fetchPriority="auto"/>
             </div>
             <div className={classes.overlay}></div>
             <Container size="lg">
