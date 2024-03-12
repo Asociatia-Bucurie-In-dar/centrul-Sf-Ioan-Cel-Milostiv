@@ -30,7 +30,6 @@ export default function RootLayout({children, params: { locale }}: { children: R
     unstable_setRequestLocale(locale);
 
     const headerT = useTranslations('HEADER');
-    const commonT = useTranslations('COMMON');
     const donateT = useTranslations('PROJECTS_MORE');
     const donatePopupTranslations : ProjectTranslationsType = {
         Donate: donateT('DONATE'),
@@ -63,7 +62,7 @@ export default function RootLayout({children, params: { locale }}: { children: R
     <html lang={"ro"}>
     <head>
         <ColorSchemeScript/>
-        <link rel="shortcut icon" href="/logoPng.png"/>
+        <link rel="shortcut icon" href="/sfIoan.png"/>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
     </head>
     <body>
