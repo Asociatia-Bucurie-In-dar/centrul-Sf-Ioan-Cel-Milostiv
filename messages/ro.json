@@ -76,6 +76,65 @@
       }
     ]
   },
+  
+  "ADDICTIONS": {
+    "TITLE": "Tratarea dependențelor",
+    "DESCRIPTION": "Iată câteva dintre dependențele pe care ne propunem să le tratăm în cadrul Centrului Sfântul Ioan Cel Milostiv. Dependența de alcool, droguri, jocuri de noroc, jocuri video, pornografie, cumpărături, nicotină, tehnologie, munca compulsivă, cafeină, exerciții fizice, televizor.",
+    "CATEGORIES": [
+      {
+        "TITLE": "Alcool",
+        "DESCRIPTION": "Alcoolismul este o boală cronică, care poate fi tratată. Este caracterizată prin dorința de a bea și de a nu putea opri consumul de alcool, chiar dacă acesta cauzează probleme serioase de sănătate sau sociale. Alcoolismul poate fi fatal, dar este tratabil. Este important să recunoaștem că alcoolismul este o boală și să căutăm ajutor cât mai curând posibil."
+      },
+      {
+        "TITLE": "Droguri / Medicamente",
+        "DESCRIPTION": "Dependența de droguri este o problemă majoră care afectează milioane de oameni din întreaga lume. Este o boală cronică, caracterizată prin căutarea și consumul compulsiv de droguri, chiar dacă acestea au efecte nocive asupra sănătății și a vieții sociale. Dependența de droguri poate fi fatală, dar este tratabilă. Este important să recunoaștem că dependența de droguri este o boală și să căutăm ajutor cât mai curând posibil."
+      },
+      {
+        "TITLE": "Alimentație",
+        "DESCRIPTION": "Bulimia este o tulburare de alimentație care poate pune viața în pericol, dacă nu este tratată la timp sau dacă tratamentul eșuează. Pentru cei care suferă de bulimie, această afecțiune fizică și psihică în egală măsură este o provocare toată viața."
+      },
+      {
+        "TITLE": "Jocuri de noroc",
+        "DESCRIPTION": "Jocul patologic de noroc (online sau offline) este des întâlnit și are drept caracteristici repercusiunile severe asupra calității vieții sociale, financiare și a relațiilor familiale ale persoanei afectate. Acesta este diferit de jocul ocazional, rar cu prietenii, într-un anumit context sau de jocul profesionist în care jucătorul joacă calculat, pentru a face bani și știe cum/când să se oprească. Ca și la alte adicții, controlul impulsiunilor este deficitar."
+      },
+      {
+        "TITLE": "Jocuri video",
+        "DESCRIPTION": "Jocurile video sunt o formă de divertisment pentru mulți oameni, dar pentru alții pot deveni o problemă. Jocurile video pot deveni o problemă atunci când o persoană nu se poate opri să joace, chiar dacă are probleme în alte domenii ale vieții sale, cum ar fi școala sau relațiile cu familia și prietenii."
+      },
+      {
+        "TITLE": "Pornografie",
+        "DESCRIPTION": "Este nevoia crescută de a viziona materiale pornografice. Aceasta vine însoțită de o serie de simptome precum: stimă de sine scăzută, dificultăți de relaționare, lipsă de intimitate emoțională cu partenerul, diminuarea libidoului și disfuncție erectilă, izolare socială, scăderea interesului față de relaționarea fizică reală, lipsă de motivație și depresie."
+      },
+      {
+        "TITLE": "Cumpărături",
+        "DESCRIPTION": "A merge din când în când la cumpărături nu înseamnă că ești dependent/ă. Însă dacă ajungi să cumperi mai mult decât îți poți permite și ai acest comportament pe fondul unor emoții de tristețe severă sau furie, atunci putem vorbi despre adicție."
+      },
+      {
+        "TITLE": "Nicotină",
+        "DESCRIPTION": "Dependența de nicotină este una dintre cele mai răspândite dependențe din lume. Fumatul este o problemă de sănătate publică și este asociat cu o serie de boli grave, inclusiv cancerul, bolile de inimă și boli pulmonare."
+      },
+      {
+        "TITLE": "Tehnologie / Internet",
+        "DESCRIPTION": "În era internetului, în perioada telemuncii, teleșcolii, toți suntem \"dependenți\" de calculator și de internet. Dar, atunci când pierdem noțiunea timpului în fața calculatorului, când nu ne putem desprinde de calculator pentru a face altceva pentru beneficiul nostru, când viața socială se reduce sau dispare complet, când ești entuziasmat doar de statul/jocul la calculator/în mediul online/pe rețele de socializare, atunci putem vorbi de adicție."
+      },
+      {
+        "TITLE": "Munca compulsivă",
+        "DESCRIPTION": "În condițiile în care muncim ca să trăim, muncim pentru că suntem încurajați socio-economic să o facem, pentru că supraviețiurea devine dificilă în lipsa muncii, cum putem vorbi despre adicție? Tot mai des se vorbește despre efectul \"burnout\" care vine din \"prea multă muncă\"."
+      },
+      {
+        "TITLE": "Cafeină",
+        "DESCRIPTION": "Cafeina este o substanță care se găsește în mod natural în plante, cum ar fi cafeaua, ceaiul și cacao. Este adesea adăugată la băuturi răcoritoare și medicamente. Cafeina este un stimulent care afectează creierul. Consumul de cafeină poate fi benefic pentru sănătate, dar poate deveni o problemă atunci când o persoană nu se poate opri să consume cafeină, chiar dacă are probleme de sănătate sau sociale din cauza consumului de cafeină."
+      },
+      {
+        "TITLE": "Exerciții fizice",
+        "DESCRIPTION": "Exercițiile fizice sunt benefice pentru sănătatea noastră. Dar, atunci când nu ne putem opri să facem exerciții fizice, chiar dacă avem probleme de sănătate sau sociale din cauza exercițiilor fizice, atunci putem vorbi despre adicție."
+      },
+      {
+        "TITLE": "Televizor",
+        "DESCRIPTION": "Televiziunea, respective relaxarea omului modern ar putea fi numită chiar adicție? Neuropsihologii au demonstrat că televizorul are effect hipnotic, indiferent de emisiunea vizionată. Creierul nostru intră în stare de relaxare, respectiv de somn după 2 minute de expunere. Creierul nu face nici un efort când este expus televiziunii, practic tot ceea ce vedem trece dincolo de gândirea noastră critică, direct în subconștient. care duc la formarea dependențelor care uneori sunt blamate social: alcoolul, drogurile, sexul, iar alteori încurajate și admirate: munca, sportul. De regulă, dependențele au în spatele lor un abuz sau o traumă, fie ea și sub forma neglijării, iar comportamentul adictiv are rolul de a ameliora disconfortul produs de emoția asociată. Iată cum putem înțelege mai bine aceste comportamente."
+      }
+    ]
+  },
 
   "HOME_HELP": {
     "BADGE": "",

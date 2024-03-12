@@ -2,95 +2,126 @@
 
 import { Carousel } from '@mantine/carousel';
 import { useMediaQuery } from '@mantine/hooks';
-import { Paper, Text, Title, Button, useMantineTheme, rem } from '@mantine/core';
+import {
+    Paper,
+    Title,
+    useMantineTheme,
+    Image,
+    Container,
+    Text,
+    Divider,
+    rem,
+    Button,
+    HoverCard,
+    Group
+} from '@mantine/core';
 import classes from './Addictions.module.css';
+import Autoplay from 'embla-carousel-autoplay';
+import {useRef} from "react";
+import {TitleWithDescription} from "@/components/Common/TitleWithDescription";
+import {useTranslations} from "next-intl";
 
 interface CardProps {
     image: string;
     title: string;
-    category: string;
+    description: string;
 }
 
-function Card({ image, title, category }: CardProps) {
+function Card({ image, title, description }: CardProps) {
     return (
-        <Paper
-            shadow="md"
-            p="xl"
-            radius="md"
-            style={{ backgroundImage: `url(${image})` }}
-            className={classes.card}
-        >
-            <div>
-                <Text className={classes.category} size="xs">
-                    {category}
-                </Text>
-                <Title order={3} className={classes.title}>
-                    {title}
-                </Title>
+        <div>
+            <div className={classes.background}>
+                <Image
+                    src={image}
+                    alt={title}
+                    fetchPriority="auto"
+                    style={{height: '100%'}}/>
+                <div className={classes.overlay}></div>
             </div>
-            <Button variant="white" color="dark">
-                Read article
-            </Button>
-        </Paper>
+            <Paper
+                shadow="md"
+                p="xl"
+                radius="md"
+                className={classes.card}
+            >
+                <div style={{zIndex:1}}>
+                    <Title order={3} className={classes.title} style={{height:rem('150px')}}>
+                        {title}
+                    </Title>
+                </div>
+                
+                <div style={{zIndex:1, marginBottom:rem('20px')}}>
+                    <Text size="md" c="white" lineClamp={3} fz="md" fw="500" className={classes.description}
+                          style={{bottom:'0'}}>
+                        {description}
+                    </Text>
+
+                    <Divider color="transparent" mb="sm" />
+
+                    <Group justify="start">
+                        <HoverCard width={280} shadow="md">
+                            
+                    <HoverCard.Target>
+                    <Button
+                        variant="light"
+                        color="green"
+                        size="sm">
+                        {"Vezi mai mult"}
+                    </Button>
+                    </HoverCard.Target>
+
+                    <HoverCard.Dropdown>
+                        <Text size="sm">
+                            {description}
+                        </Text>
+                    </HoverCard.Dropdown>
+                            
+                        </HoverCard>
+                    </Group>
+                    
+                </div>
+            </Paper>
+        </div>
     );
 }
 
-const data = [
-    {
-        image:
-            'https://images.unsplash.com/photo-1508193638397-1c4234db14d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80',
-        title: 'Best forests to visit in North America',
-        category: 'nature',
-    },
-    {
-        image:
-            'https://images.unsplash.com/photo-1559494007-9f5847c49d94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80',
-        title: 'Hawaii beaches review: better than you think',
-        category: 'beach',
-    },
-    {
-        image:
-            'https://images.unsplash.com/photo-1608481337062-4093bf3ed404?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80',
-        title: 'Mountains at night: 12 best locations to enjoy the view',
-        category: 'nature',
-    },
-    {
-        image:
-            'https://images.unsplash.com/photo-1507272931001-fc06c17e4f43?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80',
-        title: 'Aurora in Norway: when to visit for best experience',
-        category: 'nature',
-    },
-    {
-        image:
-            'https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80',
-        title: 'Best places to visit this winter',
-        category: 'tourism',
-    },
-    {
-        image:
-            'https://images.unsplash.com/photo-1582721478779-0ae163c05a60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80',
-        title: 'Active volcanos reviews: travel at your own risk',
-        category: 'nature',
-    },
-];
-
-export function Addictions() {
+export function Addictions(props: { translations:any }) {
     const theme = useMantineTheme();
     const mobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm})`);
-    const slides = data.map((item) => (
+    const slides = props.translations.slidesData.map((item:any) => (
         <Carousel.Slide key={item.title}>
             <Card {...item} />
         </Carousel.Slide>
     ));
+    const autoplay = useRef(Autoplay({ delay: 2000 }));
 
     return (
-        <Carousel
-            slideSize={{ base: '100%', sm: '50%' }}
-            slideGap={{ base: rem(2), sm: 'xl' }}
+        <Container size="xl" mb={50}>
+            <TitleWithDescription title={props.translations.title}  
+                                  description={props.translations.description} maxWidth={rem('700px')}/>
+            
+            <Divider color="transparent" mb="xl" />
+            
+        <Carousel withIndicators={true}
+            slideSize={{ base: '100%', sm: 'calc(50% - 20px)', md: 'calc(33.333% - 20px)' }}
+            slideGap={{ base: "sm", sm: 'xl' }}
             align="start"
-            slidesToScroll={mobile ? 1 : 2}
+                  loop
+            slidesToScroll={1} draggable
+                  withControls={true}
+                  classNames={{
+                      root: classes.carousel,
+                      controls: classes.carouselControls,
+                      indicator: classes.carouselIndicator,
+                      control: classes.carouselControl,
+                  }}
+                  plugins={[autoplay.current]}
+                  onMouseEnter={autoplay.current.stop}
+                  onMouseLeave={autoplay.current.reset}
+                  
         >
             {slides}
         </Carousel>
+        </Container>
     );
 }

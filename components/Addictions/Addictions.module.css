@@ -8,6 +8,28 @@
     background-position: center;
 }
 
+.background {
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    z-index: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*background: linear-gradient(250deg, rgba(134, 46, 156, 0) 0%, rgba(134, 46, 156, 0.9) 70%);*/
+    background: linear-gradient(250deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.3) 70%);
+    z-index: 0;
+}
+
 .title {
     font-family:
             Greycliff CF,
@@ -19,9 +41,43 @@
     margin-top: var(--mantine-spacing-xs);
 }
 
+.description {
+    color: var(--mantine-color-gray-0);
+
+    @media (max-width: $mantine-breakpoint-xs) {
+        font-size: var(--mantine-font-size-md);
+        text-align: left;
+    }
+}
+
 .category {
     color: var(--mantine-color-white);
     opacity: 0.7;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.carousel {
+    
+}
+
+.carouselControls {
+    opacity: 100%;
+    color: var(--mantine-color-black);
+}
+
+.carouselControl {
+    background-color: var(--mantine-color-white);
+}
+
+.carouselIndicator {
+    width: rem(4px);
+    height: rem(4px);
+    transition: width 250ms ease;
+    background-color: var(--mantine-color-white);
+    z-index: 3;
+
+    &[data-active] {
+        width: rem(16px);
+    }
 }

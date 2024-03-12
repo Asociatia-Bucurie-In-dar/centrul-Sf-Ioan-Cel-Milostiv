@@ -133,6 +133,10 @@ export function DonatePopupButton(props: {projectId: string,
             <Center>
                 <Text size ="lg"><b>EUR</b> - RO62BTRLEURCRT0610749702</Text>
             </Center>
+            <br></br>
+            <Center>
+                <Text size="lg"><b>USD</b> - RO66BTRLUSDCRT0610749702</Text>
+            </Center>
         </Paper>
     </>;
 
