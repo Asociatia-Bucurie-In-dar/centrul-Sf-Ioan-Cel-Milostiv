@@ -17,6 +17,7 @@ export default function HomePage({params: {locale}}:{ params: { locale: string }
     const addictionsData = {
         title: addictionsT('TITLE'),
         description: addictionsT('DESCRIPTION'),
+        readMoreTranslation: addictionsT('READ_MORE'),
         slidesData: [
             {
                 image: '/gallery/alcohol.jpeg',
@@ -69,17 +70,17 @@ export default function HomePage({params: {locale}}:{ params: { locale: string }
                 description: addictionsT('CATEGORIES.9.DESCRIPTION'),
             },
             {
-                image: '/gallery/caffeine.jpeg', //need
+                image: '/gallery/caffeine.jpg', 
                 title: addictionsT('CATEGORIES.10.TITLE'),
                 description: addictionsT('CATEGORIES.10.DESCRIPTION'),
             },
             {
-                image: '/gallery/sport.jpeg', //need
+                image: '/gallery/sport.jpg', 
                 title: addictionsT('CATEGORIES.11.TITLE'),
                 description: addictionsT('CATEGORIES.11.DESCRIPTION'),
             },
             {
-                image: '/gallery/tv.jpeg', //need
+                image: '/gallery/tv.jpg', 
                 title: addictionsT('CATEGORIES.12.TITLE'),
                 description: addictionsT('CATEGORIES.12.DESCRIPTION'),
             }

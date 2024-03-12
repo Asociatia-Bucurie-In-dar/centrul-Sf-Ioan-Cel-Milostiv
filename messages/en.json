@@ -77,6 +77,66 @@
     ]
   },
 
+  "ADDICTIONS": {
+    "TITLE": "Addiction treatment",
+    "DESCRIPTION": "Here are some of the addictions we aim to treat at Saint John the Merciful Centre. Addiction to alcohol, drugs, gambling, video games, pornography, shopping, nicotine, technology, compulsive work, caffeine, exercise, television.",
+    "READ_MORE": "Read More",
+    "CATEGORIES": [
+      { 
+        "TITLE": "Alcohol",
+        "DESCRIPTION": "Alcoholism is a chronic, treatable disease. It is characterised by the desire to drink and not being able to stop drinking, even if it causes serious health or social problems. Alcoholism can be fatal, but it is treatable. It is important to recognise that alcoholism is a disease and seek help as soon as possible."
+      },
+      {
+        "TITLE": "Drugs / Medication",
+        "DESCRIPTION": "Drug addiction is a major problem affecting millions of people around the world. It is a chronic disease, characterised by compulsive drug-seeking and drug-taking, even though it has harmful effects on health and social life. Drug addiction can be fatal, but it is treatable. It is important to recognise that drug addiction is a disease and seek help as soon as possible."
+      },
+      {
+        "TITLE": "Food",
+        "DESCRIPTION": "Bulimia is an eating disorder that can be life-threatening if not treated early or if treatment fails. For those who suffer from bulimia, this physical and mental condition in equal measure is a lifelong challenge."
+      },
+      {
+        "TITLE":  "Gambling",
+        "DESCRIPTION": "Pathological gambling (online or offline) is common and is characterized by severe repercussions on the quality of social, financial and family relationships of the affected person. It is different from casual, infrequent gambling with friends in a particular context or from professional gambling where the gambler plays calculatedly to make money and knows how/when to stop. As with other addictions, impulse control is poor."
+      },
+      {
+        "TITLE": "Video Games",
+        "DESCRIPTION": "Video games are a form of entertainment for many people, but for others they can become a problem. Video games can become a problem when a person can't stop playing, even if they have problems in other areas of their life, such as school or relationships with family and friends."
+      },
+      {
+        "TITLE": "Pornography",
+        "DESCRIPTION": "It's the increased need to watch pornography. It is accompanied by a range of symptoms such as low self-esteem, difficulty relating, lack of emotional intimacy with a partner, decreased libido and erectile dysfunction, social isolation, decreased interest in real physical relationships, lack of motivation and depression."
+      },
+      {
+        "TITLE": "Shopping",
+        "DESCRIPTION": "Going shopping once in a while doesn't mean you're an addict. But if you end up buying more than you can afford, and you do so amid emotions of severe sadness or anger, then we can talk about addiction."
+      },
+      {
+        "TITLE": "Nicotine",
+        "DESCRIPTION": "Nicotine addiction is one of the most widespread addictions in the world. Smoking is a public health problem and is associated with a number of serious diseases, including cancer, heart disease and lung disease."
+      },
+      {
+        "TITLE": "Technology / Internet",
+        "DESCRIPTION": "In the age of the Internet, in the age of telework, tele-school, we are all \"addicted\" to computers and the Internet. But, when we lose track of time in front of the computer, when we can't get away from the computer to do something else for our benefit, when our social life is reduced or disappears completely, when you are only excited about sitting/playing on the computer/online/on social networks, then we can talk about addiction."
+      },
+      {
+        "TITLE": "Compulsive Work",
+        "DESCRIPTION": "When we work for a living, when we work because we are socio-economically encouraged to do so, when survival becomes difficult without work, how can we talk about addiction? More and more people talk about the burnout effect that comes from too much work."
+      },
+      {
+        "TITLE": "Caffeine",
+        "DESCRIPTION": "Caffeine is a substance found naturally in plants such as coffee, tea and cocoa. It is often added to soft drinks and medicines. Caffeine is a stimulant that affects the brain. Caffeine consumption can be beneficial to health, but it can become a problem when a person can't stop drinking caffeine, even if they have health or social problems because of caffeine consumption."
+      },
+      {
+        "TITLE": "Exercise",
+        "DESCRIPTION": "Exercise is good for our health. But when we can't stop exercising, even if we have health or social problems because of exercise, then we can talk about addiction."
+      },
+      {
+        "TITLE": "Television",
+        "DESCRIPTION": "Television, respectively the relaxation of modern man could even be called addiction? Neuropsychologists have shown that television has a hypnotic effect, regardless of the programme watched. Our brains enter a state of relaxation or sleep after 2 minutes of exposure. The brain makes no effort when exposed to television, practically everything we see passes beyond our critical thinking, directly into the subconscious. which lead to addictions that are sometimes socially blamed: alcohol, drugs, sex, and sometimes encouraged and admired: work, sport. As a rule, addictions are the result of abuse or trauma, even in the form of neglect, and the addictive behaviour is intended to relieve the discomfort caused by the associated emotion. Here's how we can better understand these behaviours."
+      }
+    ]
+  },
+
   "HOME_HELP": {
     "BADGE": "",
     "TITLE": "",

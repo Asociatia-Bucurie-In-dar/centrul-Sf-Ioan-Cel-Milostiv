@@ -1,5 +1,6 @@
 import {Avatar, Center, Container, Divider, Group, SimpleGrid, Text, Title} from '@mantine/core';
 import classes from './OurTeam.module.css';
+import commonClasses from '@/utils/commonClasses.module.css';
 import {TitleWithDescription} from "@/components/Common/TitleWithDescription";
 import {useTranslations} from "next-intl";
 
@@ -65,7 +66,8 @@ export function OurTeam() {
     });
     
     return (
-        <Container pt={45} mb={55} size="lg">
+        // <Container size="full" pt={45} pb={55} className={commonClasses.darkerBackground}>
+        <Container size="lg">
             <Container className={classes.wrapper}>
                 
                 <TitleWithDescription title={t('TITLE')} 
@@ -82,5 +84,6 @@ export function OurTeam() {
                 </SimpleGrid>
         </Container>
     </Container>
+    //</Container>
     );
 }

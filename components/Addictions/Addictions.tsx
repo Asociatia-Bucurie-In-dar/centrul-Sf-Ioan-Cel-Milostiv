@@ -2,13 +2,7 @@
 
 import { Carousel } from '@mantine/carousel';
 import { useMediaQuery } from '@mantine/hooks';
-import {
-    Paper,
-    Title,
-    useMantineTheme,
-    Image,
-    Container,
-    Text,
+import { Paper, Title, useMantineTheme, Image, Container, Text,
     Divider,
     rem,
     Button,
@@ -19,15 +13,16 @@ import classes from './Addictions.module.css';
 import Autoplay from 'embla-carousel-autoplay';
 import {useRef} from "react";
 import {TitleWithDescription} from "@/components/Common/TitleWithDescription";
-import {useTranslations} from "next-intl";
+import commonClasses from "@/utils/commonClasses.module.css";
 
 interface CardProps {
     image: string;
     title: string;
     description: string;
+    readMoreTranslation: string;
 }
 
-function Card({ image, title, description }: CardProps) {
+function Card({ image, title, description, readMoreTranslation }: CardProps) {
     return (
         <div>
             <div className={classes.background}>
@@ -66,7 +61,7 @@ function Card({ image, title, description }: CardProps) {
                         variant="light"
                         color="green"
                         size="sm">
-                        {"Vezi mai mult"}
+                        {readMoreTranslation}
                     </Button>
                     </HoverCard.Target>
 
@@ -90,13 +85,14 @@ export function Addictions(props: { translations:any }) {
     const mobile = useMediaQuery(`(max-width: ${theme.breakpoints.sm})`);
     const slides = props.translations.slidesData.map((item:any) => (
         <Carousel.Slide key={item.title}>
-            <Card {...item} />
+            <Card {...item} readMoreTranslation={props.translations.readMoreTranslation}/>
         </Carousel.Slide>
     ));
     const autoplay = useRef(Autoplay({ delay: 2000 }));
 
     return (
-        <Container size="xl" mb={50}>
+        <Container size="full" className={commonClasses.darkerBackground} pb={60} pt={45}>
+        <Container size="xl">
             <TitleWithDescription title={props.translations.title}  
                                   description={props.translations.description} maxWidth={rem('700px')}/>
             
@@ -122,6 +118,7 @@ export function Addictions(props: { translations:any }) {
         >
             {slides}
         </Carousel>
+        </Container>
         </Container>
     );
 }

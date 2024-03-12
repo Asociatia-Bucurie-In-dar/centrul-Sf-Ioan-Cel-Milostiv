@@ -19,7 +19,7 @@ export function HomeWhy() {
     }
 
     return (
-        <>
+        <Container size="full" className={commonClasses.darkerBackground}>
                 <Container size="lg" pt={45} pb={50}>
                     <TitleWithDescription title={"De ce înființăm Centrul?"} />
                     
@@ -70,6 +70,6 @@ export function HomeWhy() {
                     </SimpleGrid>
                     
                 </Container>
-        </>
+        </Container>
     );
 }

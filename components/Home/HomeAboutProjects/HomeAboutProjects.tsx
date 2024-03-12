@@ -63,7 +63,7 @@ export function HomeAboutProjects() {
     ));
 
     return (
-<Container size="full" pt={20} pb={35} className={commonClasses.darkerBackground}>
+<Container size="full" pt={15} pb={35}>
         <Container size="lg" mt="md">
             
             <Center>
