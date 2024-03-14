@@ -78,7 +78,7 @@ export function OurTeam() {
                 <SimpleGrid
                     cols={{ base: 2, sm: 4, md: 4 }}
                     spacing={{ base: 'xl', md: 50 }}
-                    verticalSpacing={{ base: 'xl', md: 50 }} className={classes.grid}
+                    verticalSpacing={{ base: 'xl', md: 50 }}
                 >
                     {items}
                 </SimpleGrid>
