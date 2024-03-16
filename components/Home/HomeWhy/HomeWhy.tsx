@@ -8,7 +8,7 @@ const division = 75;
 const cols = { base: 1, sm: 2, md: 2, lg: 2, xl: 2 };
 export function HomeWhy() {
 
-    const t = useTranslations('ABOUT');
+    //const t = useTranslations('ABOUT');
 
     const roundedImage = (src: string) => {
         return (
