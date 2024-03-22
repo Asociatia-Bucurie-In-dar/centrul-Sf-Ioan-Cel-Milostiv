@@ -22,22 +22,15 @@ export function Header({ headerProps, locale }: { headerProps: any, locale:strin
 
 
     const renderLinks = (links: any) => {
-        const allBools:boolean[] = [];
-        links.map((link: any) => {
-            const isCurrent = pathname === link.link;
-            allBools.push(isCurrent);
-        });
-        const allFalse = allBools.every((val) => val === false);
         return links.map((link: any) => {
             let isCurrent = pathname === link.link;
-            if (link.label === headerProps.home.label && allFalse)
-            {
+            if (link.label === headerProps.home.label && pathname === `/${locale}`) {
                 isCurrent = true;
             }
             return (
                 <Link href={link.link} key={link.label}
                       className={classes.link}
-                      data-active={isCurrent|| undefined}>
+                      data-active={isCurrent || undefined}>
                     {link.label}
                 </Link>
             );
