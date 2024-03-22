@@ -56,7 +56,7 @@ export function HomeAboutProjects() {
                 {feature.title}
             </Text>
             <Divider mt="sm" mb={0} />
-            <Text fz="sm" c="dimmed" mt="sm">
+            <Text fz="sm" c="dimmed" mt="sm" fw={500}>
                 {feature.description}
             </Text>
         </Card>

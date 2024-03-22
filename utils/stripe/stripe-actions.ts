@@ -9,14 +9,25 @@ import { stripe } from "@/utils/stripe/stripe";
 
 const CURRENCY = "eur";
 
-export async function createCheckoutSession( data: {projectId : string, projectTitle: string, currencyAmount: number  } ): Promise<{ client_secret: string | null; url: string | null }> {
-    const origin: string = headers().get("origin") as string;
+export async function createCheckoutSession( data: {
+    projectId : string,
+    projectTitle: string,
+    currencyAmount: number,
+    //email: string,
+    agreed: boolean } ): Promise<{ client_secret: string | null; url: string | null }> {
 
+    if (!data.agreed)
+    {
+        return {client_secret: null, url: null};
+    }
+
+    const origin: string = headers().get("origin") as string;
     const checkoutSession: Stripe.Checkout.Session =
         await stripe.checkout.sessions.create({
             mode: "payment",
             submit_type: "donate",
             payment_method_types: ["card"],
+            // customer_email: data.email,
             line_items: [
                 {
                     price_data: {

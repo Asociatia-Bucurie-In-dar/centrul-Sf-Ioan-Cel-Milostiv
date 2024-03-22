@@ -13,7 +13,7 @@ export function ProjectPreviewCard(props: { title: string, imgPath: string, text
     
     const texts = props.texts.map((text, index) => {
         return (
-            <Text key={index} fz="sm" c="dimmed" mt={3} mb={5}>
+            <Text key={index} fz="sm" c="dimmed" mt={5} mb={5} fw={600}>
                 • {text}
             </Text>
         );
@@ -32,7 +32,7 @@ export function ProjectPreviewCard(props: { title: string, imgPath: string, text
                 {/*    outstanding*/}
                 {/*</Badge>*/}
                 
-                <Text className={classes.title} fw={500}>
+                <Text className={classes.title} fw={600}>
                     {props.title}
                 </Text>
                 

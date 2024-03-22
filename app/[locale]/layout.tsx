@@ -5,10 +5,9 @@ import { Header } from '@/components/Header/Header';
 import { Footer } from '@/components/Footer/Footer';
 import { ChatButton } from '@/components/ChatButton/ChatButton';
 import { theme } from '@/theme';
-import FirstTimeConfetti from "@/components/CoolEffects/FirstTimeConfetti";
 //import WavySeparator from '@/components/WavySeparator/WavySeparator';
 import {locales} from "@/middleware";
-import {unstable_setRequestLocale} from 'next-intl/server';
+import {getTranslations, unstable_setRequestLocale} from 'next-intl/server';
 import {useTranslations} from "next-intl";
 import {ProjectTranslationsType} from "@/utils/my-types";
 import {GetAllProjectsStaticContent} from "@/content/projects/projects-content";
@@ -18,13 +17,19 @@ export function generateStaticParams() {
     return locales.map((locale:string) => ({locale}));
 }
 
-export const metadata = {
-  title: {
-      default: 'Centrul Sfântul Ioan Cel Milostiv',
-      template: '%s | Centrul Sfântul Ioan Cel Milostiv',
-  },
-  description: 'Avem toată nădejdea și cred cu tărie că echipa Centrului Sf. Ioan Cel Milostiv se va strădui să aducă alinare, vindecare și să fie sprijin celor care nu mai au pe cine să se sprijine.',
-};
+export async function generateMetadata({children, params: {locale}}: { children: React.ReactNode; params: {locale: string}; }) {
+    const saintT = await getTranslations({locale: locale, namespace: 'SAINT_JOHN'});
+    const heroT = await getTranslations({locale: locale, namespace: 'HOME_HERO'});
+    const title = saintT('TITLE');
+    const description = saintT('DESCRIPTION');
+    return {
+        title: {
+            default: title,
+            template: '%s | ' + title,
+        },
+        description: heroT('DESCRIPTION'),
+    };
+}
 
 export default function RootLayout({children, params: { locale }}: { children: React.ReactNode; params: { locale: string }; }) {
     unstable_setRequestLocale(locale);
@@ -37,7 +42,11 @@ export default function RootLayout({children, params: { locale }}: { children: R
         BankTransferOption: donateT('BANK_TRANSFER_OPTION'),
         DesiredAmount: donateT('DESIRED_AMOUNT'),
         Continue: donateT('CONTINUE'),
-        DonateFor: donateT('DONATE_FOR')
+        DonateFor: donateT('DONATE_FOR'),
+        IAgreeWith: donateT('I_AGREE_TO_THE'),
+        TermsAndConditions: donateT('TERMS_AND_CONDITIONS'),
+        And: donateT('AND'),
+        PrivacyPolicy: donateT('PRIVACY_POLICY'),
     };
 
     const proj = GetAllProjectsStaticContent(1)[0];
@@ -72,8 +81,6 @@ export default function RootLayout({children, params: { locale }}: { children: R
         <ChatButton />
         <Footer/>
     </MantineProvider>
-
-    <FirstTimeConfetti/>
     </body>
     </html>
   );

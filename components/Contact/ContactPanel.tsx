@@ -10,24 +10,24 @@ import {
     Group,
     ActionIcon, Divider, Container, Center,
 } from '@mantine/core';
-import { IconBrandFacebook, IconBrandWhatsapp } from '@tabler/icons-react';
+import {IconBrandFacebook, IconBrandInstagram, IconBrandWhatsapp} from '@tabler/icons-react';
 import { ContactIcons } from './ContactIcons';
 import classes from './ContactPanel.module.css';
 import commonClasses from '@/utils/commonClasses.module.css';
 import Link from "next/link";
-import {MyRoutePaths} from "@/utils/route-paths";
 import {useState} from "react";
 import {contactInfo} from "@/content/contact/my-contact";
 import {ContactTranslationType} from "@/utils/my-types";
 
-const social = 
-    [{icon: IconBrandFacebook, link: contactInfo.facebookLink},
-        {icon: IconBrandWhatsapp, link: "https://wa.me/" + contactInfo.phoneForWhatsapp}];
+const social =
+    [ {icon: IconBrandFacebook, link: contactInfo.facebookLink},
+        {icon: IconBrandInstagram, link: contactInfo.instagramLink},
+        {icon: IconBrandWhatsapp, link: "https://wa.me/" + contactInfo.phoneForWhatsapp} ];
 
 export function ContactPanel(props: { translations: ContactTranslationType }) {
     const icons = social.map((props, index) => (
         <ActionIcon key={index} size={33} className={classes.social} variant="transparent"
-        component={Link} href={props.link}>
+        component={Link} href={props.link} target="_blank" rel="noopener noreferrer">
             <props.icon size="1.6rem" stroke={1.5} />
         </ActionIcon>
     ));

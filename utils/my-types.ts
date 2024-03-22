@@ -14,6 +14,10 @@ export type ProjectTranslationsType = {
     DesiredAmount: string;
     Continue: string;
     DonateFor: string;
+    IAgreeWith: string;
+    TermsAndConditions: string;
+    And: string;
+    PrivacyPolicy: string;
 }
 
 export type ContactTranslationType = {

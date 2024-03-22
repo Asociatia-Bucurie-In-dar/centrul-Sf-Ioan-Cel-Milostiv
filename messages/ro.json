@@ -176,7 +176,11 @@
     "BANK_TRANSFER_OPTION": "Transfer bancar",
     "DESIRED_AMOUNT": "Suma dorită",
     "CONTINUE": "Continuare",
-    "DONATE_FOR": "Donează pentru"
+    "DONATE_FOR": "Donează pentru",
+    "I_AGREE_TO_THE": "Sunt de acord cu",
+    "TERMS_AND_CONDITIONS": "Termenii și Condițiile",
+    "AND": "și",
+    "PRIVACY_POLICY": "Politica de Confidențialitate"
   },
 
   "SHARE": {
@@ -207,6 +211,8 @@
     "ABOUT": { "LABEL": "Despre", "LINK": "/about" },
     "GALLERY": { "LABEL": "Galerie", "LINK": "/gallery"},
     "BLOG": { "LABEL": "Blog", "LINK": "/blog" },
-    "CONTACT": { "LABEL": "Contact", "LINK": "/contact" }
+    "CONTACT": { "LABEL": "Contact", "LINK": "/contact" },
+    "TERMS": { "LABEL": "Termeni şi Condiții", "LINK": "/terms" },
+    "PRIVACY": { "LABEL": "Politica de Confidențialitate", "LINK": "/privacy" }
   }
 }

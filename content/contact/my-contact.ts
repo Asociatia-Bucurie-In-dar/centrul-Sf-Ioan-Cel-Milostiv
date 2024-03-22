@@ -4,4 +4,5 @@ export const contactInfo = {
     phoneForWhatsapp: "40727786725",
     address: "Str. Poteraș 14, București, România 040266",
     facebookLink: "https://www.facebook.com/asociatiabucurieindar",
+    instagramLink: "https://www.instagram.com/bucurieindar2021",
 };

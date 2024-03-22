@@ -21,7 +21,11 @@ export function DonationProgress() {
         BankTransferOption: donateT('BANK_TRANSFER_OPTION'),
         DesiredAmount: donateT('DESIRED_AMOUNT'),
         Continue: donateT('CONTINUE'),
-        DonateFor: donateT('DONATE_FOR')
+        DonateFor: donateT('DONATE_FOR'),
+        IAgreeWith: donateT('I_AGREE_TO_THE'),
+        TermsAndConditions: donateT('TERMS_AND_CONDITIONS'),
+        And: donateT('AND'),
+        PrivacyPolicy: donateT('PRIVACY_POLICY'),
     };
 
     return (

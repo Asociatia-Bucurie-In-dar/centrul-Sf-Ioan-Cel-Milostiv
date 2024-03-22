@@ -66,7 +66,7 @@ function Card({ image, title, description, readMoreTranslation }: CardProps) {
                     </HoverCard.Target>
 
                     <HoverCard.Dropdown>
-                        <Text size="sm">
+                        <Text size="sm" fw={500}>
                             {description}
                         </Text>
                     </HoverCard.Dropdown>
