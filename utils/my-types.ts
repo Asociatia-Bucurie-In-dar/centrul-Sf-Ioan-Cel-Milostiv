@@ -18,6 +18,7 @@ export type ProjectTranslationsType = {
     TermsAndConditions: string;
     And: string;
     PrivacyPolicy: string;
+    Locale: string;
 }
 
 export type ContactTranslationType = {
@@ -32,4 +33,5 @@ export type ContactTranslationType = {
     Send: string;
     Success: string;
     Error: string;
+    InConstruction: string;
 };

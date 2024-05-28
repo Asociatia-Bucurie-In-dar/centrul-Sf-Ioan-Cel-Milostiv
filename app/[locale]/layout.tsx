@@ -5,6 +5,7 @@ import { Header } from '@/components/Header/Header';
 import { Footer } from '@/components/Footer/Footer';
 import { ChatButton } from '@/components/ChatButton/ChatButton';
 import { theme } from '@/theme';
+import {Analytics} from "@vercel/analytics/next";
 //import WavySeparator from '@/components/WavySeparator/WavySeparator';
 import {locales} from "@/middleware";
 import {getTranslations, unstable_setRequestLocale} from 'next-intl/server';
@@ -47,6 +48,7 @@ export default function RootLayout({children, params: { locale }}: { children: R
         TermsAndConditions: donateT('TERMS_AND_CONDITIONS'),
         And: donateT('AND'),
         PrivacyPolicy: donateT('PRIVACY_POLICY'),
+        Locale: headerT('LOCALE'),
     };
 
     const proj = GetAllProjectsStaticContent(1)[0];
@@ -81,6 +83,7 @@ export default function RootLayout({children, params: { locale }}: { children: R
         <ChatButton />
         <Footer/>
     </MantineProvider>
+    <Analytics />
     </body>
     </html>
   );

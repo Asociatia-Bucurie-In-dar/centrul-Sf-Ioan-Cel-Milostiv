@@ -5,7 +5,8 @@
     "DONATE_NOW": "Donate Now",
     "ASSOCIATION": "Bucurie în Dar (Gift of Joy)",
     "ASSOCIATION_FULL": "Bucurie în Dar (Gift of Joy) Association",
-    "NECESSARY_AMOUNT": "Necessary amount"
+    "NECESSARY_AMOUNT": "Necessary amount",
+    "IN_CONSTRUCTION": "Under construction! Email: "
   },
   
   "HOME_HERO":
@@ -154,19 +155,21 @@
       "DESCRIPTION": "Our mission is to bring joy where there is none, in the hearts of as many people as possible, big and small, young and old, together with you."
     }
   },
-  
+
   "OUR_TEAM": {
     "TITLE": "Our Team",
-    "DESCRIPTION": "Meet our team! We are passionate people when it comes to our work and we wish to bring a positive impact in the world.",
+    "DESCRIPTION": "Meet our team! We are people who are passionate about what we do and wish to bring a positive impact in the world.",
     "TEAM_MEMBERS": {
       "FIRST": { "NAME": "Alexandru Ionescu", "ROLE": "President" },
-        "SECOND": { "NAME": "Andreea Constantinescu", "ROLE": "VP & Marketing coordinator" },
-        "THIRD": { "NAME": "Cioltan Marius", "ROLE": "VP & Logistics coordinator" },
-        "FOURTH": { "NAME": "Teodor Nemțeanu", "ROLE": "Principal coordinator of emergency stuations" },
-        "FIFTH": { "NAME": "Alina Cernea", "ROLE": "Assistant & Principal coordinator" },
-        "SIXTH": { "NAME": "Cristian Simionescu", "ROLE": "Communications & Public relations specialist" },
-        "SEVENTH": { "NAME": "Evelin", "ROLE": "Principal social assistant" },
-        "EIGHTH": { "NAME": "Ovidiu Horațiu", "ROLE": "Doctor architect" }
+      "SECOND": { "NAME": "Andreea Constantinescu", "ROLE": "VP & Marketing coordinator" },
+      "THIRD": { "NAME": "Cioltan Marius", "ROLE": "VP & Logistics coordinator" },
+      "FOURTH": { "NAME": "Teodor Nemțeanu", "ROLE": "Principal coordinator of emergency stuations" },
+      "FIFTH": { "NAME": "Alina Cernea", "ROLE": "Assistant & Principal coordinator" },
+      "SIXTH": { "NAME": "Cristian Simionescu", "ROLE": "Communications & Public relations specialist" },
+      "SEVENTH": { "NAME": "Evelin", "ROLE": "Principal social assistant" },
+      "EIGHTH": { "NAME": "Ovidiu Horațiu", "ROLE": "Doctor architect" },
+      "NINTH": { "NAME": "Titus Necea", "ROLE": "Software developer" },
+      "TENTH": { "NAME": "Fabian Ghenof", "ROLE": "Software developer" }
     }
   },
 
@@ -206,13 +209,14 @@
   },
 
   "HEADER": {
+    "LOCALE": "en",
     "HOME": { "LABEL": "Home", "LINK": "/en" },
     "PROJECTS": { "LABEL": "Projects", "LINK": "/en/projects" },
     "ABOUT": { "LABEL": "About", "LINK": "/en/about" },
     "GALLERY": { "LABEL": "Gallery", "LINK": "/en/gallery" },
     "BLOG": { "LABEL": "Blog", "LINK": "/en/blog" },
     "CONTACT": { "LABEL": "Contact", "LINK": "/en/contact" },
-    "TERMS": { "LABEL": "Terms and Conditions", "LINK": "/terms" },
-    "PRIVACY": { "LABEL": "Privacy Policy", "LINK": "/privacy" }
+    "TERMS": { "LABEL": "Terms and Conditions", "LINK": "/en/terms" },
+    "PRIVACY": { "LABEL": "Privacy Policy", "LINK": "/en/privacy" }
   }
 }

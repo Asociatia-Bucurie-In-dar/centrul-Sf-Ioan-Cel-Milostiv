@@ -157,7 +157,7 @@ export function DonatePopupButton(props: {projectId: string,
                     {props.translations.IAgreeWith}:
                 </Text>
                 <Text fz="sm" fw={600}>
-                    <Link href={MyRoutePaths.Terms} target="_blank" onClick={stopPropagation} className={classes.link}>{props.translations.TermsAndConditions}</Link> {props.translations.And} <Link href={MyRoutePaths.Privacy} target="_blank"  onClick={stopPropagation} className={classes.link}>{props.translations.PrivacyPolicy}</Link>
+                    <Link href={'/' + props.translations.Locale + MyRoutePaths.Terms} target="_blank" onClick={stopPropagation} className={classes.link}>{props.translations.TermsAndConditions}</Link> {props.translations.And} <Link href={'/' + props.translations.Locale + MyRoutePaths.Privacy} target="_blank" onClick={stopPropagation} className={classes.link}>{props.translations.PrivacyPolicy}</Link>
                 </Text>
             </div>
         </UnstyledButton>

@@ -18,6 +18,7 @@ export async function generateMetadata({params: {locale}}:{ params: { locale: st
 export default function ContactPage( {params: {locale}} : {params: {locale: string}} ) {
     unstable_setRequestLocale(locale);
     const t = useTranslations('CONTACT');
+    const commonT = useTranslations('COMMON');
     const translations:ContactTranslationType = {
         FormTitle: t('FORM.TITLE'),
         Disclaimer: t('FORM.DISCLAIMER'),
@@ -30,6 +31,7 @@ export default function ContactPage( {params: {locale}} : {params: {locale: stri
         Send: t('FORM.SEND'),
         Success: t('FORM.SUCCESS'),
         Error: t('FORM.ERROR'),
+        InConstruction: commonT('IN_CONSTRUCTION')
     };
         
     

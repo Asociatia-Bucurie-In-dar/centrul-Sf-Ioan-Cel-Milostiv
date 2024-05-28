@@ -1,8 +1,7 @@
-import {Text, Container, ActionIcon, Group, rem, Title, Center, SimpleGrid, Divider} from '@mantine/core';
+import {Text, Container, Group, Title, Center, SimpleGrid, Divider} from '@mantine/core';
 import classes from './Footer.module.css';
 import Link from "next/link";
 import {useTranslations} from "next-intl";
-import {MyRoutePaths} from "@/utils/route-paths";
 
 export function Footer() {
     const t = useTranslations('HEADER');
@@ -37,8 +36,8 @@ export function Footer() {
             <Container size="md">
                 <Center>
                     <SimpleGrid cols={2}>
-                        {link(MyRoutePaths.Home, t('HOME.LABEL'))}
-                        {link(MyRoutePaths.Contact, t('CONTACT.LABEL'))}
+                        {link(t('HOME.LINK'), t('HOME.LABEL'))}
+                        {link(t('CONTACT.LINK'), t('CONTACT.LABEL'))}
                     </SimpleGrid>
                 </Center>
             </Container>

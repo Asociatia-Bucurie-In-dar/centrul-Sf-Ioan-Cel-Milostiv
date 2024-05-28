@@ -47,7 +47,7 @@ export function Header({ headerProps, locale }: { headerProps: any, locale:strin
     links.push({ label: headerProps.contact.label, link: headerProps.contact.link });
 
     const headerItems = renderLinks(links);
-    var headerZIndex = MyZIndexes.Header;
+    const headerZIndex = MyZIndexes.Header;
 
     return (
         <header className={classes.header} style={{

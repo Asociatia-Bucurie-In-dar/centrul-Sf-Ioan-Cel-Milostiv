@@ -1,8 +1,8 @@
-import {Avatar, Center, Container, Divider, Group, SimpleGrid, Text, Title} from '@mantine/core';
+import {Avatar, Container, Divider, Group, rem, SimpleGrid, Text, Title} from '@mantine/core';
 import classes from './OurTeam.module.css';
-import commonClasses from '@/utils/commonClasses.module.css';
 import {TitleWithDescription} from "@/components/Common/TitleWithDescription";
 import {useTranslations} from "next-intl";
+import commonClasses from "@/utils/commonClasses.module.css";
 
 export function OurTeam() {
     const t = useTranslations('OUR_TEAM');
@@ -47,43 +47,51 @@ export function OurTeam() {
             avatar: '/team/5.png',
             name: t('TEAM_MEMBERS.EIGHTH.NAME'),
             job: t('TEAM_MEMBERS.EIGHTH.ROLE'),
+        },
+        {
+            avatar: '/team/6.jpeg',
+            name: t('TEAM_MEMBERS.NINTH.NAME'),
+            job: t('TEAM_MEMBERS.NINTH.ROLE'),
+        },
+        {
+            avatar: '/team/7.jpg',
+            name: t('TEAM_MEMBERS.TENTH.NAME'),
+            job: t('TEAM_MEMBERS.TENTH.ROLE'),
         }
     ];
-    
+
     const items = data.map((item, index) => {
         return <Group gap="xl">
-                <Avatar size="xl" src={item.avatar} radius={40} placeholder="blur" alt={item.name + " " + item.job}/>
+            <Avatar size="xl" src={item.avatar} radius={40} placeholder="blur" alt={item.name + " " + item.job}/>
             <br/>
-                <div>
-                    <Title fz="md" fw={500}>
-                        {item.name}
-                    </Title>
-                    <Text c="dimmed" fz="sm" fw={500}>
-                        {item.job}
-                    </Text>
-                </div>
+            <div>
+                <Title fz="md" fw={500}>
+                    {item.name}
+                </Title>
+                <Text c="customDimmed" fz="md" fw={500}>
+                    {item.job}
+                </Text>
+            </div>
         </Group>
     });
-    
+
     return (
-        // <Container size="full" pt={45} pb={55} className={commonClasses.darkerBackground}>
-        <Container size="lg">
-            <Container className={classes.wrapper}>
-                
-                <TitleWithDescription title={t('TITLE')} 
+        <Container pt={40} pb={55} size="full" className={commonClasses.darkerBackground}>
+            <Container size="lg">
+
+                <TitleWithDescription title={t('TITLE')}
                                       description={t('DESCRIPTION')}/>
-                
+
                 <Divider mt="xl" mb="sm" color="transparent" />
-                
+
                 <SimpleGrid
-                    cols={{ base: 2, sm: 4, md: 4 }}
+                    cols={{ base: 2, sm: 5, md: 5 }}
                     spacing={{ base: 'xl', md: 50 }}
-                    verticalSpacing={{ base: 'xl', md: 50 }}
+                    verticalSpacing={{ base: 'xl', md: 50 }} className={classes.grid}
                 >
                     {items}
                 </SimpleGrid>
+            </Container>
         </Container>
-    </Container>
-    //</Container>
     );
 }

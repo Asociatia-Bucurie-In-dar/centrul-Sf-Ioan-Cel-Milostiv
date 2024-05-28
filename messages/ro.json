@@ -5,7 +5,8 @@
     "DONATE_NOW": "Donează Acum",
     "ASSOCIATION": "Bucurie în Dar",
     "ASSOCIATION_FULL": "Asociația Bucurie în Dar",
-    "NECESSARY_AMOUNT": "Suma necesară"
+    "NECESSARY_AMOUNT": "Suma necesară",
+    "IN_CONSTRUCTION": "În construcție! Email la adresa: "
   },
   
   "HOME_HERO":
@@ -156,8 +157,8 @@
   },
 
   "OUR_TEAM": {
-    "TITLE": "Our Team",
-    "DESCRIPTION": "Meet our team! We are passionate people when it comes to our work and we wish to bring a positive impact in the world.",
+    "TITLE": "Echipa noastră",
+    "DESCRIPTION": "Fă cunoștință cu echipa noastră. Suntem oameni pasionați de ceea ce facem și ne dorim să aducem un impact pozitiv în lumea în care trăim.",
     "TEAM_MEMBERS": {
       "FIRST": { "NAME": "Alexandru Ionescu", "ROLE": "Președinte" },
       "SECOND": { "NAME": "Andreea Constantinescu", "ROLE": "VP & Coordonator marketing" },
@@ -166,7 +167,9 @@
       "FIFTH": { "NAME": "Alina Cernea", "ROLE": "Asistent & coordonator principal" },
       "SIXTH": { "NAME": "Cristian Simionescu", "ROLE": "Specialist comunicare & relații publice" },
       "SEVENTH": { "NAME": "Evelin", "ROLE": "Asistent social principal" },
-      "EIGHTH": { "NAME": "Ovidiu Horațiu", "ROLE": "Doctor arhitect" }
+      "EIGHTH": { "NAME": "Ovidiu Horațiu", "ROLE": "Doctor arhitect" },
+      "NINTH": { "NAME": "Titus Necea", "ROLE": "Dezvoltator software" },
+      "TENTH": { "NAME": "Fabian Ghenof", "ROLE": "Dezvoltator software" }
     }
   },
   
@@ -206,6 +209,7 @@
   },
 
   "HEADER": {
+    "LOCALE": "ro",
     "HOME": { "LABEL": "Acasă", "LINK": "/" },
     "PROJECTS": { "LABEL": "Proiecte", "LINK": "/projects" },
     "ABOUT": { "LABEL": "Despre", "LINK": "/about" },

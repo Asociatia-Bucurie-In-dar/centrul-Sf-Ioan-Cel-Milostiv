@@ -96,7 +96,7 @@ export function ContactPanel(props: { translations: ContactTranslationType }) {
                     <Group mt="xl">{icons}</Group>
                 </div>
                 <form className={classes.form} onSubmit={handleSubmit}>
-                   {/*<Center> <Text c="dimmed"><b>În construcție</b></Text> </Center>*/}
+                    <Text c="dimmed" ta="center" fw={600}>{props.translations.InConstruction} {contactInfo.email}</Text>
                     <Divider color="transparent" mb="md"/>
                     <TextInput
                         value={email}
@@ -104,6 +104,7 @@ export function ContactPanel(props: { translations: ContactTranslationType }) {
                         label={props.translations.Email}
                         required
                         classNames={{ input: classes.input, label: classes.inputLabel }}
+                        disabled
                     />
                     <TextInput
                         value={name}
@@ -111,6 +112,7 @@ export function ContactPanel(props: { translations: ContactTranslationType }) {
                         label={props.translations.Name}
                         mt="md"
                         classNames={{ input: classes.input, label: classes.inputLabel }}
+                        disabled
                     />
                     <Textarea
                         value={message}
@@ -120,11 +122,13 @@ export function ContactPanel(props: { translations: ContactTranslationType }) {
                         minRows={4}
                         mt="md"
                         classNames={{ input: classes.input, label: classes.inputLabel }}
+                        disabled
                     />
-
+                    
                     <Group justify="flex-end" mt="md">
-                        <Button className={classes.control} type="submit" disabled={loading}>
-                            {props.translations.Send} 
+                        <Button className={classes.control} type="submit" disabled>
+                            {/*disabled={loading}>*/}
+                            {props.translations.Send}
                         </Button>
                     </Group>
                 </form>

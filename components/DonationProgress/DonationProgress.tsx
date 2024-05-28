@@ -13,6 +13,7 @@ export function DonationProgress() {
     const commonT = useTranslations('COMMON');
     const proj = GetAllProjectsStaticContent(1)[0];
     const projT = useTranslations('SAINT_JOHN');
+    const headerT = useTranslations('HEADER');
 
     const donateT = useTranslations('PROJECTS_MORE');
     const donatePopupTranslations : ProjectTranslationsType = {
@@ -26,6 +27,7 @@ export function DonationProgress() {
         TermsAndConditions: donateT('TERMS_AND_CONDITIONS'),
         And: donateT('AND'),
         PrivacyPolicy: donateT('PRIVACY_POLICY'),
+        Locale: headerT('LOCALE'),
     };
 
     return (
