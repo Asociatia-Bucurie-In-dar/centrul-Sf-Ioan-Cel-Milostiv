@@ -36,22 +36,19 @@ export function DonationProgress() {
 
             <Divider color="transparent" mt="lg"/>
             
-            <ProjectDonationProgress id={proj.id} goalAmount={800000} sumTranslation={commonT('NECESSARY_AMOUNT')} />
+            <ProjectDonationProgress id={proj.id} goalAmount={720000} sumTranslation={commonT('NECESSARY_AMOUNT')} />
 
             <Divider color="transparent" mt={1}/>
             
             <ProgressRoot size="xl">
-            <ProgressSection value={35} color="green">
+            <ProgressSection value={15} color="green">
                 <ProgressLabel>{t('STEPS.1')}</ProgressLabel>
             </ProgressSection>
-            <ProgressSection value={30} color="yellow">
+            <ProgressSection value={75} color="yellow">
                 <ProgressLabel>{t('STEPS.2')}</ProgressLabel>
             </ProgressSection>
-            <ProgressSection value={15} color="orange">
+            <ProgressSection value={10} color="orange">
                 <ProgressLabel>{t('STEPS.3')}</ProgressLabel>
-            </ProgressSection>
-            <ProgressSection value={20} color="cyan">
-                <ProgressLabel>{t('STEPS.4')}</ProgressLabel>
             </ProgressSection>
         </ProgressRoot>
 
