@@ -96,8 +96,6 @@ export default function HomePage({params: {locale}}:{ params: { locale: string }
           <HomeWhy />
           <HomeAboutProjects/>
           <OurTeam/>
-          
-          <Divider color="transparent" mb={100}/>
       </>
   );
 }
