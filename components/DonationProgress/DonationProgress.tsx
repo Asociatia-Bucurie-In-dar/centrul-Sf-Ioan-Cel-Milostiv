@@ -13,11 +13,12 @@ export function DonationProgress() {
     const commonT = useTranslations('COMMON');
     const proj = GetAllProjectsStaticContent(1)[0];
     const projT = useTranslations('SAINT_JOHN');
+    const projMoreT = useTranslations('PROJECTS_MORE');
     const headerT = useTranslations('HEADER');
 
     const donateT = useTranslations('PROJECTS_MORE');
     const donatePopupTranslations : ProjectTranslationsType = {
-        Donate: commonT('DONATE_NOW'),
+        Donate: projMoreT('DONATE') + ' (' + projMoreT('OPTIONS') + ')',
         CardOption: donateT('CARD_OPTION'),
         BankTransferOption: donateT('BANK_TRANSFER_OPTION'),
         DesiredAmount: donateT('DESIRED_AMOUNT'),
@@ -41,13 +42,13 @@ export function DonationProgress() {
             <Divider color="transparent" mt={1}/>
             
             <ProgressRoot size="xl">
-            <ProgressSection value={15} color="green">
+            <ProgressSection value={33} color="green">
                 <ProgressLabel>{t('STEPS.1')}</ProgressLabel>
             </ProgressSection>
-            <ProgressSection value={75} color="yellow">
+            <ProgressSection value={34} color="yellow">
                 <ProgressLabel>{t('STEPS.2')}</ProgressLabel>
             </ProgressSection>
-            <ProgressSection value={10} color="orange">
+            <ProgressSection value={33} color="orange">
                 <ProgressLabel>{t('STEPS.3')}</ProgressLabel>
             </ProgressSection>
         </ProgressRoot>

@@ -175,6 +175,7 @@
 
   "PROJECTS_MORE": {
     "DONATE": "Donate",
+    "OPTIONS": "options",
     "CARD_OPTION": "Card / Google Pay / Apple Pay",
     "BANK_TRANSFER_OPTION": "Bank transfer",
     "DESIRED_AMOUNT": "Desired amount",

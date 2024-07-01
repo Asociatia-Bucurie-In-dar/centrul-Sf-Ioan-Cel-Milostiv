@@ -34,7 +34,7 @@ export function HomeWhy() {
                         <Center>
                             <Stack>
                                 <Title fz={30} ta="center">Ajutor</Title>
-                                <Text c="dimmed" fw={500}>
+                                <Text c="customDimmed" fw={500}>
                                     Fiecare dintre noi avem nevoie de ajutor într-un fel sau altul. Fiecare dintre noi am
                                     trecut cel puțin o dată în viață printr-o perioadă neagră din care nu mai știam cum să ieșim sau când se va termina. I-am
                                     văzut pe cei din familie, pe prieteni, pe oamenii dragi din viața nostră suferind și nu aveam cum să-i ajutăm. In acele
@@ -53,7 +53,7 @@ export function HomeWhy() {
                         <Center>
                             <Stack>
                                 <Title fz={30} ta="center">România</Title>
-                                <Text c="dimmed" fw={500}>
+                                <Text c="customDimmed" fw={500}>
                                     Centrele din Romania sunt insuficiente, iar numărul celor afectati crește, în special copii și
                                     adolescenți. Așa că nu putrm și nu vrem să stăm indifereți la ce se întâmplă, mai ales că împreună putem ajuta aceste
                                     suflete. Omule drag, un om dacă reușim să-l convingem, un om în prag de suicid, că viața are sens, contează enorm, o tânără

@@ -1,10 +1,9 @@
 import '@mantine/core/styles.css';
 import React from 'react';
-import { MantineProvider, ColorSchemeScript } from '@mantine/core';
+import {MantineProvider, ColorSchemeScript, createTheme} from '@mantine/core';
 import { Header } from '@/components/Header/Header';
 import { Footer } from '@/components/Footer/Footer';
 import { ChatButton } from '@/components/ChatButton/ChatButton';
-import { theme } from '@/theme';
 import {Analytics} from "@vercel/analytics/next";
 //import WavySeparator from '@/components/WavySeparator/WavySeparator';
 import {locales} from "@/middleware";
@@ -68,6 +67,23 @@ export default function RootLayout({children, params: { locale }}: { children: R
             image_alt: projT('IMAGE_ALT'),
         }
     };
+
+    const theme = createTheme({
+        colors: {
+            customDimmed: [
+                '#000000', // Lightest
+                '#000000',
+                '#000000',
+                '#000000', // Light
+                '#9297A0', //When dark theme
+                '#000000', // Dark
+                '#727A83', // Normal - this will be the primary 'dimmed' color
+                '#000000',
+                '#000000',
+                '#000000', // Darkest
+            ],
+        }
+    });
     
   return (
     <html lang={"ro"}>

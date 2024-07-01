@@ -96,7 +96,7 @@ export function ContactPanel(props: { translations: ContactTranslationType }) {
                     <Group mt="xl">{icons}</Group>
                 </div>
                 <form className={classes.form} onSubmit={handleSubmit}>
-                    <Text c="dimmed" ta="center" fw={600}>{props.translations.InConstruction} {contactInfo.email}</Text>
+                    <Text c="customDimmed" ta="center" fw={600}>{props.translations.InConstruction} {contactInfo.email}</Text>
                     <Divider color="transparent" mb="md"/>
                     <TextInput
                         value={email}

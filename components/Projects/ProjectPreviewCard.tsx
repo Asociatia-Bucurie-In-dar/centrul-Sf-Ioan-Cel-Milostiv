@@ -13,7 +13,7 @@ export function ProjectPreviewCard(props: { title: string, imgPath: string, text
     
     const texts = props.texts.map((text, index) => {
         return (
-            <Text key={index} fz="sm" c="dimmed" mt={5} mb={5} fw={600}>
+            <Text key={index} fz="sm" c="customDimmed" mt={5} mb={5} fw={600}>
                 • {text}
             </Text>
         );
