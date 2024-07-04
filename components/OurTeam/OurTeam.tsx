@@ -80,7 +80,7 @@ export function OurTeam() {
             <Container size="lg">
 
                 <TitleWithDescription title={t('TITLE')}
-                                      description={t('DESCRIPTION')}/>
+                                      description={t('DESCRIPTION')} maxWidth="1000px"/>
 
                 <Divider mt="xl" mb="sm" color="transparent" />
 

@@ -1,4 +1,14 @@
-import {Container, Divider, Text, Progress, ProgressRoot, ProgressSection, ProgressLabel, Center} from '@mantine/core';
+import {
+    Container,
+    Divider,
+    Text,
+    Progress,
+    ProgressRoot,
+    ProgressSection,
+    ProgressLabel,
+    Center,
+    Image
+} from '@mantine/core';
 import classes from './DonationProgress.module.css';
 import commonClasses from '@/utils/commonClasses.module.css';
 import {TitleWithDescription} from "@/components/Common/TitleWithDescription";
@@ -7,6 +17,8 @@ import {ProjectDonationProgress} from "@/components/Projects/ProjectDonationProg
 import {GetAllProjectsStaticContent} from "@/content/projects/projects-content";
 import {DonatePopupButton} from "@/components/Popups/DonatePopup/DonatePopupButton";
 import {ProjectTranslationsType} from "@/utils/my-types";
+import {Carousel} from "@mantine/carousel";
+import {PlanCarousel} from "@/components/PlanCarousel/PlanCarousel";
 
 export function DonationProgress() {
     const t = useTranslations('DONATION_PROGRESS');
@@ -63,6 +75,10 @@ export function DonationProgress() {
                                        translations={donatePopupTranslations}/>
                 </Center>
             </Container>
+
+            <Divider color="transparent" mb="lg"/>
+            
+            <PlanCarousel />
             
         </Container>
     );
