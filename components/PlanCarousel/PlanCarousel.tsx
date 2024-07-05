@@ -20,13 +20,22 @@ const images = [
 
 function Pic({imageLink}: { imageLink: string }) {
     return (
-        <div  className={classes.imageContainer}>
-            <Image
-                src={imageLink}
-                alt={imageLink}
-                fetchPriority="auto"
-                className={classes.image}/>
-        </div>
+        // <div  className={classes.imageContainer}>
+        //     <Image
+        //         src={imageLink}
+        //         alt={imageLink}
+        //         fetchPriority="auto"
+        //         className={classes.image}/>
+        // </div>
+        <Paper
+            shadow="md" withBorder
+            p="xl"
+            radius="md"
+            style={{ backgroundImage: `url(${imageLink})` }}
+            className={classes.card}
+        >
+            
+        </Paper>
     );
 }
 
