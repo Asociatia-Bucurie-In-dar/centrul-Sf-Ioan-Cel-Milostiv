@@ -4,9 +4,9 @@ Ultima actualizare: 21-03-2024
 
 ## Introducere
 
-Bine ați venit pe site-ul Asociației Bucurie în Dar. Acești termeni și condiții conturează regulile și reglementările pentru utilizarea site-ului web al Asociației Bucurie în Dar, localizat la www.bucurieindar.org.
+Bine ați venit pe site-ul Asociației Bucurie în Dar. Acești termeni și condiții conturează regulile și reglementările pentru utilizarea site-ului web al Asociației Bucurie în Dar, localizat la www.CentrulSfantulIoanCelMilostiv.org.
 
-Accesând acest site web, presupunem că acceptați acești termeni și condiții. Nu continuați să folosiți www.bucurieindar.org dacă nu sunteți de acord cu toți termenii și condițiile stabilite pe această pagină.
+Accesând acest site web, presupunem că acceptați acești termeni și condiții. Nu continuați să folosiți www.CentrulSfantulIoanCelMilostiv.org dacă nu sunteți de acord cu toți termenii și condițiile stabilite pe această pagină.
 
 ## Donații
 
@@ -17,7 +17,7 @@ Accesând acest site web, presupunem că acceptați acești termeni și condiți
 
 Politica noastră de Confidențialitate, care conturează modul în care folosim și protejăm informațiile personale, este disponibilă [aici](privacy).
 
-## Schimbări ale Termenilor
+## Schimbări ale Termenilor~~~~
 
 Asociația Bucurie în Dar își rezervă dreptul de a modifica acești termeni în orice moment. Vom notifica utilizatorii despre orice schimbări prin actualizarea datei de la începutul acestei pagini.
 
