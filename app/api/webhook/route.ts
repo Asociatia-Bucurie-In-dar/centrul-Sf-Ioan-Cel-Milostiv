@@ -13,12 +13,8 @@ async function saveDonation(donationData: any) {
     });
 }
 
-function InvalidateCache(data: Stripe.Checkout.Session | Stripe.PaymentIntent | undefined) {
-    const id = data?.metadata?.projectId
-    if (id) {
-        cache.del(id);
-    }
-    else cache.flushAll();
+function InvalidateCache() {
+    cache.flushAll();
 }
 
 export async function POST(req: Request) {
@@ -77,7 +73,7 @@ export async function POST(req: Request) {
                         console.error(`Error saving donation: ${error.message}`);
                     }
 
-                    InvalidateCache(data);
+                    InvalidateCache();
 
                     break;
                 case "payment_intent.payment_failed":
@@ -86,7 +82,7 @@ export async function POST(req: Request) {
                     break;
                 case "payment_intent.succeeded":
 
-                    InvalidateCache(data);
+                    InvalidateCache();
 
                     data = event.data.object as Stripe.PaymentIntent;
                     console.log(`💰 PaymentIntent status: ${data.status}`);
