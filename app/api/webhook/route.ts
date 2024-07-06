@@ -18,6 +18,8 @@ function InvalidateCache() {
 }
 
 export async function POST(req: Request) {
-
+    //OTHER stuff happens on bucurieindar.org's webhook
     InvalidateCache();
+
+    return NextResponse.json({ message: "Received, just reset cache!" }, { status: 200 });
 }
