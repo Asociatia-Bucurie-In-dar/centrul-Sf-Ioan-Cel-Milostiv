@@ -9,9 +9,7 @@ import Autoplay from "embla-carousel-autoplay";
 const images = [
     '/base/1.jpeg',
     '/base/2.jpeg',
-    '/base/3.jpeg',
     '/base/4.jpeg',
-    '/base/5.jpeg',
     '/base/6.jpeg',
     '/base/7.jpeg',
     '/base/8.jpeg',

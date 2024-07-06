@@ -44,7 +44,7 @@ export function HomeProjects() {
         },
         {
             title: t('CATEGORIES.3.TITLE'),
-            imgPath: '/base/build.png',
+            imgPath: '/base/2.jpeg',
             texts: [
                 t('CATEGORIES.3.TEXTS.0'),
                 t('CATEGORIES.3.TEXTS.1'),
