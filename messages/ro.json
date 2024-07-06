@@ -8,6 +8,14 @@
     "NECESSARY_AMOUNT": "Suma necesară",
     "IN_CONSTRUCTION": "În construcție! Email la adresa: "
   },
+
+  "DONATIONS": {
+    "SUCCESS_TITLE": "Mulțumim!",
+    "SUCCESS_MESSAGE": "Donația a fost efectuată cu succes.",
+    "ERROR_TITLE": "Ups!",
+    "ERROR_MESSAGE": "Donația nu a reușit. Vă rugăm să încercați din nou mai târziu.",
+    "BACK": "Înapoi acasă"
+  },
   
   "HOME_HERO":
   {

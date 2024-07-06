@@ -5,17 +5,23 @@ import {Center, Container, Divider} from "@mantine/core";
 import commonClasses from "@/utils/commonClasses.module.css";
 import {TitleWithDescription} from "@/components/Common/TitleWithDescription";
 
+import {MyZIndexes} from "@/utils/my-constants";
 import {ConfettiButton} from "@/components/ConfettiButton/ConfettiButton";
 import DonationConfetti from "@/components/CoolEffects/DonationConfetti";
 import {track} from "@vercel/analytics/server";
+import {getTranslations, unstable_setRequestLocale} from "next-intl/server";
 //import confetti from "canvas-confetti";
 
-export default async function ResultPage({searchParams}: { searchParams: { session_id: string } }) {
-    if (!searchParams.session_id)
-        throw new Error("Please provide a valid session_id (`cs_test_...`)");
+export default async function ResultPage({searchParams, params}: { searchParams: { session_id: string }, params:{locale:string} } ) {
+    unstable_setRequestLocale(params.locale);
+    const session_id = searchParams.session_id;
+    const t = await getTranslations('DONATIONS');
+
+    if (!session_id)
+        throw new Error("Please provide a valid session_id (`cs_test_...`) ");
 
     const checkoutSession: Stripe.Checkout.Session =
-        await stripe.checkout.sessions.retrieve(searchParams.session_id, {
+        await stripe.checkout.sessions.retrieve(session_id, {
             expand: ["line_items", "payment_intent"],
         });
 
@@ -25,28 +31,8 @@ export default async function ResultPage({searchParams}: { searchParams: { sessi
     // Assuming there's only one line item and that's the one you need
     const projectName = checkoutSession?.line_items?.data[0].description ?? 'Unknown'; // or `name` depending on how it's stored
 
-    //const fireAllConfettis = () => {
-    //    fire(0.25, {spread: 26, startVelocity: 55,});
-    //    fire(0.2, {spread: 60,});
-    //    fire(0.1, {spread: 120, startVelocity: 25, decay: 0.92, scalar: 1.2});
-    //    fire(0.1, {spread: 120, startVelocity: 45,});
-    //};
-//
-    //const defaults = { origin: { y: 0.6 } };
-    //const zIndex = MyZIndexes.Confetti;
-
-    //function fire(particleRatio: any, opts: any) {
-    //    confetti({...defaults, ...opts,
-    //        particleCount: Math.floor(150 * particleRatio),
-    //        zIndex: zIndex,
-    //    });
-    //}
-    
-    //if (paymentIntent.status === 'succeeded'){
-    //    fireAllConfettis();
-    //}
-
-    if (paymentIntent.status === 'succeeded') {
+    if (paymentIntent.status === 'succeeded')
+    {
         try {
             await track('DonationSimpler', {
                 amount: amountDonated + ' EUR ' + ' pt. ' + projectName,
@@ -55,24 +41,23 @@ export default async function ResultPage({searchParams}: { searchParams: { sessi
         catch (error) {
             console.error(`Error tracking event: ${error}`);
         }
-        
+
         return (
             <Container className={commonClasses.container}>
-                <TitleWithDescription title={"Mulțumim!"}
-                                      description={"Plata a fost efectuată cu succes."}/>
+                <TitleWithDescription title={t('SUCCESS_TITLE')}
+                                      description={t('SUCCESS_MESSAGE')} />
 
                 <Center>
-                    <ConfettiButton text={"Înapoi la proiecte"} size={"lg"} mt={"xl"}/>
+                    <ConfettiButton text={t('BACK')} link="/" size={"lg"} mt={"xl"} />
                 </Center>
 
-                <DonationConfetti/>
+                <DonationConfetti />
 
                 <Divider color="transparent" mb={150}/>
             </Container>
         );
     }
     else {
-
         try {
             await track('DonationFAILED', {
                 amount: '' + projectName,
@@ -81,14 +66,14 @@ export default async function ResultPage({searchParams}: { searchParams: { sessi
         catch (error) {
             console.error(`Error tracking event: ${error}`);
         }
-        
+
         return (
             <Container className={commonClasses.container}>
-                <TitleWithDescription title={"Ups!"}
-                                      description={"Plata nu a reuşit."}/>
+                <TitleWithDescription title={t('ERROR_TITLE')}
+                                      description={t('ERROR_MESSAGE')}/>
 
                 <Center>
-                    <ConfettiButton text={"Înapoi la proiecte"} size={"lg"} mt={"xl"}/>
+                    <ConfettiButton text={t('BACK')} link="/" size={"lg"} mt={"xl"}/>
                 </Center>
 
                 <Divider color="transparent" mb={150}/>

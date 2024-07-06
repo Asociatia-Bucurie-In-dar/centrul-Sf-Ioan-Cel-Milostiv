@@ -14,8 +14,7 @@ export async function GET(req: NextRequest) {
     {
         totalAmount = cache.get(projectId);
     }
-
-
+    
     if (totalAmount === null || totalAmount === undefined) {
         totalAmount = await prisma.donation.aggregate({
             _sum: { amount: true },

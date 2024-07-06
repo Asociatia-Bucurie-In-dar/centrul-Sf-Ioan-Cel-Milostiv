@@ -8,6 +8,14 @@
     "NECESSARY_AMOUNT": "Necessary amount",
     "IN_CONSTRUCTION": "Under construction! Email: "
   },
+
+  "DONATIONS": {
+    "SUCCESS_TITLE": "Thank you!",
+    "SUCCESS_MESSAGE": "Your donation has been successfully processed.",
+    "ERROR_TITLE": "Oops!",
+    "ERROR_MESSAGE": "An error occurred while processing your donation. Please try again later.",
+    "BACK": "Return home"
+  },
   
   "HOME_HERO":
   {

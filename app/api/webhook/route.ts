@@ -1,9 +1,9 @@
 import type { Stripe } from "stripe";
 import { NextResponse } from "next/server";
 import {stripe} from "@/utils/stripe/stripe";
-import {Donation, PrismaClient} from '@prisma/client';
-import {revalidateTag} from "next/cache";
-import {revalidateDonationsProgressTag} from "@/utils/cache-tags";
+import {PrismaClient} from '@prisma/client';
+import {contactInfo} from "@/content/contact/my-contact";
+import cache from '@/utils/cache';
 
 const prisma = new PrismaClient();
 
@@ -13,10 +13,18 @@ async function saveDonation(donationData: any) {
     });
 }
 
+function InvalidateCache(data: Stripe.Checkout.Session | Stripe.PaymentIntent | undefined) {
+    const id = data?.metadata?.projectId
+    if (id) {
+        cache.del(id);
+    }
+    else cache.flushAll();
+}
+
 export async function POST(req: Request) {
 
     let event: Stripe.Event;
-    
+
     try {
         event = stripe.webhooks.constructEvent(
             await (await req.blob()).text(),
@@ -47,7 +55,7 @@ export async function POST(req: Request) {
                 case "checkout.session.completed":
                     data = event.data.object as Stripe.Checkout.Session;
                     console.log(`💰 CheckoutSession status: ${data.payment_status}`);
-                    
+
                     const donationData = {
                         // @ts-ignore
                         causeId: data.metadata.projectId,
@@ -63,25 +71,30 @@ export async function POST(req: Request) {
                     // Save the donation data to the database
                     try {
                         const savedDonation = await saveDonation(donationData);
-                        revalidateTag(revalidateDonationsProgressTag);
                         console.log(`Donation saved: ${savedDonation.id}`);
+                        //await sendEmail(savedDonation.amount);
                     } catch (error: any) {
                         console.error(`Error saving donation: ${error.message}`);
                     }
-                    
+
+                    InvalidateCache(data);
+
                     break;
                 case "payment_intent.payment_failed":
                     data = event.data.object as Stripe.PaymentIntent;
                     console.log(`❌ Payment failed: ${data.last_payment_error?.message}`);
                     break;
                 case "payment_intent.succeeded":
+
+                    InvalidateCache(data);
+
                     data = event.data.object as Stripe.PaymentIntent;
                     console.log(`💰 PaymentIntent status: ${data.status}`);
                     break;
                 default:
                     throw new Error(`Unhandled event: ${event.type}`);
             }
-            
+
         } catch (error) {
             console.log(error);
             return NextResponse.json(
@@ -90,6 +103,24 @@ export async function POST(req: Request) {
             );
         }
     }
-    
+
     return NextResponse.json({ message: "Received" }, { status: 200 });
+}
+
+async function sendEmail(euroAmount: number) {
+    try {
+        const email = contactInfo.email;
+        const name = 'Admin';
+        const message = "Donatie noua! ( " + euroAmount + "EUR )";
+        const response = await fetch('/api/sendemail', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({email, name, message}),
+        });
+    }
+    catch (error) {
+        console.error(`Error sending donation email`);
+    }
 }
