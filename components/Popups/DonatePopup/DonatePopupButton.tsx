@@ -53,6 +53,7 @@ export function DonatePopupButton(props: {projectId: string,
                 currencyAmount: Number(input.customDonation),
                 //email: input.email,
                 agreed: agreeValue,
+                locale: props.translations.Locale
             };
         const { client_secret, url } = await createCheckoutSession(data);
 
@@ -188,6 +189,11 @@ export function DonatePopupButton(props: {projectId: string,
         </Paper>
     </>;
 
+    function prepAndOpen() {
+        setPayMethod(payOption1);
+        open();
+    }
+
     return <>
         <Modal opened={opened} onClose={close} withCloseButton={false} zIndex={MyZIndexes.DonateModal}
                size="auto" transitionProps={{ transition: 'slide-up' }}>
@@ -221,7 +227,7 @@ export function DonatePopupButton(props: {projectId: string,
                 fw={600}
                 gradient={{from: 'pink', to: 'yellow', deg: 90}}
                 size="sm"
-                onClick={open}>
+                onClick={prepAndOpen}>
             {props.translations.Donate}
         </Button>
     </>;

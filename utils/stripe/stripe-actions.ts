@@ -14,14 +14,15 @@ export async function createCheckoutSession( data: {
     projectTitle: string,
     currencyAmount: number,
     //email: string,
-    agreed: boolean } ): Promise<{ client_secret: string | null; url: string | null }> {
+    agreed: boolean,
+    locale: string } ): Promise<{ client_secret: string | null; url: string | null }> {
 
     if (!data.agreed)
     {
         return {client_secret: null, url: null};
     }
 
-    const origin: string = headers().get("origin") as string;
+    const origin: string = (headers().get("origin") as string) + '/' + data.locale;
     const checkoutSession: Stripe.Checkout.Session =
         await stripe.checkout.sessions.create({
             mode: "payment",
