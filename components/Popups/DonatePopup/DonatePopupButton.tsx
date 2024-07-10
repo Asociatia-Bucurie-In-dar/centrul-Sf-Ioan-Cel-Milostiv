@@ -27,7 +27,8 @@ import {MyRoutePaths} from "@/utils/route-paths";
 export function DonatePopupButton(props: {projectId: string,
     projectTile: string,
     translations: ProjectTranslationsType,
-    fullWidth?: boolean}) {
+    fullWidth?: boolean,
+    size?: string }) {
 
     const payOption1 = props.translations.CardOption;
     const payOption2 = props.translations.BankTransferOption;
@@ -226,7 +227,7 @@ export function DonatePopupButton(props: {projectId: string,
                 variant="gradient"
                 fw={600}
                 gradient={{from: 'pink', to: 'yellow', deg: 90}}
-                size="sm"
+                size={props.size || 'sm'}
                 onClick={prepAndOpen}>
             {props.translations.Donate}
         </Button>

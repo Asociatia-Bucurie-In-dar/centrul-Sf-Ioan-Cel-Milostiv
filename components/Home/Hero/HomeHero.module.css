@@ -1,7 +1,7 @@
 .root {
     position: relative;
-    padding-top: calc(var(--mantine-spacing-xl) * 3.5);
-    padding-bottom: calc(var(--mantine-spacing-xl) * 2.5);
+    padding-top: calc(var(--mantine-spacing-xl) * 4);
+    padding-bottom: calc(var(--mantine-spacing-xl) * 3.25);
     overflow: hidden;
     z-index: 0;
 }

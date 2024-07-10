@@ -75,13 +75,13 @@ export function HomeProjects() {
             </SimpleGrid>
             </Container>
 
-            <Container size="md">
-            <SimpleGrid cols={{ base: 1, sm: 1, md: 1 }} spacing="xl" mt={50}>
-                {cards[3]}
-            </SimpleGrid>
-            </Container>
+            {/*<Container size="md">*/}
+            {/*<SimpleGrid cols={{ base: 1, sm: 1, md: 1 }} spacing="xl" mt={50}>*/}
+            {/*    {cards[3]}*/}
+            {/*</SimpleGrid>*/}
+            {/*</Container>*/}
             
-            <Divider mb="xl" color="transparent"/>
+            <Divider mb={45} color="transparent"/>
         </Container>
     );
 }

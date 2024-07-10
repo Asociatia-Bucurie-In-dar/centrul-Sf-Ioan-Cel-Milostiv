@@ -19,14 +19,14 @@
   
   "HOME_HERO":
   {
-    "MOTTO_FIRST_PART": "Centrul Sfântul Ioan Cel Milostiv pentru",
-    "MOTTO_SECOND_PART": "tratarea dependențelor",
-    "DESCRIPTION": "În acele momente când ești căzut ai nevoie de un sprijin, cât de mult contează ajutorul oferit cu drag, din inimă, din credință. Avem toată nădejdea și cred cu tărie că echipa Centrului Sf. Ioan Cel Milostiv se va strădui să aducă alinare, vindecare și să fie sprijin celor care nu mai au pe cine să se sprijine."
+    "MOTTO_FIRST_PART": "Împreună salvăm vieți, schimbăm destine şi",
+    "MOTTO_SECOND_PART": "vindecăm suflete!",
+    "DESCRIPTION": "Centrul Sfântul Ioan Cel Milostiv pentru tratarea dependențelor."
   },
   
   "DONATION_PROGRESS": {
     "TITLE": "Progres",
-    "DESCRIPTION": "Suma necesară pentru a finaliza proiectul şi suma strânsă până acum. Fiecare donaţie contează!",
+    "DESCRIPTION": "Suma necesară pentru a finaliza proiectul. Fiecare donaţie contează!",
     "STEPS": {
       "1": "Teren si Utilități",
       "2": "Clădire",
@@ -42,11 +42,11 @@
   },
   
   "ORGANIZATON": {
-    "TITLE": "Organizare și desfășurare",
-    "DESCRIPTION": "Iată cum ne propunem să organizăm și să desfășurăm activitățile în cadrul Centrului Sfântul Ioan Cel Milostiv.",
+    "TITLE": "Organizare și desfășurare în cadrul Centrului Sfântul Ioan Cel Milostiv:",
+    "DESCRIPTION": "",
     "CATEGORIES": [
       {
-        "TITLE": "Call Center",
+        "TITLE": "Call Center dedicat persoanelor:",
         "TEXTS": [
           "In prag de suicid",
           "Femei care vor să avorteze, în special minore",
@@ -144,6 +144,14 @@
         "DESCRIPTION": "Televiziunea, respective relaxarea omului modern ar putea fi numită chiar adicție? Neuropsihologii au demonstrat că televizorul are effect hipnotic, indiferent de emisiunea vizionată. Creierul nostru intră în stare de relaxare, respectiv de somn după 2 minute de expunere. Creierul nu face nici un efort când este expus televiziunii, practic tot ceea ce vedem trece dincolo de gândirea noastră critică, direct în subconștient. care duc la formarea dependențelor care uneori sunt blamate social: alcoolul, drogurile, sexul, iar alteori încurajate și admirate: munca, sportul. De regulă, dependențele au în spatele lor un abuz sau o traumă, fie ea și sub forma neglijării, iar comportamentul adictiv are rolul de a ameliora disconfortul produs de emoția asociată. Iată cum putem înțelege mai bine aceste comportamente."
       }
     ]
+  },
+  
+  "HOME_WHY": {
+    "TITLE": "De ce înființăm Centrul?",
+    "FIRST_TITLE": "Ajutor",
+    "FIRST_DESCRIPTION": "Fiecare dintre noi are nevoie de ajutor într-un fel sau altul. Fiecare dintre noi a trecut cel puțin o dată în viață printr-o perioadă neagră din care nu mai știa cum să iasă sau când se va termina. I-am văzut pe cei din familie, pe prieteni, pe oamenii dragi din viața nostră suferind și nu aveam cum să-i ajutăm. In acele momente când ești căzut şi ai nevoie de un sprijin, cât de mult contează ajutorul oferit cu drag, din inimă, din credință. Avem toată nădejdea și credem cu tărie că echipa Centrului Sf. Ioan Cel Milostiv se va strădui să aducă alinare, vindecare și sprijin celor care nu mai au pe cine să se sprijine.",
+    "SECOND_TITLE": "România",
+    "SECOND_DESCRIPTION": "Centrele din Romania sunt insuficiente, iar numărul celor afectați crește, în special copii și adolescenți. Așa că nu putem și nu vrem să stăm indifereți la ce se întâmplă, mai ales că împreună putem ajuta aceste suflete. Omule drag, un om dacă reușim să convingem, un om în prag de suicid, că viața are sens, contează enorm, o tânără mămică să nu avorteze, pentru că viața este prețioasă, un părinte să renunțe la alcool, la droguri, la jocuri de noroc, înseamnă că avem o familie salvată, un copil care alege să se joace afară, și nu la consolă. Omule drag, miza este mai mare decât vindecarea unui om, miza este salvarea a cât mai multor vieți, destine și suflete. Stă în puterea ta să alegi!"
   },
 
   "HOME_HELP": {

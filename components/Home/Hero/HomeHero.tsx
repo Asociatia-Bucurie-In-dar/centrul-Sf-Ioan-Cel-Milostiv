@@ -27,7 +27,7 @@ export function HomeHero() {
                                 variant="gradient"
                                 gradient={{from: 'pink', to: 'yellow'}}
                             >
-                                {' '}{heroT('MOTTO_SECOND_PART')}.{' '}
+                                {' '}{heroT('MOTTO_SECOND_PART')}{' '}
                             </Text>
                         </Title>
 

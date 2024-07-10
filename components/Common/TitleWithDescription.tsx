@@ -4,7 +4,7 @@ import {Container, rem, StyleProp, Text, Title} from "@mantine/core";
 export function TitleWithDescription(props: {title: string, description?: string, maxWidth?: string }) {
     
     return  <>
-            <Title order={2} className={commonClasses.titleBig} ta="center">
+            <Title order={2} className={commonClasses.titleBig} ta="center" style={{maxWidth: rem(600) ,margin:'auto'}}>
                 {props.title}
             </Title>
     

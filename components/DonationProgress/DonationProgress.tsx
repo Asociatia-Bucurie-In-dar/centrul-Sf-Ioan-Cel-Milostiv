@@ -49,18 +49,16 @@ export function DonationProgress() {
 
             <Divider color="transparent" mt="lg"/>
             
-            <ProjectDonationProgress id={proj.id} goalAmount={720000} sumTranslation={commonT('NECESSARY_AMOUNT')} />
-
-            <Divider color="transparent" mt={1}/>
+            <ProjectDonationProgress id={proj.id} goalAmount={980000} sumTranslation={commonT('NECESSARY_AMOUNT')} />
             
-            <ProgressRoot size="xl">
-            <ProgressSection value={33} color="green">
+            <ProgressRoot size={19}>
+            <ProgressSection value={33} color="indigo">
                 <ProgressLabel>{t('STEPS.1')}</ProgressLabel>
             </ProgressSection>
-            <ProgressSection value={34} color="yellow">
+            <ProgressSection value={34} color="blue">
                 <ProgressLabel>{t('STEPS.2')}</ProgressLabel>
             </ProgressSection>
-            <ProgressSection value={33} color="orange">
+            <ProgressSection value={33} color="cyan">
                 <ProgressLabel>{t('STEPS.3')}</ProgressLabel>
             </ProgressSection>
         </ProgressRoot>
@@ -72,6 +70,7 @@ export function DonationProgress() {
                     <DonatePopupButton projectId={proj.id}
                                        projectTile={projT('TITLE')}
                                        fullWidth={true}
+                                       size="md"
                                        translations={donatePopupTranslations}/>
                 </Center>
             </Container>

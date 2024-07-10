@@ -19,14 +19,14 @@
   
   "HOME_HERO":
   {
-    "MOTTO_FIRST_PART": "Saint John The Merciful Center for",
-    "MOTTO_SECOND_PART": "addiction treatment",
-    "DESCRIPTION": "In those moments when you are down, in need of support, how much the help offered with love, from the heart, from belief matters. We fully hope and I firmly believe that the team of Saint John the Merciful Center will strive to bring comfort, healing, and to be a support to those who have no one else to rely on."
+    "MOTTO_FIRST_PART": "Together we save lives, change destinies and",
+    "MOTTO_SECOND_PART": "heal souls!",
+    "DESCRIPTION": "Saint John The Merciful for addiction treatment"
   },
 
   "DONATION_PROGRESS": {
     "TITLE": "Progress",
-    "DESCRIPTION": "The necessary amount to complete the project and the amount raised so far. Every donation counts!",
+    "DESCRIPTION": "The necessary amount to complete the project. Every donation counts!",
     "STEPS": {
       "1": "Land and Utilities",
       "2": "Building",
@@ -42,11 +42,11 @@
   },
 
   "ORGANIZATON": {
-    "TITLE": "Organization and Conduct",
-    "DESCRIPTION": "This is how we plan on organizing and conducting the Saint John the Merciful Center.",
+    "TITLE": "Organization and conduct of the Saint John The Merciful Center:",
+    "DESCRIPTION": "",
     "CATEGORIES": [
       {
-        "TITLE": "Call Center",
+        "TITLE": "Call Center dedicated to people:",
         "TEXTS": [
           "On the verge of suicide",
           "Women who want to have an abortion, especially minors",
@@ -144,6 +144,14 @@
         "DESCRIPTION": "Television, respectively the relaxation of modern man could even be called addiction? Neuropsychologists have shown that television has a hypnotic effect, regardless of the programme watched. Our brains enter a state of relaxation or sleep after 2 minutes of exposure. The brain makes no effort when exposed to television, practically everything we see passes beyond our critical thinking, directly into the subconscious. which lead to addictions that are sometimes socially blamed: alcohol, drugs, sex, and sometimes encouraged and admired: work, sport. As a rule, addictions are the result of abuse or trauma, even in the form of neglect, and the addictive behaviour is intended to relieve the discomfort caused by the associated emotion. Here's how we can better understand these behaviours."
       }
     ]
+  },
+
+  "HOME_WHY": {
+    "TITLE": "Why are we establishing the Center?",
+    "FIRST_TITLE": "Help",
+    "FIRST_DESCRIPTION": "Each of us needs help in one way or another. Each of us has gone through at least one dark period in life where we didn't know how to get out or when it would end. We've seen family members, friends, and loved ones suffering and we couldn't help them. In those moments when you are down and need support, how much does help given with love, from the heart, from faith, matter. We have all hope and firmly believe that the team at the St. John the Merciful Center will strive to bring comfort, healing, and support to those who have no one else to rely on.",
+    "SECOND_TITLE": "Romania",
+    "SECOND_DESCRIPTION": "The centers in Romania are insufficient, and the number of those affected is growing, especially children and teenagers. So we cannot and do not want to remain indifferent to what is happening, especially since together we can help these souls. Dear person, if we manage to convince one person, a person on the brink of suicide, that life has meaning, it matters enormously; if we convince a young mother not to abort because life is precious; if we convince a parent to give up alcohol, drugs, or gambling, it means we have saved a family, a child who chooses to play outside instead of on a console. Dear person, the stake is bigger than healing one person, the stake is saving as many lives, destinies, and souls as possible. It is in your power to choose!"
   },
 
   "HOME_HELP": {
