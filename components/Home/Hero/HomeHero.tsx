@@ -2,6 +2,7 @@ import {Container, Title, Text, Button, Image, Divider} from '@mantine/core';
 import classes from './HomeHero.module.css';
 import {useTranslations} from "next-intl";
 import {TeleportButton} from "@/components/CoolEffects/TeleportButton/TeleportButton";
+import Link from "next/link";
 
 export function HomeHero() {
     const commonT = useTranslations('COMMON');
@@ -34,9 +35,13 @@ export function HomeHero() {
                                 {heroT('MOTTO_4')}!
                             </Text>
                         </Title>
+                        
+                        <Text fw={600} c="white" mt={30} size="md" style={{opacity: 0.75}}>
+                            {heroT('DESCRIPTION')} <br/><br/>
+                        </Text>
 
-                        <Text className={classes.description} mt={30}>
-                            {heroT('DESCRIPTION')} <br/>
+                        <Text className={classes.description}>
+                            {heroT('DESCRIPTION_2')}
                         </Text>
                         {/*<ConfettiButton size={"lg"} mt="xl" text={commonT('DONATE_NOW')}/>*/}
                         {/*<Divider color="transparent" mt="xl"/>*/}
