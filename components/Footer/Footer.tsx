@@ -7,6 +7,7 @@ export function Footer() {
     const t = useTranslations('HEADER');
     const commonT = useTranslations('COMMON');
     const heroT = useTranslations('HOME_HERO');
+    const saintJohnT = useTranslations('SAINT_JOHN');
 
     function link(link: string, label: string) {
         return (
@@ -23,12 +24,12 @@ export function Footer() {
                     <Title className={classes.title} size={18} mb="xs">
                         <Text inherit variant="gradient" component="span" gradient={{ from: 'pink', to: 'yellow' }}>
                             <Link href="/">
-                                {commonT('ASSOCIATION_FULL')}
+                                {saintJohnT('TITLE')}
                             </Link>
                         </Text>
                     </Title>
                     <Text size="sm" c="customDimmed" className={classes.description} fw={500}>
-                        {heroT('MOTTO_FIRST_PART')}{' '}{heroT('MOTTO_SECOND_PART')}.
+                        {heroT('MOTTO_1')}{' '}{heroT('MOTTO_2')}, {heroT('MOTTO_3')}, {heroT('MOTTO_4')}!
                     </Text>
                 </div>
             </Container>

@@ -81,7 +81,7 @@
 .description {
     color: var(--mantine-color-white);
     opacity: 0.75;
-    max-width: rem(500px);
+    max-width: rem(1000px);
     font-weight: 600;
 
     @media (max-width: $mantine-breakpoint-md) {

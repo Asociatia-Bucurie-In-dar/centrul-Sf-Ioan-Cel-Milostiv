@@ -19,9 +19,12 @@
   
   "HOME_HERO":
   {
-    "MOTTO_FIRST_PART": "Împreună salvăm vieți, schimbăm destine şi",
-    "MOTTO_SECOND_PART": "vindecăm suflete!",
-    "DESCRIPTION": "Centrul Sfântul Ioan Cel Milostiv pentru tratarea dependențelor."
+    "MOTTO_1": "Împreună",
+    "MOTTO_2": "salvăm vieți",
+    "MOTTO_3": "schimbăm destine",
+    "MOTTO_4": "vindecăm suflete",
+    "DESCRIPTION": "Centrul Sfântul Ioan Cel Milostiv pentru tratarea dependențelor.",
+    "SEE_MORE": "Află mai multe"
   },
   
   "DONATION_PROGRESS": {

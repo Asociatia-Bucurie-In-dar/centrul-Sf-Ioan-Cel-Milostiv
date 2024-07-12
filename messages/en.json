@@ -19,9 +19,12 @@
   
   "HOME_HERO":
   {
-    "MOTTO_FIRST_PART": "Together we save lives, change destinies and",
-    "MOTTO_SECOND_PART": "heal souls!",
-    "DESCRIPTION": "Saint John The Merciful for addiction treatment"
+    "MOTTO_1": "Together we",
+    "MOTTO_2": "save lives",
+    "MOTTO_3": "change destinies",
+    "MOTTO_4": "heal souls",
+    "DESCRIPTION": "Saint John The Merciful for addiction treatment",
+    "SEE_MORE": "Learn more"
   },
 
   "DONATION_PROGRESS": {

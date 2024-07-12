@@ -44,7 +44,7 @@ export function DonationProgress() {
     };
 
     return (
-        <Container size="md" mt={35} pb={47} className={classes.wrapper}>
+        <Container size="md" mt={35} pb={47} className={classes.wrapper} id="progressSection">
             <TitleWithDescription title={t('TITLE')} description={t('DESCRIPTION')} />
 
             <Divider color="transparent" mt="lg"/>
