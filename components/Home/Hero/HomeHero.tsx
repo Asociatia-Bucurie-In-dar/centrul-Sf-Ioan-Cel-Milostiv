@@ -37,12 +37,9 @@ export function HomeHero() {
                         </Title>
                         
                         <Text fw={600} c="white" mt={30} size="md" style={{opacity: 0.75}}>
-                            {heroT('DESCRIPTION')} <br/><br/>
+                            {heroT('DESCRIPTION')}
                         </Text>
-
-                        <Text className={classes.description}>
-                            {heroT('DESCRIPTION_2')}
-                        </Text>
+                        
                         {/*<ConfettiButton size={"lg"} mt="xl" text={commonT('DONATE_NOW')}/>*/}
                         {/*<Divider color="transparent" mt="xl"/>*/}
                         {/*<TeleportButton targetID="progressSection" text={heroT('SEE_MORE')} size="md"/>*/}
