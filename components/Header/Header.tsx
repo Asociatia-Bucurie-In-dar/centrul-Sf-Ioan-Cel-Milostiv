@@ -86,7 +86,8 @@ export function Header({ headerProps, locale }: { headerProps: any, locale:strin
                                            projectTile={headerProps.project.title}
                                            fullWidth={false}
                                            translations={headerProps.donatePopupTranslations}/>
-                        
+                        <Burger opened={drawerOpened} onClick={toggleDrawer} size="sm" aria-label={headerProps.burgerMenuLabel}/>
+
                     </Group>
                 </div>
             </Container>
