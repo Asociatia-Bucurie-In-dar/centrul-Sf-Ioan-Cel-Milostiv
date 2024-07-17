@@ -191,19 +191,21 @@
       "TENTH": { "NAME": "Fabian Ghenof", "ROLE": "Dezvoltator software" }
     }
   },
-  
+
   "PROJECTS_MORE": {
     "DONATE": "Donează",
     "OPTIONS": "opțiuni",
-    "CARD_OPTION": "Card / Google Pay / Apple Pay",
-    "BANK_TRANSFER_OPTION": "Transfer bancar",
+    "CARD_OPTION": "Card",
+    "BANK_TRANSFER_OPTION": "Transfer Bancar",
     "DESIRED_AMOUNT": "Suma dorită",
-    "CONTINUE": "Continuare",
-    "DONATE_FOR": "Donează pentru",
+    "CONTINUE": "Spre plată",
+    "DONATE_FOR": "Cum dorești să donezi pt.",
     "I_AGREE_TO_THE": "Sunt de acord cu",
     "TERMS_AND_CONDITIONS": "Termenii și Condițiile",
     "AND": "și",
-    "PRIVACY_POLICY": "Politica de Confidențialitate"
+    "PRIVACY_POLICY": "Politica de Confidențialitate",
+    "TRANSFER_WARNING_FIRST_PART": "Vă rugăm să specificați",
+    "TRANSFER_WARNING_SECOND_PART": "în detaliile plății"
   },
 
   "SHARE": {

@@ -16,6 +16,7 @@ import { useDisclosure } from '@mantine/hooks';
 import {ProjectTranslationsType} from "@/utils/my-types";
 import Link from "next/link";
 import {MyRoutePaths} from "@/utils/route-paths";
+import {IconChevronRight, IconCircle, IconCircleDot} from "@tabler/icons-react";
 // import {
 //     IconBrandApple,
 //     IconBrandGoogle,
@@ -159,7 +160,7 @@ export function DonatePopupButton(props: {projectId: string,
                     {props.translations.IAgreeWith}:
                 </Text>
                 <Text fz="sm" fw={600}>
-                    <Link href={'/' + props.translations.Locale + MyRoutePaths.Terms} target="_blank" onClick={stopPropagation} className={classes.link}>{props.translations.TermsAndConditions}</Link> {props.translations.And} <Link href={'/' + props.translations.Locale + MyRoutePaths.Privacy} target="_blank" onClick={stopPropagation} className={classes.link}>{props.translations.PrivacyPolicy}</Link>
+                    <Link href={'/' + props.translations.Locale + MyRoutePaths.Terms} target="_blank" onClick={stopPropagation} className={classes.link}>{props.translations.TermsAndConditions}</Link> {props.translations.And} <Link href={'/' + props.translations.Locale + MyRoutePaths.Privacy} target="_blank"  onClick={stopPropagation} className={classes.link}>{props.translations.PrivacyPolicy}</Link>
                 </Text>
             </div>
         </UnstyledButton>
@@ -167,9 +168,9 @@ export function DonatePopupButton(props: {projectId: string,
         <Divider mb={30} color="transparent"/>
         {/* CONTINUE BUTTON */}
         <Center>
-            <Button type="submit" variant="gradient" gradient={{from: 'green', to: 'green', deg: 60}} size="md"
+            <Button type="submit" variant="gradient" gradient={{from: 'green', to: 'lime', deg: 60}} size="md"
                     disabled={loading} mb="xs">
-                {props.translations.Continue}
+                {props.translations.Continue}<IconChevronRight style={{marginLeft:3}} size={20} stroke={2}/>
             </Button>
         </Center>
     </>;
@@ -190,6 +191,9 @@ export function DonatePopupButton(props: {projectId: string,
         </Paper>
     </>;
 
+    const radioOn = <IconCircleDot size={18} stroke={2.5} />;
+    const radioOff = <IconCircle size={18} stroke={1} />;
+
     function prepAndOpen() {
         setPayMethod(payOption1);
         open();
@@ -200,17 +204,40 @@ export function DonatePopupButton(props: {projectId: string,
                size="auto" transitionProps={{ transition: 'slide-up' }}>
             <>
                 <Form onSubmit={callDonateAPI}>
-                    <Center><Text size="lg">
-                        {props.translations.DonateFor} <b>{props.projectTile}</b>
-                    </Text></Center>
+                    <Center>
+                        <Text size="lg" ta="center">
+                            {props.translations.DonateFor} <br/><b>{props.projectTile}</b> ?
+                        </Text>
+                    </Center>
 
-                    <Divider mt="sm" mb="sm" color="transparent"/>
+                    <Divider mt="xs" mb="xs" color="transparent"/>
 
                     {/* SEGMENTED CONTROL */}
                     <SegmentedControl
                         radius="xl"
                         size="md"
-                        data={[payOption1, payOption2]}
+                        fullWidth
+                        data={[
+                            {
+                                value: payOption1,
+                                label: (
+                                    <Center style={{ gap: 5 }}>
+                                        {/*<Radio*/}
+                                        {/*    color={payMethod === payOption1 ? 'white' : 'gray'}*/}
+                                        {/*    variant="outline" checked={payMethod === payOption1} size="xs" defaultChecked={false} />*/}
+                                        {payMethod === payOption1 ? radioOn : radioOff} <span style={{fontWeight: '550'}}>{payOption1}</span>
+                                    </Center>
+                                )
+                            },
+                            {
+                                value: payOption2,
+                                label: (
+                                    <Center style={{ gap: 5 }}>
+                                        {payMethod === payOption2 ? radioOn : radioOff} <span style={{fontWeight: '550'}}>{payOption2}</span>
+                                    </Center>
+                                )
+                            }
+                        ]}
                         defaultValue={payOption1}
                         classNames={classes}
                         onChange={(value) => setPayMethod(value)}
@@ -218,11 +245,13 @@ export function DonatePopupButton(props: {projectId: string,
 
                     <Divider mt="sm" mb="sm" color="transparent"/>
 
-                    {payMethod === payOption1 ? forCard : forBank}
+                    {payMethod === payOption1 ? forCard : null}
+                    {payMethod === payOption2 ? forBank : null}
 
                 </Form>
             </>
         </Modal>
+
         <Button style={{ width: props.fullWidth ? 'auto' : 'max-content' }}
                 variant="gradient"
                 fw={600}

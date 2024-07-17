@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from 'react';
 import classes from './ProjectDonationProgress.module.css';
-import {Center, Progress, ProgressLabel, ProgressRoot, ProgressSection, Skeleton, Text} from "@mantine/core";
+import {Center, Loader, Progress, ProgressLabel, ProgressRoot, ProgressSection, Skeleton, Text} from "@mantine/core";
 
 export function ProjectDonationProgress (props :{id: string, goalAmount: number, sumTranslation: string } ) {
     const [currentAmount, setCurrentAmount] = useState(0);
@@ -30,12 +30,13 @@ export function ProjectDonationProgress (props :{id: string, goalAmount: number,
         fetchDonationAmount().then(r => r);
     }, [props.id]);
     
+    //TODO remove this repetition
     if (loading) {
-        return <>
-            <Skeleton height={10} mt={13} radius="xl" />
-            <Skeleton height={10} mt={6} radius="xl" />
-            <Skeleton height={10} mt={6} mb={4} radius="xl" />
-            </>;
+        return <Center>
+            <Text fz="xl" fw={500}>
+                <Loader color="teal" size="xs" /> EUR / {props.goalAmount.toLocaleString()} EUR
+            </Text>
+        </Center>;
     }
     
     return <>
@@ -45,12 +46,12 @@ export function ProjectDonationProgress (props :{id: string, goalAmount: number,
         </Text>
         </Center>
         
-        <Progress animated value={progressValue} mt="sm" size={19} radius="sm"
-                  classNames={{
-                      root: classes.progressTrack,
-                      section: classes.progressSection
-                  }}>
-        </Progress>
+        {/*<Progress animated value={progressValue} mt="sm" size={19} radius="sm"*/}
+        {/*          classNames={{*/}
+        {/*              root: classes.progressTrack,*/}
+        {/*              section: classes.progressSection*/}
+        {/*          }}>*/}
+        {/*</Progress>*/}
         
         </>;
 }

@@ -195,15 +195,17 @@
   "PROJECTS_MORE": {
     "DONATE": "Donate",
     "OPTIONS": "options",
-    "CARD_OPTION": "Card / Google Pay / Apple Pay",
-    "BANK_TRANSFER_OPTION": "Bank transfer",
+    "CARD_OPTION": "Card",
+    "BANK_TRANSFER_OPTION": "Bank Transfer",
     "DESIRED_AMOUNT": "Desired amount",
-    "CONTINUE": "Continue",
-    "DONATE_FOR": "Donate for",
+    "CONTINUE": "To Payment",
+    "DONATE_FOR": "How would you like to donate for",
     "I_AGREE_TO_THE": "I agree to the",
     "TERMS_AND_CONDITIONS": "Terms and Conditions",
     "AND": "and",
-    "PRIVACY_POLICY": "Privacy Policy"
+    "PRIVACY_POLICY": "Privacy Policy",
+    "TRANSFER_WARNING_FIRST_PART": "Please specify",
+    "TRANSFER_WARNING_SECOND_PART": "in the payment details"
   },
   
   "SHARE": {
