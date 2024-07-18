@@ -21,7 +21,7 @@ export function DonationProgress() {
     
      const donateT = useTranslations('PROJECTS_MORE');
      const donatePopupTranslations : ProjectTranslationsType = {
-         Donate: projMoreT('DONATE') + ' (' + projMoreT('OPTIONS') + ')',
+         Donate: projMoreT('DONATE'), //+ ' (' + projMoreT('OPTIONS') + ')',
          CardOption: donateT('CARD_OPTION'),
          BankTransferOption: donateT('BANK_TRANSFER_OPTION'),
          DesiredAmount: donateT('DESIRED_AMOUNT'),

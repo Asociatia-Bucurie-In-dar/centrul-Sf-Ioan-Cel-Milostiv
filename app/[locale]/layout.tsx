@@ -38,7 +38,7 @@ export default function RootLayout({children, params: { locale }}: { children: R
     const donateT = useTranslations('PROJECTS_MORE');
     const projectsT = useTranslations('PROJECTS_MORE');
     const donatePopupTranslations : ProjectTranslationsType = {
-        Donate: donateT('DONATE') + ' (' + donateT('OPTIONS') + ')',
+        Donate: donateT('DONATE'), // + ' (' + donateT('OPTIONS') + ')',
         CardOption: donateT('CARD_OPTION'),
         BankTransferOption: donateT('BANK_TRANSFER_OPTION'),
         DesiredAmount: donateT('DESIRED_AMOUNT'),

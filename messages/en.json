@@ -23,7 +23,7 @@
     "MOTTO_2": "save lives",
     "MOTTO_3": "change destinies",
     "MOTTO_4": "heal souls",
-    "DESCRIPTION": "Saint John The Merciful Center for addiction treatment.",
+    "DESCRIPTION": "Saint John The Merciful Center for addiction treatment and prevention.",
     "SEE_MORE": "Learn more"
   },
 
@@ -31,9 +31,9 @@
     "TITLE": "Progress",
     "DESCRIPTION": "The necessary amount to complete the project. Every donation counts!",
     "STEPS": {
-      "1": "Land and utilities",
-      "2": "Building",
-      "3": "Garden",
+      "1": "Land & utilities",
+      "2": "Building & houses",
+      "3": "Landscaping",
       "4": "Staff"
     }
   },

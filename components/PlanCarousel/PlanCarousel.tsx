@@ -10,7 +10,7 @@ const images = [
     '/base/1.jpeg',
     '/base/2.jpeg',
     '/base/4.jpeg',
-    '/base/6.jpeg',
+    '/base/6.jpg',
     '/base/7.jpeg',
     '/base/8.jpeg',
     '/base/9.jpeg',

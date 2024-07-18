@@ -23,7 +23,7 @@
     "MOTTO_2": "salvăm vieți",
     "MOTTO_3": "schimbăm destine",
     "MOTTO_4": "vindecăm suflete",
-    "DESCRIPTION": "Centrul Sfântul Ioan Cel Milostiv pentru tratarea dependențelor.",
+    "DESCRIPTION": "Centrul Sfântul Ioan Cel Milostiv pentru prevenția şi tratarea adicțiilor.",
     "SEE_MORE": "Află mai multe"
   },
   
@@ -32,8 +32,8 @@
     "DESCRIPTION": "Suma necesară pentru a finaliza proiectul. Fiecare donaţie contează!",
     "STEPS": {
       "1": "Teren şi utilități",
-      "2": "Clădire",
-      "3": "Grădină",
+      "2": "Clădire şi căsuțe",
+      "3": "Amenajare centru",
       "4": "Personal"
     }
   },
