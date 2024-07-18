@@ -11,17 +11,20 @@ export function ProjectDonationProgress (props :{id: string, goalAmount: number,
     useEffect(() => {
         const fetchDonationAmount = async () => {
             setLoading(true);
+            const manualExtraAmount = 10000;
             try {
                 const response = await fetch(`/api/projects/${props.id}`);
                 
                 const data = await response.json();
-                setCurrentAmount(data.totalDonated);
-                let progress = (data.totalDonated / props.goalAmount) * 100;
+                const finalTotal = data.totalDonated + manualExtraAmount;
+                setCurrentAmount(finalTotal);
+                let progress = (finalTotal / props.goalAmount) * 100;
                 if (progress < 2 && progress > 0)
                     setProgressValue(2);
                 else setProgressValue(progress);
                 
             } catch (error) {
+                setCurrentAmount(manualExtraAmount);
                 console.error('Failed to fetch donation amount:', error);
             }
             setLoading(false);

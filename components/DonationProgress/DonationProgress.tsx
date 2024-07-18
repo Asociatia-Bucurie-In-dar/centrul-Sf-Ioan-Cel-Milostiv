@@ -44,13 +44,13 @@ export function DonationProgress() {
         {
             title: '800,000 EUR',
             stats: t('STEPS.2'),
-            progress: 0,
+            progress: 3,
             description: '',
         },
         {
             title: '50,000 EUR',
             stats: t('STEPS.3'),
-            progress: 0,
+            progress: 3,
             description: '',
         }
     ];
