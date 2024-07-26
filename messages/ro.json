@@ -90,8 +90,8 @@
   },
   
   "ADDICTIONS": {
-    "TITLE": "Tratarea dependențelor",
-    "DESCRIPTION": "Iată câteva dintre dependențele pe care ne propunem să le tratăm în cadrul Centrului Sfântul Ioan Cel Milostiv. Dependența de alcool, droguri, jocuri de noroc, jocuri video, pornografie, cumpărături, nicotină, tehnologie, munca compulsivă, cafeină, exerciții fizice, televizor.",
+    "TITLE": "De ce construim acest centru?",
+    "DESCRIPTION": "Pentru că fiecare din noi, cei care am pus bazele acestui centru, am trecut prin noroaiele vieții și sunt mulți cei care au nevoie de ajutor și îndurare. Știm că, dacă o clipă ai cunoscut suferința adâncă, nu poți fi niciodată indiferent față de aproapele tău. Am decis să ne dedicăm viața pentru a-i ajuta pe cei care și-au pierdut nădejdea. În Centrului Sf. Ioan Cel Milostiv, viața este neprețuită și ne punem toată nădejdea în Dumnezeu și încrederea în voi că ne veți ajuta să ajutăm!",
     "READ_MORE": "Vezi mai mult",
     "CATEGORIES": [
       {
@@ -152,9 +152,9 @@
   "HOME_WHY": {
     "TITLE": "De ce înființăm Centrul?",
     "FIRST_TITLE": "Ajutor",
-    "FIRST_DESCRIPTION": "Fiecare dintre noi are nevoie de ajutor într-un fel sau altul. Fiecare dintre noi a trecut cel puțin o dată în viață printr-o perioadă neagră din care nu mai știa cum să iasă sau când se va termina. I-am văzut pe cei din familie, pe prieteni, pe oamenii dragi din viața nostră suferind și nu aveam cum să-i ajutăm. In acele momente când ești căzut şi ai nevoie de un sprijin, cât de mult contează ajutorul oferit cu drag, din inimă, din credință. Avem toată nădejdea și credem cu tărie că echipa Centrului Sf. Ioan Cel Milostiv se va strădui să aducă alinare, vindecare și sprijin celor care nu mai au pe cine să se sprijine.",
+    "FIRST_DESCRIPTION": "Bună să îți fie inima! Oameni dragi, ne straduim să aducem nădejde în inimile acestor oameni deznădăjduiți, să le oferim prietenia și ajutorul nostru. Ne vom strădui să-i vindecăm, pentru a-i vedea din nou râzând, sănătoși și frumoși! Am trecut și noi prin încercările vieții și ne dorim din toată inima să fim alături de toți cei care trec prin momente de cumpănă. Nădejdea în Dumnezeu și încrederea în oameni sunt calea pe care o urmăm.",
     "SECOND_TITLE": "România",
-    "SECOND_DESCRIPTION": "Centrele din Romania sunt insuficiente, iar numărul celor afectați crește, în special copii și adolescenți. Așa că nu putem și nu vrem să stăm indifereți la ce se întâmplă, mai ales că împreună putem ajuta aceste suflete. Omule drag, un om dacă reușim să convingem, un om în prag de suicid, că viața are sens, contează enorm, o tânără mămică să nu avorteze, pentru că viața este prețioasă, un părinte să renunțe la alcool, la droguri, la jocuri de noroc, înseamnă că avem o familie salvată, un copil care alege să se joace afară, și nu la consolă. Omule drag, miza este mai mare decât vindecarea unui om, miza este salvarea a cât mai multor vieți, destine și suflete. Stă în puterea ta să alegi!"
+    "SECOND_DESCRIPTION": "Centrele de prevenție și tratare a adicțiilor sunt insuficiente în România, iar numărul celor afectați de adicții crește, în special în rândul copiilor și adolescenților. Nu putem și nu vrem să privim indiferenți la ce se întâmplă acum și la ce va urma. Un copil, un adolescent sau un adult salvat nu se pot cântări în bani. Ce ați oferi pentru a vă găsi liniștea? Dar sănătatea dumneavoastră sau a copilului? Ajutați-ne să ajutăm!"
   },
 
   "HOME_HELP": {
@@ -171,7 +171,7 @@
     },
     "THIRD": {
       "TITLE": "Care este misiunea?",
-      "DESCRIPTION": "Misiunea nostră este să aducem bucurie acolo unde nu mai este, in inimile cât mai multor oameni, mari și mici, tineri și bătrâni, împreună cu voi."
+      "DESCRIPTION": "Bună să îți fie inima! Misiunea noastră este să aducem nădejde în inimile acestor oameni deznădăjduiți, să le oferim prietenia și ajutorul nostru. Ne vom strădui să-i vindecăm, pentru a-i vedea din nou râzând, sănătoși și frumoși."
     }
   },
 
