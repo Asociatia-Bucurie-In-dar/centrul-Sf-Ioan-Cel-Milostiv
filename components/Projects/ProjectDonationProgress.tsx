@@ -9,7 +9,7 @@ export function ProjectDonationProgress (props :{id: string, goalAmount: number,
     const [progressValue, setProgressValue] = useState(0);
 
     useEffect(() => {
-        const fetchDonationAmount = async () => {
+        const fetchDonoAmount = async () => {
             setLoading(true);
             const manualExtraAmount = 10000;
             try {
@@ -30,7 +30,7 @@ export function ProjectDonationProgress (props :{id: string, goalAmount: number,
             setLoading(false);
         };
         
-        fetchDonationAmount().then(r => r);
+        fetchDonoAmount().then(r => r);
     }, [props.id]);
     
     //TODO remove this repetition
