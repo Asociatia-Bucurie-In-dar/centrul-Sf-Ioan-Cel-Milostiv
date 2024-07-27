@@ -25,7 +25,7 @@ export function ProjectDonationProgress (props :{id: string, goalAmount: number,
                 
             } catch (error) {
                 setCurrentAmount(manualExtraAmount);
-                console.error('Failed to fetch donation amount:', error);
+                console.error('Failed to fetch donation amount bcs:', error);
             }
             setLoading(false);
         };
