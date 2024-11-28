@@ -11,7 +11,7 @@ export function ProjectDonationProgress (props :{id: string, goalAmount: number,
     useEffect(() => {
         const fetchDonoAmount = async () => {
             setLoading(true);
-            const manualExtraAmount = 27697;
+            const manualExtraAmount = 37697;
             try {
                 const response = await fetch(`/api/projects/${props.id}`);
                 
