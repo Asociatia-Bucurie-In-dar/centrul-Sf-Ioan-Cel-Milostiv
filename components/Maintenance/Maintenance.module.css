@@ -51,6 +51,18 @@
     letter-spacing: 0.05em;
 }
 
+.link {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--mantine-color-blue-6);
+    transition: color 0.2s;
+}
+
+.link:hover {
+    color: var(--mantine-color-blue-7);
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     .image {
         width: 150px;

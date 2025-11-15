@@ -1,8 +1,9 @@
 'use client';
 
-import { Container, Title, Text, Stack, Group, Paper, Image, Center } from '@mantine/core';
+import { Container, Title, Text, Stack, Group, Paper, Image, Center, Anchor } from '@mantine/core';
 import { useEffect, useState } from 'react';
 import classes from './Maintenance.module.css';
+import Link from 'next/link';
 
 const TARGET_DATE = new Date(2026, 1, 25, 0, 0, 0, 0).getTime();
 
@@ -72,6 +73,20 @@ export function Maintenance() {
                     <TimeUnit value={timeRemaining.minutes} label="Minute" />
                     <TimeUnit value={timeRemaining.seconds} label="Secunde" />
                 </Group>
+                <div style={{marginBottom: '2rem'}}></div>
+
+                <Text size="lg" ta="center" c="dimmed" className={classes.subtitle}>
+                    Proiect inițiat de <Link 
+                    href="https://www.bucurieindar.ro" 
+                    rel="noopener noreferrer"
+                    className={classes.link}
+                    mt="xl"
+                >
+                    www.bucurieindar.ro
+                </Link>
+                </Text>
+        
+                
             </Stack>
         </Container>
     );
