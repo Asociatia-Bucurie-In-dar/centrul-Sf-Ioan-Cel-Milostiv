@@ -63,7 +63,7 @@ export function Maintenance() {
                     În actualizare
                 </Title>
                 <Text size="lg" ta="center" c="dimmed" className={classes.subtitle}>
-                    Se deschide pe 25 Februarie 2025
+                    Se deschide pe 25 Februarie 2026
                 </Text>
 
                 <Group gap="md" mt="xl" className={classes.timer}>
