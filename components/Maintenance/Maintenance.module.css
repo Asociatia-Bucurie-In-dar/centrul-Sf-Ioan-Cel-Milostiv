@@ -1,0 +1,73 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.imageWrapper {
+    margin-bottom: 1rem;
+}
+
+.image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 3px solid var(--mantine-color-gray-3);
+}
+
+.title {
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    margin-bottom: 2rem;
+}
+
+.timer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.timeUnit {
+    min-width: 120px;
+    text-align: center;
+    background: var(--mantine-color-body);
+    border: 1px solid var(--mantine-color-gray-3);
+}
+
+.timeValue {
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.timeLabel {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+@media (max-width: 768px) {
+    .image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .timeUnit {
+        min-width: 80px;
+        padding: 1rem;
+    }
+
+    .timeValue {
+        font-size: 2rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}
+

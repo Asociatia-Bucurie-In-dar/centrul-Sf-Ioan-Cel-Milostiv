@@ -24,8 +24,7 @@ export function ProjectPreviewCard(props: { title: string, imgPath: string, text
                 <CardSection>
                         <Image src={props.imgPath} 
                                height={200}
-                               loading={"lazy"}
-                            placeholder="blur"/>
+                               loading={"lazy"}/>
                 </CardSection>
 
                 {/*<Badge className={classes.rating} variant="gradient" gradient={{ from: 'yellow', to: 'red' }}>*/}

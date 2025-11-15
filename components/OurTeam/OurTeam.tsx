@@ -62,7 +62,7 @@ export function OurTeam() {
 
     const items = data.map((item, index) => {
         return <Group gap="xl">
-            <Avatar size="xl" src={item.avatar} radius={40} placeholder="blur" alt={item.name + " " + item.job}/>
+            <Avatar size="xl" src={item.avatar} radius={40} alt={item.name + " " + item.job}/>
             <br/>
             <div>
                 <Title fz="md" fw={500}>
