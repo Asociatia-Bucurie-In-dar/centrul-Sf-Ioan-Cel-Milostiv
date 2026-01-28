@@ -2,7 +2,7 @@ import '@mantine/core/styles.css';
 import React from 'react';
 import {MantineProvider, ColorSchemeScript, createTheme} from '@mantine/core';
 import {Analytics} from "@vercel/analytics/next";
-import { Maintenance } from '@/components/Maintenance/Maintenance';
+import BypassMaintenance from '@/components/Maintenance/BypassMaintenance';
 import {locales} from "@/middleware";
 import {getTranslations, unstable_setRequestLocale} from 'next-intl/server';
 
@@ -24,6 +24,7 @@ export async function generateMetadata({children, params: {locale}}: { children:
     };
 }
 
+
 export default function RootLayout({children, params: { locale }}: { children: React.ReactNode; params: { locale: string }; }) {
     unstable_setRequestLocale(locale);
 
@@ -43,21 +44,22 @@ export default function RootLayout({children, params: { locale }}: { children: R
             ],
         }
     });
-    
-  return (
-    <html lang={"ro"}>
-    <head>
-        <ColorSchemeScript/>
-        <link rel="shortcut icon" href="/sfIoan.png"/>
-        <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
-    </head>
-    <body>
-    <MantineProvider theme={theme} defaultColorScheme="light">
-        <Maintenance />
-    </MantineProvider>
-    <Analytics />
-    </body>
-    </html>
-  );
+
+
+    return (
+        <html lang={"ro"}>
+        <head>
+            <ColorSchemeScript/>
+            <link rel="shortcut icon" href="/sfIoan.png"/>
+            <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
+        </head>
+        <body>
+        <MantineProvider theme={theme} defaultColorScheme="light">
+            <BypassMaintenance>{children}</BypassMaintenance>
+        </MantineProvider>
+        <Analytics />
+        </body>
+        </html>
+    );
 }
 
