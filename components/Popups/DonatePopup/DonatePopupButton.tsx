@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from "react";
 
-import { createCheckoutSession } from "@/utils/stripe/stripe-actions";
 import {
     Button,
     Center,
@@ -31,149 +30,11 @@ export function DonatePopupButton(props: {projectId: string,
     fullWidth?: boolean,
     size?: string }) {
 
-    const payOption1 = props.translations.CardOption;
-    const payOption2 = props.translations.BankTransferOption;
-
-    const [loading, setLoading] = useState(false);
-    const [badSum, setBadSum] = useState(true);
-    const [payMethod, setPayMethod] = useState(payOption1);
-    const [redirectTo, setRedirectTo] = useState('');
-    useEffect(() => {
-        if (redirectTo) {
-            window.location.assign(redirectTo);
-        }
-    }, [redirectTo]);
-
-    const callDonateAPI = async (event: any) => {
-        event.preventDefault();
-
-        setLoading(true);
-        const data =
-            {
-                projectId: props.projectId,
-                projectTitle: props.projectTile,
-                currencyAmount: Number(input.customDonation),
-                //email: input.email,
-                agreed: agreeValue,
-                locale: props.translations.Locale
-            };
-        const { client_secret, url } = await createCheckoutSession(data);
-
-        setLoading(false);
-
-        if (url)
-        {
-            setRedirectTo(url as string);
-        }
-    }
-
-    const [input, setInput] = useState<{ customDonation: string, email: string }> ({ customDonation: '', email: '' } );
-    const handleMoneyChange: React.ChangeEventHandler<HTMLInputElement> = (
-        e
-    ): void => {
-        let numberAsString = e.target.value;
-        if (numberAsString.length > 0 && numberAsString[0] === '0') {
-            numberAsString = numberAsString.slice(1);
-        }
-        numberAsString = numberAsString.replace(/\D/g, '');
-
-        setBadSum(Number(numberAsString) < 1);
-
-        setInput({customDonation: numberAsString, email: input.email});
-    };
-
-    const handleEmailChange: React.ChangeEventHandler<HTMLInputElement> = (e): void => {
-        setInput({customDonation: input.customDonation, email: e.target.value});
-    };
-
-    const [agreeValue, onAgreeChange] = useState(false);
-
-    const data = [
-        { value: 'eur', label: '🇪🇺 EUR' },
-        // { value: 'usd', label: '🇺🇸 USD' },
-        // { value: 'cad', label: '🇨🇦 CAD' },
-        // { value: 'gbp', label: '🇬🇧 GBP' },
-        // { value: 'aud', label: '🇦🇺 AUD' },
-    ];
-
-    const stopPropagation = (e: React.MouseEvent<HTMLAnchorElement>) => e.stopPropagation();
-
-    const iconSize = 25;
+    // Only bank transfer, no Stripe/card logic
 
     const [opened, {open, close}] = useDisclosure(false);
 
-    const select = (
-        <NativeSelect
-            data={data}
-            rightSectionWidth={28}
-            styles={{
-                input: {
-                    fontWeight: 500,
-                    borderTopLeftRadius: 0,
-                    borderBottomLeftRadius: 0,
-                    width: rem(115),
-                    marginRight: rem(-2),
-                },
-            }}
-        />
-    );
-
-    const forCard = <>
-        {/* EMAIL */}
-        {/*<TextInput type="email"*/}
-        {/*           autoComplete="email"*/}
-        {/*           placeholder=""*/}
-        {/*           label={"Email"}*/}
-        {/*           required*/}
-        {/*           size="md"*/}
-        {/*           onChange={handleEmailChange}*/}
-        {/*           value={input.email}/>*/}
-
-        {/*<Divider mb="xs" color="transparent"/>*/}
-        {/* MONEY */}
-        <TextInput type="number"
-                   placeholder="10 EUR"
-                   required
-                   label={props.translations.DesiredAmount}
-                   rightSection={select}
-                   rightSectionWidth={115}
-                   size="md"
-                   onChange={handleMoneyChange}
-                   value={input.customDonation}/>
-
-        <Divider mb="sm" color="transparent"/>
-        {/* AGREE CHECK */}
-        <UnstyledButton onClick={() => onAgreeChange(!agreeValue)} className={classes.button}>
-            <Checkbox
-                checked={agreeValue}
-                required
-                onChange={() => {}}
-                tabIndex={-1}
-                size="md"
-                mr="md"
-                styles={{ input: { cursor: 'pointer' } }}
-                aria-hidden
-                onClick={() => onAgreeChange(!agreeValue)}
-            />
-            <div>
-                <Text fw={500} mb={7} lh={1}>
-                    {props.translations.IAgreeWith}:
-                </Text>
-                <Text fz="sm" fw={600}>
-                    <Link href={'/' + props.translations.Locale + MyRoutePaths.Terms} target="_blank" onClick={stopPropagation} className={classes.link}>{props.translations.TermsAndConditions}</Link> {props.translations.And} <Link href={'/' + props.translations.Locale + MyRoutePaths.Privacy} target="_blank"  onClick={stopPropagation} className={classes.link}>{props.translations.PrivacyPolicy}</Link>
-                </Text>
-            </div>
-        </UnstyledButton>
-
-        <Divider mb={30} color="transparent"/>
-        {/* CONTINUE BUTTON */}
-        <Center>
-            <Button type="submit" variant="gradient" gradient={{from: 'green', to: 'lime', deg: 60}} size="md"
-                    disabled={loading} mb="xs">
-                {props.translations.Continue}<IconChevronRight style={{marginLeft:3}} size={20} stroke={2}/>
-            </Button>
-        </Center>
-    </>;
+    // Remove forCard, only forBank remains
 
     const forBank = <>
         <Paper withBorder p="lg" radius="md" shadow="md">
@@ -191,11 +52,7 @@ export function DonatePopupButton(props: {projectId: string,
         </Paper>
     </>;
 
-    const radioOn = <IconCircleDot size={18} stroke={2.5} />;
-    const radioOff = <IconCircle size={18} stroke={1} />;
-
     function prepAndOpen() {
-        setPayMethod(payOption1);
         open();
     }
 
@@ -203,52 +60,13 @@ export function DonatePopupButton(props: {projectId: string,
         <Modal opened={opened} onClose={close} withCloseButton={false} zIndex={MyZIndexes.DonateModal}
                size="auto" transitionProps={{ transition: 'slide-up' }}>
             <>
-                <Form onSubmit={callDonateAPI}>
-                    <Center>
-                        <Text size="lg" ta="center">
-                            {props.translations.DonateFor} <br/><b>{props.projectTile}</b> ?
-                        </Text>
-                    </Center>
-
-                    <Divider mt="xs" mb="xs" color="transparent"/>
-
-                    {/* SEGMENTED CONTROL */}
-                    <SegmentedControl
-                        radius="xl"
-                        size="md"
-                        fullWidth
-                        data={[
-                            {
-                                value: payOption1,
-                                label: (
-                                    <Center style={{ gap: 5 }}>
-                                        {/*<Radio*/}
-                                        {/*    color={payMethod === payOption1 ? 'white' : 'gray'}*/}
-                                        {/*    variant="outline" checked={payMethod === payOption1} size="xs" defaultChecked={false} />*/}
-                                        {payMethod === payOption1 ? radioOn : radioOff} <span style={{fontWeight: '550'}}>{payOption1}</span>
-                                    </Center>
-                                )
-                            },
-                            {
-                                value: payOption2,
-                                label: (
-                                    <Center style={{ gap: 5 }}>
-                                        {payMethod === payOption2 ? radioOn : radioOff} <span style={{fontWeight: '550'}}>{payOption2}</span>
-                                    </Center>
-                                )
-                            }
-                        ]}
-                        defaultValue={payOption1}
-                        classNames={classes}
-                        onChange={(value) => setPayMethod(value)}
-                    />
-
-                    <Divider mt="sm" mb="sm" color="transparent"/>
-
-                    {payMethod === payOption1 ? forCard : null}
-                    {payMethod === payOption2 ? forBank : null}
-
-                </Form>
+                <Center>
+                    <Text size="lg" ta="center">
+                        {props.translations.DonateFor} <br/><b>{props.projectTile}</b> ?
+                    </Text>
+                </Center>
+                <Divider mt="xs" mb="xs" color="transparent"/>
+                {forBank}
             </>
         </Modal>
 
