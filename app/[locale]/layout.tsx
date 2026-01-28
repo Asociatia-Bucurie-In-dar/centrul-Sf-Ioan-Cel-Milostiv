@@ -3,6 +3,8 @@ import React from 'react';
 import {MantineProvider, ColorSchemeScript, createTheme} from '@mantine/core';
 import {Analytics} from "@vercel/analytics/next";
 import BypassMaintenance from '@/components/Maintenance/BypassMaintenance';
+import { Header } from '@/components/Header/Header';
+import { Footer } from '@/components/Footer/Footer';
 import {locales} from "@/middleware";
 import {getTranslations, unstable_setRequestLocale} from 'next-intl/server';
 
@@ -25,7 +27,6 @@ export async function generateMetadata({children, params: {locale}}: { children:
 }
 
 
-export default function RootLayout({children, params: { locale }}: { children: React.ReactNode; params: { locale: string }; }) {
     unstable_setRequestLocale(locale);
 
     const theme = createTheme({
@@ -45,7 +46,6 @@ export default function RootLayout({children, params: { locale }}: { children: R
         }
     });
 
-
     return (
         <html lang={"ro"}>
         <head>
@@ -55,7 +55,11 @@ export default function RootLayout({children, params: { locale }}: { children: R
         </head>
         <body>
         <MantineProvider theme={theme} defaultColorScheme="light">
-            <BypassMaintenance>{children}</BypassMaintenance>
+            <Header headerProps={{}} locale={locale} />
+            <main style={{ minHeight: '80vh' }}>
+                <BypassMaintenance>{children}</BypassMaintenance>
+            </main>
+            <Footer />
         </MantineProvider>
         <Analytics />
         </body>
