@@ -51,9 +51,7 @@ export function PlanCarousel() {
             <Carousel withIndicators={true}
                       slideSize={{base: '100%'}}
                       slideGap={{base: "sm", sm: 'xl'}}
-                      align="start"
-                      loop
-                      slidesToScroll={1} draggable
+                      draggable
                       withControls={true}
                       classNames={{
                           root: classes.carousel,

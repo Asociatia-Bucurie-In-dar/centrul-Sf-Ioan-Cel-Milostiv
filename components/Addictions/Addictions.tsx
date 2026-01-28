@@ -101,9 +101,7 @@ export function Addictions(props: { translations:any }) {
         <Carousel withIndicators={true}
             slideSize={{ base: '100%', sm: 'calc(50% - 20px)', md: 'calc(33.333% - 20px)' }}
             slideGap={{ base: "sm", sm: 'xl' }}
-            align="start"
-                  loop
-            slidesToScroll={1} draggable
+            draggable
                   withControls={true}
                   classNames={{
                       root: classes.carousel,
