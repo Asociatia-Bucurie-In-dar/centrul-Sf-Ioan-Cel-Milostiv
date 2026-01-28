@@ -53,7 +53,8 @@ export default function RootLayout({children, params: { locale }}: { children: R
     </head>
     <body>
     <MantineProvider theme={theme} defaultColorScheme="light">
-        <Maintenance />
+        {/* <Maintenance /> */}
+        {children}
     </MantineProvider>
     <Analytics />
     </body>
