@@ -3,7 +3,6 @@ import classes from './ChatButton.module.css';
 import {ActionIcon, Button, rem} from "@mantine/core";
 import {IconBrandFacebook, IconBrandWhatsapp} from "@tabler/icons-react";
 import {MyZIndexes} from "@/utils/my-constants";
-import Link from "next/link";
 import {contactInfo} from "@/content/contact/my-contact";
 
 export function ChatButton() {
@@ -19,7 +18,7 @@ export function ChatButton() {
                 variant="gradient"
                 aria-label="Gradient action icon"
                 gradient={{ from: 'green', to: 'lime', deg: 90 }}
-                        component={Link} href={"https://wa.me/" + contactInfo.phoneForWhatsapp} 
+                        component="a" href={"https://wa.me/" + contactInfo.phoneForWhatsapp} 
                         rel="noopener noreferrer" target="_blank">
                 <IconBrandWhatsapp style={{ width: '70%', height: '70%' }} stroke={1.5}/>
             </ActionIcon>
@@ -27,7 +26,7 @@ export function ChatButton() {
                         variant="gradient"
                         aria-label="Gradient action icon"
                         gradient={{ from: 'indigo', to: 'blue', deg: 90 }}
-                        component={Link} href={contactInfo.facebookLink} 
+                        component="a" href={contactInfo.facebookLink} 
                         rel="noopener noreferrer" target="_blank">
                 <IconBrandFacebook style={{ width: '70%', height: '70%' }} stroke={1.5}/>
             </ActionIcon>

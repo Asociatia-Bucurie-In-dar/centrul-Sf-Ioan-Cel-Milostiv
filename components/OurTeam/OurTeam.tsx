@@ -60,8 +60,8 @@ export function OurTeam() {
         }
     ];
 
-    const items = data.map((item, index) => {
-        return <Group gap="xl">
+    const items = data.map((item) => {
+        return <Group gap="xl" key={item.avatar}>
             <Avatar size="xl" src={item.avatar} radius={40} alt={item.name + " " + item.job}/>
             <br/>
             <div>

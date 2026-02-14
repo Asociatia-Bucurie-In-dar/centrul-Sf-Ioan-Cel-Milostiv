@@ -239,6 +239,7 @@
     "BLOG": { "LABEL": "Blog", "LINK": "/blog" },
     "CONTACT": { "LABEL": "Contact", "LINK": "/contact" },
     "TERMS": { "LABEL": "Termeni şi Condiții", "LINK": "/terms" },
-    "PRIVACY": { "LABEL": "Politica de Confidențialitate", "LINK": "/privacy" }
+    "PRIVACY": { "LABEL": "Politica de Confidențialitate", "LINK": "/privacy" },
+    "BURGER_MENU": "Meniu"
   }
 }

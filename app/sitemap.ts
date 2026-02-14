@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 import { MyRoutePaths } from "@/utils/route-paths";
-import { locales, defaultLocale } from "@/middleware";
+import { locales, defaultLocale } from "@/i18n/routing";
 
 function getUrlsOfLocale(localeAsString: string): MetadataRoute.Sitemap {
     const locale = localeAsString === "" ? "" : "/" + localeAsString;
@@ -23,9 +23,9 @@ function getUrlsOfLocale(localeAsString: string): MetadataRoute.Sitemap {
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     let allUrls: MetadataRoute.Sitemap = [];
 
-    for (let locale of locales) {
-        if (locale === defaultLocale) locale = "";
-        const urls = getUrlsOfLocale(locale);
+    for (const loc of locales) {
+        const prefix = loc === defaultLocale ? "" : loc;
+        const urls = getUrlsOfLocale(prefix);
         urls.forEach(x => allUrls.push(x));
     }
 

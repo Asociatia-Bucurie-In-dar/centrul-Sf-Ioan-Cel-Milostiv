@@ -2,7 +2,6 @@ import {Text, Title, Container, Center, Image, rem} from '@mantine/core';
 import classes from './SfIoan.module.css';
 import commonClasses from '@/utils/commonClasses.module.css';
 import {IconExternalLink} from "@tabler/icons-react";
-import Link from "next/link";
 import {useTranslations} from "next-intl";
 
 export function SfIoan(props: { disableBackground?: boolean }) {
@@ -11,8 +10,8 @@ export function SfIoan(props: { disableBackground?: boolean }) {
     
     const linkProps = {
         href: "https://centrulsfantulioancelmilostiv.org",
-        rel:"noopener noreferrer",
-        target:"_blank"
+        rel:"noopener noreferrer" as const,
+        target:"_blank" as const
     };
     
     return (
@@ -25,13 +24,13 @@ export function SfIoan(props: { disableBackground?: boolean }) {
                 </Center>
                 <div className={classes.body}>
                     <Center>
-                        <Title className={classes.titleBig} component={Link} {...linkProps}>
+                        <Title className={classes.titleBig} component="a" {...linkProps}>
                             {t('TITLE')} <IconExternalLink color="green"/>
                         </Title>
                     </Center>
 
                     <Center>
-                        <Text fz="md" c="customDimmed" style={{textAlign: "center"}} component={Link} {...linkProps}>
+                        <Text fz="md" c="customDimmed" style={{textAlign: "center"}} component="a" {...linkProps}>
                             {t('DESCRIPTION')}
                         </Text>
                     </Center>

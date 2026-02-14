@@ -3,13 +3,15 @@ import {HomeProjects} from '@/components/Home/HomeProjects/HomeProjects';
 import {DonationProgress} from '@/components/DonationProgress/DonationProgress';
 import {HomeAboutProjects} from '@/components/Home/HomeAboutProjects/HomeAboutProjects';
 import {OurTeam} from '@/components/OurTeam/OurTeam';
-import {unstable_setRequestLocale} from "next-intl/server";
 import {HomeWhy} from "@/components/Home/HomeWhy/HomeWhy";
 import {Addictions} from "@/components/Addictions/Addictions";
 import {useTranslations} from "next-intl";
+import {setRequestLocale} from "next-intl/server";
+import {use} from "react";
 
-export default function HomePage({params: {locale}}:{ params: { locale: string } }) {
-    unstable_setRequestLocale(locale);
+export default function HomePage({params}: {params: Promise<{locale: string}>}) {
+    const {locale} = use(params);
+    setRequestLocale(locale);
     
     //TODO hide this in a component
     const addictionsT = useTranslations('ADDICTIONS');

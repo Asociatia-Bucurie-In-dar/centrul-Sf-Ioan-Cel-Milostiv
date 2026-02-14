@@ -16,15 +16,15 @@ export async function GET(req: NextRequest) {
     }
     
     if (totalAmount === null || totalAmount === undefined) {
-        totalAmount = await prisma.donation.aggregate({
-            _sum: { amount: true },
-            where: { causeId: projectId }
-        }).then(r => {
-            return r._sum.amount ?? 0;
-        });
-
-        // Update the cache with the new value
-        cache.set(projectId, totalAmount);
+        try {
+            totalAmount = await prisma.donation.aggregate({
+                _sum: { amount: true },
+                where: { causeId: projectId }
+            }).then(r => r._sum.amount ?? 0);
+            cache.set(projectId, totalAmount);
+        } catch {
+            return NextResponse.json({ totalDonated: 0 }, { status: 200 });
+        }
     }
 
     return NextResponse.json({ totalDonated: totalAmount }, { status: 200 });

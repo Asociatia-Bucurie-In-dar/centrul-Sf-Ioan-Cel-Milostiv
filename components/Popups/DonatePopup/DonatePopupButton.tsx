@@ -30,11 +30,7 @@ export function DonatePopupButton(props: {projectId: string,
     fullWidth?: boolean,
     size?: string }) {
 
-    // Only bank transfer, no Stripe/card logic
-
     const [opened, {open, close}] = useDisclosure(false);
-
-    // Remove forCard, only forBank remains
 
     const forBank = <>
         <Paper withBorder p="lg" radius="md" shadow="md">

@@ -1,6 +1,6 @@
 import {Text, Container, Group, Title, Center, SimpleGrid, Divider} from '@mantine/core';
 import classes from './Footer.module.css';
-import Link from "next/link";
+import {Link} from "@/navigation";
 import {useTranslations} from "next-intl";
 
 export function Footer() {
@@ -9,11 +9,13 @@ export function Footer() {
     const heroT = useTranslations('HOME_HERO');
     const saintJohnT = useTranslations('SAINT_JOHN');
 
-    function link(link: string, label: string) {
+    function link(href: string, label: string) {
         return (
-            <Text component={Link} href={link} c="customDimmed" size="sm" fw={500}>
-                <Center>{label}</Center>
-            </Text>
+            <Link href={href} style={{textDecoration: 'none'}}>
+                <Text c="customDimmed" size="sm" fw={500}>
+                    <Center>{label}</Center>
+                </Text>
+            </Link>
         );
     }
     

@@ -9,15 +9,14 @@ import {
 import {IconBasketHeart, IconUsersGroup, IconSword, IconHeart, IconExternalLink} from '@tabler/icons-react';
 import classes from './HomeAboutProjects.module.css';
 import commonClasses from '@/utils/commonClasses.module.css';
-import Link from "next/link";
 import {MyRoutePaths} from "@/utils/route-paths";
 import {useTranslations} from "next-intl";
 
 
 const linkProps = {
     href: "https://bucurieindar.org",
-    rel:"noopener noreferrer",
-    target:"_blank"
+    rel:"noopener noreferrer" as const,
+    target:"_blank" as const
 };
 
 export function HomeAboutProjects() {
@@ -68,7 +67,7 @@ export function HomeAboutProjects() {
             
             <Center>
             <Title order={2} className={classes.title} ta="center" mt="sm"
-                   component={Link} {...linkProps}>
+                   component="a" {...linkProps}>
                 {commonT('ASSOCIATION_FULL')} <IconExternalLink color="green"/>
             </Title>
             </Center>

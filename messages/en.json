@@ -239,6 +239,7 @@
     "BLOG": { "LABEL": "Blog", "LINK": "/en/blog" },
     "CONTACT": { "LABEL": "Contact", "LINK": "/en/contact" },
     "TERMS": { "LABEL": "Terms and Conditions", "LINK": "/en/terms" },
-    "PRIVACY": { "LABEL": "Privacy Policy", "LINK": "/en/privacy" }
+    "PRIVACY": { "LABEL": "Privacy Policy", "LINK": "/en/privacy" },
+    "BURGER_MENU": "Menu"
   }
 }
