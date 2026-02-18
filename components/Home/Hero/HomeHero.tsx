@@ -36,8 +36,11 @@ export function HomeHero() {
                             </Text>
                         </Title>
                         
-                        <Text fw={600} c="white" mt={30} size="md" style={{opacity: 0.75}}>
-                            {heroT('DESCRIPTION')}
+                        <Text className={classes.description} mt={30}>
+                            <b>{heroT('DESCRIPTION')}</b>
+                        </Text>
+                        <Text className={classes.description} mt="xs">
+                            {heroT('DESCRIPTION_2')} <br/>
                         </Text>
                         
                         {/*<ConfettiButton size={"lg"} mt="xl" text={commonT('DONATE_NOW')}/>*/}
