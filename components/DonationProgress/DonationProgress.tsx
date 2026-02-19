@@ -72,21 +72,21 @@ export function DonationProgress() {
         <Container size="full" pt="xl" id="progressSection">
             <Container size="lg" py="xl">
 
-                <TitleWithDescription title={t('TITLE')} description={t('DESCRIPTION')} />
+                <TitleWithDescription title={t('TITLE')} description={t('DESCRIPTION')} maxWidth='80rem' />
 
                 <Divider color="transparent" mb="lg"/>
-                <ProjectDonationProgress id={proj.id} goalAmount={980000} sumTranslation={commonT('NECESSARY_AMOUNT')} />
+                {/* <ProjectDonationProgress id={proj.id} goalAmount={980000} sumTranslation={commonT('NECESSARY_AMOUNT')} />
                 
                 <Container size="lg" mt="md" className={classes.root}>
                     {stats}
-                </Container>
-
-                <Divider color="transparent" mb="lg"/>
+                </Container> */}
+                {/* <Divider color="transparent" mb="lg"/> */}
+                
                 <PlanCarousel />
 
                 <Divider color="transparent" mt="sm"/>
 
-                <Container mt="lg">
+                {/* <Container mt="lg">
                     <Center>
                         <DonatePopupButton projectId={proj.id}
                                            projectTile={projT('TITLE')}
@@ -94,7 +94,7 @@ export function DonationProgress() {
                                            size="lg"
                                            translations={donatePopupTranslations}/>
                     </Center>
-                </Container>
+                </Container> */}
                 
             </Container>
             <Divider mb="md" color="transparent" />
