@@ -7,13 +7,13 @@ import {useRef} from "react";
 import Autoplay from "embla-carousel-autoplay";
 
 const images = [
-    '/base/1.jpeg',
-    '/base/2.jpeg',
-    '/base/4.jpeg',
-    '/base/6.jpg',
-    '/base/7.jpeg',
-    '/base/8.jpeg',
-    '/base/9.jpeg',
+    '/new/0.webp',
+    '/new/1.webp',
+    '/new/2.webp',
+    '/new/3.webp',
+    '/new/4.webp',
+    '/new/5.webp',
+    '/new/6.webp',
 ];
 
 function Pic({imageLink}: { imageLink: string }) {

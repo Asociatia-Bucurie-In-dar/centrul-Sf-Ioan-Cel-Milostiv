@@ -25,7 +25,7 @@ export function Footer() {
                 <div className={classes.logo}>
                     <Title className={classes.title} size={18} mb="xs">
                         <Text inherit variant="gradient" component="span" gradient={{ from: 'pink', to: 'yellow' }}>
-                            <Link href="/">
+                            <Link href="/" style={{textDecoration: 'none'}}>
                                 {saintJohnT('TITLE')}
                             </Link>
                         </Text>
