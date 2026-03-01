@@ -94,7 +94,7 @@ export function Addictions(props: { translations:any }) {
         <Container size="full" className={commonClasses.darkerBackground} pb={60} pt={45}>
         <Container size="xl">
             <TitleWithDescription title={props.translations.title}  
-                                  description={props.translations.description} maxWidth={rem('700px')}/>
+                                  description={props.translations.description} maxWidth={rem('70rem')}/>
             
             <Divider color="transparent" mb="xl" />
             

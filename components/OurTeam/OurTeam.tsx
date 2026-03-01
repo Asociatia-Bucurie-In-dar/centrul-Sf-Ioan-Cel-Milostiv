@@ -9,58 +9,46 @@ export function OurTeam() {
 
     const data = [
         {
-            avatar: '/team/1.png',
+            avatar: '/team/alex.jpeg',
             name: t('TEAM_MEMBERS.FIRST.NAME'),
             job: t('TEAM_MEMBERS.FIRST.ROLE'),
             description: t('TEAM_MEMBERS.FIRST.DESCRIPTION'),
         },
         {
-            avatar: '/team/2.png',
+            avatar: '/team/catalin.jpeg',
+            name: t('TEAM_MEMBERS.MARIUS.NAME'),
+            job: t('TEAM_MEMBERS.MARIUS.ROLE'),
+            description: t('TEAM_MEMBERS.MARIUS.DESCRIPTION'),
+        },
+                {
+            avatar: '/team/3.jpeg',
+            name: t('TEAM_MEMBERS.PITIGOI.NAME'),
+            job: t('TEAM_MEMBERS.PITIGOI.ROLE'),
+            description: t('TEAM_MEMBERS.PITIGOI.DESCRIPTION'),
+        },
+        {
+            avatar: '/team/2.jpeg',
             name: t('TEAM_MEMBERS.SECOND.NAME'),
             job: t('TEAM_MEMBERS.SECOND.ROLE'),
             description: t('TEAM_MEMBERS.SECOND.DESCRIPTION'),
         },
         {
-            avatar: '/team/4.png',
-            name: t('TEAM_MEMBERS.THIRD.NAME'),
-            job: t('TEAM_MEMBERS.THIRD.ROLE'),
-            description: t('TEAM_MEMBERS.THIRD.DESCRIPTION'),
-        },
-        {
-            avatar: '/team/6.png',
+            avatar: '/team/4.jpeg',
             name: t('TEAM_MEMBERS.FOURTH.NAME'),
             job: t('TEAM_MEMBERS.FOURTH.ROLE'),
             description: t('TEAM_MEMBERS.FOURTH.DESCRIPTION'),
         },
         {
-            avatar: '/team/8.png',
+            avatar: '/team/arhitectura.jpeg',
             name: t('TEAM_MEMBERS.FIFTH.NAME'),
             job: t('TEAM_MEMBERS.FIFTH.ROLE'),
             description: t('TEAM_MEMBERS.FIFTH.DESCRIPTION'),
         },
         {
-            avatar: '/team/3.png',
-            name: t('TEAM_MEMBERS.SIXTH.NAME'),
-            job: t('TEAM_MEMBERS.SIXTH.ROLE'),
-            description: t('TEAM_MEMBERS.SIXTH.DESCRIPTION'),
-        },
-        {
-            avatar: '/team/7.png',
+            avatar: '/team/anabanica.jpeg',
             name: t('TEAM_MEMBERS.SEVENTH.NAME'),
             job: t('TEAM_MEMBERS.SEVENTH.ROLE'),
             description: t('TEAM_MEMBERS.SEVENTH.DESCRIPTION'),
-        },
-        {
-            avatar: '/team/5.png',
-            name: t('TEAM_MEMBERS.EIGHTH.NAME'),
-            job: t('TEAM_MEMBERS.EIGHTH.ROLE'),
-            description: t('TEAM_MEMBERS.EIGHTH.DESCRIPTION'),
-        },
-        {
-            avatar: '/team/6.jpeg',
-            name: t('TEAM_MEMBERS.NINTH.NAME'),
-            job: t('TEAM_MEMBERS.NINTH.ROLE'),
-            description: t('TEAM_MEMBERS.NINTH.DESCRIPTION'),
         },
         {
             avatar: '/team/7.jpg',
@@ -89,9 +77,12 @@ export function OurTeam() {
             //     </div>
             // </Card>
             <Card key={item.name} shadow="md" radius="md" className={classes.card} padding="xl">
-            <Avatar size={120} src={item.avatar} radius={12} alt={item.name + ' ' + item.job} />
-            <Text fz="lg" fw={600} className={classes.cardTitle} mt="md">
+            <Avatar size={140} src={item.avatar} radius={8} alt={item.name + ' ' + item.job} />
+            <Text fz="lg" fw={600} mt="md">
                 {item.name}
+            </Text>
+            <Text fz="md" fw={400} className={classes.cardTitle}>
+                {item.job}
             </Text>
             <Divider mt="sm" mb={0} />
             <Text fz="sm" c="customDimmed" mt="sm" fw={500}>
