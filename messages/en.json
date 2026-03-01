@@ -179,16 +179,16 @@
     "TITLE": "Our Team",
     "DESCRIPTION": "Meet our team! We are people who are passionate about what we do and wish to be useful for the world. Each of us had our downfalls, but the Good Lord worked through wonderful people, and those helped us out of the mud. Now it's our turn to come to the aid of those who need us!",
     "TEAM_MEMBERS": {
-      "FIRST": { "NAME": "Alexandru Ionescu", "ROLE": "President" },
-      "SECOND": { "NAME": "Andreea Constantinescu", "ROLE": "VP & Marketing coordinator" },
-      "THIRD": { "NAME": "Cioltan Marius", "ROLE": "VP & Logistics coordinator" },
-      "FOURTH": { "NAME": "Teodor Nemțeanu", "ROLE": "Principal coordinator of emergency stuations" },
-      "FIFTH": { "NAME": "Alina Cernea", "ROLE": "Assistant & Principal coordinator" },
-      "SIXTH": { "NAME": "Cristian Simionescu", "ROLE": "Communications & Public relations specialist" },
-      "SEVENTH": { "NAME": "Evelin", "ROLE": "Principal social assistant" },
-      "EIGHTH": { "NAME": "Ovidiu Horațiu", "ROLE": "Doctor architect" },
-      "NINTH": { "NAME": "Titus Necea", "ROLE": "Software developer" },
-      "TENTH": { "NAME": "Fabian Ghenof", "ROLE": "Software developer" }
+      "FIRST": { "NAME": "Alexandru Ionescu", "ROLE": "President", "DESCRIPTION": "Leads the organization with vision, coordinating strategy and partnerships." },
+      "SECOND": { "NAME": "Andreea Constantinescu", "ROLE": "VP & Marketing coordinator", "DESCRIPTION": "Oversees outreach and communications to grow our community and support." },
+      "THIRD": { "NAME": "Cioltan Marius", "ROLE": "VP & Logistics coordinator", "DESCRIPTION": "Manages logistics, donations and the operational side of our projects." },
+      "FOURTH": { "NAME": "Teodor Nemțeanu", "ROLE": "Principal coordinator of emergency stuations", "DESCRIPTION": "Coordinates emergency responses and volunteer mobilization during crises." },
+      "FIFTH": { "NAME": "Alina Cernea", "ROLE": "Assistant & Principal coordinator", "DESCRIPTION": "Provides hands-on coordination and support for day-to-day activities." },
+      "SIXTH": { "NAME": "Cristian Simionescu", "ROLE": "Communications & Public relations specialist", "DESCRIPTION": "Handles PR and external communications, building trust with partners." },
+      "SEVENTH": { "NAME": "Evelin", "ROLE": "Principal social assistant", "DESCRIPTION": "Works directly with beneficiaries offering social assistance and care." },
+      "EIGHTH": { "NAME": "Ovidiu Horațiu", "ROLE": "Doctor architect", "DESCRIPTION": "Provides expert advice and professional services to support our projects." },
+      "NINTH": { "NAME": "Titus Necea", "ROLE": "Software developer", "DESCRIPTION": "Builds and maintains our digital tools to help coordinate work and donations." },
+      "TENTH": { "NAME": "Fabian Ghenof", "ROLE": "Software developer", "DESCRIPTION": "Develops features and infrastructure for our online presence and systems." }
     }
   },
 

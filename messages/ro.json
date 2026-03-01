@@ -180,16 +180,16 @@
     "TITLE": "Echipa noastră",
     "DESCRIPTION": "Fă cunoștință cu echipa noastră! Suntem oameni pasionați de ceea ce facem și ne dorim să fim de folos în lumea în care trăim. Fiecare dintre noi am avut caderile noastre, dar Bunul Dumnezeu a lucrat prin oameni minunați, iar aceia ne-a ajutat să ieșim din noroiul vieții. Acum este randul nostru să venim in ajutorul celor care au nevoie de noi!",
     "TEAM_MEMBERS": {
-      "FIRST": { "NAME": "Alexandru Ionescu", "ROLE": "Președinte" },
-      "SECOND": { "NAME": "Andreea Constantinescu", "ROLE": "VP & Coordonator marketing" },
-      "THIRD": { "NAME": "Cioltan Marius", "ROLE": "VP & Coordonator logistică" },
-      "FOURTH": { "NAME": "Teodor Nemțeanu", "ROLE": "Coordonator principal situații de urgență" },
-      "FIFTH": { "NAME": "Alina Cernea", "ROLE": "Asistent & coordonator principal" },
-      "SIXTH": { "NAME": "Cristian Simionescu", "ROLE": "Specialist comunicare & relații publice" },
-      "SEVENTH": { "NAME": "Evelin", "ROLE": "Asistent social principal" },
-      "EIGHTH": { "NAME": "Ovidiu Horațiu", "ROLE": "Doctor arhitect" },
-      "NINTH": { "NAME": "Titus Necea", "ROLE": "Dezvoltator software" },
-      "TENTH": { "NAME": "Fabian Ghenof", "ROLE": "Dezvoltator software" }
+      "FIRST": { "NAME": "Alexandru Ionescu", "ROLE": "Președinte", "DESCRIPTION": "Conduce organizația cu viziune, coordonând strategia și parteneriatele." },
+      "SECOND": { "NAME": "Andreea Constantinescu", "ROLE": "VP & Coordonator marketing", "DESCRIPTION": "Se ocupă de comunicare și atragerea susținătorilor comunității noastre." },
+      "THIRD": { "NAME": "Cioltan Marius", "ROLE": "VP & Coordonator logistică", "DESCRIPTION": "Gestionează logistica, donațiile și partea operațională a proiectelor." },
+      "FOURTH": { "NAME": "Teodor Nemțeanu", "ROLE": "Coordonator principal situații de urgență", "DESCRIPTION": "Coordonează răspunsurile de urgență și mobilizarea voluntarilor." },
+      "FIFTH": { "NAME": "Alina Cernea", "ROLE": "Asistent & coordonator principal", "DESCRIPTION": "Coordonează activitățile zilnice și oferă sprijin practic." },
+      "SIXTH": { "NAME": "Cristian Simionescu", "ROLE": "Specialist comunicare & relații publice", "DESCRIPTION": "Se ocupă de relațiile publice și comunicarea externă." },
+      "SEVENTH": { "NAME": "Evelin", "ROLE": "Asistent social principal", "DESCRIPTION": "Lucrează direct cu beneficiarii oferind asistență socială și sprijin." },
+      "EIGHTH": { "NAME": "Ovidiu Horațiu", "ROLE": "Doctor arhitect", "DESCRIPTION": "Oferă consultanță de specialitate și sprijin profesional proiectelor noastre." },
+      "NINTH": { "NAME": "Titus Necea", "ROLE": "Dezvoltator software", "DESCRIPTION": "Construiește și întreține instrumentele noastre digitale pentru coordonare." },
+      "TENTH": { "NAME": "Fabian Ghenof", "ROLE": "Dezvoltator software", "DESCRIPTION": "Dezvoltă funcționalități și infrastructură pentru prezența online." }
     }
   },
 

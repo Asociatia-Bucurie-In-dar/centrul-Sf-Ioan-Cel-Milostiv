@@ -11,6 +11,17 @@
 .grid {
 }
 
+.memberCard {
+    display: flex;
+    align-items: flex-start;
+    transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.memberCard:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(16, 24, 40, 0.08);
+}
+
 .title {
     font-size: rem(34px);
     font-weight: 900;
