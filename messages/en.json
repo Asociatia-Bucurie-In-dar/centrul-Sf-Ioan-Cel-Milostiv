@@ -90,8 +90,8 @@
   },
 
   "ADDICTIONS": {
-    "TITLE": "Addiction treatment",
-    "DESCRIPTION": "Because each of us, those who laid the foundation of this center, have walked through the mud of this life, and there are many who need help and compassion. We know that if you have ever experienced deep suffering, you can never remain indifferent to your neighbor. We decided to dedicate our lives to helping those who have lost hope. At the St. John the Merciful Center, life is priceless, and we place all our hope in God and our trust in you to help us help others! The center will also include a home for lonely elderly people and a home for abandoned children with severe disabilities!",
+    "TITLE": "Why are we building this center?",
+    "DESCRIPTION": "Because each of us who founded this center has been through life's hardships, and there are many who need help and guidance. We know that if you have ever known deep suffering, you can never be indifferent to your neighbor. We have decided to dedicate our lives to helping those who have lost hope. At the St. John the Merciful Center, life is priceless and we place all our hope in God and our trust in you to help us help others! The center will also include a home for elderly people living alone, as well as a home for abandoned children with severe disabilities! The Center will also include a Home for the Elderly Living Alone, Palliative Care, and a Home for Abandoned Children with Disabilities.",
     "READ_MORE": "Read More",
     "CATEGORIES": [
       { 
@@ -176,19 +176,17 @@
   },
 
   "OUR_TEAM": {
-    "TITLE": "Our Team",
-    "DESCRIPTION": "Meet our team! We are people who are passionate about what we do and wish to be useful for the world. Each of us had our downfalls, but the Good Lord worked through wonderful people, and those helped us out of the mud. Now it's our turn to come to the aid of those who need us!",
+    "TITLE": "Our team",
+    "DESCRIPTION": "Meet our team! We are people passionate about what we do and we want to be of service in the world we live in. Each of us has had our own falls, but the Good Lord worked through wonderful people, and they helped us get out of the mud of life. Now it is our turn to come to the aid of those who need us!",
     "TEAM_MEMBERS": {
-      "FIRST": { "NAME": "Alexandru Ionescu", "ROLE": "President", "DESCRIPTION": "Leads the organization with vision, coordinating strategy and partnerships." },
-      "SECOND": { "NAME": "Andreea Constantinescu", "ROLE": "VP & Marketing coordinator", "DESCRIPTION": "Oversees outreach and communications to grow our community and support." },
-      "THIRD": { "NAME": "Cioltan Marius", "ROLE": "VP & Logistics coordinator", "DESCRIPTION": "Manages logistics, donations and the operational side of our projects." },
-      "FOURTH": { "NAME": "Teodor Nemțeanu", "ROLE": "Principal coordinator of emergency stuations", "DESCRIPTION": "Coordinates emergency responses and volunteer mobilization during crises." },
-      "FIFTH": { "NAME": "Alina Cernea", "ROLE": "Assistant & Principal coordinator", "DESCRIPTION": "Provides hands-on coordination and support for day-to-day activities." },
-      "SIXTH": { "NAME": "Cristian Simionescu", "ROLE": "Communications & Public relations specialist", "DESCRIPTION": "Handles PR and external communications, building trust with partners." },
-      "SEVENTH": { "NAME": "Evelin", "ROLE": "Principal social assistant", "DESCRIPTION": "Works directly with beneficiaries offering social assistance and care." },
-      "EIGHTH": { "NAME": "Ovidiu Horațiu", "ROLE": "Doctor architect", "DESCRIPTION": "Provides expert advice and professional services to support our projects." },
-      "NINTH": { "NAME": "Titus Necea", "ROLE": "Software developer", "DESCRIPTION": "Builds and maintains our digital tools to help coordinate work and donations." },
-      "TENTH": { "NAME": "Fabian Ghenof", "ROLE": "Software developer", "DESCRIPTION": "Develops features and infrastructure for our online presence and systems." }
+      "FIRST": { "NAME": "Alexandru Octavian Ionescu", "ROLE": "President", "DESCRIPTION": "For 23 years I worked in emergency situations, of which 17 years as a rescue diver within the Special Rescue Detachment. Law graduate and currently president of the Joy in Gift and St. John the Merciful Associations." },
+      "SECOND": { "NAME": "Adrian Ion-Mărgineanu", "ROLE": "Vice President", "DESCRIPTION": "Marie Curie fellow, double PhD in Biomedical Engineering, with over 10 years of experience in artificial intelligence and biomedical imaging for the detection of cancer in MRI images and microscopy images. Coordinates AI development at Invenio-Imaging, developing AI solutions for brain cancer, lung cancer, and prostate cancer." },
+      "MARIUS": { "NAME": "Marius Cioltan", "ROLE": "Vice President", "DESCRIPTION": "Master's student in Management and Business Administration (FEAA-USV). Graduate in Physical Education and Sport (UPIT-USV). Physical Education and Sport Teacher (DPPD Module Graduate). Handball Coach (Certified). Former competitive athlete." },
+      "PITIGOI": { "NAME": "Horia Bogdan Ioan", "ROLE": "Vice President", "DESCRIPTION": "Graduate of the Faculty of Civil Engineering in Bucharest, currently a partner manager at Azero, a company operating in the field of large and small format printing. Founding member (2017–present) and president (2017–2023) of the Together We Grow Values association." },
+      "FOURTH": { "NAME": "Alexandru Pițigoi-Mihuț", "ROLE": "Vice President", "DESCRIPTION": "Pilot with over 25 years of experience and multiple national champion in the National Motorsport Championships. Co-founder of the Romanian Sports Motorsport Federation. Certified Porsche AG instructor. FRAS certified driving instructor. Sports manager and team coordinator." },
+      "FIFTH": { "NAME": "Arhitectonic Design Studio", "ROLE": "Architecture project coordinator", "DESCRIPTION": "At Arhitectonic Design Studio, we believe that architecture is more than design — it is a form of energy transposed into space. We are a team of young, passionate, and committed architects who bring enthusiasm, contemporary vision, and solid experience built across diverse fields to every project: educational, medical, residential, and HoReCa." },
+      "SEVENTH": { "NAME": "Ana Teodora Bănică", "ROLE": "Volunteer coordinator", "DESCRIPTION": "Student at the University of Bucharest, Faculty of Administration and Business, Public Administration specialization. Writer for the online magazine În Pridvor. Former student at UNATC Bucharest, Faculty of Theatre, Acting. Graduate of the Gheorghe Lazăr National College in Bucharest." },
+      "TENTH": { "NAME": "Fabian Ghenof", "ROLE": "Senior Software Engineer", "DESCRIPTION": "Development of features and infrastructure for online presence, with a primary area of expertise in game development and interactive artistic experiences." }
     }
   },
 
