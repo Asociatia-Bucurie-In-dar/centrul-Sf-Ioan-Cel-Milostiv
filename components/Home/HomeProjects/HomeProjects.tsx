@@ -63,7 +63,7 @@ export function HomeProjects() {
             <Divider mt="xl" color="transparent" />
             
             <TitleWithDescription title={t('TITLE')}
-                                  description={t('DESCRIPTION')} />
+                                  description={t('DESCRIPTION')} maxWidth="1100px" />
 
             <Divider mb={45} color="transparent" />
 

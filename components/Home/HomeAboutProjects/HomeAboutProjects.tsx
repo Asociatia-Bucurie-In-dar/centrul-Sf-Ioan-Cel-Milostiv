@@ -14,7 +14,7 @@ import {useTranslations} from "next-intl";
 
 
 const linkProps = {
-    href: "https://bucurieindar.org",
+    href: "https://bucurieindar.ro",
     rel:"noopener noreferrer" as const,
     target:"_blank" as const
 };

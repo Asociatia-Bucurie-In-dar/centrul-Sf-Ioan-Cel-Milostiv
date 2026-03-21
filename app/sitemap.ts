@@ -4,7 +4,7 @@ import { locales, defaultLocale } from "@/i18n/routing";
 
 function getUrlsOfLocale(localeAsString: string): MetadataRoute.Sitemap {
     const locale = localeAsString === "" ? "" : "/" + localeAsString;
-    const baseUrl = "https://bucurieindar.org" + locale;
+    const baseUrl = "https://bucurieindar.ro" + locale;
 
     const paths = Object.values(MyRoutePaths).map(x => x);
     let urls = paths.map(link => {
