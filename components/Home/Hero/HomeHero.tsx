@@ -2,7 +2,7 @@ import {Container, Title, Text, Button, Image, Divider} from '@mantine/core';
 import classes from './HomeHero.module.css';
 import {useTranslations} from "next-intl";
 import {TeleportButton} from "@/components/CoolEffects/TeleportButton/TeleportButton";
-import Link from "next/link";
+import {IconDownload, IconFile, IconPdf} from "@tabler/icons-react";
 
 export function HomeHero() {
     const commonT = useTranslations('COMMON');
@@ -46,6 +46,20 @@ export function HomeHero() {
                         {/*<ConfettiButton size={"lg"} mt="xl" text={commonT('DONATE_NOW')}/>*/}
                         {/*<Divider color="transparent" mt="xl"/>*/}
                         {/*<TeleportButton targetID="progressSection" text={heroT('SEE_MORE')} size="md"/>*/}
+                        <Divider color="transparent" mt="xl"/>
+                        <Button
+                            component="a"
+                            href="/info2.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            variant="gradient"
+                            gradient={{from: 'pink', to: 'yellow', deg: 90}}
+                            size="lg"
+                            fw={600}
+                            rightSection={<IconDownload size={18} />}
+                        >
+                            {heroT('INFO')}
+                        </Button>
                     </div>
                 </div>
             </Container>

@@ -28,7 +28,7 @@ export function HomeWhy() {
                     {/* FIRST */}
                     <SimpleGrid cols={cols} spacing={spacing}>
                         <Center>
-                            {roundedImage("/faq.svg")}
+                            {roundedImage("/new/2.webp")}
                         </Center>
 
                         <Center>
@@ -55,7 +55,7 @@ export function HomeWhy() {
                         </Center>
 
                         <Center>
-                            {roundedImage("/faq.svg")}
+                            {roundedImage("/new/6.webp")}
                         </Center>
                     </SimpleGrid>
                     

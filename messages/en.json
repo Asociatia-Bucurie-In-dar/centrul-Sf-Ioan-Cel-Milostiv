@@ -24,12 +24,14 @@
     "MOTTO_3": "change destinies",
     "MOTTO_4": "heal souls",
     "DESCRIPTION": "Saint John The Merciful Center for addiction treatment and prevention.",
-    "SEE_MORE": "Learn more"
+      "DESCRIPTION_2": "In a world that teaches you to consume to be, to be validated to exist, and to hide to survive — we teach you to be. Alive. Authentic. Whole.",
+    "SEE_MORE": "Learn more",
+    "INFO": "More information"
   },
 
   "DONATION_PROGRESS": {
-    "TITLE": "Progress",
-    "DESCRIPTION": "The necessary amount to complete the project. Every donation counts!",
+    "TITLE": "Who are we?",
+    "DESCRIPTION": "The Saint John the Merciful Center is a social and therapeutic project of national interest, initiated by the Bucurie în Dar (Gift of Joy) Association, designed as an integrated space for human recovery and dedicated to people affected by addictions — not only as an individual disease/condition, but also as a symptom of a profound social, cultural, and spiritual crisis.",
     "STEPS": {
       "1": "Land & utilities",
       "2": "Building & houses",
@@ -46,7 +48,7 @@
 
   "ORGANIZATON": {
     "TITLE": "Organization and conduct of the St. John The Merciful Center:",
-    "DESCRIPTION": "",
+    "DESCRIPTION": "The center's therapeutic process is based on rigorous daily routines, group therapy, individual counseling, and occupational activities, all coordinated by a multidisciplinary team of psychologists, doctors, and specialized counselors. The ultimate goal is not limited to detoxification, but pursues lasting social reintegration and the attainment of autonomy, the joy of living freely, providing beneficiaries with the necessary tools to manage stress and prevent relapse after returning to society. Through this integrated model, the therapeutic community transforms vulnerability into strength, helping dependent individuals rediscover their identity and build a balanced, free, and autonomous lifestyle.",
     "CATEGORIES": [
       {
         "TITLE": "Call Center dedicated to people:",
@@ -152,9 +154,9 @@
   "HOME_WHY": {
     "TITLE": "Why are we establishing the Center?",
     "FIRST_TITLE": "Help",
-    "FIRST_DESCRIPTION": "Each of us needs help in one way or another. Each of us has gone through at least one dark period in life where we didn't know how to get out or when it would end. We've seen family members, friends, and loved ones suffering and we couldn't help them. In those moments when you are down and need support, how much does help given with love, from the heart, from faith, matter. We have all hope and firmly believe that the team at the St. John the Merciful Center will strive to bring comfort, healing, and support to those who have no one else to rely on.",
+    "FIRST_DESCRIPTION": "May your heart be kind! Dear people, we strive to bring hope into the hearts of these despairing people, to offer them our friendship and help. We will strive to heal them, to see them laughing again, healthy and beautiful! We too have gone through life's trials and we wish with all our hearts to be alongside all those going through difficult times. Hope in God and trust in people are the path we follow.",
     "SECOND_TITLE": "Romania",
-    "SECOND_DESCRIPTION": "The centers in Romania are insufficient, and the number of those affected is growing, especially children and teenagers. So we cannot and do not want to remain indifferent to what is happening, especially since together we can help these souls. Dear person, if we manage to convince one person, a person on the brink of suicide, that life has meaning, it matters enormously; if we convince a young mother not to abort because life is precious; if we convince a parent to give up alcohol, drugs, or gambling, it means we have saved a family, a child who chooses to play outside instead of on a console. Dear person, the stake is bigger than healing one person, the stake is saving as many lives, destinies, and souls as possible. It is in your power to choose!"
+    "SECOND_DESCRIPTION": "Addiction prevention and treatment centers are insufficient in Romania, and the number of those affected by addictions is growing, especially among children and teenagers. We cannot and do not want to stand by indifferently watching what is happening now and what is to come. A child, a teenager, or an adult saved cannot be measured in money. What would you give to find your peace of mind? Or your health or your child's? Help us help!"
   },
 
   "HOME_HELP": {
@@ -171,7 +173,7 @@
     },
     "THIRD": {
       "TITLE": "What is the mission?",
-      "DESCRIPTION": "Our mission is to bring joy where there is none, in the hearts of as many people as possible, big and small, young and old, together with you."
+      "DESCRIPTION": "May your heart be kind! Our mission is to bring hope into the hearts of these despairing people, to offer them our friendship and help. We will strive to heal them, to see them laughing again, healthy and beautiful."
     }
   },
 
