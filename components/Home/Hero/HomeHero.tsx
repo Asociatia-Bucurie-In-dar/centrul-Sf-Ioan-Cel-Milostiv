@@ -2,7 +2,7 @@ import {Container, Title, Text, Button, Image, Divider} from '@mantine/core';
 import classes from './HomeHero.module.css';
 import {useTranslations} from "next-intl";
 import {TeleportButton} from "@/components/CoolEffects/TeleportButton/TeleportButton";
-import {IconDownload, IconFile, IconPdf} from "@tabler/icons-react";
+import {IconDownload, IconFile, IconFileTypePdf, IconPdf} from "@tabler/icons-react";
 
 export function HomeHero() {
     const commonT = useTranslations('COMMON');
@@ -56,7 +56,7 @@ export function HomeHero() {
                             gradient={{from: 'pink', to: 'yellow', deg: 90}}
                             size="lg"
                             fw={600}
-                            rightSection={<IconDownload size={18} />}
+                            rightSection={<IconFileTypePdf size={18} />}
                         >
                             {heroT('INFO')}
                         </Button>
