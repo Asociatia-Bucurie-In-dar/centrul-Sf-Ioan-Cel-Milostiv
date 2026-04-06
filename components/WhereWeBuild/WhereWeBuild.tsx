@@ -1,0 +1,112 @@
+import {Center, Container, Divider, Progress, rem, Space, Text} from '@mantine/core';
+import {TitleWithDescription} from "@/components/Common/TitleWithDescription";
+import {useTranslations} from "next-intl";
+import {PlanCarousel} from "@/components/PlanCarousel/PlanCarousel";
+
+export function WhereWeBuild() {
+
+         const t = useTranslations('WHERE_WE_BUILD');
+
+    return <>
+        <Container size="full" id="progressSection">
+            <Container size="lg" py="xl">
+
+                <TitleWithDescription title={t('TITLE')} description={t('DESCRIPTION')} maxWidth='80rem' />
+
+                <Text c= "customDimmed" ta="center" mt="md"  fw={500}
+                    style={{maxWidth: rem(1000), margin: 'auto'}}>
+                    {t('DESCRIPTION_2')}
+                </Text>
+                
+            </Container>
+            <Divider mb="md" color="transparent" />
+        </Container>
+
+    </>;
+}
+
+
+// import {
+//     Container,
+//     Divider,
+//     Text,
+//     Progress,
+//     ProgressRoot,
+//     ProgressSection,
+//     ProgressLabel,
+//     Center,
+//     Image
+// } from '@mantine/core';
+// import classes from './DonationProgress.module.css';
+// import commonClasses from '@/utils/commonClasses.module.css';
+// import {TitleWithDescription} from "@/components/Common/TitleWithDescription";
+// import {useTranslations} from "next-intl";
+// import {ProjectDonationProgress} from "@/components/Projects/ProjectDonationProgress";
+// import {GetAllProjectsStaticContent} from "@/content/projects/projects-content";
+// import {DonatePopupButton} from "@/components/Popups/DonatePopup/DonatePopupButton";
+// import {ProjectTranslationsType} from "@/utils/my-types";
+// import {Carousel} from "@mantine/carousel";
+// import {PlanCarousel} from "@/components/PlanCarousel/PlanCarousel";
+//
+// export function DonationProgress() {
+//     const t = useTranslations('DONATION_PROGRESS');
+//     const commonT = useTranslations('COMMON');
+//     const proj = GetAllProjectsStaticContent(1)[0];
+//     const projT = useTranslations('SAINT_JOHN');
+//     const projMoreT = useTranslations('PROJECTS_MORE');
+//     const headerT = useTranslations('HEADER');
+//
+//     const donateT = useTranslations('PROJECTS_MORE');
+//     const donatePopupTranslations : ProjectTranslationsType = {
+//         Donate: projMoreT('DONATE') + ' (' + projMoreT('OPTIONS') + ')',
+//         CardOption: donateT('CARD_OPTION'),
+//         BankTransferOption: donateT('BANK_TRANSFER_OPTION'),
+//         DesiredAmount: donateT('DESIRED_AMOUNT'),
+//         Continue: donateT('CONTINUE'),
+//         DonateFor: donateT('DONATE_FOR'),
+//         IAgreeWith: donateT('I_AGREE_TO_THE'),
+//         TermsAndConditions: donateT('TERMS_AND_CONDITIONS'),
+//         And: donateT('AND'),
+//         PrivacyPolicy: donateT('PRIVACY_POLICY'),
+//         Locale: headerT('LOCALE'),
+//     };
+//
+//     return (
+//         <Container size="md" mt={35} pb={47} className={classes.wrapper} id="progressSection">
+//             <TitleWithDescription title={t('TITLE')} description={t('DESCRIPTION')} />
+//
+//             <Divider color="transparent" mt="lg"/>
+//            
+//             <ProjectDonationProgress id={proj.id} goalAmount={980000} sumTranslation={commonT('NECESSARY_AMOUNT')} />
+//            
+//             <ProgressRoot size={19}>
+//             <ProgressSection value={33} color="indigo">
+//                 <ProgressLabel>{t('STEPS.1')}</ProgressLabel>
+//             </ProgressSection>
+//             <ProgressSection value={34} color="blue">
+//                 <ProgressLabel>{t('STEPS.2')}</ProgressLabel>
+//             </ProgressSection>
+//             <ProgressSection value={33} color="cyan">
+//                 <ProgressLabel>{t('STEPS.3')}</ProgressLabel>
+//             </ProgressSection>
+//         </ProgressRoot>
+//
+//             <Divider color="transparent" mt="sm"/>
+//            
+//             <Container mt="lg">
+//                 <Center>
+//                     <DonatePopupButton projectId={proj.id}
+//                                        projectTile={projT('TITLE')}
+//                                        fullWidth={true}
+//                                        size="md"
+//                                        translations={donatePopupTranslations}/>
+//                 </Center>
+//             </Container>
+//
+//             <Divider color="transparent" mb="lg"/>
+//            
+//             <PlanCarousel />
+//            
+//         </Container>
+//     );
+// }

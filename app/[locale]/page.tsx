@@ -5,6 +5,7 @@ import {HomeAboutProjects} from '@/components/Home/HomeAboutProjects/HomeAboutPr
 import {OurTeam} from '@/components/OurTeam/OurTeam';
 import {HomeWhy} from "@/components/Home/HomeWhy/HomeWhy";
 import {Addictions} from "@/components/Addictions/Addictions";
+import {WhereWeBuild} from "@/components/WhereWeBuild/WhereWeBuild";
 import {useTranslations} from "next-intl";
 import {setRequestLocale} from "next-intl/server";
 import {use} from "react";
@@ -92,9 +93,10 @@ export default function HomePage({params}: {params: Promise<{locale: string}>}) 
       <>
           <HomeHero/>
           <DonationProgress/>
+          <WhereWeBuild/>
           {/* <Addictions translations={addictionsData}/> */}
           <HomeProjects/>
-        <HomeWhy />
+          <HomeWhy />
           <HomeAboutProjects/>
           <OurTeam/>
       </>

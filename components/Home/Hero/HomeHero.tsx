@@ -36,10 +36,10 @@ export function HomeHero() {
                             </Text>
                         </Title>
                         
-                        <Text className={classes.description} mt={30}>
+                        <Text className={classes.description} mt={30} style={{maxWidth: '700px'}}>
                             <b>{heroT('DESCRIPTION')}</b>
                         </Text>
-                        <Text className={classes.description} mt="xs">
+                        <Text className={classes.description} mt="xs" style={{maxWidth: '600px'}}>
                             {heroT('DESCRIPTION_2')} <br/>
                         </Text>
                         

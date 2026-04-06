@@ -23,21 +23,27 @@
     "MOTTO_2": "salvăm vieți",
     "MOTTO_3": "schimbăm destine",
     "MOTTO_4": "vindecăm suflete",
-    "DESCRIPTION": "Centrul Sfântul Ioan Cel Milostiv pentru prevenția şi tratarea adicțiilor.",
+    "DESCRIPTION": "Centrul de Recuperare și Prevenție a Dependențelor „Sfântul Ioan Cel Milostiv”",
     "DESCRIPTION_2":"Într-o lume care te învață să consumi pentru a fi, să fii validat pentru a exista și să te ascunzi ca să supraviețuiești — noi te învățăm să fii. Viu. Autentic. Întreg.",
     "SEE_MORE": "Află mai multe",
-    "INFO": "Mai multe informații"
+    "INFO": "Prezentare Completă"
   },
   
   "DONATION_PROGRESS": {
-    "TITLE": "Cine suntem?",
-    "DESCRIPTION": "Centrul Sfântul Ioan Cel Milostiv este un proiect social și terapeutic de interes național, inițiat de asociația Bucurie în Dar, conceput ca un spațiu integrat de refacere umană și dedicat persoanelor afectate de adicții — nu doar ca boală/afecțiune individuală, ci și ca simptom al unei crize sociale, culturale și spirituale profunde.",
+    "TITLE": "Un răspuns la o criză profundă",
+    "DESCRIPTION": "Dependența nu este doar o boală. Este răspunsul disperat al unei ființe rănite de o lume care a înlocuit a fi cu a avea, a iubi cu a deține, a sluji cu a domina. O lume care a slăbit legăturile de familie, a transformat viața într-un spectacol de consum și a creat o dependență masivă de validare externă, lăsând sufletele goale chiar și în mijlocul „succesului”. Construim un loc unde fiecare istorie este ascultată, fiecare suferință onorată, fiecare potențial cultivat.",
     "STEPS": {
       "1": "Teren şi utilități",
       "2": "Clădire şi căsuțe",
       "3": "Amenajare centru",
       "4": "Personal"
     }
+  },
+
+  "WHERE_WE_BUILD": {
+    "TITLE": "La doar 38 de kilometri de centrul Bucureștiului",
+    "DESCRIPTION": "Construim centrul în natura liniștită a comunei Butimanu, județul Dâmbovița, pe 3 hectare de teren dedicate reconstrucției vieții celor afectați de dependențe, creând calea către redobândirea controlului conștient asupra propriei existențe prin instrumente durabile care previn recăderea și construiesc o viață autentică, liberă și asumată.",
+    "DESCRIPTION_2": "În acest spațiu al echilibrului dintre știință, natură și spiritualitate, redescoperim împreună valorile care dau sens vieții: iubirea, comunitatea și bucuria de a trăi cu rost, cu sens."
   },
 
   "SAINT_JOHN": {
@@ -47,45 +53,31 @@
   },
   
   "ORGANIZATON": {
-    "TITLE": "Organizare și desfășurare în cadrul Centrului Sf. Ioan Cel Milostiv:",
-    "DESCRIPTION": "Procesul terapeutic al centrului se bazează pe rutine zilnice riguroase, terapie de grup, consiliere individuală și activități ocupaționale, toate coordonate de o echipă multidisciplinară formată din psihologi, medici și consilieri specializați. Scopul final nu se limitează la detoxifiere, ci urmărește reinserția socială durabilă și dobândirea autonomiei, a bucuriei de a trăi liber, oferind beneficiarilor instrumentele necesare pentru a gestiona stresul și a preveni recidiva după întoarcerea în societate. Prin acest model integrat, comunitatea terapeutică transformă vulnerabilitatea în putere, ajutând persoanele dependente să își redescopere identitatea și să construiască un stil de viață echilibrat, liber și autonom.",
+    "TITLE": "Un Ecosistem Terapeutic Complet",
+    "DESCRIPTION": "Construim o comunitate, nu doar un centru. Un loc unde vindecarea se realizează prin echilibrul dintre știință, natură, artă, muncă terapeutică și redescoperirea valorilor autentice ale vieții.",
     "CATEGORIES": [
       {
-        "TITLE": "Call Center dedicat persoanelor:",
+        "TITLE": "Comunitatea Terapeutică „Rodul Bun”",
         "TEXTS": [
-          "In prag de suicid",
-          "Femei care vor să avorteze, în special minore",
-          "Copii abuzați",
-          "Bătrâni singuri",
-          "Violență domestică"
+          "Recuperare prin viață comunitară",
+          "Până la 100 rezidenți simultan",
+          "Programe de 6-24 luni"
         ]
       },
       {
-        "TITLE": "Suport Ambulanță 24/24",
+        "TITLE": "Centrul Academic Interdisciplinar",
         "TEXTS": [
-          "Naștere prematură, ca urmare a violenței",
-          "În cazuri de violență",
-          "Degerături în urma temperaturilor negative (pentru oameni ai străzii) și suport medical",
-          "Diverse situații care necesită transport la spital"
+          "Cercetare, evaluare, formare",
+          "Standarde europene de calitate",
+          "Politici publice în domeniu"
         ]
       },
       {
-        "TITLE": "Suport Psihologic",
+        "TITLE": "Întreprinderea Socială “Brutăria cu Rost”",
         "TEXTS": [
-          "Femei în criză de sarcină",
-          "Dependenți de droguri",
-          "Dependenți de alcool",
-          "Dependenți de jocuri de noroc",
-          "Dependenți de jocuri video (în special copii)",
-          "Alte adicții"
-        ]
-      },
-      {
-        "TITLE": "Găzduire & Tratament",
-        "TEXTS": [
-          "Construirea Centrului Sf. Ioan cel Milostiv",
-          "Acest al doilea pas este imperios necesar de implementat",
-          "Important pentru adulți, dar capital pentru copii și adolescenți"
+          "Ergoterapie și auto-finanțare",
+          "Produse tradiționale, organice",
+          "Vânzare externă"
         ]
       }
     ]

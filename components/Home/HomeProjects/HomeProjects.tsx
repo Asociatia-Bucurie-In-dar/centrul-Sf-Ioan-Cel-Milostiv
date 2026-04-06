@@ -11,46 +11,31 @@ export function HomeProjects() {
     const data = [
         {
             title: t('CATEGORIES.0.TITLE'),
-            imgPath: '/base/call.jpeg',
+            imgPath: '/base/people2.webp',
             texts: [
                 t('CATEGORIES.0.TEXTS.0'),
                 t('CATEGORIES.0.TEXTS.1'),
                 t('CATEGORIES.0.TEXTS.2'),
-                t('CATEGORIES.0.TEXTS.3'),
-                t('CATEGORIES.0.TEXTS.4'),
             ]
         },
         {
             title: t('CATEGORIES.1.TITLE'),
-            imgPath: '/base/ambulance.jpg',
+            imgPath: '/base/conference.jpg',
             texts: [
                 t('CATEGORIES.1.TEXTS.0'),
                 t('CATEGORIES.1.TEXTS.1'),
                 t('CATEGORIES.1.TEXTS.2'),
-                t('CATEGORIES.1.TEXTS.3'),
             ]
         },
         {
             title: t('CATEGORIES.2.TITLE'),
-            imgPath: '/base/psych.jpeg',
+            imgPath: '/base/bakery.jpg',
             texts: [
                 t('CATEGORIES.2.TEXTS.0'),
                 t('CATEGORIES.2.TEXTS.1'),
                 t('CATEGORIES.2.TEXTS.2'),
-                t('CATEGORIES.2.TEXTS.3'),
-                t('CATEGORIES.2.TEXTS.4'),
-                t('CATEGORIES.2.TEXTS.5'),
             ]
-        },
-        {
-            title: t('CATEGORIES.3.TITLE'),
-            imgPath: '/base/2.jpeg',
-            texts: [
-                t('CATEGORIES.3.TEXTS.0'),
-                t('CATEGORIES.3.TEXTS.1'),
-                t('CATEGORIES.3.TEXTS.2')
-            ]
-        },
+        }
     ];
 
     const cards = data.map((info) => (
