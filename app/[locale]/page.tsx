@@ -1,5 +1,6 @@
 import {HomeHero} from '@/components/Home/Hero/HomeHero';
 import {HomeProjects} from '@/components/Home/HomeProjects/HomeProjects';
+import {HomeProjects2} from '@/components/Home/HomeProjects2/HomeProjects2';
 import {DonationProgress} from '@/components/DonationProgress/DonationProgress';
 import {HomeAboutProjects} from '@/components/Home/HomeAboutProjects/HomeAboutProjects';
 import {OurTeam} from '@/components/OurTeam/OurTeam';
@@ -96,6 +97,7 @@ export default function HomePage({params}: {params: Promise<{locale: string}>}) 
           <WhereWeBuild/>
           {/* <Addictions translations={addictionsData}/> */}
           <HomeProjects/>
+          <HomeProjects2/>
           <HomeWhy />
           <HomeAboutProjects/>
           <OurTeam/>
