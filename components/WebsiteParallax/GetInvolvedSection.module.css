@@ -1,0 +1,10 @@
+.card {
+    border: rem(1px) solid light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-5));
+    background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-7));
+    transition: transform 200ms ease, box-shadow 200ms ease;
+
+    &:hover {
+        transform: translateY(rem(-4px));
+        box-shadow: var(--mantine-shadow-lg);
+    }
+}

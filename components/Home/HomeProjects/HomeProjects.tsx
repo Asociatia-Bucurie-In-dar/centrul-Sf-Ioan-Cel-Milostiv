@@ -43,7 +43,7 @@ export function HomeProjects() {
     ));
     
     return (
-        <Container size="full" pt={10} pb="sm">
+        <Container size="full" pt={10} pb="sm" className={commonClasses.darkerBackground}>
             
             <Divider mt="xl" color="transparent" />
             

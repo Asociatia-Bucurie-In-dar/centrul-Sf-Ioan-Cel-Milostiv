@@ -40,6 +40,35 @@
     }
   },
 
+  "TRANSFORMATION_STEPS": {
+    "TITLE": "Four Stages of Transformation",
+    "SLOGAN": "We don't measure success only in days of abstinence, but in lives owned, rebuilt, and sustained.",
+    "STEPS": [
+      {
+        "TITLE": "Stabilization",
+        "TEXTS": ["Assessment and a safe environment", "The first step towards wholeness"]
+      },
+      {
+        "TITLE": "Exploration",
+        "TEXTS": ["Individual and group therapy", "Recognizing wounds and mechanisms"]
+      },
+      {
+        "TITLE": "Transformation",
+        "TEXTS": ["Art, nature, work, prayer", "Reconnecting with the authentic self"]
+      },
+      {
+        "TITLE": "Reintegration",
+        "TEXTS": ["Education, mentoring, autonomy, routine", "Returning to the world, transformed"]
+      }
+    ]
+  },
+
+  "WHERE_WE_BUILD": {
+    "TITLE": "Just 38 kilometers from downtown Bucharest",
+    "DESCRIPTION": "We are building the center in the quiet nature of Butimanu commune, Dâmbovița county, on 3 hectares of land dedicated to rebuilding the lives of those affected by addictions, creating the path towards regaining conscious control over one's own existence through lasting tools that prevent relapse and build an authentic, free, and responsible life.",
+    "DESCRIPTION_2": "In this space of balance between science, nature, and spirituality, we rediscover together the values that give meaning to life: love, community, and the joy of living with purpose and meaning."
+  },
+
   "SAINT_JOHN": {
     "TITLE": "Saint John The Merciful Center",
     "DESCRIPTION": "Together we save lives, change destinies, heal souls. Each of us has gone through a dark period at least once in our life from which we no longer knew how to get out or when it would end. We saw our family, friends, loved ones in our lives suffering and we had no way to help them. How much help is given with empathy, with affection and love. In those moments you need support and I strongly believe that the team of the St. John The Merciful Center will strive to bring relief, healing and be a support to those who will tell us, help us.",
@@ -230,6 +259,77 @@
       "SUCCESS": "Your message has been sent successfully!",
       "ERROR": "An error occurred while sending your message. Please try again later."
     }
+  },
+
+  "FACILITIES": {
+    "TITLE": "Tools for Re-Integration and Re-Connection",
+    "ITEMS": {
+      "GYM": { "TITLE": "Multifunctional Sports Hall", "DESCRIPTION": "Movement as emotional release" },
+      "EQUINE": { "TITLE": "Equine Therapy", "DESCRIPTION": "Empathy and presence through the relationship with the horse" },
+      "GREENHOUSE": { "TITLE": "Greenhouses & Micro-Farm", "DESCRIPTION": "Patience, care, natural food" },
+      "GARDEN": { "TITLE": "Multisensory Garden", "DESCRIPTION": "Relearning to feel without judgment" },
+      "ARTS": { "TITLE": "Arts & Conference Hall", "DESCRIPTION": "Vulnerability becomes art" },
+      "LIBRARY": { "TITLE": "Community Library", "DESCRIPTION": "The written word as a mirror of the soul" }
+    }
+  },
+
+  "VALUES": {
+    "TITLE": "What We Build Upon",
+    "ITEMS": {
+      "DIGNITY": { "TITLE": "Human Dignity", "DESCRIPTION": "Every person has an intrinsic, inherent, sacred value — not for what they do, but for who they are" },
+      "WHOLENESS": { "TITLE": "Wholeness of Being", "DESCRIPTION": "We approach each person in their entirety: body, mind, soul, relationships" },
+      "FREEDOM": { "TITLE": "Spiritual Freedom", "DESCRIPTION": "We respect everyone's faith, with openness and sensitivity" },
+      "COMMUNITY": { "TITLE": "Community", "DESCRIPTION": "Healing happens in relationship, in love, in presence" },
+      "SUSTAINABILITY": { "TITLE": "Sustainability", "DESCRIPTION": "A replicable, lasting model, anchored in Romanian reality" },
+      "LOVE": { "TITLE": "Active Love", "DESCRIPTION": "Through deeds, through presence, through daily commitment" }
+    }
+  },
+
+  "IMPACT": {
+    "TITLE": "Aligned with European and international best practice standards",
+    "DESCRIPTION": "Our practices are grounded in internationally validated instruments:",
+    "STANDARDS": {
+      "SEEQ": "Survey of Essential Elements Questionnaire (SEEQ)",
+      "EFTC": "European Federation of Therapeutic Communities Standards",
+      "WFTC": "World Federation of Therapeutic Communities Standards"
+    },
+    "FOOTER": "Over 1,200 active therapeutic communities in Europe demonstrate that there is a validated path to recovery."
+  },
+
+  "VISION": {
+    "TITLE": "The First Integrated Therapeutic Center in Romania",
+    "DESCRIPTION": "We are building a model that:",
+    "POINTS": {
+      "1": "Provides a coherent response to the addiction crisis — through wholeness, not just treatment",
+      "2": "Reconnects people with themselves, with others, and with meaning — through harmony, knowledge, work, art, nature",
+      "3": "Serves as a model for other rural therapeutic communities",
+      "4": "Contributes to the social and economic regeneration of the area in which it operates",
+      "5": "Changes public perception — from judgment to understanding, from rejection to compassion"
+    }
+  },
+
+  "GET_INVOLVED": {
+    "TITLE": "Be Part of the Change. With Joy!",
+    "DESCRIPTION": "Building and operating this center is made possible through the support of the community, private and institutional partners, and all people of good faith.",
+    "SUBTITLE": "You can contribute through:",
+    "WAYS": {
+      "DONATE": { "TITLE": "Financial Donations", "DESCRIPTION": "For construction, equipment, programs" },
+      "VOLUNTEER": { "TITLE": "Volunteering", "DESCRIPTION": "As a specialist, instructor, mentor, or simply a friend" },
+      "PARTNER": { "TITLE": "Institutional Partnerships", "DESCRIPTION": "Authorities, hospitals, schools, NGOs" },
+      "PROMOTE": { "TITLE": "Promotion", "DESCRIPTION": "To offer hope to those who need it" }
+    }
+  },
+
+  "FINAL_CTA": {
+    "TITLE": "Every person is called to become whole again",
+    "QUOTE": "At the Saint John the Merciful Center, we welcome every person with open arms and a heart full of hope. It doesn't matter how far you've fallen, what matters is that you choose to rise. And we are here, beside you, every step of the way.",
+    "DOWNLOAD_PDF": "Full Presentation",
+    "CONTACT_US": "Contact Us",
+    "BECOME_VOLUNTEER": "Become a Volunteer",
+    "MAKE_DONATION": "Make a Donation",
+    "LOCATION": "Butimanu Commune, Dâmbovița County",
+    "PHONE": "0727 786 725 — Alexandru Ionescu",
+    "EMAIL_ADDRESS": "parteneriate@bucurieindar.ro"
   },
 
   "HEADER": {

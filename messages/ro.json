@@ -40,6 +40,29 @@
     }
   },
 
+  "TRANSFORMATION_STEPS": {
+    "TITLE": "Patru Etape ale Transformării",
+    "SLOGAN": "Nu măsurăm succesul doar în zile de abstinență, ci în vieți asumate, reconstruite și menținute.",
+    "STEPS": [
+      {
+        "TITLE": "Stabilizare",
+        "TEXTS": ["Evaluare și un mediu sigur", "Primul pas către reîntregire"]
+      },
+      {
+        "TITLE": "Explorare",
+        "TEXTS": ["Terapie individuală și de grup", "Recunoașterea rănilor și a mecanismelor"]
+      },
+      {
+        "TITLE": "Transformare",
+        "TEXTS": ["Artă, natură, muncă, rugăciune", "Reconectarea cu sinele autentic"]
+      },
+      {
+        "TITLE": "Reintegrare",
+        "TEXTS": ["Educație, mentorat, autonomie, rutina", "Reîntoarcerea în lume, transformat"]
+      }
+    ]
+  },
+
   "WHERE_WE_BUILD": {
     "TITLE": "La doar 38 de kilometri de centrul Bucureștiului",
     "DESCRIPTION": "Construim centrul în natura liniștită a comunei Butimanu, județul Dâmbovița, pe 3 hectare de teren dedicate reconstrucției vieții celor afectați de dependențe, creând calea către redobândirea controlului conștient asupra propriei existențe prin instrumente durabile care previn recăderea și construiesc o viață autentică, liberă și asumată.",
@@ -222,6 +245,77 @@
       "SUCCESS": "Mesajul tău a fost trimis cu succes!",
       "ERROR": "A apărut o eroare. Te rugăm să încerci din nou."
     }
+  },
+
+  "FACILITIES": {
+    "TITLE": "Instrumente de re-Întregire și re-Conectare",
+    "ITEMS": {
+      "GYM": { "TITLE": "Sala de Sport Multifuncțională", "DESCRIPTION": "Mișcare ca eliberare emoțională" },
+      "EQUINE": { "TITLE": "Terapie Hipică", "DESCRIPTION": "Empatie și prezență prin relația cu calul" },
+      "GREENHOUSE": { "TITLE": "Sere și Microfermă", "DESCRIPTION": "Răbdare, îngrijire, hrană naturală" },
+      "GARDEN": { "TITLE": "Grădina Multisenzorială", "DESCRIPTION": "Reînvățarea simțirii fără judecată" },
+      "ARTS": { "TITLE": "Arts & Conference Hall", "DESCRIPTION": "Vulnerabilitatea devine artă" },
+      "LIBRARY": { "TITLE": "Biblioteca Comunitară", "DESCRIPTION": "Cuvântul scris ca oglindă a sufletului" }
+    }
+  },
+
+  "VALUES": {
+    "TITLE": "Pe Ce Construim",
+    "ITEMS": {
+      "DIGNITY": { "TITLE": "Demnitatea Umană", "DESCRIPTION": "Fiecare persoană are o valoare intrinsecă, inerentă, sacră, nu pentru ce face, ci pentru cine este" },
+      "WHOLENESS": { "TITLE": "Întregirea Ființei", "DESCRIPTION": "Abordăm omul în totalitatea lui: trup, minte, suflet, relații" },
+      "FREEDOM": { "TITLE": "Libertatea Spirituală", "DESCRIPTION": "Respectăm credința fiecăruia, cu deschidere și sensibilitate" },
+      "COMMUNITY": { "TITLE": "Comunitatea", "DESCRIPTION": "Vindecarea se face în relație, în iubire, în prezență" },
+      "SUSTAINABILITY": { "TITLE": "Sustenabilitatea", "DESCRIPTION": "Model replicabil, durabil, ancorat în realitatea românească" },
+      "LOVE": { "TITLE": "Iubirea Activă", "DESCRIPTION": "Prin fapte, prin prezență, prin angajament zilnic" }
+    }
+  },
+
+  "IMPACT": {
+    "TITLE": "Aliniați la standarde europene și internaționale de bune practici",
+    "DESCRIPTION": "Practicile noastre sunt fundamentate pe instrumente validate internațional:",
+    "STANDARDS": {
+      "SEEQ": "Chestionarul Elementelor Esențiale (SEEQ)",
+      "EFTC": "Standardele Federației Europene a Comunităților Terapeutice",
+      "WFTC": "Standardele Federației Mondiale a Comunităților Terapeutice"
+    },
+    "FOOTER": "Peste 1.200 de comunități terapeutice active în Europa demonstrează că există o cale validată pentru recuperare."
+  },
+
+  "VISION": {
+    "TITLE": "Primul Centru Terapeutic Integrat din România",
+    "DESCRIPTION": "Construim un model care:",
+    "POINTS": {
+      "1": "Oferă un răspuns coerent la criza dependențelor — prin întregire, nu doar prin tratare",
+      "2": "Reconectează omul cu sinele, cu ceilalți și cu sensul — prin armonie, cunoaștere, muncă, artă, natură",
+      "3": "Servește ca model pentru alte comunități terapeutice rurale",
+      "4": "Contribuie la regenerarea socială și economică a zonei în care activează",
+      "5": "Schimbă percepția publică — din judecată în înțelegere, din respingere în compasiune"
+    }
+  },
+
+  "GET_INVOLVED": {
+    "TITLE": "Fii Parte din Schimbare. Cu bucurie!",
+    "DESCRIPTION": "Construirea și funcționarea acestui centru este posibilă prin sprijinul comunității, al partenerilor privați și instituționali și al tuturor oamenilor de bună credință.",
+    "SUBTITLE": "Poți contribui prin:",
+    "WAYS": {
+      "DONATE": { "TITLE": "Donații financiare", "DESCRIPTION": "Pentru construcții, echipamente, programe" },
+      "VOLUNTEER": { "TITLE": "Voluntariat", "DESCRIPTION": "Ca specialist, instructor, mentor sau simplu prieten" },
+      "PARTNER": { "TITLE": "Parteneriate instituționale", "DESCRIPTION": "Autorități, spitale, școli, ONG-uri" },
+      "PROMOTE": { "TITLE": "Promovare", "DESCRIPTION": "Pentru a oferi speranță celor care au nevoie" }
+    }
+  },
+
+  "FINAL_CTA": {
+    "TITLE": "Fiecare om este chemat să se reîntregească",
+    "QUOTE": "La Centrul Sfântul Ioan Cel Milostiv, întâmpinăm fiecare om cu brațele larg deschise și cu o inimă plină de speranță. Nu contează cât de adânc ai căzut, contează că alegi să te ridici. Și noi suntem aici, alături de tine, la fiecare pas.",
+    "DOWNLOAD_PDF": "Prezentarea Completă",
+    "CONTACT_US": "Contactează-ne",
+    "BECOME_VOLUNTEER": "Devino Voluntar",
+    "MAKE_DONATION": "Fă o Donație",
+    "LOCATION": "Comuna Butimanu, Județul Dâmbovița",
+    "PHONE": "0727 786 725 — Alexandru Ionescu",
+    "EMAIL_ADDRESS": "parteneriate@bucurieindar.ro"
   },
 
   "HEADER": {

@@ -6,42 +6,15 @@ import {useTranslations} from "next-intl";
 import {ProjectPreviewCard} from "@/components/Projects/ProjectPreviewCard";
 
 export function HomeProjects2() {
-    //const t = useTranslations('ORGANIZATON');
+    const t = useTranslations('TRANSFORMATION_STEPS');
 
-    const data = [
-        {
-            title: "Stabilizare",
-            imgPath: "/base/flower1.jpg",
-            texts: [
-                "Evaluare și un mediu sigur",
-                "Primul pas către reîntregire",
-            ]
-        },
-        {
-            title: "Explorare",
-            imgPath: "/base/flower3.jpg",
-            texts: [
-                "Terapie individuală și de grupTerapie individuală și de grup",
-                "Recunoașterea rănilor și a mecanismelor",
-            ]
-        },
-        {
-            title: "Transformare",
-            imgPath: "/base/flower6.jpg",
-            texts: [
-                "Artă, natură, muncă, rugăciune",
-                "Reconectarea cu sinele autentic",
-            ]
-        },
-                {
-            title: "Reintegrare",
-            imgPath: "/base/flower8.jpg",
-            texts: [
-                "Educație, mentorat, autonomie, rutina",
-                "Reîntoarcerea în lume, transformat",
-            ]
-        },
-    ];
+    const images = ["/base/flower1.jpg", "/base/flower3.jpg", "/base/flower6.jpg", "/base/flower8.jpg"];
+
+    const data = images.map((imgPath, i) => ({
+        title: t(`STEPS.${i}.TITLE`),
+        imgPath,
+        texts: [t(`STEPS.${i}.TEXTS.0`), t(`STEPS.${i}.TEXTS.1`)],
+    }));
 
     const cards = data.map((info) => (
         <ProjectPreviewCard title={info.title} imgPath={info.imgPath} texts={info.texts} />
@@ -52,7 +25,7 @@ export function HomeProjects2() {
             
             <Divider mt="xl" color="transparent" />
             
-            <TitleWithDescription title={"Patru Etape ale Transformării"}
+            <TitleWithDescription title={t('TITLE')}
                                   description={""} maxWidth="1100px" />
 
             <Divider mb={45} color="transparent" />

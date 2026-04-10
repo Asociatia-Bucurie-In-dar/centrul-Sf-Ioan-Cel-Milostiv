@@ -7,6 +7,12 @@ import {OurTeam} from '@/components/OurTeam/OurTeam';
 import {HomeWhy} from "@/components/Home/HomeWhy/HomeWhy";
 import {Addictions} from "@/components/Addictions/Addictions";
 import {WhereWeBuild} from "@/components/WhereWeBuild/WhereWeBuild";
+import {FacilitiesSection} from "@/components/WebsiteParallax/FacilitiesSection";
+import {ValuesSection} from "@/components/WebsiteParallax/ValuesSection";
+import {ImpactSection} from "@/components/WebsiteParallax/ImpactSection";
+import {VisionSection} from "@/components/WebsiteParallax/VisionSection";
+import {GetInvolvedSection} from "@/components/WebsiteParallax/GetInvolvedSection";
+import {FinalCTASection} from "@/components/WebsiteParallax/FinalCTASection";
 import {useTranslations} from "next-intl";
 import {setRequestLocale} from "next-intl/server";
 import {use} from "react";
@@ -98,9 +104,15 @@ export default function HomePage({params}: {params: Promise<{locale: string}>}) 
           {/* <Addictions translations={addictionsData}/> */}
           <HomeProjects/>
           <HomeProjects2/>
-          <HomeWhy />
-          <HomeAboutProjects/>
+          <FacilitiesSection/>
+          <ValuesSection/>
+          <ImpactSection/>
+          <VisionSection/>
+          {/* <HomeWhy />
+          <HomeAboutProjects/> */}
+          <GetInvolvedSection/>
           <OurTeam/>
+          <FinalCTASection/>
       </>
   );
 }

@@ -69,7 +69,7 @@ export function DonationProgress() {
         </div>
     ));
     return <>
-        <Container size="full" pt="xl" id="progressSection">
+        <Container size="full" pt="xl" id="progressSection" className={commonClasses.darkerBackground}>
             <Container size="lg" py="xl">
 
                 <TitleWithDescription title={t('TITLE')} description={t('DESCRIPTION')} maxWidth='80rem' />
