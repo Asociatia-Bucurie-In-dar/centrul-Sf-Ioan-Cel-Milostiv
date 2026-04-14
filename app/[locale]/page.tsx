@@ -13,6 +13,7 @@ import {ImpactSection} from "@/components/WebsiteParallax/ImpactSection";
 import {VisionSection} from "@/components/WebsiteParallax/VisionSection";
 import {GetInvolvedSection} from "@/components/WebsiteParallax/GetInvolvedSection";
 import {FinalCTASection} from "@/components/WebsiteParallax/FinalCTASection";
+import {VideoPresentation} from "@/components/VideoPresentation/VideoPresentation";
 import {useTranslations} from "next-intl";
 import {setRequestLocale} from "next-intl/server";
 import {use} from "react";
@@ -99,6 +100,7 @@ export default function HomePage({params}: {params: Promise<{locale: string}>}) 
     return (
       <>
           <HomeHero/>
+          <VideoPresentation/>
           <DonationProgress/>
           <WhereWeBuild/>
           {/* <Addictions translations={addictionsData}/> */}

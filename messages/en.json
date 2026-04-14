@@ -17,6 +17,11 @@
     "BACK": "Return home"
   },
   
+  "VIDEO_PRESENTATION": {
+    "TITLE": "Watch Our Presentation",
+    "DESCRIPTION": "Discover our mission, our values, and the impact we strive to make."
+  },
+
   "HOME_HERO":
   {
     "MOTTO_1": "Together we",

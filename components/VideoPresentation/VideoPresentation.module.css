@@ -1,0 +1,22 @@
+.wrapper {
+    padding-top: calc(var(--mantine-spacing-xl) );
+    padding-bottom: calc(var(--mantine-spacing-xl));
+}
+
+.videoContainer {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    border-radius: var(--mantine-radius-md);
+    overflow: hidden;
+    box-shadow: var(--mantine-shadow-md);
+}
+
+.iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
