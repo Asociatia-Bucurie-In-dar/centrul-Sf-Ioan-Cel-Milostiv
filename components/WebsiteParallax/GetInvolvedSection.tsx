@@ -6,10 +6,10 @@ import classes from './GetInvolvedSection.module.css';
 import {IconCoin, IconHandStop, IconBuildingCommunity, IconSpeakerphone} from '@tabler/icons-react';
 
 const ways = [
-    {key: 'DONATE', icon: IconCoin, color: 'green'},
-    {key: 'VOLUNTEER', icon: IconHandStop, color: 'blue'},
+    {key: 'DONATE', icon: IconCoin, color: 'orange'},
     {key: 'PARTNER', icon: IconBuildingCommunity, color: 'grape'},
-    {key: 'PROMOTE', icon: IconSpeakerphone, color: 'orange'},
+    {key: 'PROMOTE', icon: IconSpeakerphone, color: 'green'},
+    {key: 'VOLUNTEER', icon: IconHandStop, color: 'blue'},
 ] as const;
 
 export function GetInvolvedSection() {
@@ -41,6 +41,11 @@ export function GetInvolvedSection() {
                             <Text fz="sm" c="customDimmed" mt="xs" fw={500}>
                                 {t(`WAYS.${key}.DESCRIPTION`)}
                             </Text>
+                            {key === 'VOLUNTEER' && (
+                                <Button component="a" href="/contact" variant="light" color={color} mt="md" fw={600}>
+                                    {t('WAYS.VOLUNTEER.CTA')}
+                                </Button>
+                            )}
                         </Card>
                     ))}
                 </SimpleGrid>

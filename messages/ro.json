@@ -70,7 +70,7 @@
 
   "WHERE_WE_BUILD": {
     "TITLE": "La doar 38 de kilometri de centrul Bucureștiului",
-    "DESCRIPTION": "Construim centrul în natura liniștită a comunei Butimanu, județul Dâmbovița, pe 3 hectare de teren dedicate reconstrucției vieții celor afectați de dependențe, creând calea către redobândirea controlului conștient asupra propriei existențe prin instrumente durabile care previn recăderea și construiesc o viață autentică, liberă și asumată.",
+    "DESCRIPTION": "Construim centrul în natura liniștită a comunei Butimanu, județul Dâmbovița, pe o suprafață de 3 hectare de teren dedicate reconstrucției vieții celor afectați de dependențe, creând calea către redobândirea controlului conștient asupra propriei existențe prin instrumente durabile care previn recăderea și construiesc o viață autentică, liberă și asumată.",
     "DESCRIPTION_2": "În acest spațiu al echilibrului dintre știință, natură și spiritualitate, redescoperim împreună valorile care dau sens vieții: iubirea, comunitatea și bucuria de a trăi cu rost, cu sens."
   },
 
@@ -305,7 +305,7 @@
     "SUBTITLE": "Poți contribui prin:",
     "WAYS": {
       "DONATE": { "TITLE": "Donații financiare", "DESCRIPTION": "Pentru construcții, echipamente, programe" },
-      "VOLUNTEER": { "TITLE": "Voluntariat", "DESCRIPTION": "Ca specialist, instructor, mentor sau simplu prieten" },
+      "VOLUNTEER": { "TITLE": "Voluntariat", "DESCRIPTION": "Ca specialist, instructor, mentor sau simplu prieten", "CTA": "Devino Voluntar" },
       "PARTNER": { "TITLE": "Parteneriate instituționale", "DESCRIPTION": "Autorități, spitale, școli, ONG-uri" },
       "PROMOTE": { "TITLE": "Promovare", "DESCRIPTION": "Pentru a oferi speranță celor care au nevoie" }
     }

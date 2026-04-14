@@ -319,7 +319,7 @@
     "SUBTITLE": "You can contribute through:",
     "WAYS": {
       "DONATE": { "TITLE": "Financial Donations", "DESCRIPTION": "For construction, equipment, programs" },
-      "VOLUNTEER": { "TITLE": "Volunteering", "DESCRIPTION": "As a specialist, instructor, mentor, or simply a friend" },
+      "VOLUNTEER": { "TITLE": "Volunteering", "DESCRIPTION": "As a specialist, instructor, mentor, or simply a friend", "CTA": "Become a Volunteer" },
       "PARTNER": { "TITLE": "Institutional Partnerships", "DESCRIPTION": "Authorities, hospitals, schools, NGOs" },
       "PROMOTE": { "TITLE": "Promotion", "DESCRIPTION": "To offer hope to those who need it" }
     }
