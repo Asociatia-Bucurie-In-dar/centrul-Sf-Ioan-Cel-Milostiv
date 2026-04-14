@@ -9,7 +9,7 @@ export function WhereWeBuild() {
 
     return <>
         <Container size="full" id="progressSection">
-            <Container size="lg" py="xl">
+            <Container size="lg" pt="xl" pb="md">
 
                 <TitleWithDescription title={t('TITLE')} description={t('DESCRIPTION')} maxWidth='80rem' />
 

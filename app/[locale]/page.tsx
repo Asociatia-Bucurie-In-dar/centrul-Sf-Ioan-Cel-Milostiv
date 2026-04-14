@@ -100,9 +100,9 @@ export default function HomePage({params}: {params: Promise<{locale: string}>}) 
     return (
       <>
           <HomeHero/>
-          <VideoPresentation/>
           <DonationProgress/>
           <WhereWeBuild/>
+            <VideoPresentation/>
           {/* <Addictions translations={addictionsData}/> */}
           <HomeProjects/>
           <HomeProjects2/>

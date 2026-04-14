@@ -1,5 +1,5 @@
 .wrapper {
-    padding-top: calc(var(--mantine-spacing-xl) );
+    padding-top: 0;
     padding-bottom: calc(var(--mantine-spacing-xl));
 }
 
