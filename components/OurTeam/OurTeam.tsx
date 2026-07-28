@@ -63,6 +63,12 @@ export function OurTeam() {
             description: t('TEAM_MEMBERS.ELEVENTH.DESCRIPTION'),
         },
         {
+            avatar: '/team/adrianvoicu.jpg',
+            name: t('TEAM_MEMBERS.ADRIANVOICU.NAME'),
+            job: t('TEAM_MEMBERS.ADRIANVOICU.ROLE'),
+            description: t('TEAM_MEMBERS.ADRIANVOICU.DESCRIPTION'),
+        },
+        {
             avatar: '/team/7.jpg',
             name: t('TEAM_MEMBERS.TENTH.NAME'),
             job: t('TEAM_MEMBERS.TENTH.ROLE'),

@@ -201,16 +201,61 @@
     "TITLE": "Echipa noastră",
     "DESCRIPTION": "Fă cunoștință cu echipa noastră! Suntem oameni pasionați de ceea ce facem și ne dorim să fim de folos în lumea în care trăim. Fiecare dintre noi am avut caderile noastre, dar Bunul Dumnezeu a lucrat prin oameni minunați, iar aceia ne-a ajutat să ieșim din noroiul vieții. Acum este randul nostru să venim in ajutorul celor care au nevoie de noi!",
     "TEAM_MEMBERS": {
-      "FIRST": { "NAME": "Alexandru Octavian Ionescu", "ROLE": "Președinte", "DESCRIPTION": "Timp de 23 de ani am lucrat în situații de urgență din care 17 ani scafandru de intervenție în cadrul Detașametului Special de Salvatori. Licențiat în drept și actualmente președintele Asociațiilor Bucurie în Dar și Sf. Ioan cel Milostiv." },
-      "SECOND": { "NAME": "Adrian Ion-Mărgineanu", "ROLE": "Vicepreședinte", "DESCRIPTION": "Bursier Marie Curie, dublu PhD in Inginerie Biomedicala, cu peste 10 ani experiență în inteligență artificială și imagistică biomedicală in scopul detectiei de cancer in imagini RMN si imagini de microscopie. Coordonează dezvoltarea inteligenței artificiale la Invenio-Imaging, dezvoltând soluții AI pentru cancer cerebral, cancer pulmonar și cancer de prostată." },
-      "MARIUS": { "NAME": "Marius Cioltan", "ROLE": "Vicepreședinte", "DESCRIPTION": "Masterand în Management si Administrarea Afacerilor (FEAA-USV). Licentiat Educatie Fizica si Sport (UPIT-USV). Profesor Educație fizica si Sport (Absolvent Modul DPPD). Antrenor de Handbal(Certificat). Fost sportiv de performantă." },
-      "PITIGOI": { "NAME": "Horia Bogdan Ioan", "ROLE": "Vicepreședinte", "DESCRIPTION": "Absolvent al facultății de Construcții Civile din București, în prezent manager partener la Azero, firmă ce activează în domeniul printului de format mare și mic. Membru fondator (2017-prezent)  și președinte (2017- 2023) al asociației Împreună Crestem Valori." },
-      "FOURTH": { "NAME": "Alexandru Pițigoi-Mihuț", "ROLE": "Vicepreședinte", "DESCRIPTION": "Pilot cu experiență de peste 25 de ani și multiplu campion național în Campionatele Naționale de Automobilism. Co-fondator al Federației Române de Automobilism Sportiv. Instructor certificat Porsche AG. Instructor pilotaj certificat FRAS. Manager sportiv și coordonator de echipă." },
-      "FIFTH": { "NAME": "Arhitectonic Design Studio", "ROLE": "Coordonator proiect arhitectură", "DESCRIPTION": "La Arhitectonic Design Studio, credem că arhitectura este mai mult decât proiectare – este o formă de energie transpusă în spațiu. Suntem o echipă de arhitecți tineri, pasionați și implicați, care aduc în fiecare proiect entuziasm, viziune contemporană și o experiență solidă construită în domenii diverse: educațional, medical, rezidențial și HoReCa." },
-      "SEVENTH": { "NAME": "Ana Teodora Bănică", "ROLE": "Coordonatoare voluntari", "DESCRIPTION": "Studentă la Universitatea din București, Facultatea de Administrație și Afaceri, specializarea Administrație Publică. Scriitoare la revista online În Pridvor. Fostă studentă la UNATC București, Facultatea de Teatru, Actorie. Absolventă a Colegiului Național Gheorghe Lazăr din București" },
-      "EIGHTH": { "NAME": "Ana Zaharia", "ROLE": "Medic Pediatru", "DESCRIPTION": "Absoleventă a Universității de Medicină si Farmacie “Carol Davila” din București, medic rezident în specialitatea pediatrie." },
-      "TENTH": { "NAME": "Fabian Ghenof", "ROLE": "Inginer Software", "DESCRIPTION": "Dezvoltare funcționalități și infrastructură pentru prezența online. Principalul domeniu de specialitate este dezvoltarea de jocuri și experiențe artistice interactive." },
-      "ELEVENTH": { "NAME": "Constantin Asavinei-Apostol", "ROLE": "Medic Chirurgie Pediatrică", "DESCRIPTION": "Am terminat Facultatea de Medicină, iar acum sunt medic rezident pe chirurgie pediatrică. Deși petrec mult timp în spital îmi plac mult mișcarea, natura și naturalul și în general împărtășirea de tot ce ne poate face fundamental mai buni și frumoși, împreună cu aproapele meu!" }
+      "FIRST": {
+        "NAME": "Alexandru Octavian Ionescu",
+        "ROLE": "Președinte",
+        "DESCRIPTION": "Timp de 23 de ani am lucrat în situații de urgență din care 17 ani scafandru de intervenție în cadrul Detașametului Special de Salvatori. Licențiat în drept și actualmente președintele Asociațiilor Bucurie în Dar și Sf. Ioan cel Milostiv."
+      },
+      "SECOND": {
+        "NAME": "Adrian Ion-Mărgineanu",
+        "ROLE": "Vicepreședinte",
+        "DESCRIPTION": "Bursier Marie Curie, dublu PhD in Inginerie Biomedicala, cu peste 10 ani experiență în inteligență artificială și imagistică biomedicală in scopul detectiei de cancer in imagini RMN si imagini de microscopie. Coordonează dezvoltarea inteligenței artificiale la Invenio-Imaging, dezvoltând soluții AI pentru cancer cerebral, cancer pulmonar și cancer de prostată."
+      },
+      "MARIUS": {
+        "NAME": "Marius Cioltan",
+        "ROLE": "Vicepreședinte",
+        "DESCRIPTION": "Masterand în Management si Administrarea Afacerilor (FEAA-USV). Licentiat Educatie Fizica si Sport (UPIT-USV). Profesor Educație fizica si Sport (Absolvent Modul DPPD). Antrenor de Handbal(Certificat). Fost sportiv de performantă."
+      },
+      "PITIGOI": {
+        "NAME": "Horia Bogdan Ioan",
+        "ROLE": "Vicepreședinte",
+        "DESCRIPTION": "Absolvent al facultății de Construcții Civile din București, în prezent manager partener la Azero, firmă ce activează în domeniul printului de format mare și mic. Membru fondator (2017-prezent)  și președinte (2017- 2023) al asociației Împreună Crestem Valori."
+      },
+      "FOURTH": {
+        "NAME": "Alexandru Pițigoi-Mihuț",
+        "ROLE": "Vicepreședinte",
+        "DESCRIPTION": "Pilot cu experiență de peste 25 de ani și multiplu campion național în Campionatele Naționale de Automobilism. Co-fondator al Federației Române de Automobilism Sportiv. Instructor certificat Porsche AG. Instructor pilotaj certificat FRAS. Manager sportiv și coordonator de echipă."
+      },
+      "FIFTH": {
+        "NAME": "Arhitectonic Design Studio",
+        "ROLE": "Coordonator proiect arhitectură",
+        "DESCRIPTION": "La Arhitectonic Design Studio, credem că arhitectura este mai mult decât proiectare – este o formă de energie transpusă în spațiu. Suntem o echipă de arhitecți tineri, pasionați și implicați, care aduc în fiecare proiect entuziasm, viziune contemporană și o experiență solidă construită în domenii diverse: educațional, medical, rezidențial și HoReCa."
+      },
+      "SEVENTH": {
+        "NAME": "Ana Teodora Bănică",
+        "ROLE": "Coordonatoare voluntari",
+        "DESCRIPTION": "Studentă la Universitatea din București, Facultatea de Administrație și Afaceri, specializarea Administrație Publică. Scriitoare la revista online În Pridvor. Fostă studentă la UNATC București, Facultatea de Teatru, Actorie. Absolventă a Colegiului Național Gheorghe Lazăr din București"
+      },
+      "EIGHTH": {
+        "NAME": "Ana Zaharia",
+        "ROLE": "Medic Pediatru",
+        "DESCRIPTION": "Absoleventă a Universității de Medicină si Farmacie “Carol Davila” din București, medic rezident în specialitatea pediatrie."
+      },
+      "TENTH": {
+        "NAME": "Fabian Ghenof",
+        "ROLE": "Inginer Software",
+        "DESCRIPTION": "Dezvoltare funcționalități și infrastructură pentru prezența online. Principalul domeniu de specialitate este dezvoltarea de jocuri și experiențe artistice interactive."
+      },
+      "ELEVENTH": {
+        "NAME": "Constantin Asavinei-Apostol",
+        "ROLE": "Medic Chirurgie Pediatrică",
+        "DESCRIPTION": "Am terminat Facultatea de Medicină, iar acum sunt medic rezident pe chirurgie pediatrică. Deși petrec mult timp în spital îmi plac mult mișcarea, natura și naturalul și în general împărtășirea de tot ce ne poate face fundamental mai buni și frumoși, împreună cu aproapele meu!"
+      },
+      "ADRIANVOICU": {
+        "NAME": "Adrian Voicu",
+        "ROLE": "Inginer Software",
+        "DESCRIPTION": "Absolvent al Facultății de Matematică și Informatică din cadrul Universității din București, este Senior Full-Stack Java–Angular Software Engineer și arhitect software, cu expertiză în DevOps și DevSecOps. A contribuit la proiecte complexe pentru instituții europene, inclusiv Comisia Europeană și Parlamentul European, iar în prezent lucrează în cadrul Sword Group la dezvoltarea platformei dedicate programelor Erasmus+ și Corpului European de Solidaritate. Din 2013 este CEO și cofondator al IT TRAD CONSULTING, companie în cadrul căreia dezvoltă soluții software și aplicații mobile."
+      }
     }
   },
 
