@@ -3,8 +3,19 @@
     padding-bottom: calc(var(--mantine-spacing-xl));
 }
 
+.videos {
+    display: flex;
+    flex-direction: column;
+    gap: var(--mantine-spacing-md);
+
+    @media (min-width: $mantine-breakpoint-sm) {
+        flex-direction: row;
+    }
+}
+
 .videoContainer {
     position: relative;
+    flex: 1;
     width: 100%;
     padding-bottom: 56.25%;
     border-radius: var(--mantine-radius-md);
