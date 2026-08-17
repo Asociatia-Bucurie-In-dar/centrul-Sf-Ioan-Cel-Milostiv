@@ -225,7 +225,12 @@
       "EIGHTH": { "NAME": "Ana Zaharia", "ROLE": "Pediatrician", "DESCRIPTION": "Graduate of the Carol Davila University of Medicine and Pharmacy in Bucharest, resident doctor in pediatrics." },
       "TENTH": { "NAME": "Fabian Ghenof", "ROLE": "Software Engineer", "DESCRIPTION": "Development of features and infrastructure for online presence, with a primary area of expertise in game development and interactive artistic experiences." },
       "ELEVENTH": { "NAME": "Constantin Asavinei-Apostol", "ROLE": "Pediatric Surgery Doctor", "DESCRIPTION": "I graduated from the Faculty of Medicine, and now I am a resident doctor in pediatric surgery. Although I spend a lot of time in the hospital, I really enjoy movement, nature, and sharing everything that can fundamentally make us better and more beautiful, together with my neighbor!" },
-      "ADRIANVOICU": { "NAME": "Adrian Voicu", "ROLE": "Software Engineer", "DESCRIPTION": "Graduate of the Faculty of Mathematics and Computer Science at the University of Bucharest, is a Senior Full-Stack Java-Angular Software Engineer and software architect, with expertise in DevOps and DevSecOps. He has contributed to complex projects for European institutions, including the European Commission and the European Parliament, and is currently working at Sword Group on developing the platform dedicated to Erasmus+ programs and the European Solidarity Corps. Since 2013 he is CEO and co-founder of IT TRAD CONSULTING, a company where he develops software solutions and mobile applications." }
+      "ADRIANVOICU": { "NAME": "Adrian Voicu", "ROLE": "Software Engineer", "DESCRIPTION": "Graduate of the Faculty of Mathematics and Computer Science at the University of Bucharest, is a Senior Full-Stack Java-Angular Software Engineer and software architect, with expertise in DevOps and DevSecOps. He has contributed to complex projects for European institutions, including the European Commission and the European Parliament, and is currently working at Sword Group on developing the platform dedicated to Erasmus+ programs and the European Solidarity Corps. Since 2013 he is CEO and co-founder of IT TRAD CONSULTING, a company where he develops software solutions and mobile applications." },
+      "MIRELA":{
+        "NAME": "Mirela-Magdalena Niță",
+        "ROLE": "Composer",
+        "DESCRIPTION": "Graduate of the George Enescu National University of Arts in Iași. Composer from 2016 to present."
+      }
     }
   },
 
