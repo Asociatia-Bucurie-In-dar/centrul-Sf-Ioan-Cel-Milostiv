@@ -27,6 +27,18 @@ export async function generateMetadata({params}: { params: Promise<{locale: stri
             template: `%s | ${title}`,
         },
         description: heroT('DESCRIPTION'),
+        openGraph: {
+            title: title,
+            description: heroT('DESCRIPTION'),
+            images: [
+                {
+                    url: '/sfIoan.png',
+                    width: 800,
+                    height: 600,
+                    alt: title,
+                },
+            ],
+        },
     };
 }
 
