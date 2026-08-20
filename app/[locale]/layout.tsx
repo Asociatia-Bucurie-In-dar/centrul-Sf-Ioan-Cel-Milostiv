@@ -32,7 +32,7 @@ export async function generateMetadata({params}: { params: Promise<{locale: stri
             description: heroT('DESCRIPTION'),
             images: [
                 {
-                    url: '/sfIoan.png',
+                    url: 'https://centrulsfantulioancelmilostiv.org/sfIoan.png',
                     width: 800,
                     height: 600,
                     alt: title,
