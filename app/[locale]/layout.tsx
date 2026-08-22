@@ -2,54 +2,70 @@ import '@mantine/core/styles.css';
 import '@mantine/carousel/styles.css';
 import React from 'react';
 import { MantineProvider, ColorSchemeScript, createTheme } from '@mantine/core';
-import {NextIntlClientProvider} from 'next-intl';
-import {Analytics} from "@vercel/analytics/next";
+import { NextIntlClientProvider } from 'next-intl';
+import { Analytics } from "@vercel/analytics/next";
 import { Header } from '@/components/Header/Header';
 import { Footer } from '@/components/Footer/Footer';
 import { ChatButton } from '@/components/ChatButton/ChatButton';
-import {locales} from "@/i18n/routing";
+import { locales } from "@/i18n/routing";
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { ProjectTranslationsType } from '@/utils/my-types';
 import { GetAllProjectsStaticContent } from '@/content/projects/projects-content';
 
 export function generateStaticParams() {
-    return locales.map((locale:string) => ({locale}));
+    return locales.map((locale: string) => ({ locale }));
 }
 
-export async function generateMetadata({params}: { params: Promise<{locale: string}> }) {
-    const {locale} = await params;
-    const saintT = await getTranslations({locale: locale, namespace: 'SAINT_JOHN'});
-    const heroT = await getTranslations({locale: locale, namespace: 'HOME_HERO'});
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+    const { locale } = await params;
+    const saintT = await getTranslations({ locale: locale, namespace: 'SAINT_JOHN' });
+    const heroT = await getTranslations({ locale: locale, namespace: 'HOME_HERO' });
     const title = saintT('TITLE');
+    const description = heroT('DESCRIPTION');
+    const siteUrl = 'https://centrulsfantulioancelmilostiv.org';
+    const localePath = locale === 'ro' ? '' : `/${locale}`;
+    const pageUrl = `${siteUrl}${localePath}`;
+    const imageUrl = `${siteUrl}/sfIoan.png`;
+
     return {
+        metadataBase: new URL(siteUrl),
         title: {
             default: title,
             template: `%s | ${title}`,
         },
-        description: heroT('DESCRIPTION'),
+        description,
         openGraph: {
-            title: title,
-            description: heroT('DESCRIPTION'),
+            type: 'website',
+            url: pageUrl,
+            siteName: title,
+            title,
+            description,
             images: [
                 {
-                    url: 'https://centrulsfantulioancelmilostiv.org/sfIoan.png',
+                    url: imageUrl,
                     width: 800,
                     height: 600,
                     alt: title,
                 },
             ],
         },
+        twitter: {
+            card: 'summary_large_image',
+            title,
+            description,
+            images: [imageUrl],
+        },
     };
 }
 
-export default async function RootLayout({children, params}: { children: React.ReactNode; params: Promise<{ locale: string }>; }) {
-    const {locale} = await params;
+export default async function RootLayout({ children, params }: { children: React.ReactNode; params: Promise<{ locale: string }>; }) {
+    const { locale } = await params;
     setRequestLocale(locale);
 
-    const headerT = await getTranslations({locale, namespace: 'HEADER'});
-    const donateT = await getTranslations({locale, namespace: 'PROJECTS_MORE'});
-    const projT = await getTranslations({locale, namespace: 'SAINT_JOHN'});
-    const donatePopupTranslations : ProjectTranslationsType = {
+    const headerT = await getTranslations({ locale, namespace: 'HEADER' });
+    const donateT = await getTranslations({ locale, namespace: 'PROJECTS_MORE' });
+    const projT = await getTranslations({ locale, namespace: 'SAINT_JOHN' });
+    const donatePopupTranslations: ProjectTranslationsType = {
         Donate: donateT('DONATE'),
         CardOption: donateT('CARD_OPTION'),
         BankTransferOption: donateT('BANK_TRANSFER_OPTION'),
@@ -97,24 +113,24 @@ export default async function RootLayout({children, params}: { children: React.R
 
     return (
         <html lang={locale}>
-        <head>
-            <ColorSchemeScript/>
-            <link rel="shortcut icon" href="/sfIoan.png"/>
-            <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width"/>
-        </head>
-        <body>
-        <NextIntlClientProvider>
-        <MantineProvider theme={theme} defaultColorScheme="light">
-            <Header headerProps={headerProps} locale={locale} />
-            <main style={{ minHeight: '80vh' }}>
-                {children}
-            </main>
-            <ChatButton />
-            <Footer />
-        </MantineProvider>
-        </NextIntlClientProvider>
-        <Analytics />
-        </body>
+            <head>
+                <ColorSchemeScript />
+                <link rel="shortcut icon" href="/sfIoan.png" />
+                <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+            </head>
+            <body>
+                <NextIntlClientProvider>
+                    <MantineProvider theme={theme} defaultColorScheme="light">
+                        <Header headerProps={headerProps} locale={locale} />
+                        <main style={{ minHeight: '80vh' }}>
+                            {children}
+                        </main>
+                        <ChatButton />
+                        <Footer />
+                    </MantineProvider>
+                </NextIntlClientProvider>
+                <Analytics />
+            </body>
         </html>
     );
 }
