@@ -75,6 +75,12 @@ export function OurTeam() {
             description: t('TEAM_MEMBERS.MANUELA.DESCRIPTION'),
         },
         {
+            avatar: '/team/ferodot.png',
+            name: t('TEAM_MEMBERS.ANAMARIA.NAME'),
+            job: t('TEAM_MEMBERS.ANAMARIA.ROLE'),
+            description: t('TEAM_MEMBERS.ANAMARIA.DESCRIPTION'),
+        },
+        {
             avatar: '/team/constantin.jpg',
             name: t('TEAM_MEMBERS.ELEVENTH.NAME'),
             job: t('TEAM_MEMBERS.ELEVENTH.ROLE'),
