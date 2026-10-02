@@ -63,9 +63,9 @@ export function Header({ headerProps, locale }: { headerProps: any, locale:strin
             <Container size="lg">
                 <div className={classes.inner}>
 
-                    <Group>
-                        <Link href={headerProps.home.link} key={headerProps.home.label}>
-                            <Image src={logo.src} alt="Logo" width={50} height={50} />
+                    <Group wrap="nowrap" gap="sm">
+                        <Link href={headerProps.home.link} key={headerProps.home.label} style={{ display: 'block', flex: 'none' }}>
+                            <Image src={logo.src} alt="Logo" w={50} h={50} fit="contain" style={{ flex: 'none' }}/>
                         </Link>
                         <Divider orientation="vertical" color="transparent"/>
                         <LanguagePicker />
@@ -81,7 +81,7 @@ export function Header({ headerProps, locale }: { headerProps: any, locale:strin
                                            translations={headerProps.donatePopupTranslations}/>
                         <ThemeSwitcher/>
                     </Group>
-                    <Group hiddenFrom="sm">
+                    <Group hiddenFrom="sm" wrap="nowrap" gap="sm">
                         <DonatePopupButton projectId={headerProps.id}
                                            projectTile={headerProps.project.title}
                                            fullWidth={false}
