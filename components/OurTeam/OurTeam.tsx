@@ -9,7 +9,7 @@ export function OurTeam() {
 
     const data = [
         {
-            avatar: '/team/alex.jpeg',
+            avatar: '/team/alex2.jpeg',
             name: t('TEAM_MEMBERS.FIRST.NAME'),
             job: t('TEAM_MEMBERS.FIRST.ROLE'),
             description: t('TEAM_MEMBERS.FIRST.DESCRIPTION'),
