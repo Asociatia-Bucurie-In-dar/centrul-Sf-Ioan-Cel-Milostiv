@@ -5,8 +5,51 @@
     "DONATE_NOW": "Donează Acum",
     "ASSOCIATION": "Bucurie în Dar",
     "ASSOCIATION_FULL": "Asociația Bucurie în Dar",
-    "NECESSARY_AMOUNT": "Suma necesară",
-    "IN_CONSTRUCTION": "În construcție! Email la adresa: "
+    "NECESSARY_AMOUNT": "Suma necesară"
+  },
+
+  "PROJECT_STATUS": {
+    "TITLE": "Stadiul proiectului",
+    "UPDATED": "Actualizat:",
+    "NOTICE": "Centrul este în curs de dezvoltare și nu primește încă beneficiari.",
+    "NOTICE_HELP": "Dacă tu sau cineva apropiat are nevoie de ajutor acum, vezi pagina",
+    "NOTICE_HELP_LINK": "Am nevoie de ajutor",
+    "STEPS": {
+      "LAND": "Teren",
+      "DESIGN": "Proiectare",
+      "PERMITS": "Autorizații",
+      "CONSTRUCTION": "Construcție"
+    },
+    "STATUS": {
+      "DONE": "Finalizat",
+      "IN_PROGRESS": "În lucru",
+      "NOT_STARTED": "Urmează"
+    },
+    "FUNDING_TITLE": "Finanțare etapa I",
+    "GOAL": "Obiectiv",
+    "RAISED": "Strâns până acum",
+    "OF_TOTAL": "din total",
+    "OPENING": "Deschidere estimată"
+  },
+
+  "HELP": {
+    "TITLE": "Am nevoie de ajutor",
+    "META_DESCRIPTION": "Unde poți suna acum dacă tu sau cineva apropiat se confruntă cu o dependență sau cu o criză.",
+    "NOT_OPERATIONAL_TITLE": "Centrul nu este încă operațional",
+    "NOT_OPERATIONAL_TEXT": "Centrul Sf. Ioan cel Milostiv este în construcție și nu primește încă beneficiari. Nu ești însă singur: mai jos găsești unde poți suna chiar acum.",
+    "EMERGENCY_TITLE": "Urgență",
+    "EMERGENCY_TEXT": "Dacă viața ta sau a altcuiva este în pericol imediat, sună acum la 112.",
+    "LINES_TITLE": "Linii telefonice de sprijin",
+    "LINES": {
+      "DEPREHUB": "Sprijin emoțional pentru orice problemă. Non-stop, gratuit și confidențial.",
+      "DEPREHUB_DRUGS": "Informare și sprijin pentru consumul de droguri.",
+      "ALCOLINE": "Sprijin pentru problemele legate de consumul de alcool.",
+      "SUICIDE": "Pentru gânduri de sinucidere. Gratuit, anonim, zilnic între 19:00 și 07:00.",
+      "CHILD": "Pentru copii, adolescenți și părinți. Gratuit."
+    },
+    "GUIDANCE_TITLE": "Vrei să vorbești cu noi?",
+    "GUIDANCE_TEXT": "Nu oferim încă servicii terapeutice, dar te putem îndruma către specialiști și centre care lucrează acum cu persoane afectate de dependențe.",
+    "DISCLAIMER": "Liniile de mai sus sunt administrate de alte organizații. Nu suntem afiliați lor."
   },
 
   "DONATIONS": {
@@ -28,7 +71,7 @@
     "MOTTO_2": "salvăm vieți",
     "MOTTO_3": "schimbăm destine",
     "MOTTO_4": "vindecăm suflete",
-    "DESCRIPTION": "Construim primul centru terapeutic integrat din România de Recuperare și Prevenire a Dependențelor „Sf. Ioan Cel Milostiv”",
+    "DESCRIPTION": "Construim un centru terapeutic integrat de Recuperare și Prevenire a Dependențelor „Sf. Ioan Cel Milostiv”",
     "DESCRIPTION_2":"Într-o lume care te învață să consumi pentru a fi, să fii validat pentru a exista și să te ascunzi ca să supraviețuiești — noi te învățăm să fii. Viu. Autentic. Întreg.",
     "SEE_MORE": "Află mai multe",
     "INFO": "Prezentare Completă"
@@ -200,6 +243,14 @@
   "OUR_TEAM": {
     "TITLE": "Echipa noastră",
     "DESCRIPTION": "Fă cunoștință cu echipa noastră! Suntem oameni pasionați de ceea ce facem și ne dorim să fim de folos în lumea în care trăim. Fiecare dintre noi am avut caderile noastre, dar Bunul Dumnezeu a lucrat prin oameni minunați, iar aceia ne-a ajutat să ieșim din noroiul vieții. Acum este randul nostru să venim in ajutorul celor care au nevoie de noi!",
+    "SHORT_DESCRIPTION": "Oamenii care construiesc centrul: conducerea asociației, medici, specialiști și voluntari.",
+    "SEE_TEAM": "Vezi echipa și competențele",
+    "GROUPS": {
+      "LEADERSHIP": "Conducerea asociației",
+      "MEDICAL": "Echipa medicală",
+      "OPERATIONAL": "Specialiști și echipa operațională",
+      "PARTNERS": "Parteneri"
+    },
     "TEAM_MEMBERS": {
       "FIRST": {
         "NAME": "Alexandru Octavian Ionescu",
@@ -301,7 +352,13 @@
 
   "CONTACT": {
     "TITLE": "Contact",
-    "DESCRIPTION": "Contact us for any questions or suggestions.",
+    "DESCRIPTION": "Contactează-ne pentru orice întrebare sau sugestie.",
+    "DIRECT": {
+      "TITLE": "Sună-ne sau scrie-ne",
+      "TEXT": "Cel mai repede ne găsești la telefon sau pe WhatsApp. Îți răspundem și pe email.",
+      "CALL": "Sună acum",
+      "WHATSAPP": "Scrie pe WhatsApp"
+    },
     "FORM": {
       "TITLE": "Contactează-ne",
       "DISCLAIMER": "Vă rugăm să sunați inainte de a veni la sediul nostru. Vă mulțumim!",
@@ -353,7 +410,7 @@
   },
 
   "VISION": {
-    "TITLE": "Primul Centru Terapeutic Integrat din România",
+    "TITLE": "Un Centru Terapeutic Integrat pentru România",
     "DESCRIPTION": "Construim un model care:",
     "POINTS": {
       "1": "Oferă un răspuns coerent la criza dependențelor — prin întregire, nu doar prin tratare",
@@ -378,7 +435,7 @@
 
   "FINAL_CTA": {
     "TITLE": "Fiecare om este chemat să se reîntregească",
-    "QUOTE": "La Centrul Sfântul Ioan Cel Milostiv, întâmpinăm fiecare om cu brațele larg deschise și cu o inimă plină de speranță. Nu contează cât de adânc ai căzut, contează că alegi să te ridici. Și noi suntem aici, alături de tine, la fiecare pas.",
+    "QUOTE": "La Centrul Sfântul Ioan Cel Milostiv vom întâmpina fiecare om cu brațele larg deschise și cu o inimă plină de speranță. Nu contează cât de adânc ai căzut, contează că alegi să te ridici. Și vom fi acolo, alături de tine, la fiecare pas.",
     "DOWNLOAD_PDF": "Prezentarea Completă",
     "CONTACT_US": "Contactează-ne",
     "BECOME_VOLUNTEER": "Devino Voluntar",
@@ -391,6 +448,12 @@
   "HEADER": {
     "LOCALE": "ro",
     "HOME": { "LABEL": "Acasă", "LINK": "/" },
+    "ABOUT_PROJECT": { "LABEL": "Despre proiect", "LINK": "/#despre" },
+    "PROGRAM": { "LABEL": "Program terapeutic", "LINK": "/#program" },
+    "STATUS": { "LABEL": "Stadiul proiectului", "LINK": "/#stadiu" },
+    "TEAM": { "LABEL": "Echipa", "LINK": "/team" },
+    "GET_INVOLVED": { "LABEL": "Implică-te", "LINK": "/#implica-te" },
+    "HELP": { "LABEL": "Am nevoie de ajutor", "LINK": "/help" },
     "PROJECTS": { "LABEL": "Proiecte", "LINK": "/projects" },
     "ABOUT": { "LABEL": "Despre", "LINK": "/about" },
     "GALLERY": { "LABEL": "Galerie", "LINK": "/gallery"},

@@ -37,3 +37,6 @@
     max-width: rem(600px);
     text-align: center;
 }
+.compactMember {
+    text-align: center;
+}

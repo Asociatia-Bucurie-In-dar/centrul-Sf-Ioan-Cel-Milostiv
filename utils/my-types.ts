@@ -33,5 +33,8 @@ export type ContactTranslationType = {
     Send: string;
     Success: string;
     Error: string;
-    InConstruction: string;
+    DirectTitle: string;
+    DirectText: string;
+    Call: string;
+    WhatsApp: string;
 };

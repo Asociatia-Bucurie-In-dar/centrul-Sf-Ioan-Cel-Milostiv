@@ -37,14 +37,13 @@ export function Header({ headerProps, locale }: { headerProps: any, locale:strin
         });
     };
 
-// Usage in your component
-    const links = [];
-    links.push({ label: headerProps.home.label, link: headerProps.home.link });
-    // links.push({ label: headerTranslations.projects.label, link: headerTranslations.projects.link });
-    // links.push({ label: headerTranslations.about.label, link: headerTranslations.about.link });
-    // links.push({ label: headerTranslations.gallery.label, link: headerTranslations.gallery.link });
-    // links.push({ label: headerTranslations.blog.label, link: headerTranslations.blog.link });
-    links.push({ label: headerProps.contact.label, link: headerProps.contact.link });
+    const links = headerProps.links;
+    const helpLink = (
+        <Link href={headerProps.help.link} className={classes.helpLink}
+              data-active={pathname === headerProps.help.link || undefined}>
+            {headerProps.help.label}
+        </Link>
+    );
 
     const headerItems = renderLinks(links);
     const headerZIndex = MyZIndexes.Header;
@@ -60,7 +59,7 @@ export function Header({ headerProps, locale }: { headerProps: any, locale:strin
             transition: 'transform 400ms ease',
             backgroundColor: 'var(--mantine-color-body)',
         }}>
-            <Container size="lg">
+            <Container size="xl">
                 <div className={classes.inner}>
 
                     <Group wrap="nowrap" gap="sm">
@@ -71,17 +70,18 @@ export function Header({ headerProps, locale }: { headerProps: any, locale:strin
                         <LanguagePicker />
                     </Group>
                     
-                    <Group visibleFrom="sm">
-                        <Group h="100%" gap={5} visibleFrom="sm" mr="md">
+                    <Group visibleFrom="lg" gap="xs" wrap="nowrap">
+                        <Group h="100%" gap={2} wrap="nowrap" mr="xs">
                             {headerItems}
                         </Group>
+                        {helpLink}
                         <DonatePopupButton projectId={headerProps.id}
                                            projectTile={headerProps.project.title}
                                            fullWidth={false}
                                            translations={headerProps.donatePopupTranslations}/>
                         <ThemeSwitcher/>
                     </Group>
-                    <Group hiddenFrom="sm" wrap="nowrap" gap="sm">
+                    <Group hiddenFrom="lg" wrap="nowrap" gap="sm">
                         <DonatePopupButton projectId={headerProps.id}
                                            projectTile={headerProps.project.title}
                                            fullWidth={false}
@@ -96,12 +96,14 @@ export function Header({ headerProps, locale }: { headerProps: any, locale:strin
                 onClose={closeDrawer}
                 size="60%"
                 padding="lg"
-                hiddenFrom="sm"
+                hiddenFrom="lg"
                 zIndex={MyZIndexes.MobileMenu}
             >
                 <Divider my="sm" />
                 <div onClick={closeDrawer}>
                     {headerItems}
+                    <Divider my="sm" />
+                    {helpLink}
                 </div>
                 <Divider my="sm" />
                 <Group justify="left" px="md">

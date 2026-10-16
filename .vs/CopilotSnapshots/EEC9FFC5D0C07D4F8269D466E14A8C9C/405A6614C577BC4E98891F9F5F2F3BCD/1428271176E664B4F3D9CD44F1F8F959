@@ -1,0 +1,368 @@
+﻿{
+  "COMMON": 
+  {
+    "DONATE": "Donate",
+    "DONATE_NOW": "Donate Now",
+    "ASSOCIATION": "Bucurie în Dar (Gift of Joy)",
+    "ASSOCIATION_FULL": "Bucurie în Dar (Gift of Joy) Association",
+    "NECESSARY_AMOUNT": "Necessary amount",
+    "IN_CONSTRUCTION": "Under construction! Email: "
+  },
+
+  "DONATIONS": {
+    "SUCCESS_TITLE": "Thank you!",
+    "SUCCESS_MESSAGE": "Your donation has been successfully processed.",
+    "ERROR_TITLE": "Oops!",
+    "ERROR_MESSAGE": "An error occurred while processing your donation. Please try again later.",
+    "BACK": "Return home"
+  },
+  
+  "VIDEO_PRESENTATION": {
+    "TITLE": "Watch Our Presentation",
+    "DESCRIPTION": "Discover our mission, our values, and the impact we strive to make."
+  },
+
+  "HOME_HERO":
+  {
+    "MOTTO_1": "Together we",
+    "MOTTO_2": "save lives",
+    "MOTTO_3": "change destinies",
+    "MOTTO_4": "heal souls",
+    "DESCRIPTION": "We are building Romania's first integrated therapeutic center for addiction recovery and prevention, \"St. John the Merciful\".",
+      "DESCRIPTION_2": "In a world that teaches you to consume to be, to be validated to exist, and to hide to survive — we teach you to be. Alive. Authentic. Whole.",
+    "SEE_MORE": "Learn more",
+    "INFO": "Full Presentation"
+  },
+
+  "DONATION_PROGRESS": {
+    "TITLE": "Who are we?",
+    "DESCRIPTION": "The Saint John the Merciful Center is a social and therapeutic project of national interest, initiated by the Bucurie în Dar (Gift of Joy) Association, designed as an integrated space for human recovery and dedicated to people affected by addictions — not only as an individual disease/condition, but also as a symptom of a profound social, cultural, and spiritual crisis.",
+    "STEPS": {
+      "1": "Land & utilities",
+      "2": "Building & houses",
+      "3": "Landscaping",
+      "4": "Staff"
+    }
+  },
+
+  "TRANSFORMATION_STEPS": {
+    "TITLE": "Four Stages of Transformation",
+    "SLOGAN": "We don't measure success only in days of abstinence, but in lives owned, rebuilt, and sustained.",
+    "STEPS": [
+      {
+        "TITLE": "Stabilization",
+        "TEXTS": ["Assessment and a safe environment", "The first step towards wholeness"]
+      },
+      {
+        "TITLE": "Exploration",
+        "TEXTS": ["Individual and group therapy", "Recognizing wounds and mechanisms"]
+      },
+      {
+        "TITLE": "Transformation",
+        "TEXTS": ["Art, nature, work, prayer", "Reconnecting with the authentic self"]
+      },
+      {
+        "TITLE": "Reintegration",
+        "TEXTS": ["Education, mentoring, autonomy, routine", "Returning to the world, transformed"]
+      }
+    ]
+  },
+
+  "WHERE_WE_BUILD": {
+    "TITLE": "Just 38 kilometers from downtown Bucharest",
+    "DESCRIPTION": "We are building the center in the quiet nature of Butimanu commune, Dâmbovița county, on 3 hectares of land dedicated to rebuilding the lives of those affected by addictions, creating the path towards regaining conscious control over one's own existence through lasting tools that prevent relapse and build an authentic, free, and responsible life.",
+    "DESCRIPTION_2": "In this space of balance between science, nature, and spirituality, we rediscover together the values that give meaning to life: love, community, and the joy of living with purpose and meaning."
+  },
+
+  "SAINT_JOHN": {
+    "TITLE": "Saint John The Merciful Center",
+    "DESCRIPTION": "Together we save lives, change destinies, heal souls. Each of us has gone through a dark period at least once in our life from which we no longer knew how to get out or when it would end. We saw our family, friends, loved ones in our lives suffering and we had no way to help them. How much help is given with empathy, with affection and love. In those moments you need support and I strongly believe that the team of the St. John The Merciful Center will strive to bring relief, healing and be a support to those who will tell us, help us.",
+    "IMAGE_ALT": "Icon of Saint John the Merciful Center"
+  },
+
+  "ORGANIZATON": {
+    "TITLE": "Organization and conduct of the St. John The Merciful Center:",
+    "DESCRIPTION": "The center's therapeutic process is based on rigorous daily routines, group therapy, individual counseling, and occupational activities, all coordinated by a multidisciplinary team of psychologists, doctors, and specialized counselors. The ultimate goal is not limited to detoxification, but pursues lasting social reintegration and the attainment of autonomy, the joy of living freely, providing beneficiaries with the necessary tools to manage stress and prevent relapse after returning to society. Through this integrated model, the therapeutic community transforms vulnerability into strength, helping dependent individuals rediscover their identity and build a balanced, free, and autonomous lifestyle.",
+    "CATEGORIES": [
+      {
+        "TITLE": "Call Center dedicated to people:",
+        "TEXTS": [
+          "On the verge of suicide",
+          "Women who want to have an abortion, especially minors",
+          "Abused Children",
+          "Elderly lonely people",
+          "Domestic violence"
+        ]
+      },
+      {
+        "TITLE": "24/24 Ambulance Support",
+        "TEXTS": [
+          "Premature birth as a result of violence",
+          "Violent cases",
+          "Frostbite due to negative temperatures (for street people) and medical support",
+          "Various situations requiring transport to hospital"
+        ]
+      },
+      {
+        "TITLE": "Psychological Support",
+        "TEXTS": [
+          "Women with pregnancy crises",
+          "Drug addicts",
+          "Alcohol addicts",
+          "Gambling addicts",
+          "Video game addicts (especially children)",
+          "Other addictions"
+        ]
+      },
+      {
+        "TITLE": "Accommodation & Treatment",
+        "TEXTS": [
+          "Construction of the Saint John the Merciful Center",
+          "This second step is imperative to implement",
+          "Important for adults, but capital for children and adolescents"
+        ]
+      }
+    ]
+  },
+
+  "ADDICTIONS": {
+    "TITLE": "Why are we building this center?",
+    "DESCRIPTION": "Because each of us who founded this center has been through life's hardships, and there are many who need help and guidance. We know that if you have ever known deep suffering, you can never be indifferent to your neighbor. We have decided to dedicate our lives to helping those who have lost hope. At the St. John the Merciful Center, life is priceless and we place all our hope in God and our trust in you to help us help others! The center will also include a home for elderly people living alone, as well as a home for abandoned children with severe disabilities! The Center will also include a Home for the Elderly Living Alone, Palliative Care, and a Home for Abandoned Children with Disabilities.",
+    "READ_MORE": "Read More",
+    "CATEGORIES": [
+      { 
+        "TITLE": "Alcohol",
+        "DESCRIPTION": "Alcoholism is a chronic, treatable disease. It is characterised by the desire to drink and not being able to stop drinking, even if it causes serious health or social problems. Alcoholism can be fatal, but it is treatable. It is important to recognise that alcoholism is a disease and seek help as soon as possible."
+      },
+      {
+        "TITLE": "Drugs / Medication",
+        "DESCRIPTION": "Drug addiction is a major problem affecting millions of people around the world. It is a chronic disease, characterised by compulsive drug-seeking and drug-taking, even though it has harmful effects on health and social life. Drug addiction can be fatal, but it is treatable. It is important to recognise that drug addiction is a disease and seek help as soon as possible."
+      },
+      {
+        "TITLE": "Food",
+        "DESCRIPTION": "Bulimia is an eating disorder that can be life-threatening if not treated early or if treatment fails. For those who suffer from bulimia, this physical and mental condition in equal measure is a lifelong challenge."
+      },
+      {
+        "TITLE":  "Gambling",
+        "DESCRIPTION": "Pathological gambling (online or offline) is common and is characterized by severe repercussions on the quality of social, financial and family relationships of the affected person. It is different from casual, infrequent gambling with friends in a particular context or from professional gambling where the gambler plays calculatedly to make money and knows how/when to stop. As with other addictions, impulse control is poor."
+      },
+      {
+        "TITLE": "Video Games",
+        "DESCRIPTION": "Video games are a form of entertainment for many people, but for others they can become a problem. Video games can become a problem when a person can't stop playing, even if they have problems in other areas of their life, such as school or relationships with family and friends."
+      },
+      {
+        "TITLE": "Pornography",
+        "DESCRIPTION": "It's the increased need to watch pornography. It is accompanied by a range of symptoms such as low self-esteem, difficulty relating, lack of emotional intimacy with a partner, decreased libido and erectile dysfunction, social isolation, decreased interest in real physical relationships, lack of motivation and depression."
+      },
+      {
+        "TITLE": "Shopping",
+        "DESCRIPTION": "Going shopping once in a while doesn't mean you're an addict. But if you end up buying more than you can afford, and you do so amid emotions of severe sadness or anger, then we can talk about addiction."
+      },
+      {
+        "TITLE": "Nicotine",
+        "DESCRIPTION": "Nicotine addiction is one of the most widespread addictions in the world. Smoking is a public health problem and is associated with a number of serious diseases, including cancer, heart disease and lung disease."
+      },
+      {
+        "TITLE": "Technology / Internet",
+        "DESCRIPTION": "In the age of the Internet, in the age of telework, tele-school, we are all \"addicted\" to computers and the Internet. But, when we lose track of time in front of the computer, when we can't get away from the computer to do something else for our benefit, when our social life is reduced or disappears completely, when you are only excited about sitting/playing on the computer/online/on social networks, then we can talk about addiction."
+      },
+      {
+        "TITLE": "Compulsive Work",
+        "DESCRIPTION": "When we work for a living, when we work because we are socio-economically encouraged to do so, when survival becomes difficult without work, how can we talk about addiction? More and more people talk about the burnout effect that comes from too much work."
+      },
+      {
+        "TITLE": "Caffeine",
+        "DESCRIPTION": "Caffeine is a substance found naturally in plants such as coffee, tea and cocoa. It is often added to soft drinks and medicines. Caffeine is a stimulant that affects the brain. Caffeine consumption can be beneficial to health, but it can become a problem when a person can't stop drinking caffeine, even if they have health or social problems because of caffeine consumption."
+      },
+      {
+        "TITLE": "Exercise",
+        "DESCRIPTION": "Exercise is good for our health. But when we can't stop exercising, even if we have health or social problems because of exercise, then we can talk about addiction."
+      },
+      {
+        "TITLE": "Television",
+        "DESCRIPTION": "Television, respectively the relaxation of modern man could even be called addiction? Neuropsychologists have shown that television has a hypnotic effect, regardless of the programme watched. Our brains enter a state of relaxation or sleep after 2 minutes of exposure. The brain makes no effort when exposed to television, practically everything we see passes beyond our critical thinking, directly into the subconscious. which lead to addictions that are sometimes socially blamed: alcohol, drugs, sex, and sometimes encouraged and admired: work, sport. As a rule, addictions are the result of abuse or trauma, even in the form of neglect, and the addictive behaviour is intended to relieve the discomfort caused by the associated emotion. Here's how we can better understand these behaviours."
+      }
+    ]
+  },
+
+  "HOME_WHY": {
+    "TITLE": "Why are we establishing the Center?",
+    "FIRST_TITLE": "Help",
+    "FIRST_DESCRIPTION": "May your heart be kind! Dear people, we strive to bring hope into the hearts of these despairing people, to offer them our friendship and help. We will strive to heal them, to see them laughing again, healthy and beautiful! We too have gone through life's trials and we wish with all our hearts to be alongside all those going through difficult times. Hope in God and trust in people are the path we follow.",
+    "SECOND_TITLE": "Romania",
+    "SECOND_DESCRIPTION": "Addiction prevention and treatment centers are insufficient in Romania, and the number of those affected by addictions is growing, especially among children and teenagers. We cannot and do not want to stand by indifferently watching what is happening now and what is to come. A child, a teenager, or an adult saved cannot be measured in money. What would you give to find your peace of mind? Or your health or your child's? Help us help!"
+  },
+
+  "HOME_HELP": {
+    "BADGE": "",
+    "TITLE": "",
+    "DESCRIPTION": "",
+    "FIRST": {
+      "TITLE": "Who are we?",
+      "DESCRIPTION": "We are the team that leads the Bucurie în Dar (Gift of Joy) Association and who, after several years of humanitarian activities, established the Association \"St. John the Merciful Center\" to help on a larger scale. We are people who live also for others, not just for ourselves."
+    },
+    "SECOND": {
+      "TITLE": "What do we do?",
+      "DESCRIPTION": "We are support with everything in our power, for those who no longer have anyone to support. We strive to prevent the suffering of our loved ones. We are and will be with those who need help, understanding and love."
+    },
+    "THIRD": {
+      "TITLE": "What is the mission?",
+      "DESCRIPTION": "May your heart be kind! Our mission is to bring hope into the hearts of these despairing people, to offer them our friendship and help. We will strive to heal them, to see them laughing again, healthy and beautiful."
+    }
+  },
+
+  "OUR_TEAM": {
+    "TITLE": "Our team",
+    "DESCRIPTION": "Meet our team! We are people passionate about what we do and we want to be of service in the world we live in. Each of us has had our own falls, but the Good Lord worked through wonderful people, and they helped us get out of the mud of life. Now it is our turn to come to the aid of those who need us!",
+    "TEAM_MEMBERS": {
+      "FIRST": { "NAME": "Alexandru Octavian Ionescu", "ROLE": "President", "DESCRIPTION": "For 23 years I worked in emergency situations, of which 17 years as a rescue diver within the Special Rescue Detachment. Law graduate and currently president of the Joy in Gift and St. John the Merciful Associations." },
+      "SECOND": { "NAME": "Adrian Ion-Mărgineanu", "ROLE": "Vice President", "DESCRIPTION": "Marie Curie fellow, double PhD in Biomedical Engineering, with over 10 years of experience in artificial intelligence and biomedical imaging for the detection of cancer in MRI images and microscopy images. Coordinates AI development at Invenio-Imaging, developing AI solutions for brain cancer, lung cancer, and prostate cancer." },
+      "MARIUS": { "NAME": "Marius Cioltan", "ROLE": "Vice President", "DESCRIPTION": "Master's student in Management and Business Administration (FEAA-USV). Graduate in Physical Education and Sport (UPIT-USV). Physical Education and Sport Teacher (DPPD Module Graduate). Handball Coach (Certified). Former competitive athlete." },
+      "PITIGOI": { "NAME": "Horia Bogdan Ioan", "ROLE": "Vice President", "DESCRIPTION": "Graduate of the Faculty of Civil Engineering in Bucharest, currently a partner manager at Azero, a company operating in the field of large and small format printing. Founding member (2017–present) and president (2017–2023) of the Together We Grow Values association." },
+      "FOURTH": { "NAME": "Alexandru Pițigoi-Mihuț", "ROLE": "Vice President", "DESCRIPTION": "Pilot with over 25 years of experience and multiple national champion in the National Motorsport Championships. Co-founder of the Romanian Sports Motorsport Federation. Certified Porsche AG instructor. FRAS certified driving instructor. Sports manager and team coordinator." },
+      "FIFTH": { "NAME": "Arhitectonic Design Studio", "ROLE": "Architecture project coordinator", "DESCRIPTION": "At Arhitectonic Design Studio, we believe that architecture is more than design — it is a form of energy transposed into space. We are a team of young, passionate, and committed architects who bring enthusiasm, contemporary vision, and solid experience built across diverse fields to every project: educational, medical, residential, and HoReCa." },
+      "SEVENTH": { "NAME": "Ana Teodora Bănică", "ROLE": "Volunteer coordinator", "DESCRIPTION": "Student at the University of Bucharest, Faculty of Administration and Business, Public Administration specialization. Writer for the online magazine În Pridvor. Former student at UNATC Bucharest, Faculty of Theatre, Acting. Graduate of the Gheorghe Lazăr National College in Bucharest." },
+      "EIGHTH": { "NAME": "Ana Zaharia", "ROLE": "Pediatrician", "DESCRIPTION": "Graduate of the Carol Davila University of Medicine and Pharmacy in Bucharest, resident doctor in pediatrics." },
+      "TENTH": { "NAME": "Fabian Ghenof", "ROLE": "Software Engineer", "DESCRIPTION": "Development of features and infrastructure for online presence, with a primary area of expertise in game development and interactive artistic experiences." },
+      "ELEVENTH": { "NAME": "Constantin Asavinei-Apostol", "ROLE": "Pediatric Surgery Doctor", "DESCRIPTION": "I graduated from the Faculty of Medicine, and now I am a resident doctor in pediatric surgery. Although I spend a lot of time in the hospital, I really enjoy movement, nature, and sharing everything that can fundamentally make us better and more beautiful, together with my neighbor!" },
+      "ADRIANVOICU": { "NAME": "Adrian Voicu", "ROLE": "Software Engineer", "DESCRIPTION": "Graduate of the Faculty of Mathematics and Computer Science at the University of Bucharest, is a Senior Full-Stack Java-Angular Software Engineer and software architect, with expertise in DevOps and DevSecOps. He has contributed to complex projects for European institutions, including the European Commission and the European Parliament, and is currently working at Sword Group on developing the platform dedicated to Erasmus+ programs and the European Solidarity Corps. Since 2013 he is CEO and co-founder of IT TRAD CONSULTING, a company where he develops software solutions and mobile applications." },
+      "MIRELA":{
+        "NAME": "Mirela-Magdalena Niță",
+        "ROLE": "Composer",
+        "DESCRIPTION": "Graduate of the George Enescu National University of Arts in Iași. Composer from 2016 to present."
+      },
+      "FEODOT": {
+        "NAME": "Florina-Cleopatra Feodot",
+        "ROLE": "Addiction Specialist",
+        "DESCRIPTION": "Senior physician in medical assessment of work capacity, certified in health services management and addiction medicine, addiction counselor, and master's student in the \"Biblical Exegesis and Hermeneutics\" program organized by the \"Justinian Patriarch\" Faculty of Orthodox Theology in Bucharest."
+      },
+      "MANUELA": {
+        "NAME": "Manuela Măndița Tașcău",
+        "ROLE": "Legal and Management Specialist",
+        "DESCRIPTION": "Graduate of the Faculty of Law \"Nicolae Titulescu\" - University of Bucharest and the Faculty of Management. Postgraduate Program in Management - Bucharest University of Economic Studies. Anti-money laundering course - Romanian Banking Institute. Master's in International Relations - International Criminal Law - Dimitrie Cantemir Christian University. Graduate of the \"Elena Cuza\" Pedagogical High School in Bucharest."
+      }
+    }
+  },
+
+  "PROJECTS_MORE": {
+    "DONATE": "Donate",
+    "OPTIONS": "options",
+    "CARD_OPTION": "Card",
+    "BANK_TRANSFER_OPTION": "Bank Transfer",
+    "DESIRED_AMOUNT": "Desired amount",
+    "CONTINUE": "To Payment",
+    "DONATE_FOR": "How would you like to donate for",
+    "I_AGREE_TO_THE": "I agree to the",
+    "TERMS_AND_CONDITIONS": "Terms and Conditions",
+    "AND": "and",
+    "PRIVACY_POLICY": "Privacy Policy",
+    "TRANSFER_WARNING_FIRST_PART": "Please specify",
+    "TRANSFER_WARNING_SECOND_PART": "in the payment details"
+  },
+  
+  "SHARE": {
+    "MAIN": "Help by sharing!"
+  },
+  
+  "CONTACT": {
+    "TITLE": "Contact",
+    "DESCRIPTION": "Contact us for any questions or suggestions.",
+    "FORM": {
+      "TITLE": "Contact us!",
+      "DISCLAIMER": "Please call before visiting us. Thank you!",
+      "NAME": "Name",
+      "EMAIL": "Email",
+      "PHONE": "Phone",
+      "ADDRESS": "Address",
+      "WORKING_HOURS": "Working hours",
+      "YOUR_MESSAGE": "Your message",
+      "SEND": "Send",
+      "SUCCESS": "Your message has been sent successfully!",
+      "ERROR": "An error occurred while sending your message. Please try again later."
+    }
+  },
+
+  "FACILITIES": {
+    "TITLE": "Tools for Re-Integration and Re-Connection",
+    "ITEMS": {
+      "GYM": { "TITLE": "Multifunctional Sports Hall", "DESCRIPTION": "Movement as emotional release" },
+      "EQUINE": { "TITLE": "Equine Therapy", "DESCRIPTION": "Empathy and presence through the relationship with the horse" },
+      "GREENHOUSE": { "TITLE": "Greenhouses & Micro-Farm", "DESCRIPTION": "Patience, care, natural food" },
+      "GARDEN": { "TITLE": "Multisensory Garden", "DESCRIPTION": "Relearning to feel without judgment" },
+      "ARTS": { "TITLE": "Arts & Conference Hall", "DESCRIPTION": "Vulnerability becomes art" },
+      "LIBRARY": { "TITLE": "Community Library", "DESCRIPTION": "The written word as a mirror of the soul" }
+    }
+  },
+
+  "VALUES": {
+    "TITLE": "What We Build Upon",
+    "ITEMS": {
+      "DIGNITY": { "TITLE": "Human Dignity", "DESCRIPTION": "Every person has an intrinsic, inherent, sacred value — not for what they do, but for who they are" },
+      "WHOLENESS": { "TITLE": "Wholeness of Being", "DESCRIPTION": "We approach each person in their entirety: body, mind, soul, relationships" },
+      "FREEDOM": { "TITLE": "Spiritual Freedom", "DESCRIPTION": "We respect everyone's faith, with openness and sensitivity" },
+      "COMMUNITY": { "TITLE": "Community", "DESCRIPTION": "Healing happens in relationship, in love, in presence" },
+      "SUSTAINABILITY": { "TITLE": "Sustainability", "DESCRIPTION": "A replicable, lasting model, anchored in Romanian reality" },
+      "LOVE": { "TITLE": "Active Love", "DESCRIPTION": "Through deeds, through presence, through daily commitment" }
+    }
+  },
+
+  "IMPACT": {
+    "TITLE": "Aligned with European and international best practice standards",
+    "DESCRIPTION": "Our practices are grounded in internationally validated instruments:",
+    "STANDARDS": {
+      "SEEQ": "Survey of Essential Elements Questionnaire (SEEQ)",
+      "EFTC": "European Federation of Therapeutic Communities Standards",
+      "WFTC": "World Federation of Therapeutic Communities Standards"
+    },
+    "FOOTER": "Over 1,200 active therapeutic communities in Europe demonstrate that there is a validated path to recovery."
+  },
+
+  "VISION": {
+    "TITLE": "The First Integrated Therapeutic Center in Romania",
+    "DESCRIPTION": "We are building a model that:",
+    "POINTS": {
+      "1": "Provides a coherent response to the addiction crisis — through wholeness, not just treatment",
+      "2": "Reconnects people with themselves, with others, and with meaning — through harmony, knowledge, work, art, nature",
+      "3": "Serves as a model for other rural therapeutic communities",
+      "4": "Contributes to the social and economic regeneration of the area in which it operates",
+      "5": "Changes public perception — from judgment to understanding, from rejection to compassion"
+    }
+  },
+
+  "GET_INVOLVED": {
+    "TITLE": "Be Part of the Change. With Joy!",
+    "DESCRIPTION": "Building and operating this center is made possible through the support of the community, private and institutional partners, and all people of good faith.",
+    "SUBTITLE": "You can contribute through:",
+    "WAYS": {
+      "DONATE": { "TITLE": "Financial Donations", "DESCRIPTION": "For construction, equipment, programs" },
+      "VOLUNTEER": { "TITLE": "Volunteering", "DESCRIPTION": "As a specialist, instructor, mentor, or simply a friend", "CTA": "Become a Volunteer" },
+      "PARTNER": { "TITLE": "Institutional Partnerships", "DESCRIPTION": "Authorities, hospitals, schools, NGOs" },
+      "PROMOTE": { "TITLE": "Promotion", "DESCRIPTION": "To offer hope to those who need it" }
+    }
+  },
+
+  "FINAL_CTA": {
+    "TITLE": "Every person is called to become whole again",
+    "QUOTE": "At the Saint John the Merciful Center, we welcome every person with open arms and a heart full of hope. It doesn't matter how far you've fallen, what matters is that you choose to rise. And we are here, beside you, every step of the way.",
+    "DOWNLOAD_PDF": "Full Presentation",
+    "CONTACT_US": "Contact Us",
+    "BECOME_VOLUNTEER": "Become a Volunteer",
+    "MAKE_DONATION": "Make a Donation",
+    "LOCATION": "Butimanu Commune, Dâmbovița County",
+    "PHONE": "0727 786 725 — Alexandru Ionescu",
+    "EMAIL_ADDRESS": "parteneriate@bucurieindar.ro"
+  },
+
+  "HEADER": {
+    "LOCALE": "en",
+    "HOME": { "LABEL": "Home", "LINK": "/en" },
+    "PROJECTS": { "LABEL": "Projects", "LINK": "/en/projects" },
+    "ABOUT": { "LABEL": "About", "LINK": "/en/about" },
+    "GALLERY": { "LABEL": "Gallery", "LINK": "/en/gallery" },
+    "BLOG": { "LABEL": "Blog", "LINK": "/en/blog" },
+    "CONTACT": { "LABEL": "Contact", "LINK": "/en/contact" },
+    "TERMS": { "LABEL": "Terms and Conditions", "LINK": "/en/terms" },
+    "PRIVACY": { "LABEL": "Privacy Policy", "LINK": "/en/privacy" },
+    "BURGER_MENU": "Menu"
+  }
+}

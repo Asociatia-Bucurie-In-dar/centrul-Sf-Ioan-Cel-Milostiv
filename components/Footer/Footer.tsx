@@ -2,6 +2,7 @@ import {Text, Container, Group, Title, Center, SimpleGrid, Divider} from '@manti
 import classes from './Footer.module.css';
 import {Link} from "@/navigation";
 import {useTranslations} from "next-intl";
+import {MyRoutePaths} from "@/utils/route-paths";
 
 export function Footer() {
     const t = useTranslations('HEADER');
@@ -38,9 +39,11 @@ export function Footer() {
             <Divider color="transparent" mb="lg" />
             <Container size="md">
                 <Center>
-                    <SimpleGrid cols={2}>
-                        {link(t('HOME.LINK'), t('HOME.LABEL'))}
-                        {link(t('CONTACT.LINK'), t('CONTACT.LABEL'))}
+                    <SimpleGrid cols={{base: 2, sm: 4}}>
+                        {link(MyRoutePaths.Home, t('HOME.LABEL'))}
+                        {link(MyRoutePaths.Team, t('TEAM.LABEL'))}
+                        {link(MyRoutePaths.Help, t('HELP.LABEL'))}
+                        {link(MyRoutePaths.Contact, t('CONTACT.LABEL'))}
                     </SimpleGrid>
                 </Center>
             </Container>

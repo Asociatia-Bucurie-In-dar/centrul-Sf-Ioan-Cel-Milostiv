@@ -1,0 +1,4 @@
+/* Keeps anchored sections from hiding under the fixed header. */
+.anchor {
+    scroll-margin-top: rem(56px);
+}

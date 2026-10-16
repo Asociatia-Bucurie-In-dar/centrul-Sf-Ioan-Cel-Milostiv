@@ -84,7 +84,9 @@ export default async function RootLayout({ children, params }: { children: React
     const headerProps = {
         id: proj.id,
         home: { label: headerT('HOME.LABEL'), link: headerT('HOME.LINK') },
-        contact: { label: headerT('CONTACT.LABEL'), link: headerT('CONTACT.LINK') },
+        links: ['HOME', 'ABOUT_PROJECT', 'PROGRAM', 'STATUS', 'TEAM', 'GET_INVOLVED', 'CONTACT']
+            .map((key) => ({ label: headerT(`${key}.LABEL`), link: headerT(`${key}.LINK`) })),
+        help: { label: headerT('HELP.LABEL'), link: headerT('HELP.LINK') },
         donatePopupTranslations: donatePopupTranslations,
         project: {
             title: projT('TITLE'),

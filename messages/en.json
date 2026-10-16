@@ -5,8 +5,51 @@
     "DONATE_NOW": "Donate Now",
     "ASSOCIATION": "Bucurie în Dar (Gift of Joy)",
     "ASSOCIATION_FULL": "Bucurie în Dar (Gift of Joy) Association",
-    "NECESSARY_AMOUNT": "Necessary amount",
-    "IN_CONSTRUCTION": "Under construction! Email: "
+    "NECESSARY_AMOUNT": "Necessary amount"
+  },
+
+  "PROJECT_STATUS": {
+    "TITLE": "Project status",
+    "UPDATED": "Updated:",
+    "NOTICE": "The center is under development and is not yet accepting residents.",
+    "NOTICE_HELP": "If you or someone close to you needs help now, see the page",
+    "NOTICE_HELP_LINK": "I need help",
+    "STEPS": {
+      "LAND": "Land",
+      "DESIGN": "Design",
+      "PERMITS": "Permits",
+      "CONSTRUCTION": "Construction"
+    },
+    "STATUS": {
+      "DONE": "Done",
+      "IN_PROGRESS": "In progress",
+      "NOT_STARTED": "Next"
+    },
+    "FUNDING_TITLE": "Stage I funding",
+    "GOAL": "Goal",
+    "RAISED": "Raised so far",
+    "OF_TOTAL": "of the total",
+    "OPENING": "Estimated opening"
+  },
+
+  "HELP": {
+    "TITLE": "I need help",
+    "META_DESCRIPTION": "Who to call right now if you or someone close to you is struggling with addiction or in crisis.",
+    "NOT_OPERATIONAL_TITLE": "The center is not open yet",
+    "NOT_OPERATIONAL_TEXT": "The St. John the Merciful Center is under construction and is not yet accepting residents. But you are not alone: below you will find who you can call right now.",
+    "EMERGENCY_TITLE": "Emergency",
+    "EMERGENCY_TEXT": "If your life or someone else's is in immediate danger, call 112 now.",
+    "LINES_TITLE": "Support lines in Romania",
+    "LINES": {
+      "DEPREHUB": "Emotional support for any problem. 24/7, free and confidential.",
+      "DEPREHUB_DRUGS": "Information and support about drug use.",
+      "ALCOLINE": "Support for alcohol-related problems.",
+      "SUICIDE": "For suicidal thoughts. Free, anonymous, every day from 19:00 to 07:00.",
+      "CHILD": "For children, teenagers and parents. Free."
+    },
+    "GUIDANCE_TITLE": "Want to talk to us?",
+    "GUIDANCE_TEXT": "We do not offer therapy services yet, but we can point you to specialists and centers that work with people affected by addiction today.",
+    "DISCLAIMER": "The lines above are run by other organizations. We are not affiliated with them."
   },
 
   "DONATIONS": {
@@ -28,7 +71,7 @@
     "MOTTO_2": "save lives",
     "MOTTO_3": "change destinies",
     "MOTTO_4": "heal souls",
-    "DESCRIPTION": "We are building Romania's first integrated therapeutic center for addiction recovery and prevention, \"St. John the Merciful\".",
+    "DESCRIPTION": "We are building an integrated therapeutic center for addiction recovery and prevention, \"St. John the Merciful\".",
       "DESCRIPTION_2": "In a world that teaches you to consume to be, to be validated to exist, and to hide to survive — we teach you to be. Alive. Authentic. Whole.",
     "SEE_MORE": "Learn more",
     "INFO": "Full Presentation"
@@ -214,6 +257,14 @@
   "OUR_TEAM": {
     "TITLE": "Our team",
     "DESCRIPTION": "Meet our team! We are people passionate about what we do and we want to be of service in the world we live in. Each of us has had our own falls, but the Good Lord worked through wonderful people, and they helped us get out of the mud of life. Now it is our turn to come to the aid of those who need us!",
+    "SHORT_DESCRIPTION": "The people building the center: the association's leadership, doctors, specialists and volunteers.",
+    "SEE_TEAM": "See the team and their expertise",
+    "GROUPS": {
+      "LEADERSHIP": "Association leadership",
+      "MEDICAL": "Medical team",
+      "OPERATIONAL": "Specialists and operations team",
+      "PARTNERS": "Partners"
+    },
     "TEAM_MEMBERS": {
       "FIRST": { "NAME": "Alexandru Octavian Ionescu", "ROLE": "President", "DESCRIPTION": "For 23 years I worked in emergency situations, of which 17 years as a rescue diver within the Special Rescue Detachment. Law graduate and currently president of the Joy in Gift and St. John the Merciful Associations." },
       "SECOND": { "NAME": "Adrian Ion-Mărgineanu", "ROLE": "Vice President", "DESCRIPTION": "Marie Curie fellow, double PhD in Biomedical Engineering, with over 10 years of experience in artificial intelligence and biomedical imaging for the detection of cancer in MRI images and microscopy images. Coordinates AI development at Invenio-Imaging, developing AI solutions for brain cancer, lung cancer, and prostate cancer." },
@@ -272,6 +323,12 @@
   "CONTACT": {
     "TITLE": "Contact",
     "DESCRIPTION": "Contact us for any questions or suggestions.",
+    "DIRECT": {
+      "TITLE": "Call or write to us",
+      "TEXT": "The fastest way to reach us is by phone or WhatsApp. We also answer emails.",
+      "CALL": "Call now",
+      "WHATSAPP": "Message on WhatsApp"
+    },
     "FORM": {
       "TITLE": "Contact us!",
       "DISCLAIMER": "Please call before visiting us. Thank you!",
@@ -323,7 +380,7 @@
   },
 
   "VISION": {
-    "TITLE": "The First Integrated Therapeutic Center in Romania",
+    "TITLE": "An Integrated Therapeutic Center for Romania",
     "DESCRIPTION": "We are building a model that:",
     "POINTS": {
       "1": "Provides a coherent response to the addiction crisis — through wholeness, not just treatment",
@@ -348,7 +405,7 @@
 
   "FINAL_CTA": {
     "TITLE": "Every person is called to become whole again",
-    "QUOTE": "At the Saint John the Merciful Center, we welcome every person with open arms and a heart full of hope. It doesn't matter how far you've fallen, what matters is that you choose to rise. And we are here, beside you, every step of the way.",
+    "QUOTE": "At the Saint John the Merciful Center, we will welcome every person with open arms and a heart full of hope. It doesn't matter how far you've fallen, what matters is that you choose to rise. And we will be there, beside you, every step of the way.",
     "DOWNLOAD_PDF": "Full Presentation",
     "CONTACT_US": "Contact Us",
     "BECOME_VOLUNTEER": "Become a Volunteer",
@@ -361,6 +418,12 @@
   "HEADER": {
     "LOCALE": "en",
     "HOME": { "LABEL": "Home", "LINK": "/en" },
+    "ABOUT_PROJECT": { "LABEL": "About the project", "LINK": "/en#despre" },
+    "PROGRAM": { "LABEL": "Therapy program", "LINK": "/en#program" },
+    "STATUS": { "LABEL": "Project status", "LINK": "/en#stadiu" },
+    "TEAM": { "LABEL": "Team", "LINK": "/en/team" },
+    "GET_INVOLVED": { "LABEL": "Get involved", "LINK": "/en#implica-te" },
+    "HELP": { "LABEL": "I need help", "LINK": "/en/help" },
     "PROJECTS": { "LABEL": "Projects", "LINK": "/en/projects" },
     "ABOUT": { "LABEL": "About", "LINK": "/en/about" },
     "GALLERY": { "LABEL": "Gallery", "LINK": "/en/gallery" },

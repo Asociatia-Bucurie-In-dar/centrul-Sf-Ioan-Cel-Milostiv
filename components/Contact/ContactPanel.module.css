@@ -32,7 +32,7 @@
 }
 
 .form {
-    background-color: var(--mantine-color-white);
+    background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-6));
     padding: var(--mantine-spacing-xl);
     border-radius: var(--mantine-radius-md);
     box-shadow: var(--mantine-shadow-lg);

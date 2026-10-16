@@ -1,12 +1,18 @@
-import {Container, Title, Text, Button, Image, Divider} from '@mantine/core';
+import {Container, Title, Text, Button, Image, Divider, Group} from '@mantine/core';
 import classes from './HomeHero.module.css';
 import {useTranslations} from "next-intl";
 import {TeleportButton} from "@/components/CoolEffects/TeleportButton/TeleportButton";
-import {IconDownload, IconFile, IconFileTypePdf, IconPdf} from "@tabler/icons-react";
+import {IconFileTypePdf} from "@tabler/icons-react";
+import {DonatePopupButton} from "@/components/Popups/DonatePopup/DonatePopupButton";
+import {GetAllProjectsStaticContent} from "@/content/projects/projects-content";
+import {useDonatePopupTranslations} from "@/utils/donate-translations";
 
 export function HomeHero() {
     const commonT = useTranslations('COMMON');
     const heroT = useTranslations('HOME_HERO');
+    const projT = useTranslations('SAINT_JOHN');
+    const donateTranslations = useDonatePopupTranslations();
+    const proj = GetAllProjectsStaticContent(1)[0];
     
     return (
         <div className={classes.root}>
@@ -47,19 +53,24 @@ export function HomeHero() {
                         {/*<Divider color="transparent" mt="xl"/>*/}
                         {/*<TeleportButton targetID="progressSection" text={heroT('SEE_MORE')} size="md"/>*/}
                         <Divider color="transparent" mt="xl"/>
-                        <Button
-                            component="a"
-                            href="/info2.pdf"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            variant="gradient"
-                            gradient={{from: 'pink', to: 'yellow', deg: 90}}
-                            size="lg"
-                            fw={600}
-                            rightSection={<IconFileTypePdf size={18} />}
-                        >
-                            {heroT('INFO')}
-                        </Button>
+                        <Group gap="md">
+                            <DonatePopupButton projectId={proj.id}
+                                               projectTile={projT('TITLE')}
+                                               size="lg"
+                                               translations={donateTranslations}/>
+                            <Button
+                                component="a"
+                                href="/info2.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                variant="white"
+                                size="lg"
+                                fw={600}
+                                rightSection={<IconFileTypePdf size={18} />}
+                            >
+                                {heroT('INFO')}
+                            </Button>
+                        </Group>
                     </div>
                 </div>
             </Container>

@@ -3,9 +3,15 @@ import {useTranslations} from "next-intl";
 import classes from './FinalCTASection.module.css';
 import {IconFileTypePdf, IconMail, IconMapPin, IconPhone} from '@tabler/icons-react';
 import {contactInfo} from "@/content/contact/my-contact";
+import {DonatePopupButton} from "@/components/Popups/DonatePopup/DonatePopupButton";
+import {GetAllProjectsStaticContent} from "@/content/projects/projects-content";
+import {useDonatePopupTranslations} from "@/utils/donate-translations";
 
 export function FinalCTASection() {
     const t = useTranslations('FINAL_CTA');
+    const projT = useTranslations('SAINT_JOHN');
+    const donateTranslations = useDonatePopupTranslations();
+    const proj = GetAllProjectsStaticContent(1)[0];
 
     return (
         <div className={classes.root}>
@@ -30,13 +36,17 @@ export function FinalCTASection() {
 
                 <Center>
                     <Group gap="md" wrap="wrap" justify="center">
+                        <DonatePopupButton projectId={proj.id}
+                                           projectTile={projT('TITLE')}
+                                           size="lg"
+                                           translations={{...donateTranslations, Donate: t('MAKE_DONATION')}}/>
                         <Button
                             component="a"
                             href="/info2.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
-                            variant="gradient"
-                            gradient={{from: 'pink', to: 'yellow', deg: 90}}
+                            variant="outline"
+                            color="white"
                             size="lg"
                             fw={600}
                             rightSection={<IconFileTypePdf size={18}/>}
@@ -88,7 +98,7 @@ export function FinalCTASection() {
                             www.bucurieindar.ro
                         </Anchor>
                         <Anchor href="https://centrulsfantulioancelmilostiv.org" target="_blank" rel="noopener noreferrer" c="white" fw={500} fz="sm">
-                            www.centrulioancelmilostiv.org
+                            www.centrulsfantulioancelmilostiv.org
                         </Anchor>
                     </Group>
                 </Stack>

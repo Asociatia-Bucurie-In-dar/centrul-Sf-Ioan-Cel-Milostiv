@@ -1,157 +1,83 @@
-import {Avatar, Card, Container, Divider, SimpleGrid, Text, Title} from '@mantine/core';
+import {Avatar, Button, Card, Center, Container, Divider, SimpleGrid, Text, Title} from '@mantine/core';
+import {IconArrowRight} from '@tabler/icons-react';
 import classes from './OurTeam.module.css';
 import {TitleWithDescription} from "@/components/Common/TitleWithDescription";
 import {useTranslations} from "next-intl";
 import commonClasses from "@/utils/commonClasses.module.css";
+import {Link} from "@/navigation";
+import {teamGroups, TeamMember} from "@/content/team/team-members";
+import {MyRoutePaths} from "@/utils/route-paths";
 
+// Home page version: photo, name and role only, with a link to the full team page.
 export function OurTeam() {
     const t = useTranslations('OUR_TEAM');
-
-    const data = [
-        {
-            avatar: '/team/alex2.jpeg',
-            name: t('TEAM_MEMBERS.FIRST.NAME'),
-            job: t('TEAM_MEMBERS.FIRST.ROLE'),
-            description: t('TEAM_MEMBERS.FIRST.DESCRIPTION'),
-        },
-        {
-            avatar: '/team/catalin.jpeg',
-            name: t('TEAM_MEMBERS.MARIUS.NAME'),
-            job: t('TEAM_MEMBERS.MARIUS.ROLE'),
-            description: t('TEAM_MEMBERS.MARIUS.DESCRIPTION'),
-        },
-                {
-            avatar: '/team/3.jpeg',
-            name: t('TEAM_MEMBERS.PITIGOI.NAME'),
-            job: t('TEAM_MEMBERS.PITIGOI.ROLE'),
-            description: t('TEAM_MEMBERS.PITIGOI.DESCRIPTION'),
-        },
-        {
-            avatar: '/team/2.jpeg',
-            name: t('TEAM_MEMBERS.SECOND.NAME'),
-            job: t('TEAM_MEMBERS.SECOND.ROLE'),
-            description: t('TEAM_MEMBERS.SECOND.DESCRIPTION'),
-        },
-        {
-            avatar: '/team/4.jpeg',
-            name: t('TEAM_MEMBERS.FOURTH.NAME'),
-            job: t('TEAM_MEMBERS.FOURTH.ROLE'),
-            description: t('TEAM_MEMBERS.FOURTH.DESCRIPTION'),
-        },
-        {
-            avatar: '/team/arhitectura.jpeg',
-            name: t('TEAM_MEMBERS.FIFTH.NAME'),
-            job: t('TEAM_MEMBERS.FIFTH.ROLE'),
-            description: t('TEAM_MEMBERS.FIFTH.DESCRIPTION'),
-        },
-        {
-            avatar: '/team/anabanica.jpeg',
-            name: t('TEAM_MEMBERS.SEVENTH.NAME'),
-            job: t('TEAM_MEMBERS.SEVENTH.ROLE'),
-            description: t('TEAM_MEMBERS.SEVENTH.DESCRIPTION'),
-        },
-        {
-            avatar: '/team/anazaharia.jpeg',
-            name: t('TEAM_MEMBERS.EIGHTH.NAME'),
-            job: t('TEAM_MEMBERS.EIGHTH.ROLE'),
-            description: t('TEAM_MEMBERS.EIGHTH.DESCRIPTION'),
-        },
-        {
-            avatar: '/team/mirela.jpeg',
-            name: t('TEAM_MEMBERS.MIRELA.NAME'),
-            job: t('TEAM_MEMBERS.MIRELA.ROLE'),
-            description: t('TEAM_MEMBERS.MIRELA.DESCRIPTION'),
-        },
-        {
-            avatar: '/team/asdadqw.jpeg',
-            name: t('TEAM_MEMBERS.FEODOT.NAME'),
-            job: t('TEAM_MEMBERS.FEODOT.ROLE'),
-            description: t('TEAM_MEMBERS.FEODOT.DESCRIPTION'),
-        },
-        {
-            avatar: '/team/manuela.jpg',
-            name: t('TEAM_MEMBERS.MANUELA.NAME'),
-            job: t('TEAM_MEMBERS.MANUELA.ROLE'),
-            description: t('TEAM_MEMBERS.MANUELA.DESCRIPTION'),
-        },
-        {
-            avatar: '/team/ferodot.png',
-            name: t('TEAM_MEMBERS.ANAMARIA.NAME'),
-            job: t('TEAM_MEMBERS.ANAMARIA.ROLE'),
-            description: t('TEAM_MEMBERS.ANAMARIA.DESCRIPTION'),
-        },
-        {
-            avatar: '/team/constantin.jpg',
-            name: t('TEAM_MEMBERS.ELEVENTH.NAME'),
-            job: t('TEAM_MEMBERS.ELEVENTH.ROLE'),
-            description: t('TEAM_MEMBERS.ELEVENTH.DESCRIPTION'),
-        },
-        {
-            avatar: '/team/adrianvoicu.jpg',
-            name: t('TEAM_MEMBERS.ADRIANVOICU.NAME'),
-            job: t('TEAM_MEMBERS.ADRIANVOICU.ROLE'),
-            description: t('TEAM_MEMBERS.ADRIANVOICU.DESCRIPTION'),
-        },
-        {
-            avatar: '/team/7.jpg',
-            name: t('TEAM_MEMBERS.TENTH.NAME'),
-            job: t('TEAM_MEMBERS.TENTH.ROLE'),
-            description: t('TEAM_MEMBERS.TENTH.DESCRIPTION'),
-        }
-    ];
-
-    const items = data.map((item) => {
-        return (
-            // <Card
-            //     key={item.name}
-            //     padding="md"
-            //     radius="md"
-            //     shadow="sm"
-            //     withBorder
-            //     className={classes.memberCard}
-            //     style={{ display: 'flex', alignItems: 'flex-start' }}
-            // >
-            //     <Avatar size={140} src={item.avatar} radius={12} alt={item.name + ' ' + item.job} />
-            //     <div style={{ marginLeft: 16, flex: 1 }}>
-            //         <Title fz="md" fw={600}>{item.name}</Title>
-            //         <Text c="customDimmed" fz="sm" fw={500} style={{ marginTop: 4 }}>{item.job}</Text>
-            //         <Text c="dimmed" fz="sm" style={{ marginTop: 8 }}>{item.description}</Text>
-            //     </div>
-            // </Card>
-            <Card key={item.name} shadow="md" radius="md" className={classes.card} padding="xl">
-            <Avatar size={140} src={item.avatar} radius={8} alt={item.name + ' ' + item.job} />
-            <Text fz="lg" fw={600} mt="md">
-                {item.name}
-            </Text>
-            <Text fz="md" fw={400} className={classes.cardTitle}>
-                {item.job}
-            </Text>
-            <Divider mt="sm" mb={0} />
-            <Text fz="sm" c="customDimmed" mt="sm" fw={500}>
-                {item.description}
-            </Text>
-        </Card>
-        )
-    });
+    const members = teamGroups.flatMap((group) => group.members);
 
     return (
         <Container pt={40} pb={55} size="full" className={commonClasses.darkerBackground}>
             <Container size="lg">
+                <TitleWithDescription title={t('TITLE')} description={t('SHORT_DESCRIPTION')} maxWidth="800px"/>
 
-                <TitleWithDescription title={t('TITLE')}
-                                      description={t('DESCRIPTION')} maxWidth="1000px"/>
+                <Divider mt="xl" mb="sm" color="transparent"/>
 
-                <Divider mt="xl" mb="sm" color="transparent" />
-
-                <SimpleGrid
-                    cols={{ base: 1, sm: 1, md: 2, lg: 3 }}
-                    spacing="lg"
-                    verticalSpacing="lg"
-                    className={classes.grid}
-                >
-                    {items}
+                <SimpleGrid cols={{base: 2, sm: 3, md: 5}} spacing="lg" verticalSpacing="xl">
+                    {members.map((member) => (
+                        <div key={member.key} className={classes.compactMember}>
+                            <Avatar size={110} src={member.avatar} radius={8} mx="auto"
+                                    alt={t(`TEAM_MEMBERS.${member.key}.NAME`)}/>
+                            <Text fz="sm" fw={700} mt="sm">{t(`TEAM_MEMBERS.${member.key}.NAME`)}</Text>
+                            <Text fz="xs" fw={500} className={classes.cardTitle}>{t(`TEAM_MEMBERS.${member.key}.ROLE`)}</Text>
+                        </div>
+                    ))}
                 </SimpleGrid>
+
+                <Center mt={40}>
+                    <Link href={MyRoutePaths.Team}>
+                        <Button component="span" size="md" variant="light" fw={600}
+                                rightSection={<IconArrowRight size={18}/>}>
+                            {t('SEE_TEAM')}
+                        </Button>
+                    </Link>
+                </Center>
             </Container>
+        </Container>
+    );
+}
+
+function MemberCard({member}: {member: TeamMember}) {
+    const t = useTranslations('OUR_TEAM');
+    const name = t(`TEAM_MEMBERS.${member.key}.NAME`);
+    const role = t(`TEAM_MEMBERS.${member.key}.ROLE`);
+
+    return (
+        <Card shadow="md" radius="md" className={classes.card} padding="xl">
+            <Avatar size={140} src={member.avatar} radius={8} alt={name + ' ' + role}/>
+            <Text fz="lg" fw={600} mt="md">{name}</Text>
+            <Text fz="md" fw={400} className={classes.cardTitle}>{role}</Text>
+            <Divider mt="sm" mb={0}/>
+            <Text fz="sm" c="customDimmed" mt="sm" fw={500}>
+                {t(`TEAM_MEMBERS.${member.key}.DESCRIPTION`)}
+            </Text>
+        </Card>
+    );
+}
+
+// Team page version: full bios, split by group.
+export function TeamDetails() {
+    const t = useTranslations('OUR_TEAM');
+
+    return (
+        <Container size="lg">
+            <TitleWithDescription title={t('TITLE')} description={t('DESCRIPTION')} maxWidth="1000px"/>
+
+            {teamGroups.map((group) => (
+                <section key={group.key}>
+                    <Title order={3} mt={60} mb="lg" ta="center">{t(`GROUPS.${group.key}`)}</Title>
+                    <SimpleGrid cols={{base: 1, md: 2, lg: 3}} spacing="lg" verticalSpacing="lg">
+                        {group.members.map((member) => <MemberCard key={member.key} member={member}/>)}
+                    </SimpleGrid>
+                </section>
+            ))}
         </Container>
     );
 }

@@ -2,6 +2,8 @@ import {HomeHero} from '@/components/Home/Hero/HomeHero';
 import {HomeProjects} from '@/components/Home/HomeProjects/HomeProjects';
 import {HomeProjects2} from '@/components/Home/HomeProjects2/HomeProjects2';
 import {DonationProgress} from '@/components/DonationProgress/DonationProgress';
+import {ProjectStatus} from '@/components/ProjectStatus/ProjectStatus';
+import classes from './page.module.css';
 import {HomeAboutProjects} from '@/components/Home/HomeAboutProjects/HomeAboutProjects';
 import {OurTeam} from '@/components/OurTeam/OurTeam';
 import {HomeWhy} from "@/components/Home/HomeWhy/HomeWhy";
@@ -97,23 +99,27 @@ export default function HomePage({params}: {params: Promise<{locale: string}>}) 
     //     ],
     // };
 
+    // Story order: what we build -> where we are -> how it works -> why trust us -> how to help -> donate.
+    // The ids are the targets of the header menu links (HEADER.*.LINK in messages/*.json).
     return (
       <>
           <HomeHero/>
-          <DonationProgress/>
-          <WhereWeBuild/>
-            <VideoPresentation/>
-          {/* <Addictions translations={addictionsData}/> */}
-          <HomeProjects/>
-          <HomeProjects2/>
-          <FacilitiesSection/>
+          <section id="stadiu" className={classes.anchor}><ProjectStatus/></section>
+          <section id="despre" className={classes.anchor}>
+              <DonationProgress/>
+              <WhereWeBuild/>
+              <VideoPresentation/>
+              <HomeProjects/>
+          </section>
+          <section id="program" className={classes.anchor}>
+              <HomeProjects2/>
+              <FacilitiesSection/>
+          </section>
           <ValuesSection/>
-          <ImpactSection/>
           <VisionSection/>
-          {/* <HomeWhy />
-          <HomeAboutProjects/> */}
-          <GetInvolvedSection/>
+          <ImpactSection/>
           <OurTeam/>
+          <section id="implica-te" className={classes.anchor}><GetInvolvedSection/></section>
           <FinalCTASection/>
       </>
   );

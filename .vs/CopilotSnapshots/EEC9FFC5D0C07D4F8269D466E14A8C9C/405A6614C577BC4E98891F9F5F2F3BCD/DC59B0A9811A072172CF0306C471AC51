@@ -1,0 +1,398 @@
+﻿{
+  "COMMON":
+  {
+    "DONATE": "Donează",
+    "DONATE_NOW": "Donează Acum",
+    "ASSOCIATION": "Bucurie în Dar",
+    "ASSOCIATION_FULL": "Asociația Bucurie în Dar",
+    "NECESSARY_AMOUNT": "Suma necesară",
+    "IN_CONSTRUCTION": "În construcție! Email la adresa: "
+  },
+
+  "DONATIONS": {
+    "SUCCESS_TITLE": "Mulțumim!",
+    "SUCCESS_MESSAGE": "Donația a fost efectuată cu succes.",
+    "ERROR_TITLE": "Ups!",
+    "ERROR_MESSAGE": "Donația nu a reușit. Vă rugăm să încercați din nou mai târziu.",
+    "BACK": "Înapoi acasă"
+  },
+  
+  "VIDEO_PRESENTATION": {
+    "TITLE": "Vizionează Prezentarea Noastră",
+    "DESCRIPTION": "Descoperă misiunea, valorile și impactul pe care ne străduim să-l avem."
+  },
+
+  "HOME_HERO":
+  {
+    "MOTTO_1": "Împreună",
+    "MOTTO_2": "salvăm vieți",
+    "MOTTO_3": "schimbăm destine",
+    "MOTTO_4": "vindecăm suflete",
+    "DESCRIPTION": "Construim primul centru terapeutic integrat din România de Recuperare și Prevenire a Dependențelor „Sf. Ioan Cel Milostiv”",
+    "DESCRIPTION_2":"Într-o lume care te învață să consumi pentru a fi, să fii validat pentru a exista și să te ascunzi ca să supraviețuiești — noi te învățăm să fii. Viu. Autentic. Întreg.",
+    "SEE_MORE": "Află mai multe",
+    "INFO": "Prezentare Completă"
+  },
+  
+  "DONATION_PROGRESS": {
+    "TITLE": "Un răspuns la o criză profundă",
+    "DESCRIPTION": "Dependența nu este doar o boală. Este răspunsul disperat al unei ființe rănite de o lume care a înlocuit a fi cu a avea, a iubi cu a deține, a sluji cu a domina. O lume care a slăbit legăturile de familie, a transformat viața într-un spectacol de consum și a creat o dependență masivă de validare externă, lăsând sufletele goale chiar și în mijlocul „succesului”. Construim un loc unde fiecare istorie este ascultată, fiecare suferință onorată, fiecare potențial cultivat.",
+    "STEPS": {
+      "1": "Teren şi utilități",
+      "2": "Clădire şi căsuțe",
+      "3": "Amenajare centru",
+      "4": "Personal"
+    }
+  },
+
+  "TRANSFORMATION_STEPS": {
+    "TITLE": "Patru Etape ale Transformării",
+    "SLOGAN": "Nu măsurăm succesul doar în zile de abstinență, ci în vieți asumate, reconstruite și menținute.",
+    "STEPS": [
+      {
+        "TITLE": "Stabilizare",
+        "TEXTS": ["Evaluare și un mediu sigur", "Primul pas către reîntregire"]
+      },
+      {
+        "TITLE": "Explorare",
+        "TEXTS": ["Terapie individuală și de grup", "Recunoașterea rănilor și a mecanismelor"]
+      },
+      {
+        "TITLE": "Transformare",
+        "TEXTS": ["Artă, natură, muncă, rugăciune", "Reconectarea cu sinele autentic"]
+      },
+      {
+        "TITLE": "Reintegrare",
+        "TEXTS": ["Educație, mentorat, autonomie, rutina", "Reîntoarcerea în lume, transformat"]
+      }
+    ]
+  },
+
+  "WHERE_WE_BUILD": {
+    "TITLE": "La doar 38 de kilometri de centrul Bucureștiului",
+    "DESCRIPTION": "Construim centrul în natura liniștită a comunei Butimanu, județul Dâmbovița, pe o suprafață de 3 hectare de teren dedicate reconstrucției vieții celor afectați de dependențe, creând calea către redobândirea controlului conștient asupra propriei existențe prin instrumente durabile care previn recăderea și construiesc o viață autentică, liberă și asumată.",
+    "DESCRIPTION_2": "În acest spațiu al echilibrului dintre știință, natură și spiritualitate, redescoperim împreună valorile care dau sens vieții: iubirea, comunitatea și bucuria de a trăi cu rost, cu sens."
+  },
+
+  "SAINT_JOHN": {
+    "TITLE": "Centrul Sfântul Ioan Cel Milostiv",
+    "DESCRIPTION": "Împreună salvăm vieți, schimbăm destine, vindecăm suflete. Fiecare dintre noi am trecut cel puțin o dată în viață printr-o perioadă neagră din care nu mai știam cum să ieșim sau când se va termina. I-am văzut pe cei din familie, pe prieteni, pe oamenii dragi din viața nostră suferind și nu aveam cum să-i ajutăm. Cât de mult contează ajutorul oferit cu empatie, cu drag și dragoste. În acele momente ai nevoie de un sprijin și cred cu tărie că echipa Centrului Sf. Ioan Cel Milostiv se va strădui să aducă alinare, vindecare și să fie sprijin celor care ne vor spune, ajutați-ne.",
+    "IMAGE_ALT": "Icoana Sfântul Ioan cel Milostiv"
+  },
+  
+  "ORGANIZATON": {
+    "TITLE": "Un Ecosistem Terapeutic Complet",
+    "DESCRIPTION": "Construim o comunitate, nu doar un centru. Un loc unde vindecarea se realizează prin echilibrul dintre știință, natură, artă, muncă terapeutică și redescoperirea valorilor autentice ale vieții.",
+    "CATEGORIES": [
+      {
+        "TITLE": "Comunitatea Terapeutică „Rodul Bun”",
+        "TEXTS": [
+          "Recuperare prin viață comunitară",
+          "Până la 100 rezidenți simultan",
+          "Programe de 6-24 luni"
+        ]
+      },
+      {
+        "TITLE": "Centrul Academic Interdisciplinar",
+        "TEXTS": [
+          "Cercetare, evaluare, formare",
+          "Standarde europene de calitate",
+          "Politici publice în domeniu"
+        ]
+      },
+      {
+        "TITLE": "Întreprinderea Socială “Brutăria cu Rost”",
+        "TEXTS": [
+          "Ergoterapie și auto-finanțare",
+          "Produse tradiționale, organice",
+          "Vânzare externă"
+        ]
+      }
+    ]
+  },
+  
+  "ADDICTIONS": {
+    "TITLE": "De ce construim acest centru?",
+    "DESCRIPTION": "Pentru că fiecare din noi, cei care am pus bazele acestui centru, am trecut prin greutățile vieții și sunt mulți cei care au nevoie de ajutor și îndrumare. Știm că, dacă o clipă ai cunoscut suferința adâncă, nu poți fi niciodată indiferent față de aproapele tău. Am decis să ne dedicăm viața pentru a-i ajuta pe cei care și-au pierdut nădejdea. În Centrului Sf. Ioan Cel Milostiv, viața este neprețuită și ne punem toată nădejdea în Dumnezeu și încrederea în voi că ne veți ajuta să ajutăm! Centru va cuprinde și un cămin pentru bătrâni singuri, plus un cămin pentru copii părasiți cu handicap grav! Centrul va mai cuprinde Cămin pentru bătrâni singuri, Îngrijire paleativă, Cămin pentru copii părasiți cu dizabilități.",
+    "READ_MORE": "Vezi mai mult",
+    "CATEGORIES": [
+      {
+        "TITLE": "Alcool",
+        "DESCRIPTION": "Alcoolismul este o boală cronică, care poate fi tratată. Este caracterizată prin dorința de a bea și de a nu putea opri consumul de alcool, chiar dacă acesta cauzează probleme serioase de sănătate sau sociale. Alcoolismul poate fi fatal, dar este tratabil. Este important să recunoaștem că alcoolismul este o boală și să căutăm ajutor cât mai curând posibil."
+      },
+      {
+        "TITLE": "Droguri / Medicamente",
+        "DESCRIPTION": "Dependența de droguri este o problemă majoră care afectează milioane de oameni din întreaga lume. Este o boală cronică, caracterizată prin căutarea și consumul compulsiv de droguri, chiar dacă acestea au efecte nocive asupra sănătății și a vieții sociale. Dependența de droguri poate fi fatală, dar este tratabilă. Este important să recunoaștem că dependența de droguri este o boală și să căutăm ajutor cât mai curând posibil."
+      },
+      {
+        "TITLE": "Alimentație",
+        "DESCRIPTION": "Bulimia este o tulburare de alimentație care poate pune viața în pericol, dacă nu este tratată la timp sau dacă tratamentul eșuează. Pentru cei care suferă de bulimie, această afecțiune fizică și psihică în egală măsură este o provocare toată viața."
+      },
+      {
+        "TITLE": "Jocuri de noroc",
+        "DESCRIPTION": "Jocul patologic de noroc (online sau offline) este des întâlnit și are drept caracteristici repercusiunile severe asupra calității vieții sociale, financiare și a relațiilor familiale ale persoanei afectate. Acesta este diferit de jocul ocazional, rar cu prietenii, într-un anumit context sau de jocul profesionist în care jucătorul joacă calculat, pentru a face bani și știe cum/când să se oprească. Ca și la alte adicții, controlul impulsiunilor este deficitar."
+      },
+      {
+        "TITLE": "Jocuri video",
+        "DESCRIPTION": "Jocurile video sunt o formă de divertisment pentru mulți oameni, dar pentru alții pot deveni o problemă. Jocurile video pot deveni o problemă atunci când o persoană nu se poate opri să joace, chiar dacă are probleme în alte domenii ale vieții sale, cum ar fi școala sau relațiile cu familia și prietenii."
+      },
+      {
+        "TITLE": "Pornografie",
+        "DESCRIPTION": "Este nevoia crescută de a viziona materiale pornografice. Aceasta vine însoțită de o serie de simptome precum: stimă de sine scăzută, dificultăți de relaționare, lipsă de intimitate emoțională cu partenerul, diminuarea libidoului și disfuncție erectilă, izolare socială, scăderea interesului față de relaționarea fizică reală, lipsă de motivație și depresie."
+      },
+      {
+        "TITLE": "Cumpărături",
+        "DESCRIPTION": "A merge din când în când la cumpărături nu înseamnă că ești dependent/ă. Însă dacă ajungi să cumperi mai mult decât îți poți permite și ai acest comportament pe fondul unor emoții de tristețe severă sau furie, atunci putem vorbi despre adicție."
+      },
+      {
+        "TITLE": "Nicotină",
+        "DESCRIPTION": "Dependența de nicotină este una dintre cele mai răspândite dependențe din lume. Fumatul este o problemă de sănătate publică și este asociat cu o serie de boli grave, inclusiv cancerul, bolile de inimă și boli pulmonare."
+      },
+      {
+        "TITLE": "Tehnologie / Internet",
+        "DESCRIPTION": "În era internetului, în perioada telemuncii, teleșcolii, toți suntem \"dependenți\" de calculator și de internet. Dar, atunci când pierdem noțiunea timpului în fața calculatorului, când nu ne putem desprinde de calculator pentru a face altceva pentru beneficiul nostru, când viața socială se reduce sau dispare complet, când ești entuziasmat doar de statul/jocul la calculator/în mediul online/pe rețele de socializare, atunci putem vorbi de adicție."
+      },
+      {
+        "TITLE": "Munca compulsivă",
+        "DESCRIPTION": "În condițiile în care muncim ca să trăim, muncim pentru că suntem încurajați socio-economic să o facem, pentru că supraviețiurea devine dificilă în lipsa muncii, cum putem vorbi despre adicție? Tot mai des se vorbește despre efectul \"burnout\" care vine din \"prea multă muncă\"."
+      },
+      {
+        "TITLE": "Cafeină",
+        "DESCRIPTION": "Cafeina este o substanță care se găsește în mod natural în plante, cum ar fi cafeaua, ceaiul și cacao. Este adesea adăugată la băuturi răcoritoare și medicamente. Cafeina este un stimulent care afectează creierul. Consumul de cafeină poate fi benefic pentru sănătate, dar poate deveni o problemă atunci când o persoană nu se poate opri să consume cafeină, chiar dacă are probleme de sănătate sau sociale din cauza consumului de cafeină."
+      },
+      {
+        "TITLE": "Exerciții fizice",
+        "DESCRIPTION": "Exercițiile fizice sunt benefice pentru sănătatea noastră. Dar, atunci când nu ne putem opri să facem exerciții fizice, chiar dacă avem probleme de sănătate sau sociale din cauza exercițiilor fizice, atunci putem vorbi despre adicție."
+      },
+      {
+        "TITLE": "Televizor",
+        "DESCRIPTION": "Televiziunea, respective relaxarea omului modern ar putea fi numită chiar adicție? Neuropsihologii au demonstrat că televizorul are effect hipnotic, indiferent de emisiunea vizionată. Creierul nostru intră în stare de relaxare, respectiv de somn după 2 minute de expunere. Creierul nu face nici un efort când este expus televiziunii, practic tot ceea ce vedem trece dincolo de gândirea noastră critică, direct în subconștient. care duc la formarea dependențelor care uneori sunt blamate social: alcoolul, drogurile, sexul, iar alteori încurajate și admirate: munca, sportul. De regulă, dependențele au în spatele lor un abuz sau o traumă, fie ea și sub forma neglijării, iar comportamentul adictiv are rolul de a ameliora disconfortul produs de emoția asociată. Iată cum putem înțelege mai bine aceste comportamente."
+      }
+    ]
+  },
+  
+  "HOME_WHY": {
+    "TITLE": "De ce înființăm Centrul?",
+    "FIRST_TITLE": "Ajutor",
+    "FIRST_DESCRIPTION": "Bună să îți fie inima! Oameni dragi, ne straduim să aducem nădejde în inimile acestor oameni deznădăjduiți, să le oferim prietenia și ajutorul nostru. Ne vom strădui să-i vindecăm, pentru a-i vedea din nou râzând, sănătoși și frumoși! Am trecut și noi prin încercările vieții și ne dorim din toată inima să fim alături de toți cei care trec prin momente de cumpănă. Nădejdea în Dumnezeu și încrederea în oameni sunt calea pe care o urmăm.",
+    "SECOND_TITLE": "România",
+    "SECOND_DESCRIPTION": "Centrele de prevenire și tratare a adicțiilor sunt insuficiente în România, iar numărul celor afectați de adicții crește, în special în rândul copiilor și adolescenților. Nu putem și nu vrem să privim indiferenți la ce se întâmplă acum și la ce va urma. Un copil, un adolescent sau un adult salvat nu se pot cântări în bani. Ce ați oferi pentru a vă găsi liniștea? Dar sănătatea dumneavoastră sau a copilului? Ajutați-ne să ajutăm!"
+  },
+
+  "HOME_HELP": {
+    "BADGE": "",
+    "TITLE": "",
+    "DESCRIPTION": "",
+    "FIRST": {
+      "TITLE": "Cine suntem?",
+      "DESCRIPTION": "Suntem echipa care conduce și Asociația Bucurie în Dar și care, după câțiva ani de activități umanitare, a înființat Asociația „Centrul Sf. Ioan cel Milostiv” pentru a ajuta la o scară mai mare. Suntem oameni care trăiesc și pentru alții, nu doar pentru noi înșine."
+    },
+    "SECOND": {
+      "TITLE": "Ce facem?",
+      "DESCRIPTION": "Suntem sprijin cu tot ce ne stă în putere, pentru cei care nu mai au pe cine să se sprijine. Ne străduim să prevenim suferința celor dragi nouă. Suntem și vom fi alături de cei care au nevoie de ajutor, de înțelegere și de iubire."
+    },
+    "THIRD": {
+      "TITLE": "Care este misiunea?",
+      "DESCRIPTION": "Bună să îți fie inima! Misiunea noastră este să aducem nădejde în inimile acestor oameni deznădăjduiți, să le oferim prietenia și ajutorul nostru. Ne vom strădui să-i vindecăm, pentru a-i vedea din nou râzând, sănătoși și frumoși."
+    }
+  },
+
+  "OUR_TEAM": {
+    "TITLE": "Echipa noastră",
+    "DESCRIPTION": "Fă cunoștință cu echipa noastră! Suntem oameni pasionați de ceea ce facem și ne dorim să fim de folos în lumea în care trăim. Fiecare dintre noi am avut caderile noastre, dar Bunul Dumnezeu a lucrat prin oameni minunați, iar aceia ne-a ajutat să ieșim din noroiul vieții. Acum este randul nostru să venim in ajutorul celor care au nevoie de noi!",
+    "TEAM_MEMBERS": {
+      "FIRST": {
+        "NAME": "Alexandru Octavian Ionescu",
+        "ROLE": "Președinte",
+        "DESCRIPTION": "Timp de 23 de ani am lucrat în situații de urgență din care 17 ani scafandru de intervenție în cadrul Detașametului Special de Salvatori. Licențiat în drept și actualmente președintele Asociațiilor Bucurie în Dar și Sf. Ioan cel Milostiv."
+      },
+      "SECOND": {
+        "NAME": "Adrian Ion-Mărgineanu",
+        "ROLE": "Vicepreședinte",
+        "DESCRIPTION": "Bursier Marie Curie, dublu PhD in Inginerie Biomedicala, cu peste 10 ani experiență în inteligență artificială și imagistică biomedicală in scopul detectiei de cancer in imagini RMN si imagini de microscopie. Coordonează dezvoltarea inteligenței artificiale la Invenio-Imaging, dezvoltând soluții AI pentru cancer cerebral, cancer pulmonar și cancer de prostată."
+      },
+      "MARIUS": {
+        "NAME": "Marius Cioltan",
+        "ROLE": "Vicepreședinte",
+        "DESCRIPTION": "Masterand în Management si Administrarea Afacerilor (FEAA-USV). Licentiat Educatie Fizica si Sport (UPIT-USV). Profesor Educație fizica si Sport (Absolvent Modul DPPD). Antrenor de Handbal(Certificat). Fost sportiv de performantă."
+      },
+      "PITIGOI": {
+        "NAME": "Horia Bogdan Ioan",
+        "ROLE": "Vicepreședinte",
+        "DESCRIPTION": "Absolvent al facultății de Construcții Civile din București, în prezent manager partener la Azero, firmă ce activează în domeniul printului de format mare și mic. Membru fondator (2017-prezent)  și președinte (2017- 2023) al asociației Împreună Crestem Valori."
+      },
+      "FOURTH": {
+        "NAME": "Alexandru Pițigoi-Mihuț",
+        "ROLE": "Vicepreședinte",
+        "DESCRIPTION": "Pilot cu experiență de peste 25 de ani și multiplu campion național în Campionatele Naționale de Automobilism. Co-fondator al Federației Române de Automobilism Sportiv. Instructor certificat Porsche AG. Instructor pilotaj certificat FRAS. Manager sportiv și coordonator de echipă."
+      },
+      "FIFTH": {
+        "NAME": "Arhitectonic Design Studio",
+        "ROLE": "Coordonator proiect arhitectură",
+        "DESCRIPTION": "La Arhitectonic Design Studio, credem că arhitectura este mai mult decât proiectare – este o formă de energie transpusă în spațiu. Suntem o echipă de arhitecți tineri, pasionați și implicați, care aduc în fiecare proiect entuziasm, viziune contemporană și o experiență solidă construită în domenii diverse: educațional, medical, rezidențial și HoReCa."
+      },
+      "SEVENTH": {
+        "NAME": "Ana Teodora Bănică",
+        "ROLE": "Coordonatoare voluntari",
+        "DESCRIPTION": "Studentă la Universitatea din București, Facultatea de Administrație și Afaceri, specializarea Administrație Publică. Scriitoare la revista online În Pridvor. Fostă studentă la UNATC București, Facultatea de Teatru, Actorie. Absolventă a Colegiului Național Gheorghe Lazăr din București"
+      },
+      "EIGHTH": {
+        "NAME": "Ana Zaharia",
+        "ROLE": "Medic Pediatru",
+        "DESCRIPTION": "Absoleventă a Universității de Medicină si Farmacie “Carol Davila” din București, medic rezident în specialitatea pediatrie."
+      },
+      "TENTH": {
+        "NAME": "Fabian Ghenof",
+        "ROLE": "Inginer Software",
+        "DESCRIPTION": "Dezvoltare funcționalități și infrastructură pentru prezența online. Principalul domeniu de specialitate este dezvoltarea de jocuri și experiențe artistice interactive."
+      },
+      "ELEVENTH": {
+        "NAME": "Constantin Asavinei-Apostol",
+        "ROLE": "Medic Chirurgie Pediatrică",
+        "DESCRIPTION": "Am terminat Facultatea de Medicină, iar acum sunt medic rezident pe chirurgie pediatrică. Deși petrec mult timp în spital îmi plac mult mișcarea, natura și naturalul și în general împărtășirea de tot ce ne poate face fundamental mai buni și frumoși, împreună cu aproapele meu!"
+      },
+      "ADRIANVOICU": {
+        "NAME": "Adrian Voicu",
+        "ROLE": "Inginer Software",
+        "DESCRIPTION": "Absolvent al Facultății de Matematică și Informatică din cadrul Universității din București, este Senior Full-Stack Java–Angular Software Engineer și arhitect software, cu expertiză în DevOps și DevSecOps. A contribuit la proiecte complexe pentru instituții europene, inclusiv Comisia Europeană și Parlamentul European, iar în prezent lucrează în cadrul Sword Group la dezvoltarea platformei dedicate programelor Erasmus+ și Corpului European de Solidaritate. Din 2013 este CEO și cofondator al IT TRAD CONSULTING, companie în cadrul căreia dezvoltă soluții software și aplicații mobile."
+      },
+      "MIRELA":{
+        "NAME": "Mirela-Magdalena Niță",
+        "ROLE": "Compozitor",
+        "DESCRIPTION": "Absolventă a Universității de Arte George Enescu din Iași. Compozitor din 2016 până in prezent."
+      },
+      "FEODOT": {
+        "NAME": "Florina-Cleopatra Feodot",
+        "ROLE": "Medic specialist in adicții",
+        "DESCRIPTION": "Medic primar expertiza medicală a capacității de muncă, cu atestat în Managementul serviciilor de sănătate, consilier în domeniul adicțiilor, atestat în Medicina adicției, masterand în cadrul programului \"Exegeză și ermineutică biblică\" organizat de Facultatea de Teologie Ortodoxă \"Justinian Patriarhul\" București."
+      },
+      "MANUELA": {
+        "NAME": "Manuela Măndița Tașcău",
+        "ROLE": "Specialist drept și management",
+        "DESCRIPTION": "Absolventă a Facultății de Drept \"Nicolae Titulescu\" - Universitatea din București și a Facultății de Management. Program postuniversitar de management - Academia de Studii Economice. Curs prevenirea spălării banilor - Institutul Bancar Român. Master Relații Internaționale - Drept penal internațional - Universitatea Creștină \"Dimitrie Cantemir\". Absolventă a Liceului Pedagogic \"Elena Cuza\" București."
+      }
+    }
+  },
+
+  "PROJECTS_MORE": {
+    "DONATE": "Donează",
+    "OPTIONS": "opțiuni",
+    "CARD_OPTION": "Card",
+    "BANK_TRANSFER_OPTION": "Transfer Bancar",
+    "DESIRED_AMOUNT": "Suma dorită",
+    "CONTINUE": "Spre plată",
+    "DONATE_FOR": "Cum dorești să donezi pt.",
+    "I_AGREE_TO_THE": "Sunt de acord cu",
+    "TERMS_AND_CONDITIONS": "Termenii și Condițiile",
+    "AND": "și",
+    "PRIVACY_POLICY": "Politica de Confidențialitate",
+    "TRANSFER_WARNING_FIRST_PART": "Vă rugăm să specificați",
+    "TRANSFER_WARNING_SECOND_PART": "în detaliile plății"
+  },
+
+  "SHARE": {
+    "MAIN": "Ajută distribuind!"
+  },
+
+  "CONTACT": {
+    "TITLE": "Contact",
+    "DESCRIPTION": "Contact us for any questions or suggestions.",
+    "FORM": {
+      "TITLE": "Contactează-ne",
+      "DISCLAIMER": "Vă rugăm să sunați inainte de a veni la sediul nostru. Vă mulțumim!",
+      "NAME": "Nume",
+      "EMAIL": "Email",
+      "PHONE": "Telefon",
+      "ADDRESS": "Adresa",
+      "WORKING_HOURS": "Ore lucru",
+      "YOUR_MESSAGE": "Mesajul tău",
+      "SEND": "Trimite",
+      "SUCCESS": "Mesajul tău a fost trimis cu succes!",
+      "ERROR": "A apărut o eroare. Te rugăm să încerci din nou."
+    }
+  },
+
+  "FACILITIES": {
+    "TITLE": "Instrumente de re-Întregire și re-Conectare",
+    "ITEMS": {
+      "GYM": { "TITLE": "Sala de Sport Multifuncțională", "DESCRIPTION": "Mișcare ca eliberare emoțională" },
+      "EQUINE": { "TITLE": "Terapie Hipică", "DESCRIPTION": "Empatie și prezență prin relația cu calul" },
+      "GREENHOUSE": { "TITLE": "Sere și Microfermă", "DESCRIPTION": "Răbdare, îngrijire, hrană naturală" },
+      "GARDEN": { "TITLE": "Grădina Multisenzorială", "DESCRIPTION": "Reînvățarea simțirii fără judecată" },
+      "ARTS": { "TITLE": "Arts & Conference Hall", "DESCRIPTION": "Vulnerabilitatea devine artă" },
+      "LIBRARY": { "TITLE": "Biblioteca Comunitară", "DESCRIPTION": "Cuvântul scris ca oglindă a sufletului" }
+    }
+  },
+
+  "VALUES": {
+    "TITLE": "Pe Ce Construim",
+    "ITEMS": {
+      "DIGNITY": { "TITLE": "Demnitatea Umană", "DESCRIPTION": "Fiecare persoană are o valoare intrinsecă, inerentă, sacră, nu pentru ce face, ci pentru cine este" },
+      "WHOLENESS": { "TITLE": "Întregirea Ființei", "DESCRIPTION": "Abordăm omul în totalitatea lui: trup, minte, suflet, relații" },
+      "FREEDOM": { "TITLE": "Libertatea Spirituală", "DESCRIPTION": "Respectăm credința fiecăruia, cu deschidere și sensibilitate" },
+      "COMMUNITY": { "TITLE": "Comunitatea", "DESCRIPTION": "Vindecarea se face în relație, în iubire, în prezență" },
+      "SUSTAINABILITY": { "TITLE": "Sustenabilitatea", "DESCRIPTION": "Model replicabil, durabil, ancorat în realitatea românească" },
+      "LOVE": { "TITLE": "Iubirea Activă", "DESCRIPTION": "Prin fapte, prin prezență, prin angajament zilnic" }
+    }
+  },
+
+  "IMPACT": {
+    "TITLE": "Aliniați la standarde europene și internaționale de bune practici",
+    "DESCRIPTION": "Practicile noastre sunt fundamentate pe instrumente validate internațional:",
+    "STANDARDS": {
+      "SEEQ": "Chestionarul Elementelor Esențiale (SEEQ)",
+      "EFTC": "Standardele Federației Europene a Comunităților Terapeutice",
+      "WFTC": "Standardele Federației Mondiale a Comunităților Terapeutice"
+    },
+    "FOOTER": "Peste 1.200 de comunități terapeutice active în Europa demonstrează că există o cale validată pentru recuperare."
+  },
+
+  "VISION": {
+    "TITLE": "Primul Centru Terapeutic Integrat din România",
+    "DESCRIPTION": "Construim un model care:",
+    "POINTS": {
+      "1": "Oferă un răspuns coerent la criza dependențelor — prin întregire, nu doar prin tratare",
+      "2": "Reconectează omul cu sinele, cu ceilalți și cu sensul — prin armonie, cunoaștere, muncă, artă, natură",
+      "3": "Servește ca model pentru alte comunități terapeutice rurale",
+      "4": "Contribuie la regenerarea socială și economică a zonei în care activează",
+      "5": "Schimbă percepția publică — din judecată în înțelegere, din respingere în compasiune"
+    }
+  },
+
+  "GET_INVOLVED": {
+    "TITLE": "Fii Parte din Schimbare. Cu bucurie!",
+    "DESCRIPTION": "Construirea și funcționarea acestui centru este posibilă prin sprijinul comunității, al partenerilor privați și instituționali și al tuturor oamenilor de bună credință.",
+    "SUBTITLE": "Poți contribui prin:",
+    "WAYS": {
+      "DONATE": { "TITLE": "Donații financiare", "DESCRIPTION": "Pentru construcții, echipamente, programe" },
+      "VOLUNTEER": { "TITLE": "Voluntariat", "DESCRIPTION": "Ca specialist, instructor, mentor sau simplu prieten", "CTA": "Devino Voluntar" },
+      "PARTNER": { "TITLE": "Parteneriate instituționale", "DESCRIPTION": "Autorități, spitale, școli, ONG-uri" },
+      "PROMOTE": { "TITLE": "Promovare", "DESCRIPTION": "Pentru a oferi speranță celor care au nevoie" }
+    }
+  },
+
+  "FINAL_CTA": {
+    "TITLE": "Fiecare om este chemat să se reîntregească",
+    "QUOTE": "La Centrul Sfântul Ioan Cel Milostiv, întâmpinăm fiecare om cu brațele larg deschise și cu o inimă plină de speranță. Nu contează cât de adânc ai căzut, contează că alegi să te ridici. Și noi suntem aici, alături de tine, la fiecare pas.",
+    "DOWNLOAD_PDF": "Prezentarea Completă",
+    "CONTACT_US": "Contactează-ne",
+    "BECOME_VOLUNTEER": "Devino Voluntar",
+    "MAKE_DONATION": "Fă o Donație",
+    "LOCATION": "Comuna Butimanu, Județul Dâmbovița",
+    "PHONE": "0727 786 725 — Alexandru Ionescu",
+    "EMAIL_ADDRESS": "parteneriate@bucurieindar.ro"
+  },
+
+  "HEADER": {
+    "LOCALE": "ro",
+    "HOME": { "LABEL": "Acasă", "LINK": "/" },
+    "PROJECTS": { "LABEL": "Proiecte", "LINK": "/projects" },
+    "ABOUT": { "LABEL": "Despre", "LINK": "/about" },
+    "GALLERY": { "LABEL": "Galerie", "LINK": "/gallery"},
+    "BLOG": { "LABEL": "Blog", "LINK": "/blog" },
+    "CONTACT": { "LABEL": "Contact", "LINK": "/contact" },
+    "TERMS": { "LABEL": "Termeni şi Condiții", "LINK": "/terms" },
+    "PRIVACY": { "LABEL": "Politica de Confidențialitate", "LINK": "/privacy" },
+    "BURGER_MENU": "Meniu"
+  }
+}

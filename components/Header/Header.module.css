@@ -14,7 +14,8 @@
 .link {
     display: block;
     line-height: 1;
-    padding: rem(8px) rem(12px);
+    padding: rem(8px) rem(10px);
+    white-space: nowrap;
     border-radius: var(--mantine-radius-sm);
     text-decoration: none;
     color: light-dark(var(--mantine-color-gray-7), var(--mantine-color-dark-0));
@@ -33,4 +34,26 @@
 
 .linkLabel {
     margin-right: rem(5px);
+}
+
+.helpLink {
+    display: block;
+    line-height: 1;
+    padding: rem(8px) rem(10px);
+    white-space: nowrap;
+    border-radius: var(--mantine-radius-sm);
+    text-decoration: none;
+    font-size: var(--mantine-font-size-sm);
+    font-weight: 700;
+    color: var(--mantine-color-red-7);
+    border: rem(1px) solid var(--mantine-color-red-7);
+
+    @mixin hover {
+        background-color: light-dark(var(--mantine-color-red-0), var(--mantine-color-dark-6));
+    }
+
+    &[data-active] {
+        background-color: var(--mantine-color-red-7);
+        color: var(--mantine-color-white);
+    }
 }

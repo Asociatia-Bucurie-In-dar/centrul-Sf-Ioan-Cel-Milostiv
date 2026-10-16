@@ -22,7 +22,6 @@ export default function ContactPage({params}: {params: Promise<{locale: string}>
     const {locale} = use(params);
     setRequestLocale(locale);
     const t = useTranslations('CONTACT');
-    const commonT = useTranslations('COMMON');
     const translations:ContactTranslationType = {
         FormTitle: t('FORM.TITLE'),
         Disclaimer: t('FORM.DISCLAIMER'),
@@ -35,7 +34,10 @@ export default function ContactPage({params}: {params: Promise<{locale: string}>
         Send: t('FORM.SEND'),
         Success: t('FORM.SUCCESS'),
         Error: t('FORM.ERROR'),
-        InConstruction: commonT('IN_CONSTRUCTION')
+        DirectTitle: t('DIRECT.TITLE'),
+        DirectText: t('DIRECT.TEXT'),
+        Call: t('DIRECT.CALL'),
+        WhatsApp: t('DIRECT.WHATSAPP'),
     };
         
     
