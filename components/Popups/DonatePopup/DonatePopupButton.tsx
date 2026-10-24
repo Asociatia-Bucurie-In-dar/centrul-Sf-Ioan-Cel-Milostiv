@@ -21,7 +21,7 @@ import { ProjectTranslationsType } from "@/utils/my-types";
 import { IconCopy, IconCheck } from "@tabler/icons-react";
 
 const ACCOUNTS = [
-    { currency: "RON", iban: "RO47BTRLRONCRT0610749708", label: "Cont bancar lei" },
+    { currency: "RON", iban: "RO85BTRLRONCRT0610749703", label: "Cont bancar lei" },
     { currency: "EUR", iban: "RO35BTRLEURCRT0610749703", label: "Cont bancar euro" },
 ];
 
