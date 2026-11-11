@@ -462,5 +462,148 @@
     "TERMS": { "LABEL": "Termeni şi Condiții", "LINK": "/terms" },
     "PRIVACY": { "LABEL": "Politica de Confidențialitate", "LINK": "/privacy" },
     "BURGER_MENU": "Meniu"
+  },
+  "VOLUNTEER": {
+    "META_TITLE": "Devino voluntar",
+    "TITLE": "Devino voluntar",
+    "DESCRIPTION": "Mulțumim că vrei să te implici! Completează formularul de mai jos, iar un membru al echipei te va contacta în curând.",
+    "SECTIONS": {
+      "ABOUT_YOU": "Despre tine",
+      "INVOLVEMENT": "Cum vrei să te implici",
+      "AVAILABILITY": "Disponibilitate",
+      "MORE": "Mai multe despre tine"
+    },
+    "FIELDS": {
+      "FIRST_NAME": "Prenume",
+      "LAST_NAME": "Nume",
+      "EMAIL": "Email",
+      "PHONE": "Telefon",
+      "CITY": "Localitate",
+      "AGE_RANGE": "Vârsta",
+      "OCCUPATION": "Ocupație / profesie",
+      "AREAS": "În ce arii ai vrea să te implici?",
+      "AREAS_HINT": "Poți alege mai multe.",
+      "SKILLS": "Ce competențe ai?",
+      "SKILLS_HINT": "Alege tot ce ți se potrivește.",
+      "OTHER_SKILLS": "Alte competențe",
+      "OTHER_SKILLS_PLACEHOLDER": "Ex.: limbaj mimico-gestual, instalații electrice...",
+      "HOURS_PER_WEEK": "Câte ore pe săptămână poți aloca?",
+      "HOURS_PER_WEEK_HINT": "O estimare, în medie (între 1 și 40).",
+      "AVAILABILITY_TYPE": "Cum ești disponibil(ă)?",
+      "TIME_SLOTS": "Când ești disponibil(ă) de obicei?",
+      "WORK_MODE": "Unde poți activa?",
+      "COMMITMENT": "Pentru cât timp te poți implica?",
+      "EXPERIENCE": "Experiență relevantă",
+      "EXPERIENCE_PLACEHOLDER": "Voluntariat anterior, proiecte, specializări...",
+      "MOTIVATION": "De ce vrei să te implici?",
+      "SOURCE": "Cum ai aflat de noi?",
+      "SELECT_PLACEHOLDER": "Alege"
+    },
+    "OPTIONS": {
+      "AREAS": {
+        "FUNDRAISING": "Fundraising",
+        "MARKETING": "Marketing și comunicare",
+        "PREVENTION": "Prevenție",
+        "PMO": "Management de proiect (PMO)",
+        "LEGAL": "Juridic",
+        "FINANCE": "Financiar-contabil",
+        "BENEFICIARY_SUPPORT": "Sprijin pentru beneficiari",
+        "EVENTS": "Evenimente",
+        "CONSTRUCTION": "Construcție și amenajare",
+        "IT": "IT și digital",
+        "LOGISTICS": "Logistică și administrativ"
+      },
+      "AREA_DESCRIPTIONS": {
+        "FUNDRAISING": "Atragerea de donatori, sponsori și finanțări",
+        "MARKETING": "Social media, conținut, foto-video, relații cu presa",
+        "PREVENTION": "Campanii și ateliere de prevenire a dependențelor în școli și comunități",
+        "PMO": "Planificarea, coordonarea și urmărirea proiectelor",
+        "LEGAL": "Consultanță juridică, contracte, GDPR",
+        "FINANCE": "Buget, contabilitate, rapoarte financiare",
+        "BENEFICIARY_SUPPORT": "Mentorat, însoțire, ateliere și activități cu beneficiarii",
+        "EVENTS": "Organizare și sprijin la evenimente",
+        "CONSTRUCTION": "Lucrări, meserii și amenajarea centrului",
+        "IT": "Website, aplicații, suport tehnic",
+        "LOGISTICS": "Transport, aprovizionare, secretariat"
+      },
+      "SKILLS": {
+        "PSYCHOLOGY": "Psihologie / psihoterapie",
+        "SOCIAL_WORK": "Asistență socială",
+        "MEDICAL": "Medical",
+        "SPIRITUAL": "Îndrumare spirituală",
+        "EDUCATION": "Educație / training",
+        "LAW": "Drept",
+        "ACCOUNTING": "Economie / contabilitate",
+        "MANAGEMENT": "Management / coordonare",
+        "MARKETING": "Marketing / PR",
+        "SOCIAL_MEDIA": "Social media",
+        "DESIGN": "Design grafic",
+        "PHOTO_VIDEO": "Foto / video",
+        "WRITING": "Redactare texte",
+        "IT": "IT / programare",
+        "SALES": "Vânzări / negociere",
+        "EVENTS": "Organizare evenimente",
+        "CONSTRUCTION": "Construcții / meserii",
+        "COOKING": "Gătit",
+        "SPORTS": "Sport",
+        "ARTS": "Artă / muzică",
+        "DRIVING": "Șofer (permis B)",
+        "LANGUAGES": "Limbi străine / traduceri"
+      },
+      "AVAILABILITY_TYPES": {
+        "CONSTANT": "Constant – în fiecare săptămână",
+        "OCCASIONAL": "Punctual – la evenimente sau proiecte anume"
+      },
+      "TIME_SLOTS": {
+        "WEEKDAY_MORNING": "În timpul săptămânii, dimineața",
+        "WEEKDAY_AFTERNOON": "În timpul săptămânii, după-amiaza",
+        "WEEKDAY_EVENING": "În timpul săptămânii, seara",
+        "WEEKEND": "În weekend"
+      },
+      "WORK_MODES": {
+        "ONSITE": "Fizic, la fața locului",
+        "REMOTE": "Online, de la distanță",
+        "BOTH": "Ambele"
+      },
+      "COMMITMENTS": {
+        "UP_TO_3M": "Până la 3 luni",
+        "M3_6": "3–6 luni",
+        "M6_12": "6–12 luni",
+        "OVER_1Y": "Peste 1 an",
+        "UNDECIDED": "Nu știu încă"
+      },
+      "AGE_RANGES": {
+        "18_25": "18–25 ani",
+        "26_35": "26–35 ani",
+        "36_45": "36–45 ani",
+        "46_60": "46–60 ani",
+        "60_PLUS": "Peste 60 de ani"
+      },
+      "SOURCES": {
+        "SOCIAL_MEDIA": "Social media",
+        "FRIENDS": "Prieteni / cunoștințe",
+        "CHURCH": "Biserică / parohie",
+        "EVENT": "La un eveniment",
+        "WEBSITE": "Site-ul nostru",
+        "OTHER": "Altă sursă"
+      }
+    },
+    "CONSENT": "Sunt de acord ca Asociația Bucurie în Dar să prelucreze datele personale din acest formular în scopul organizării activității de voluntariat, conform <link>Politicii de Confidențialitate</link>. Îmi pot retrage acordul oricând, scriind la office@bucurieindar.ro.",
+    "REQUIRED_NOTE": "Câmpurile marcate cu * sunt obligatorii.",
+    "SUBMIT": "Trimite înscrierea",
+    "SUCCESS_TITLE": "Mulțumim!",
+    "SUCCESS_TEXT": "Am primit înscrierea ta. Un membru al echipei te va contacta în curând.",
+    "BACK_HOME": "Înapoi la pagina principală",
+    "ERRORS": {
+      "REQUIRED": "Câmp obligatoriu",
+      "INVALID_EMAIL": "Adresa de email nu este validă",
+      "INVALID_PHONE": "Numărul de telefon nu este valid",
+      "SELECT_AT_LEAST_ONE": "Alege cel puțin o opțiune",
+      "INVALID_HOURS": "Introdu un număr între 1 și 40",
+      "TOO_LONG": "Textul este prea lung",
+      "CONSENT_REQUIRED": "Este necesar acordul pentru a putea trimite înscrierea",
+      "FORM_HAS_ERRORS": "Te rugăm să corectezi câmpurile marcate.",
+      "SUBMIT_FAILED": "A apărut o eroare. Te rugăm să încerci din nou sau să ne scrii la office@bucurieindar.ro."
+    }
   }
 }

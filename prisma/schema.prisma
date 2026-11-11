@@ -21,3 +21,83 @@ model Donation {
   currency   String   // To store the currency of the donation
   status     String   // (e.g., "succeeded", "pending")
 }
+
+// Volunteer sign-ups from the public /volunteer form.
+// Option fields (areas, skills, ...) store stable keys from content/volunteer/volunteer-options.ts;
+// labels live in messages/*.json under VOLUNTEER.OPTIONS.
+model Volunteer {
+  id               Int      @id @default(autoincrement())
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  firstName        String
+  lastName         String
+  email            String
+  phone            String
+  city             String?
+  ageRange         String
+  occupation       String?
+
+  areas            String[]
+  skills           String[]
+  otherSkills      String?
+
+  hoursPerWeek     Int
+  availabilityType String   // CONSTANT | OCCASIONAL
+  timeSlots        String[]
+  workMode         String   // ONSITE | REMOTE | BOTH
+  commitment       String
+
+  experience       String?
+  motivation       String?
+  source           String?
+  locale           String
+
+  // GDPR: when the person ticked the consent box, and which text version they agreed to.
+  consentAt        DateTime
+  consentVersion   String
+
+  // Admin-only
+  status           String   @default("NEW") // NEW | CONTACTED | ACTIVE | PAUSED | INACTIVE
+  adminNotes       String?
+
+  @@index([createdAt])
+  @@index([status])
+}
+
+// Estimated weekly hours needed per volunteering area (editable in the admin reports tab).
+model VolunteerAreaNeed {
+  area         String   @id
+  hoursPerWeek Int      @default(0)
+  updatedAt    DateTime @updatedAt
+}
+
+// Admin panel accounts (email + password). Passwords are scrypt hashes, never plain text.
+model AdminUser {
+  id           Int            @id @default(autoincrement())
+  email        String         @unique
+  name         String?
+  passwordHash String
+  createdAt    DateTime       @default(now())
+  lastLoginAt  DateTime?
+  sessions     AdminSession[]
+}
+
+// Login sessions. The cookie holds a random token; only its SHA-256 hash is stored here.
+model AdminSession {
+  id        Int       @id @default(autoincrement())
+  tokenHash String    @unique
+  userId    Int
+  user      AdminUser @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime  @default(now())
+  expiresAt DateTime
+
+  @@index([userId])
+}
+
+// Who gets an email when a new volunteer signs up (editable in the admin panel).
+model NotificationEmail {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  createdAt DateTime @default(now())
+}

@@ -1,6 +1,8 @@
 import {Container, SimpleGrid, Card, Text, rem, ThemeIcon, Divider, Button, Center, Group} from '@mantine/core';
 import {TitleWithDescription} from "@/components/Common/TitleWithDescription";
-import {useTranslations} from "next-intl";
+import {useLocale, useTranslations} from "next-intl";
+import {defaultLocale} from "@/i18n/routing";
+import {MyRoutePaths} from "@/utils/route-paths";
 import commonClasses from '@/utils/commonClasses.module.css';
 import classes from './GetInvolvedSection.module.css';
 import {IconCoin, IconHandStop, IconBuildingCommunity, IconSpeakerphone} from '@tabler/icons-react';
@@ -15,6 +17,8 @@ const ways = [
 export function GetInvolvedSection() {
     const t = useTranslations('GET_INVOLVED');
     const commonT = useTranslations('COMMON');
+    const locale = useLocale();
+    const volunteerHref = locale === defaultLocale ? MyRoutePaths.Volunteer : `/${locale}${MyRoutePaths.Volunteer}`;
 
     return (
         <Container size="full" pt={50} pb={55}>
@@ -42,7 +46,7 @@ export function GetInvolvedSection() {
                                 {t(`WAYS.${key}.DESCRIPTION`)}
                             </Text>
                             {key === 'VOLUNTEER' && (
-                                <Button component="a" href="/contact" variant="light" color={color} mt="md" fw={600}>
+                                <Button component="a" href={volunteerHref} variant="light" color={color} mt="md" fw={600}>
                                     {t('WAYS.VOLUNTEER.CTA')}
                                 </Button>
                             )}

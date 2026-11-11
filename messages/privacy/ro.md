@@ -1,4 +1,4 @@
-Ultima actualizare: 21-03-2024
+Ultima actualizare: 11-11-2026
 
 # _Politica de Confidențialitate_
 
@@ -15,6 +15,18 @@ Asociația Bucurie în Dar se angajează să protejeze confidențialitatea dvs. 
 
 Donațiile sunt procesate folosind Stripe, un procesator de plăți terț. Detaliile dvs. de plată nu sunt stocate pe serverele noastre.
 
+## Voluntariat
+
+Când completezi formularul de înscriere ca voluntar, colectăm: numele și prenumele, adresa de email, numărul de telefon, localitatea, intervalul de vârstă, ocupația, ariile în care vrei să te implici, competențele tale, disponibilitatea (ore pe săptămână, intervale orare, mod de implicare, durata asumată), precum și informațiile pe care alegi să ni le spui despre experiența și motivația ta.
+
+- **Scop**: organizarea activității de voluntariat – să te contactăm, să găsim activitățile potrivite pentru tine și să planificăm capacitatea echipei de voluntari (prin rapoarte agregate).
+- **Temei legal**: consimțământul tău (art. 6 alin. (1) lit. a) GDPR), exprimat prin bifarea căsuței din formular. Dacă devii voluntar, datele necesare încheierii și executării contractului de voluntariat sunt prelucrate în baza art. 6 alin. (1) lit. b) GDPR și a Legii nr. 78/2014 privind voluntariatul.
+- **Cine are acces**: doar membrii echipei asociației care coordonează voluntarii, prin conturi personale protejate cu parolă. La fiecare înscriere nouă, coordonatorii primesc o notificare pe email cu datele tale de contact.
+- **Furnizori**: datele sunt stocate și transmise prin furnizori de servicii care acționează în numele nostru (găzduirea site-ului și a bazei de date – Vercel; trimiterea emailurilor – Resend). Unii dintre acești furnizori pot prelucra date în afara Spațiului Economic European, pe baza clauzelor contractuale standard aprobate de Comisia Europeană. Nu vindem datele tale și nu le folosim în alte scopuri.
+- **Cât timp le păstrăm**: pe durata colaborării și cel mult 2 ani de la ultima interacțiune cu tine, după care le ștergem. Poți cere ștergerea lor mai devreme, oricând.
+- **Retragerea acordului**: îți poți retrage acordul oricând, scriind la office@bucurieindar.ro. Retragerea nu afectează legalitatea prelucrării efectuate înainte de aceasta.
+- **Date sensibile**: nu îți cerem date despre sănătate sau alte categorii speciale de date. Te rugăm să nu le incluzi în câmpurile libere ale formularului.
+
 ## Utilizarea Datelor
 
 Asociația Bucurie în Dar utilizează datele colectate în diverse scopuri, inclusiv:
@@ -30,7 +42,7 @@ Luăm securitatea datelor dvs. în serios și implementăm măsuri adecvate pent
 
 ## Drepturile Dvs.
 
-În temeiul GDPR și altor legi de protecție a datelor, aveți drepturi, inclusiv accesul la datele personale, corectarea oricăror date incorecte, ștergerea datelor dvs. și altele.
+În temeiul GDPR și altor legi de protecție a datelor, aveți drepturi, inclusiv accesul la datele personale, corectarea oricăror date incorecte, ștergerea datelor dvs., restricționarea prelucrării, portabilitatea datelor și opoziția la prelucrare. Pentru exercitarea acestor drepturi ne puteți scrie la office@bucurieindar.ro. De asemenea, aveți dreptul de a depune o plângere la Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal (www.dataprotection.ro).
 
 ## Contactați-ne
 

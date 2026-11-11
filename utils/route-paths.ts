@@ -4,5 +4,6 @@ export const MyRoutePaths = {
     Help: '/help',
     Contact: '/contact',
     Terms: "/terms",
-    Privacy: "/privacy"
+    Privacy: "/privacy",
+    Volunteer: "/volunteer",
 }

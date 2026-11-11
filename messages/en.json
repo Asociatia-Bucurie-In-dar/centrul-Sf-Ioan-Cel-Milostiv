@@ -432,5 +432,148 @@
     "TERMS": { "LABEL": "Terms and Conditions", "LINK": "/en/terms" },
     "PRIVACY": { "LABEL": "Privacy Policy", "LINK": "/en/privacy" },
     "BURGER_MENU": "Menu"
+  },
+  "VOLUNTEER": {
+    "META_TITLE": "Become a volunteer",
+    "TITLE": "Become a volunteer",
+    "DESCRIPTION": "Thank you for wanting to get involved! Fill in the form below and a member of our team will contact you soon.",
+    "SECTIONS": {
+      "ABOUT_YOU": "About you",
+      "INVOLVEMENT": "How you would like to help",
+      "AVAILABILITY": "Availability",
+      "MORE": "More about you"
+    },
+    "FIELDS": {
+      "FIRST_NAME": "First name",
+      "LAST_NAME": "Last name",
+      "EMAIL": "Email",
+      "PHONE": "Phone",
+      "CITY": "City",
+      "AGE_RANGE": "Age",
+      "OCCUPATION": "Occupation / profession",
+      "AREAS": "Which areas would you like to help with?",
+      "AREAS_HINT": "You can pick more than one.",
+      "SKILLS": "What skills do you have?",
+      "SKILLS_HINT": "Pick everything that applies.",
+      "OTHER_SKILLS": "Other skills",
+      "OTHER_SKILLS_PLACEHOLDER": "E.g. sign language, electrical work...",
+      "HOURS_PER_WEEK": "How many hours per week can you give?",
+      "HOURS_PER_WEEK_HINT": "An average estimate (between 1 and 40).",
+      "AVAILABILITY_TYPE": "What kind of availability do you have?",
+      "TIME_SLOTS": "When are you usually available?",
+      "WORK_MODE": "Where can you help?",
+      "COMMITMENT": "For how long can you commit?",
+      "EXPERIENCE": "Relevant experience",
+      "EXPERIENCE_PLACEHOLDER": "Previous volunteering, projects, qualifications...",
+      "MOTIVATION": "Why would you like to get involved?",
+      "SOURCE": "How did you hear about us?",
+      "SELECT_PLACEHOLDER": "Choose"
+    },
+    "OPTIONS": {
+      "AREAS": {
+        "FUNDRAISING": "Fundraising",
+        "MARKETING": "Marketing & communication",
+        "PREVENTION": "Prevention",
+        "PMO": "Project management (PMO)",
+        "LEGAL": "Legal",
+        "FINANCE": "Finance & accounting",
+        "BENEFICIARY_SUPPORT": "Supporting beneficiaries",
+        "EVENTS": "Events",
+        "CONSTRUCTION": "Construction & fit-out",
+        "IT": "IT & digital",
+        "LOGISTICS": "Logistics & admin"
+      },
+      "AREA_DESCRIPTIONS": {
+        "FUNDRAISING": "Finding donors, sponsors and funding",
+        "MARKETING": "Social media, content, photo-video, press relations",
+        "PREVENTION": "Addiction prevention campaigns and workshops in schools and communities",
+        "PMO": "Planning, coordinating and tracking projects",
+        "LEGAL": "Legal advice, contracts, GDPR",
+        "FINANCE": "Budgeting, accounting, financial reports",
+        "BENEFICIARY_SUPPORT": "Mentoring, accompanying, workshops and activities with beneficiaries",
+        "EVENTS": "Organising and helping at events",
+        "CONSTRUCTION": "Building work, trades and fitting out the center",
+        "IT": "Website, applications, technical support",
+        "LOGISTICS": "Transport, supplies, office work"
+      },
+      "SKILLS": {
+        "PSYCHOLOGY": "Psychology / psychotherapy",
+        "SOCIAL_WORK": "Social work",
+        "MEDICAL": "Medical",
+        "SPIRITUAL": "Spiritual guidance",
+        "EDUCATION": "Education / training",
+        "LAW": "Law",
+        "ACCOUNTING": "Economics / accounting",
+        "MANAGEMENT": "Management / coordination",
+        "MARKETING": "Marketing / PR",
+        "SOCIAL_MEDIA": "Social media",
+        "DESIGN": "Graphic design",
+        "PHOTO_VIDEO": "Photo / video",
+        "WRITING": "Writing / copywriting",
+        "IT": "IT / programming",
+        "SALES": "Sales / negotiation",
+        "EVENTS": "Event planning",
+        "CONSTRUCTION": "Construction / trades",
+        "COOKING": "Cooking",
+        "SPORTS": "Sports",
+        "ARTS": "Art / music",
+        "DRIVING": "Driver (category B licence)",
+        "LANGUAGES": "Foreign languages / translation"
+      },
+      "AVAILABILITY_TYPES": {
+        "CONSTANT": "Regular – every week",
+        "OCCASIONAL": "Occasional – for specific events or projects"
+      },
+      "TIME_SLOTS": {
+        "WEEKDAY_MORNING": "Weekday mornings",
+        "WEEKDAY_AFTERNOON": "Weekday afternoons",
+        "WEEKDAY_EVENING": "Weekday evenings",
+        "WEEKEND": "Weekends"
+      },
+      "WORK_MODES": {
+        "ONSITE": "In person, on site",
+        "REMOTE": "Online, remotely",
+        "BOTH": "Both"
+      },
+      "COMMITMENTS": {
+        "UP_TO_3M": "Up to 3 months",
+        "M3_6": "3–6 months",
+        "M6_12": "6–12 months",
+        "OVER_1Y": "More than 1 year",
+        "UNDECIDED": "Not sure yet"
+      },
+      "AGE_RANGES": {
+        "18_25": "18–25",
+        "26_35": "26–35",
+        "36_45": "36–45",
+        "46_60": "46–60",
+        "60_PLUS": "Over 60"
+      },
+      "SOURCES": {
+        "SOCIAL_MEDIA": "Social media",
+        "FRIENDS": "Friends / acquaintances",
+        "CHURCH": "Church / parish",
+        "EVENT": "At an event",
+        "WEBSITE": "Our website",
+        "OTHER": "Other"
+      }
+    },
+    "CONSENT": "I agree that the Bucurie în Dar Association may process the personal data in this form in order to organise volunteering activities, in accordance with the <link>Privacy Policy</link>. I can withdraw my consent at any time by writing to office@bucurieindar.ro.",
+    "REQUIRED_NOTE": "Fields marked with * are required.",
+    "SUBMIT": "Send application",
+    "SUCCESS_TITLE": "Thank you!",
+    "SUCCESS_TEXT": "We have received your application. A member of our team will contact you soon.",
+    "BACK_HOME": "Back to the home page",
+    "ERRORS": {
+      "REQUIRED": "Required field",
+      "INVALID_EMAIL": "This email address is not valid",
+      "INVALID_PHONE": "This phone number is not valid",
+      "SELECT_AT_LEAST_ONE": "Pick at least one option",
+      "INVALID_HOURS": "Enter a number between 1 and 40",
+      "TOO_LONG": "This text is too long",
+      "CONSENT_REQUIRED": "Your consent is needed to send the application",
+      "FORM_HAS_ERRORS": "Please correct the highlighted fields.",
+      "SUBMIT_FAILED": "Something went wrong. Please try again or write to us at office@bucurieindar.ro."
+    }
   }
 }
