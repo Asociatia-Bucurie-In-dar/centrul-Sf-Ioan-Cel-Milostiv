@@ -47,6 +47,7 @@ export async function notifyNewVolunteer(v: Volunteer): Promise<void> {
     ${row('Localitate', v.city)}
     ${row('Arii', list(v.areas, labels.AREAS))}
     ${row('Competențe', list(v.skills, labels.SKILLS))}
+    ${row('Domenii de experiență', list(v.experienceDomains, labels.EXPERIENCE_DOMAINS))}
     ${row('Ore / săptămână', String(v.hoursPerWeek))}
     ${row('Disponibilitate', labels.AVAILABILITY_TYPES[v.availabilityType])}
     ${row('Durată asumată', labels.COMMITMENTS[v.commitment])}

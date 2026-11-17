@@ -3,8 +3,11 @@ import {
     VOLUNTEER_AREAS,
     VOLUNTEER_AVAILABILITY_TYPES,
     VOLUNTEER_COMMITMENTS,
+    VOLUNTEER_EXPERIENCE_DOMAINS,
     VOLUNTEER_HOURS_MAX,
     VOLUNTEER_HOURS_MIN,
+    VOLUNTEER_NEEDS,
+    VOLUNTEER_OTHER_KEY,
     VOLUNTEER_SKILLS,
     VOLUNTEER_SOURCES,
     VOLUNTEER_TIME_SLOTS,
@@ -29,7 +32,13 @@ export type VolunteerFormValues = {
     timeSlots: string[];
     workMode: string;
     commitment: string;
+    restrictions: string;
+    experienceDomains: string[];
+    experienceDomainsOther: string;
     experience: string;
+    roleVision: string;
+    needs: string[];
+    needsOther: string;
     motivation: string;
     source: string;
     consent: boolean;
@@ -51,7 +60,13 @@ export type VolunteerData = {
     timeSlots: string[];
     workMode: string;
     commitment: string;
+    restrictions: string | null;
+    experienceDomains: string[];
+    experienceDomainsOther: string | null;
     experience: string | null;
+    roleVision: string | null;
+    needs: string[];
+    needsOther: string | null;
     motivation: string | null;
     source: string | null;
 };
@@ -88,7 +103,13 @@ export const EMPTY_VOLUNTEER_FORM: VolunteerFormValues = {
     timeSlots: [],
     workMode: '',
     commitment: '',
+    restrictions: '',
+    experienceDomains: [],
+    experienceDomainsOther: '',
     experience: '',
+    roleVision: '',
+    needs: [],
+    needsOther: '',
     motivation: '',
     source: '',
     consent: false,
@@ -175,7 +196,20 @@ export function validateVolunteer(raw: Record<string, unknown>): VolunteerValida
     const workMode = requiredOption('workMode', VOLUNTEER_WORK_MODES);
     const commitment = requiredOption('commitment', VOLUNTEER_COMMITMENTS);
 
+    const restrictions = optionalText('restrictions', LONG);
+
+    // The free-text "other" fields only count while their "Other" box is ticked,
+    // so text left behind after unticking is not stored.
+    const experienceDomains = pickOptions(raw.experienceDomains, VOLUNTEER_EXPERIENCE_DOMAINS);
+    const experienceDomainsOther = experienceDomains.includes(VOLUNTEER_OTHER_KEY)
+        ? optionalText('experienceDomainsOther', MEDIUM)
+        : null;
     const experience = optionalText('experience', LONG);
+
+    const roleVision = optionalText('roleVision', LONG);
+    const needs = pickOptions(raw.needs, VOLUNTEER_NEEDS);
+    const needsOther = needs.includes(VOLUNTEER_OTHER_KEY) ? optionalText('needsOther', MEDIUM) : null;
+
     const motivation = optionalText('motivation', LONG);
     const source = pickOption(raw.source, VOLUNTEER_SOURCES) || null;
 
@@ -203,7 +237,13 @@ export function validateVolunteer(raw: Record<string, unknown>): VolunteerValida
             timeSlots,
             workMode,
             commitment,
+            restrictions,
+            experienceDomains,
+            experienceDomainsOther,
             experience,
+            roleVision,
+            needs,
+            needsOther,
             motivation,
             source,
         },

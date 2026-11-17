@@ -29,8 +29,11 @@ import {
     VOLUNTEER_AREAS,
     VOLUNTEER_AVAILABILITY_TYPES,
     VOLUNTEER_COMMITMENTS,
+    VOLUNTEER_EXPERIENCE_DOMAINS,
     VOLUNTEER_HOURS_MAX,
     VOLUNTEER_HOURS_MIN,
+    VOLUNTEER_NEEDS,
+    VOLUNTEER_OTHER_KEY,
     VOLUNTEER_SKILLS,
     VOLUNTEER_SOURCES,
     VOLUNTEER_TIME_SLOTS,
@@ -206,6 +209,24 @@ export function VolunteerForm() {
                                maxLength={300} {...textInput('otherSkills')} />
                 </Section>
 
+                <Section title={t('SECTIONS.EXPERIENCE')}>
+                    <Checkbox.Group label={t('FIELDS.EXPERIENCE_DOMAINS')}
+                                    description={t('FIELDS.EXPERIENCE_DOMAINS_HINT')}
+                                    value={values.experienceDomains} onChange={(v) => set('experienceDomains', v)}>
+                        <SimpleGrid cols={{ base: 1, xs: 2 }} mt="xs" spacing="xs">
+                            {VOLUNTEER_EXPERIENCE_DOMAINS.map((key) => (
+                                <Checkbox key={key} value={key} label={t(`OPTIONS.EXPERIENCE_DOMAINS.${key}`)} />
+                            ))}
+                        </SimpleGrid>
+                    </Checkbox.Group>
+                    {values.experienceDomains.includes(VOLUNTEER_OTHER_KEY) && (
+                        <TextInput label={t('FIELDS.EXPERIENCE_DOMAINS_OTHER')} maxLength={300}
+                                   {...textInput('experienceDomainsOther')} />
+                    )}
+                    <Textarea label={t('FIELDS.EXPERIENCE')} placeholder={t('FIELDS.EXPERIENCE_PLACEHOLDER')}
+                              autosize minRows={3} maxRows={8} maxLength={2000} {...textInput('experience')} />
+                </Section>
+
                 <Section title={t('SECTIONS.AVAILABILITY')}>
                     <SimpleGrid cols={{ base: 1, sm: 2 }}>
                         <NumberInput label={t('FIELDS.HOURS_PER_WEEK')} description={t('FIELDS.HOURS_PER_WEEK_HINT')}
@@ -245,11 +266,28 @@ export function VolunteerForm() {
                             ))}
                         </Group>
                     </Radio.Group>
+
+                    <Textarea label={t('FIELDS.RESTRICTIONS')} description={t('FIELDS.RESTRICTIONS_HINT')}
+                              autosize minRows={2} maxRows={8} maxLength={2000} {...textInput('restrictions')} />
+                </Section>
+
+                <Section title={t('SECTIONS.ROLE')}>
+                    <Textarea label={t('FIELDS.ROLE_VISION')} description={t('FIELDS.ROLE_VISION_HINT')}
+                              autosize minRows={3} maxRows={8} maxLength={2000} {...textInput('roleVision')} />
+                    <Checkbox.Group label={t('FIELDS.NEEDS')} description={t('FIELDS.NEEDS_HINT')}
+                                    value={values.needs} onChange={(v) => set('needs', v)}>
+                        <SimpleGrid cols={{ base: 1, xs: 2 }} mt="xs" spacing="xs">
+                            {VOLUNTEER_NEEDS.map((key) => (
+                                <Checkbox key={key} value={key} label={t(`OPTIONS.NEEDS.${key}`)} />
+                            ))}
+                        </SimpleGrid>
+                    </Checkbox.Group>
+                    {values.needs.includes(VOLUNTEER_OTHER_KEY) && (
+                        <TextInput label={t('FIELDS.NEEDS_OTHER')} maxLength={300} {...textInput('needsOther')} />
+                    )}
                 </Section>
 
                 <Section title={t('SECTIONS.MORE')}>
-                    <Textarea label={t('FIELDS.EXPERIENCE')} placeholder={t('FIELDS.EXPERIENCE_PLACEHOLDER')}
-                              autosize minRows={3} maxRows={8} maxLength={2000} {...textInput('experience')} />
                     <Textarea label={t('FIELDS.MOTIVATION')} autosize minRows={3} maxRows={8} maxLength={2000}
                               {...textInput('motivation')} />
                     <Select label={t('FIELDS.SOURCE')} placeholder={t('FIELDS.SELECT_PLACEHOLDER')}

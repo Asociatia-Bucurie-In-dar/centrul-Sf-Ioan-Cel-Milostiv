@@ -17,7 +17,7 @@ Donations are processed using Stripe, a third-party payment processor. Your paym
 
 ## Volunteering
 
-When you fill in the volunteer sign-up form, we collect: your first and last name, email address, phone number, city, age range, occupation, the areas you would like to help with, your skills, your availability (hours per week, time slots, in person or remote, how long you can commit) and anything you choose to tell us about your experience and motivation.
+When you fill in the volunteer sign-up form, we collect: your first and last name, email address, phone number, city, age range, occupation, the areas you would like to help with, your skills and the fields you have experience in, your availability (hours per week, time slots, in person or remote, how long you can commit) and anything you choose to tell us about your experience and motivation, any constraints we should take into account, how you see your role in the project and what you would need in order to carry it out.
 
 - **Purpose**: organising volunteering – contacting you, finding activities that suit you and planning the capacity of our volunteer team (through aggregated reports).
 - **Legal basis**: your consent (Art. 6(1)(a) GDPR), given by ticking the box in the form. If you become a volunteer, the data needed to sign and carry out the volunteering contract is processed under Art. 6(1)(b) GDPR and Romanian Law no. 78/2014 on volunteering.

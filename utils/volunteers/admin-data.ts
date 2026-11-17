@@ -21,7 +21,13 @@ export type VolunteerRecord = {
     timeSlots: string[];
     workMode: string;
     commitment: string;
+    restrictions: string | null;
+    experienceDomains: string[];
+    experienceDomainsOther: string | null;
     experience: string | null;
+    roleVision: string | null;
+    needs: string[];
+    needsOther: string | null;
     motivation: string | null;
     source: string | null;
     locale: string;
@@ -38,6 +44,7 @@ export type VolunteerFilters = {
     status: string;
     area: string;
     skill: string;
+    experienceDomain: string;
     availabilityType: string;
     workMode: string;
 };
@@ -47,6 +54,7 @@ export const EMPTY_FILTERS: VolunteerFilters = {
     status: '',
     area: '',
     skill: '',
+    experienceDomain: '',
     availabilityType: '',
     workMode: '',
 };
@@ -59,7 +67,8 @@ export function normalizeSearch(value: string): string {
 
 function searchableText(v: VolunteerRecord): string {
     return normalizeSearch(
-        [v.firstName, v.lastName, v.email, v.phone, v.city, v.occupation, v.otherSkills, v.adminNotes]
+        [v.firstName, v.lastName, v.email, v.phone, v.city, v.occupation, v.otherSkills, v.experienceDomainsOther,
+            v.adminNotes]
             .filter(Boolean)
             .join(' ')
     );
@@ -71,6 +80,7 @@ export function filterVolunteers(list: VolunteerRecord[], f: VolunteerFilters): 
         (!f.status || v.status === f.status) &&
         (!f.area || v.areas.includes(f.area)) &&
         (!f.skill || v.skills.includes(f.skill)) &&
+        (!f.experienceDomain || v.experienceDomains.includes(f.experienceDomain)) &&
         (!f.availabilityType || v.availabilityType === f.availabilityType) &&
         (!f.workMode || v.workMode === f.workMode) &&
         (!q || searchableText(v).includes(q))

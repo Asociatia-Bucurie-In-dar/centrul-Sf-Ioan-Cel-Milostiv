@@ -19,6 +19,8 @@ import {
     VOLUNTEER_AGE_RANGES,
     VOLUNTEER_AREAS,
     VOLUNTEER_COMMITMENTS,
+    VOLUNTEER_EXPERIENCE_DOMAINS,
+    VOLUNTEER_NEEDS,
     VOLUNTEER_SKILLS,
     VOLUNTEER_SOURCES,
     VOLUNTEER_TIME_SLOTS,
@@ -88,6 +90,11 @@ export function ReportsTab({ volunteers, needs, labels }: {
         return {
             areas: toItems(countByKey(scoped, VOLUNTEER_AREAS, (v) => v.areas), labels.AREAS),
             skills: toItems(countByKey(scoped, VOLUNTEER_SKILLS, (v) => v.skills), labels.SKILLS),
+            experience: toItems(
+                countByKey(scoped, VOLUNTEER_EXPERIENCE_DOMAINS, (v) => v.experienceDomains),
+                labels.EXPERIENCE_DOMAINS
+            ),
+            needs: toItems(countByKey(scoped, VOLUNTEER_NEEDS, (v) => v.needs), labels.NEEDS),
             commitment: toItems(countByKey(scoped, VOLUNTEER_COMMITMENTS, (v) => v.commitment), labels.COMMITMENTS),
             timeSlots: toItems(countByKey(scoped, VOLUNTEER_TIME_SLOTS, (v) => v.timeSlots), labels.TIME_SLOTS),
             workMode: toItems(countByKey(scoped, VOLUNTEER_WORK_MODES, (v) => v.workMode), labels.WORK_MODES),
@@ -190,6 +197,8 @@ export function ReportsTab({ volunteers, needs, labels }: {
             <SimpleGrid cols={{ base: 1, md: 2 }} spacing="lg">
                 <BarList title="Voluntari pe arii de implicare" items={bars.areas} total={n} sort />
                 <BarList title="Voluntari pe competențe" items={bars.skills} total={n} sort />
+                <BarList title="Voluntari pe domenii de experiență" items={bars.experience} total={n} sort />
+                <BarList title="De ce au nevoie voluntarii" items={bars.needs} total={n} sort />
                 <BarList title="Durata asumată" items={bars.commitment} total={n} />
                 <BarList title="Când sunt disponibili" items={bars.timeSlots} total={n} />
                 <BarList title="Mod de implicare" items={bars.workMode} total={n} />

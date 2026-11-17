@@ -5,7 +5,8 @@ import { notifyNewVolunteer } from '@/utils/volunteers/notify';
 import { VOLUNTEER_CONSENT_VERSION } from '@/content/volunteer/volunteer-options';
 import { locales } from '@/i18n/routing';
 
-const MAX_BODY_BYTES = 20_000;
+// Four 2000-character text fields (newlines double when JSON-escaped) plus the option lists.
+const MAX_BODY_BYTES = 40_000;
 
 export async function POST(req: Request) {
     let body: Record<string, unknown>;

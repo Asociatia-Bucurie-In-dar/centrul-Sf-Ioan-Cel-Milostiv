@@ -89,6 +89,13 @@ function VolunteerDetails({ v, labels, onClose }: { v: VolunteerRecord; labels: 
             <Field label="Alte competențe">{v.otherSkills}</Field>
 
             <Divider />
+            <Field label="Domenii de experiență">
+                <BadgeList keys={v.experienceDomains} labels={labels.EXPERIENCE_DOMAINS} />
+            </Field>
+            {v.experienceDomainsOther && <Field label="Alte domenii">{v.experienceDomainsOther}</Field>}
+            <Field label="Experiență relevantă">{v.experience}</Field>
+
+            <Divider />
             <SimpleGrid cols={2} spacing="md">
                 <Field label="Ore / săptămână">{String(v.hoursPerWeek)}</Field>
                 <Field label="Disponibilitate">{labels.AVAILABILITY_TYPES[v.availabilityType] ?? v.availabilityType}</Field>
@@ -96,9 +103,14 @@ function VolunteerDetails({ v, labels, onClose }: { v: VolunteerRecord; labels: 
                 <Field label="Durată asumată">{labels.COMMITMENTS[v.commitment] ?? v.commitment}</Field>
             </SimpleGrid>
             <Field label="Intervale orare"><BadgeList keys={v.timeSlots} labels={labels.TIME_SLOTS} /></Field>
+            <Field label="Restricții de care să ținem cont">{v.restrictions}</Field>
 
             <Divider />
-            <Field label="Experiență relevantă">{v.experience}</Field>
+            <Field label="Cum își vede rolul în proiect">{v.roleVision}</Field>
+            <Field label="De ce are nevoie"><BadgeList keys={v.needs} labels={labels.NEEDS} /></Field>
+            {v.needsOther && <Field label="Altceva de care are nevoie">{v.needsOther}</Field>}
+
+            <Divider />
             <Field label="Motivație">{v.motivation}</Field>
             <Text fz="xs" c="dimmed">
                 Acord GDPR dat pe {formatDateTime(v.consentAt)} (versiunea textului: {v.consentVersion}). Limba formularului: {v.locale}.

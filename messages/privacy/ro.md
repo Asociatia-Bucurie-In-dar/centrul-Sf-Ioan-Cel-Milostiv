@@ -17,7 +17,7 @@ Donațiile sunt procesate folosind Stripe, un procesator de plăți terț. Detal
 
 ## Voluntariat
 
-Când completezi formularul de înscriere ca voluntar, colectăm: numele și prenumele, adresa de email, numărul de telefon, localitatea, intervalul de vârstă, ocupația, ariile în care vrei să te implici, competențele tale, disponibilitatea (ore pe săptămână, intervale orare, mod de implicare, durata asumată), precum și informațiile pe care alegi să ni le spui despre experiența și motivația ta.
+Când completezi formularul de înscriere ca voluntar, colectăm: numele și prenumele, adresa de email, numărul de telefon, localitatea, intervalul de vârstă, ocupația, ariile în care vrei să te implici, competențele și domeniile în care ai experiență, disponibilitatea (ore pe săptămână, intervale orare, mod de implicare, durata asumată), precum și informațiile pe care alegi să ni le spui despre experiența și motivația ta, despre eventualele restricții de care ar trebui să ținem cont, despre cum îți vezi rolul în proiect și despre ce ai avea nevoie pentru a-l îndeplini.
 
 - **Scop**: organizarea activității de voluntariat – să te contactăm, să găsim activitățile potrivite pentru tine și să planificăm capacitatea echipei de voluntari (prin rapoarte agregate).
 - **Temei legal**: consimțământul tău (art. 6 alin. (1) lit. a) GDPR), exprimat prin bifarea căsuței din formular. Dacă devii voluntar, datele necesare încheierii și executării contractului de voluntariat sunt prelucrate în baza art. 6 alin. (1) lit. b) GDPR și a Legii nr. 78/2014 privind voluntariatul.

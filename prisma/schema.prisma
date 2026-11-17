@@ -47,8 +47,14 @@ model Volunteer {
   timeSlots        String[]
   workMode         String   // ONSITE | REMOTE | BOTH
   commitment       String
+  restrictions     String?  // things to take into account: conflicts of interest, schedule, travel...
 
+  experienceDomains      String[] @default([])
+  experienceDomainsOther String?  // free text, only when experienceDomains includes OTHER
   experience       String?
+  roleVision       String?  // how they see their own role in the project
+  needs            String[] @default([]) // what they need from us to do the role well
+  needsOther       String?  // free text, only when needs includes OTHER
   motivation       String?
   source           String?
   locale           String

@@ -59,7 +59,7 @@ export function VolunteersTab({ volunteers, labels, initialOpenId }: Props) {
     return (
         <>
             <Paper withBorder radius="md" p="md" mb="md">
-                <SimpleGrid cols={{ base: 1, sm: 3, lg: 6 }} spacing="sm">
+                <SimpleGrid cols={{ base: 1, sm: 2, lg: 4 }} spacing="sm">
                     <TextInput placeholder="Caută nume, email, telefon..." leftSection={<IconSearch size={16} />}
                                value={filters.q} onChange={(e) => setFilter('q')(e.currentTarget.value)} />
                     <Select placeholder="Status" data={statusOptions} value={filters.status || null}
@@ -68,6 +68,9 @@ export function VolunteersTab({ volunteers, labels, initialOpenId }: Props) {
                             onChange={setFilter('area')} clearable searchable />
                     <Select placeholder="Competență" data={toOptions(labels.SKILLS)} value={filters.skill || null}
                             onChange={setFilter('skill')} clearable searchable />
+                    <Select placeholder="Domeniu de experiență" data={toOptions(labels.EXPERIENCE_DOMAINS)}
+                            value={filters.experienceDomain || null} onChange={setFilter('experienceDomain')}
+                            clearable searchable />
                     <Select placeholder="Disponibilitate" data={toOptions(labels.AVAILABILITY_TYPES)}
                             value={filters.availabilityType || null} onChange={setFilter('availabilityType')} clearable />
                     <Select placeholder="Mod de implicare" data={toOptions(labels.WORK_MODES)}
